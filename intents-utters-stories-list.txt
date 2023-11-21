@@ -1,0 +1,803 @@
+intents:
+
+- types_of_adhd
+- inattentive_adhd_type
+- hyperactivity_impulsivity_adhd_type
+- combined_adhd_type
+- user_express_adhd_concerns
+- ask_coping_strategies_adhd
+- user_share_adhd_experience
+- recognizing_adhd_on_self
+- experiencing_adhd_long_time
+- experiencing_adhd_short_time
+- helping_someone_with_adhd
+- coping_with_adhd_alarms
+- coping_with_adhd_schedule
+- coping_with_adhd_task_lists
+- coping_with_adhd_minimizing_distractions
+- coping_with_adhd_mindfulness
+- affirm_adhd_symptoms_inattentive_1
+- deny_adhd_symptoms_inattentive_1
+- affirm_adhd_symptoms_inattentive_2
+- deny_adhd_symptoms_inattentive_2
+- affirm_adhd_symptoms_inattentive_3
+- deny_adhd_symptoms_inattentive_3
+- affirm_adhd_symptoms_inattentive_4
+- deny_adhd_symptoms_inattentive_4
+- affirm_adhd_symptoms_inattentive_5
+- deny_adhd_symptoms_inattentive_5
+- affirm_adhd_symptoms_inattentive_6
+- deny_adhd_symptoms_inattentive_6
+- affirm_adhd_symptoms_inattentive_7
+- deny_adhd_symptoms_inattentive_7
+- affirm_adhd_symptoms_inattentive_8
+- deny_adhd_symptoms_inattentive_8
+- affirm_adhd_symptoms_inattentive_9
+- deny_adhd_symptoms_inattentive_9
+- affirm_adhd_symptoms_hyperactive_impulsive_1
+- deny_adhd_symptoms_hyperactive_impulsive_1
+- affirm_adhd_symptoms_hyperactive_impulsive_2
+- deny_adhd_symptoms_hyperactive_impulsive_2
+- affirm_adhd_symptoms_hyperactive_impulsive_3
+- deny_adhd_symptoms_hyperactive_impulsive_3
+- affirm_adhd_symptoms_hyperactive_impulsive_4
+- deny_adhd_symptoms_hyperactive_impulsive_4
+- affirm_adhd_symptoms_hyperactive_impulsive_5
+- deny_adhd_symptoms_hyperactive_impulsive_5
+- affirm_adhd_symptoms_hyperactive_impulsive_6
+- deny_adhd_symptoms_hyperactive_impulsive_6
+- affirm_adhd_symptoms_hyperactive_impulsive_7
+- deny_adhd_symptoms_hyperactive_impulsive_7
+- affirm_adhd_symptoms_hyperactive_impulsive_8
+- deny_adhd_symptoms_hyperactive_impulsive_8
+- what_is_adhd
+- adhd_symptoms
+- adhd_causes
+- managing_adhd
+- adhd_diagnosis
+- adhd_medication
+- adhd_therapy
+- adhd_support_groups
+- adhd_in_children
+- adhd_in_adults
+- alcohol_disorder_struggles
+- ask_guidance_for_alcohol
+- alcohol_coping_activities
+- alcohol_disorder_challenges
+- ask_support_for_alcohol
+- alcohol_management_strategies
+- alcohol_duration
+- seek_professional_help_alcohol
+- prevent_alcohol_abuse
+- self_care_tips_alcohol
+- affirm_symptoms_anxiety_restlessness
+- deny_symptoms_anxiety_restlessness
+- affirm_symptoms_anxiety_fatigue
+- deny_symptoms_anxiety_fatigue
+- affirm_symptoms_anxiety_concentration
+- deny_symptoms_anxiety_concentration
+- affirm_symptoms_anxiety_irritability
+- deny_symptoms_anxiety_irritability
+- affirm_symptoms_anxiety_tension
+- deny_symptoms_anxiety_tension
+- affirm_symptoms_anxiety_sleep_disturbance
+- deny_symptoms_anxiety_sleep_disturbance
+- affirm_symptoms_anxiety_past_6_months
+- deny_symptoms_anxiety_past_6_months
+- generalized_anxiety_disorder
+- panic_disorder
+- social_anxiety_disorder
+- feeling_generalized_anxiety
+- feeling_panic
+- feeling_social_anxiety
+- feeling_obsessive_compulsive
+- feeling_ptsd
+- obsessive_compulsive_disorder
+- post_traumatic_stress_disorder
+- anxiety_disorder
+- types_of_anxiety_disorder
+- signs_of_anxiety_disorder
+- causes_of_anxiety_disorder
+- managing_anxiety_disorder
+- anxiety_disorder_diagnosis
+- anxiety_disorder_therapy
+- feeling_anxious_talking_to_people
+- bipolar_disorder_struggles
+- ask_guidance_for_bipolar
+- bipolar_coping_activities
+- bipolar_disorder_challenges
+- bipolar_management_strategies
+- bipolar_duration
+- user_provides_duration
+- seek_professional_help
+- what_is_bipolar_disorder
+- bipolar_disorder_symptoms
+- causes_of_bipolar_disorder
+- managing_bipolar_disorder
+- bipolar_disorder_diagnosis
+- bipolar_disorder_therapy
+- feeling_manic
+- what_is_depression
+- types_of_depression
+- disruptive_mood_dysregulation_disorder
+- major_depressive_disorder
+- persistent_depressive_disorder
+- postpartum_depression
+- premenstrual_dysphoric_disorder
+- seasonal_affective_disorder
+- depression_due_to_medical_condition
+- causes_of_depression
+- helping_depressed_people
+- identify_depression_symptoms
+- express_depression_concerns
+- ask_advice_depression
+- ask_coping_strategies_for_depression
+- treatment_options_for_depression
+- ask_support_resources_for_depression
+- recognizing_depression_on_self
+- experiencing_depression_long_time
+- experiencing_depression_short_time
+- express_suicidal_thoughts
+- affirm_ask_sleep_disturbance
+- deny_ask_sleep_disturbance
+- affirm_ask_interest_reduction
+- deny_ask_interest_reduction
+- affirm_ask_guilt_feelings
+- deny_ask_guilt_feelings
+- affirm_ask_energy_changes
+- deny_ask_energy_changes
+- affirm_ask_concentration_impairment
+- deny_ask_concentration_impairment
+- affirm_ask_appetite_changes
+- deny_ask_appetite_changes
+- affirm_ask_psychomotor_disturbances
+- deny_ask_psychomotor_disturbances
+- affirm_ask_suicidal_thoughts
+- deny_ask_suicidal_thoughts
+- affirm_ask_depressed_mood
+- deny_ask_depressed_mood
+- learn_about_depression
+- learn_about_depression_types
+- learn_about_mdd
+- learn_about_dysthymia
+- learn_about_bipolar_disorder
+- learn_about_sad
+- learn_about_postpartum_depression
+- learn_about_psychotic_depression
+- learn_about_pmdd
+- learn_about_atypical_depression
+- learn_about_situational_depression
+- learn_about_cyclothymic_disorder
+- identify_depression_symptoms
+- coping_strategies
+- treatment_options
+- support_network
+- share_stress_experiences
+- screen_depression
+- user_feeling_sad
+- user_feeling_lonely
+- user_feeling_down
+- user_existential
+- what_is_drug_use_disorder
+- types_of_drug_use_disorder
+- causes_of_drug_use_disorder
+- identify_drug_use_symptoms
+- treatment_options
+- relapse_prevention
+- support_network
+- helping_someone_with_drug_use_disorder
+- recognizing_drug_use_disorder_on_others
+- recognizing_drug_use_disorder_on_self
+- drug_use_long_time
+- drug_use_short_time
+- coping_strategies_for_withdrawal
+- expressing_struggles_with_drug_use
+- effects_of_drugs_on_mental_health
+- effects_of_drugs_on_physical_health
+- effects_of_drugs_on_social_life
+- effects_of_drugs_on_behavior
+- affirm_drug_problem_need_on_self
+- deny_drug_problem_need_on_self
+- affirm_drug_problem_tolerance_on_self
+- deny_drug_problem_tolerance_on_self
+- affirm_drug_problem_withdrawal_on_self
+- deny_drug_problem_withdrawal_on_self
+- affirm_drug_problem_cannot_stop_on_self
+- deny_drug_problem_cannot_stop_on_self
+- affirm_drug_problem_preoccupied_on_self
+- deny_drug_problem_preoccupied_on_self
+- affirm_drug_problem_no_limits_on_self
+- deny_drug_problem_no_limits_on_self
+- affirm_drug_problem_lost_interest_on_self
+- deny_drug_problem_lost_interest_on_self
+- affirm_drug_problem_daily_functioning_on_self
+- deny_drug_problem_daily_functioning_on_self
+- affirm_drug_problem_dangerous_behavior_on_self
+- deny_drug_problem_dangerous_behavior_on_self
+- affirm_drug_problem_financial_issues_on_self
+- learn_about_drug_use_disorders
+- identify_drug_use_symptoms
+- effects_of_drug_use
+- treatment_options_for_drug_abuse
+- support_network_for_drug_abuse
+- cope_strat_with_drug_abuse
+- self_care_with_drug_abuse
+- expressing_struggles_or_concerns_with_drug_use
+- ask_about_binge_eating_disorder
+- ask_coping_strategies_eating_disorders
+- affirm_symptoms_anorexia_1
+- deny_symptoms_anorexia_1
+- affirm_symptoms_anorexia_2
+- deny_symptoms_anorexia_2
+- affirm_symptoms_anorexia_3
+- deny_symptoms_anorexia_3
+- affirm_symptoms_anorexia_4
+- deny_symptoms_anorexia_4
+- affirm_symptoms_bulimia_1
+- deny_symptoms_bulimia_1
+- affirm_symptoms_bulimia_2
+- deny_symptoms_bulimia_2
+- affirm_symptoms_bulimia_3
+- deny_symptoms_bulimia_3
+- affirm_symptoms_bulimia_4
+- deny_symptoms_bulimia_4
+- affirm_symptoms_binge_eating_1
+- deny_symptoms_binge_eating_1
+- affirm_symptoms_binge_eating_2
+- deny_symptoms_binge_eating_2
+- affirm_symptoms_binge_eating_3
+- deny_symptoms_binge_eating_3
+- affirm_symptoms_binge_eating_4
+- deny_symptoms_binge_eating_4
+- recognizing_anorexia_on_self
+- recognizing_bulimia_on_self
+- recognizing_binge_eating_on_self
+- learn_about_eating_disorders
+- learn_about_eating_disorder_types
+- learn_about_anorexia
+- learn_about_bulimia
+- learn_about_bed
+- learn_about_arfid
+- learn_about_orthorexia
+- learn_about_osfed
+- learn_about_bigorexia
+- learn_about_pica
+- learn_about_rumination
+- identify_eating_disorder_symptoms
+- learn_eating_disorder_effects
+- coping_strategies_for_eating_disorders
+- treatment_options_for_eating_disorders
+- body_image_concerning_eating_disorders
+- expressing_struggles_or_concerns_with_eating_disorders
+- self_care_for_eating_disorders
+- bulimia_nervosa
+- anorexia_nervosa
+- what_is_eating_disorder
+- eating_disorder_types
+- signs_of_eating_disorder
+- causes_of_eating_disorder
+- managing_eating_disorder
+- eating_disorder_diagnosis
+- eating_disorder_therapy
+- eating_disorder_support_groups
+- experiencing_eating_disorder
+- seeking_support_for_eating_disorder
+- feeling_isolated_due_to_eating_disorder
+- seeking_professional_help_for_eating_disorder
+- seeking_resources_for_eating_disorder
+- what_is_schizophrenia
+- what_is_psychosis
+- types_of_schizophrenia
+- paranoid_schizophrenia
+- disorganized_schizophrenia
+- catatonic_schizophrenia
+- residual_schizophrenia
+- schizoaffective_disorder
+- causes_of_schizophrenia
+- helping_people_with_schizophrenia
+- identify_schizophrenia_symptoms
+- user_express_schizophrenia_concerns
+- ask_advice_schizophrenia
+- ask_coping_strategies_schizophrenia
+- treatment_options_schizophrenia
+- ask_support_resources_schizophrenia
+- recognizing_schizophrenia_on_self
+- experiencing_schizophrenia_long_time
+- experiencing_schizophrenia_short_time
+- ask_what_is_cbt
+- affirm_symptoms_delusions
+- deny_symptoms_delusions
+- affirm_symptoms_hallucinations
+- deny_symptoms_hallucinations
+- affirm_symptoms_disorganized_speech
+- deny_symptoms_disorganized_speech
+- affirm_symptoms_disorganized_behavior
+- deny_symptoms_disorganized_behavior
+- affirm_symptoms_negative_symptoms
+- deny_symptoms_negative_symptoms
+- user_share_schizophrenia_experience
+- what_is_schizophrenia
+- schizophrenia_symptoms
+- causes_of_schizophrenia
+- managing_schizophrenia
+- schizophrenia_diagnosis
+- schizophrenia_therapy
+
+
+responses:
+
+- utter_types_of_adhd
+- utter_inattentive_adhd_type
+- utter_hyperactivity_impulsivity_adhd_type
+- utter_combined_adhd_type
+- utter_user_express_adhd_concerns
+- utter_ask_coping_strategies_adhd
+- utter_user_share_adhd_experience
+- utter_recognizing_adhd_on_self
+- utter_experiencing_adhd_long_time
+- utter_experiencing_adhd_short_time
+- utter_helping_someone_with_adhd
+- utter_coping_with_adhd_alarms
+- utter_coping_with_adhd_schedule
+- utter_coping_with_adhd_task_lists
+- utter_coping_with_adhd_minimizing_distractions
+- utter_coping_with_adhd_mindfulness
+- utter_ask_adhd_symptoms_inattentive_1
+- utter_ask_adhd_symptoms_inattentive_2
+- utter_ask_adhd_symptoms_inattentive_3
+- utter_ask_adhd_symptoms_inattentive_4
+- utter_ask_adhd_symptoms_inattentive_5
+- utter_ask_adhd_symptoms_inattentive_6
+- utter_ask_adhd_symptoms_inattentive_7
+- utter_ask_adhd_symptoms_inattentive_8
+- utter_ask_adhd_symptoms_inattentive_9
+- utter_ask_adhd_symptoms_hyperactive_impulsive_1
+- utter_ask_adhd_symptoms_hyperactive_impulsive_2
+- utter_ask_adhd_symptoms_hyperactive_impulsive_3
+- utter_ask_adhd_symptoms_hyperactive_impulsive_4
+- utter_ask_adhd_symptoms_hyperactive_impulsive_5
+- utter_ask_adhd_symptoms_hyperactive_impulsive_6
+- utter_ask_adhd_symptoms_hyperactive_impulsive_7
+- utter_ask_adhd_symptoms_hyperactive_impulsive_8
+- utter_positive_likelihood_adhd
+- utter_negative_likelihood_adhd
+- utter_what_is_adhd
+- utter_adhd_symptoms
+- utter_adhd_causes
+- utter_managing_adhd
+- utter_adhd_diagnosis
+- utter_adhd_medication
+- utter_adhd_therapy
+- utter_adhd_support_groups
+- utter_adhd_in_children
+- utter_adhd_in_adults
+- utter_mental_health_institute_contact
+- utter_alcohol_disorder_struggles
+- utter_ask_guidance_for_alcohol
+- utter_alcohol_coping_activities
+- utter_alcohol_disorder_challenges
+- utter_ask_alcohol_duration
+- utter_ask_support_for_alcohol
+- utter_alcohol_management_strategies
+- utter_seek_professional_help_alcohol
+- utter_prevent_alcohol_abuse
+- utter_self_care_tips
+- utter_action_to_handle_alcohol_duration
+- utter_exercise_and_diets_benefits
+- utter_ask_symptoms_anxiety_restlessness
+- utter_ask_symptoms_anxiety_fatigue
+- utter_ask_symptoms_anxiety_concentration
+- utter_ask_symptoms_anxiety_irritability
+- utter_ask_symptoms_anxiety_tension
+- utter_ask_symptoms_anxiety_sleep_disturbance
+- utter_ask_symptoms_anxiety_past_6_months
+- utter_positive_likelihood_anxiety
+- utter_negative_likelihood_anxiety
+- anxiety_disorder_struggles
+- ask_guidance_for_anxiety
+- anxiety_coping_activities
+- anxiety_disorder_challenges
+- ask_support_for_anxiety
+- anxiety_management_strategies
+- anxiety_duration
+- seek_professional_help_anxiety
+- prevent_anxiety_disorder
+- self_care_tips_anxiety
+- anxiety_disorder_feelings
+- utter_anxiety_disorder_struggles
+- utter_ask_guidance_for_anxiety
+- utter_anxiety_coping_activities
+- utter_anxiety_challenges
+- utter_ask_anxiety_duration
+- utter_ask_support_for_anxiety
+- utter_anxiety_management_strategies
+- utter_seek_professional_help_anxiety
+- utter_prevent_anxiety
+- utter_self_care_anxiety
+- utter_generalized_anxiety_disorder
+- utter_panic_disorder
+- utter_social_anxiety_disorder
+- utter_obsessive_compulsive_disorder
+- utter_post_traumatic_stress_disorder
+- utter_mental_health_institute_contact
+- utter_anxiety_disorder
+- utter_how_anxiety_disorder_feels
+- utter_types_of_anxiety_disorder
+- utter_signs_of_anxiety_disorder
+- utter_causes_of_anxiety_disorder
+- utter_managing_anxiety_disorder
+- utter_anxiety_disorder_diagnosis
+- utter_anxiety_disorder_therapy
+- utter_feeling_anxious_talking_to_people
+- utter_feeling_generalized_anxiety
+- utter_feeling_panic
+- utter_feeling_social_anxiety
+- utter_feeling_obsessive_compulsive
+- utter_feeling_ptsd
+- utter_bipolar_disorder_struggles
+- utter_ask_guidance_for_bipolar
+- utter_bipolar_coping_activities
+- utter_bipolar_disorder_challenges
+- utter_ask_bipolar_duration
+- utter_ask_support_for_bipolar
+- utter_bipolar_management_strategies
+- utter_seek_professional_help
+- utter_what_is_bipolar_disorder
+- utter_bipolar_disorder_symptoms
+- utter_causes_of_bipolar_disorder
+- utter_managing_bipolar_disorder
+- utter_bipolar_disorder_diagnosis
+- utter_bipolar_disorder_therapy
+- utter_seek_professional_help_bipolar
+- utter_what_is_depression
+- utter_types_of_depression_disorders
+- utter_major_depressive_disorder
+- utter_persistent_depressive_disorder
+- utter_postpartum_depression
+- utter_seasonal_affective_disorder
+- utter_causes_of_depression
+- utter_helping_depressed_people
+- utter_identify_depression_symptoms
+- utter_express_depression_concerns
+- utter_ask_advice_depression
+- utter_coping_strategies_for_depression
+- utter_treatment_options_for_depression
+- utter_ask_support_resources_for_depression
+- utter_experiencing_depression_long_time
+- utter_experiencing_depression_short_time
+- utter_empathy_suicidal_thoughts
+- utter_suicide_hotlines
+- utter_positive_likelihood_depression
+- utter_negative_likelihood_depression
+- utter_ask_sleep_disturbance
+- utter_ask_interest_reduction
+- utter_ask_guilt_feelings
+- utter_ask_energy_changes
+- utter_ask_concentration_impairment
+- utter_ask_appetite_changes
+- utter_ask_psychomotor_disturbances
+- utter_ask_suicidal_thoughts
+- utter_ask_depressed_mood
+- utter_learn_about_depression
+- utter_learn_about_depression_types
+- utter_learn_about_mdd
+- utter_learn_about_dysthymia
+- utter_learn_about_bipolar_disorder
+- utter_learn_about_sad
+- utter_learn_about_postpartum_depression
+- utter_learn_about_psychotic_depression
+- utter_learn_about_pmdd
+- utter_learn_about_atypical_depression
+- utter_learn_about_situational_depression
+- utter_learn_about_cyclothymic_disorder
+- utter_identify_depression_symptoms
+- utter_coping_strategies
+- utter_treatment_options
+- utter_support_network
+- utter_share_stress_experiences
+- utter_screen_depression
+- utter_user_feeling_sad
+- utter_user_feeling_lonely
+- utter_user_feeling_down
+- utter_ask_more_about_feelings
+- utter_encourage_sharing
+- utter_offer_support_and_resources
+- utter_validation
+- utter_what_is_drug_use_disorder
+- utter_types_of_drug_use_disorder
+- utter_causes_of_drug_use_disorder
+- utter_identify_drug_use_symptoms
+- utter_treatment_options
+- utter_relapse_prevention
+- utter_ask_drug_problem_need_on_self
+- utter_ask_drug_problem_tolerance_on_self
+- utter_ask_drug_problem_withdrawal_on_self
+- utter_ask_drug_problem_cannot_stop_on_self
+- utter_ask_drug_problem_preoccupied_on_self
+- utter_ask_drug_problem_no_limits_on_self
+- utter_ask_drug_problem_lost_interest_on_self
+- utter_ask_drug_problem_daily_functioning_on_self
+- utter_ask_drug_problem_dangerous_behavior_on_self
+- utter_ask_drug_problem_financial_issues_on_self
+- utter_ask_drug_problem_hide_use_on_self
+- utter_ask_drug_problem_relationship_issues_on_self
+- utter_ask_drug_problem_sleep_eating_changes_on_self
+- utter_ask_drug_problem_physical_appearance_on_self
+- utter_ask_drug_problem_new_friends_on_self
+- utter_ask_drug_problem_doctor_shopping_on_self
+- utter_ask_drug_problem_medicine_cabinets_on_self
+- utter_ask_drug_problem_mixing_substances_on_self
+- utter_drug_problem_warning_user
+- utter_low_severity_response
+- utter_high_severity_response
+- utter_drug_use_long_time
+- utter_drug_use_short_time
+- utter_recognizing_drug_use_disorder_on_others
+- utter_helping_someone_with_drug_use_disorder
+- utter_learn_about_drug_use_disorders
+- utter_identify_drug_use_symptoms
+- utter_effects_of_drug_use
+- utter_treatment_options
+- utter_support_network_for_drug_abuse
+- utter_cope_strat_with_drug_abuse
+- utter_self_care_with_drug_abuse
+- utter_expressing_struggles_or_concerns_with_drug_use
+- utter_coping_strategies_eating_disorders
+- utter_binge_eating_disorder
+- utter_ask_symptoms_anorexia_1
+- utter_ask_symptoms_anorexia_2
+- utter_ask_symptoms_anorexia_3
+- utter_ask_symptoms_anorexia_4
+- utter_ask_symptoms_bulimia_1
+- utter_ask_symptoms_bulimia_2
+- utter_ask_symptoms_bulimia_3
+- utter_ask_symptoms_bulimia_4
+- utter_ask_symptoms_binge_eating_1
+- utter_ask_symptoms_binge_eating_2
+- utter_ask_symptoms_binge_eating_3
+- utter_ask_symptoms_binge_eating_4
+- utter_positive_likelihood_anorexia
+- utter_negative_likelihood_anorexia
+- utter_positive_likelihood_bulimia
+- utter_negative_likelihood_bulimia
+- utter_positive_likelihood_binge
+- utter_negative_likelihood_binge
+- utter_learn_about_eating_disorders
+- utter_learn_about_eating_disorder_types
+- utter_learn_about_anorexia
+- utter_learn_about_bulimia
+- utter_learn_about_bed
+- utter_learn_about_arfid
+- utter_learn_about_orthorexia
+- utter_learn_about_osfed
+- utter_learn_about_bigorexia
+- utter_learn_about_pica
+- utter_learn_about_rumination
+- utter_identify_eating_disorder_symptoms
+- utter_eating_disorder_effects
+- utter_coping_strategies_for_eating_disorders
+- utter_treatment_options_for_eating_disorders
+- utter_body_image_concerning_eating_disorders
+- utter_validation_for_eating_disorders
+- utter_self_care_for_eating_disorders
+- utter_bulimia_nervosa
+- utter_anorexia_nervosa
+- utter_what_is_eating_disorder
+- utter_eating_disorder_types
+- utter_signs_of_eating_disorder
+- utter_causes_of_eating_disorder
+- utter_managing_eating_disorder
+- utter_eating_disorder_diagnosis
+- utter_eating_disorder_therapy
+- utter_eating_disorder_support_groups
+- utter_experiencing_eating_disorder
+- utter_seeking_support_for_eating_disorder
+- utter_feeling_isolated_due_to_eating_disorder
+- utter_seeking_professional_help_for_eating_disorder
+- utter_seeking_resources_for_eating_disorder
+- utter_mental_health_institute_contact
+- utter_what_is_schizophrenia
+- utter_what_is_psychosis
+- utter_types_of_schizophrenia
+- utter_paranoid_schizophrenia
+- utter_disorganized_schizophrenia
+- utter_catatonic_schizophrenia
+- utter_residual_schizophrenia
+- utter_schizoaffective_disorder
+- utter_causes_of_schizophrenia
+- utter_helping_people_with_schizophrenia
+- utter_identify_schizophrenia_symptoms
+- utter_express_schizophrenia_concerns
+- utter_ask_user_experiences
+- utter_ask_advice_schizophrenia
+- utter_ask_coping_strategies_schizophrenia
+- utter_treatment_options_schizophrenia
+- utter_ask_support_resources_schizophrenia
+- utter_recognizing_schizophrenia_on_self
+- utter_experiencing_schizophrenia_long_time
+- utter_experiencing_schizophrenia_short_time
+- utter_what_is_cbt
+- utter_ask_symptoms_delusions
+- utter_ask_symptoms_hallucinations
+- utter_ask_symptoms_disorganized_speech
+- utter_ask_symptoms_disorganized_behavior
+- utter_ask_symptoms_negative_symptoms
+- utter_ask_duration_delusions_hallucinations_speech
+- utter_positive_likelihood_schizophrenia
+- utter_negative_likelihood_schizophrenia
+- utter_what_is_schizophrenia
+- utter_schizophrenia_symptoms
+- utter_causes_of_schizophrenia
+- utter_managing_schizophrenia
+- utter_schizophrenia_diagnosis
+- utter_schizophrenia_therapy
+
+
+
+stories:
+
+- story: Types of ADHD
+- story: Inattentive ADHD Type
+- story: Hyperactivity-Impulsivity ADHD Type
+- story: Combined ADHD Type
+- story: User Expresses ADHD Concerns
+- story: User Asks for Coping Strategies for ADHD
+- story: User Shares ADHD Experience
+- story: Helping Someone with ADHD
+- story: Coping with ADHD Alarms
+- story: Coping with ADHD Schedule
+- story: Coping with ADHD Task Lists
+- story: Coping with ADHD Minimizing Distractions
+- story: Coping with ADHD Mindfulness
+- story: Screening Questions for ADHD Symptoms
+- story: User Asks About ADHD Symptoms
+- story: User Seeks Coping Strategies for ADHD
+- story: User Asks About ADHD Diagnosis and Treatment Options
+- story: User Inquires About ADHD Therapy and Support Groups
+- story: User Asks About ADHD in Children
+- story: User Asks About ADHD in Adults
+- story: User Asks About ADHD, Causes, and Symptoms
+- story: User Asks About ADHD Status and Symptoms
+- story: User Asks About ADHD Symptoms and Diagnosis
+- story: User Asks About ADHD Status and Coping
+- story: User Seeks Support for ADHD
+- story: Comprehensive ADHD Information
+- story: Alcohol Use Disorder Coping
+- story: Alcohol Use Disorder Support
+- story: Preventing Alcohol Use Disorder
+- story: Alcohol Use Disorder Support with Prevention and Self-Care
+- story: Screening Questions for Anxiety Symptoms
+- story: Anxiety Disorder Coping
+- story: Anxiety Disorder Support
+- story: Preventing Anxiety Disorder
+- story: Anxiety Disorder Support with Prevention and Self-Care
+- story: Anxiety Disorder Feelings and Coping
+- story: generalized_anxiety_disorder_story
+- story: panic_disorder_story
+- story: social_anxiety_disorder_story
+- story: obsessive_compulsive_disorder_story
+- story: post_traumatic_stress_disorder_story
+- story: anxiety_disorder_story
+- story: types_of_anxiety_disorder_story
+- story: signs_of_anxiety_disorder_story
+- story: causes_of_anxiety_disorder_story
+- story: managing_anxiety_disorder_story
+- story: anxiety_disorder_diagnosis_story
+- story: anxiety_disorder_therapy_story
+- story: feeling_anxious_talking_to_people_story
+- story: handling_anxiety_in_social_situations
+- story: Understanding Anxiety Disorder - Feeling Initiated
+- story: Understanding Anxiety Disorder - Social Anxiety
+- story: Understanding Anxiety Disorder - OCD
+- story: Understanding Anxiety Disorder - PTSD
+- story: Bipolar Disorder Coping
+- story: Bipolar Disorder Support
+- story: Emphasizing Professional Help for Bipolar Disorder
+- story: what_is_bipolar_disorder
+- story: bipolar_disorder_symptoms
+- story: causes_of_bipolar_disorder
+- story: managing_bipolar_disorder
+- story: bipolar_disorder_diagnosis
+- story: bipolar_disorder_therapy
+- story: feeling_manic
+- story: bipolar_disorder_full_story
+- story: What is Depression
+- story: Types of Depression
+- story: Disruptive Mood Disorder
+- story: Major Depressive Disorder
+- story: Persistent Depressive Disorder
+- story: Postpartum Depression
+- story: Premenstrual Dysphoric Disorder
+- story: Seasonal Affective Disorder
+- story: Depression due to other medical condition
+- story: Causes
+- story: Helping depressed people
+- story: Depression symptoms
+- story: Depression concerns
+- story: Long time
+- story: Short time
+- story: Depression advice
+- story: Asking for coping strategies for depression
+- story: Treatment options for depression
+- story: Support
+- story: Expressing suicidal thoughts
+- story: Screening Questions for Depression
+- story: Depression Conversation
+- story: Seeking Help for Depression
+- story: Sharing Stress Experiences
+- story: Depression Screening
+- story: User Expresses Sadness
+- story: User Expresses Lonelinessg Down
+- story: Understanding Depression
+- story: Providing Validation and Support for Depression
+- story: Building Connections While Handling Depression
+- story: What Is Drug Use Disorder
+- story: Types of Drug Use Disorders
+- story: Causes of Drug Use Disorder
+- story: Identifying Drug Use Symptoms
+- story: Treatment Options for Drug Use Disorders
+- story: Long-term Drug Use
+- story: Short-term Drug Use
+- story: Recognizing Drug Use Disorder in Others
+- story: Helping Someone with Drug Use Disorder
+- story: What Is Drug Use Disorder
+- story: Understanding Drug Use Disorder
+- story: Coping and Support for Drug Use Disorder
+- story: Effects of Drug Use Disorder
+- story: Screening Questions
+- story: Learn About Drug Use Disorders
+- story: Identify Symptoms and Seek Treatment for Drug Use Disorders
+- story: Understanding Drug Use Disorders
+- story: Seeking Help for Drug Use Disorders
+- story: Coping and Self-Care with Drug Use Disorders
+- story: Asking About Binge-Eating Disorder
+- story: Asking About Coping Strategies for Eating Disorders
+- story: Screening Questions for Anorexia Symptoms
+- story: Screening Questions for Bulimia Symptoms
+- story: Screening Questions for Binge-Eating Disorder Symptoms
+- story: Eating Disorder Conversation
+- story: Eating Disorder Support
+- story: Exploring Eating Disorders
+- story: Self-Care and Coping for Eating Disorders
+- story: Comforting the User
+- story: Understanding Eating Disorders
+- story: Exploring Types of Eating Disorders
+- story: Recognizing Signs of Eating Disorders
+- story: Understanding Causes of Eating Disorders
+- story: Coping with an Eating Disorder
+- story: Seeking a Diagnosis for an Eating Disorder
+- story: Therapy for Eating Disorders
+- story: Joining Support Groups for Eating Disorders
+- story: Personal Struggles with an Eating Disorder
+- story: Seeking Support for an Eating Disorder
+- story: Feeling Isolated Due to an Eating Disorder
+- story: Seeking Professional Help for an Eating Disorder
+- story: Finding Resources for an Eating Disorder
+- story: Comprehensive Eating Disorder Journey
+- story: Understanding Bulimia Nervosa
+- story: Understanding Anorexia Nervosa
+- story: What Is Schizophrenia
+- story: What Is Psychosis
+- story: Types of Schizophrenia
+- story: Paranoid Schizophrenia
+- story: Disorganized Schizophrenia
+- story: Catatonic Schizophrenia
+- story: Residual Schizophrenia
+- story: Schizoaffective Disorder
+- story: Causes of Schizophrenia
+- story: Helping People with Schizophrenia
+- story: Identify Schizophrenia Symptoms
+- story: Express Schizophrenia Concerns
+- story: Ask for Advice on Schizophrenia
+- story: Ask for Coping Strategies for Schizophrenia
+- story: Schizophrenia Treatment Options
+- story: Ask for Support Resources for Schizophrenia
+- story: Ask About CBT
+- story: Screening Questions for Schizophrenia Symptoms
+- story: what_is_schizophrenia
+- story: schizophrenia_symptoms
+- story: causes_of_schizophrenia
+- story: managing_schizophrenia
+- story: schizophrenia_diagnosis
+- story: schizophrenia_therapy
+- story: Understanding Schizophrenia Journey
