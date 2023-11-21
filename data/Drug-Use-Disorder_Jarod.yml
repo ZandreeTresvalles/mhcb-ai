@@ -1,0 +1,176 @@
+nlp:
+
+  - intent: learn_about_drug_use_disorders
+    examples: |
+      - What are drug use disorders?
+      - Tell me about substance abuse.
+      - Explain addiction.
+      - What are the different types of drug use disorders?
+      - What causes drug use disorders?
+      - How can I get help for drug addiction?
+
+  - intent: identify_drug_use_symptoms
+    examples: |
+      - What are the signs of substance abuse?
+      - How can I recognize drug addiction symptoms?
+      - How can I tell when someone is using drugs?
+      - How can I tell when someone is going through drug abuse?
+      - What are the behavioral indicators of drug use disorders?
+    
+  - intent: effects_of_drug_use
+    examples: |
+      - Tell me about the physical effects of drug use.
+      - What happends to my body when I use drugs?
+      - What are the things affected when I use drugs?
+      - How does drugs affect change my behavior?
+      - How does my use of drugs affect the poeple around me?
+      - How does drug use affect relationships?
+
+  - intent: treatment_options_for_drug_abuse
+    examples: |
+      - What are the treatment options for drug use disorders?
+      - Tell me about therapy for addiction recovery.
+      - How can I find a substance abuse counselor?
+      - Are there any support groups for addiction recovery?
+      - Can you recommend any medications for drug addiction?
+
+  - intent: support_network_for_drug_abuse
+    examples: |
+      - Are there support groups for addiction recovery?
+      - How can I find a therapist for substance abuse?
+      - Tell me about the role of family support in addiction recovery.
+      - Can you recommend any resources for addiction self-help?
+      - Where can I find information about drug use disorders?
+
+  - intent: cope_strat_with_drug_abuse
+    examples: |
+      - What can I do to cope with drug abuse?
+      - What can I do to cope with drug use?
+      - What can I do to cope with a drug use disorder?
+      - What can I do to cope with having a drug use disorder?
+      - What can I do to manage my cravings?
+      - Tell me how to cope with drug abuse.
+      - Tell me about coping strategies for addiction recovery.
+      - How can I prevent relapse?
+      - What are some triggers for drug use?
+      - How can I develop a support system for relapse prevention?
+      - Can you provide tips for maintaining sobriety?
+
+  - intent: self_care_with_drug_abuse
+    examples: |
+      - What can I do when I get urges for drugs?
+      - What can I do for now?
+      - What can I do now that can help in slowing down my dependence on drugs?
+      - Tell me alternatives that I can do instead of doing drugs.
+      
+  - intent: expressing_struggles_or_concerns_with_drug_use
+    examples: |
+      - I'm worried for the people around me.
+      - I have a hard time dealing with my drug use problem.
+      - I don't want to use drugs anymore but my body yearns for it.
+      
+
+
+
+
+Chatbot Responses:
+
+  utter_learn_about_drug_use_disorders:
+    - text: "Drug use disorders, also known as substance use disorders or addiction, are chronic conditions characterized by the compulsive use of drugs despite negative consequences. They can involve the misuse of substances such as alcohol, opioids, stimulants, or illicit drugs. Would you like more information about specific drug use disorders or their causes?"
+    - text: "Drug use disorders involve the inability to control or stop using a substance despite harmful effects on physical health, mental well-being, and interpersonal relationships. They can lead to tolerance, withdrawal symptoms, and a loss of control over drug use. Seeking professional help is essential for effective treatment."
+
+  utter_identify_drug_use_symptoms:
+    - text: "Recognizing drug use symptoms can include changes in behavior, physical health issues, neglecting responsibilities, financial difficulties, secrecy, and social withdrawal. It's important to consult a healthcare professional or addiction specialist for a comprehensive assessment."
+    - text: "Common signs of drug use disorders may include drug cravings, impaired judgment, risky behaviors, relationship problems, tolerance, and withdrawal symptoms when drug use is stopped. Identifying these symptoms is an important step in seeking help and support."
+
+  utter_effects_of_drug_use:
+    - text: "The effects of drug use are not isolated. It is a ripple that will affect all of your areas; physical, mental, social, just to name the apparent ones. It will deteriorate your health. It has addictive properties that will induce dependence on the substance. It will change the kind of people that gather around you."
+
+  utter_treatment_options:
+    - text: "Treatment options for drug use disorders can include therapy, medication-assisted treatment, support groups, and residential or outpatient programs. Therapies such as cognitive-behavioral therapy (CBT) and motivational interviewing can be effective in addressing underlying issues and changing addictive behaviors. It's important to work with healthcare professionals to determine the best treatment plan."
+    - text: "There are various treatment approaches available for drug use disorders, including individual counseling, group therapy, and family therapy. Medications may also be prescribed to"
+  utter_support_network_for_drug_abuse:
+    - text: "There are support groups available for addiction recovery. Some well-known ones include Alcoholics Anonymous (AA), Narcotics Anonymous (NA), and SMART Recovery. These groups offer a safe space for sharing experiences and finding support."
+    - text: "You can also check with local addiction treatment centers, community health organizations, or mental health clinics. They often host support groups or can direct you to the nearest ones. If you prefer online support, there are many virtual support groups and forums where you can connect with people who are also in recovery. Websites like InTheRooms and Reddit's r/REDDITORSINRECOVERY can be valuable resources."
+    - text: "Participating in support groups can be an important part of your recovery journey. It can provide you with valuable insights and a sense of community. Additionally, there are local helplines and crisis intervention services that can guide you to the right support groups. These helplines are available 24/7. "
+    - text: "You're taking a positive step by seeking out support groups. Remember, you're not alone in this journey, and there are people and resources ready to help you. Recovery is possible, and support groups can play a significant role in your journey toward a healthier and happier life. Don't hesitate to reach out and get the help you need."
+
+  utter_cope_strat_with_drug_abuse:
+    - text: "Relaxation techniques, mindfulness, and having support networks can help in managing cravings for drug use."
+    - text: "Coping strategies for drug use disorders may include mindfulness and relaxation techniques to manage cravings, seeking support from a therapist or support group, developing assertiveness skills to resist peer pressure, and learning to identify and avoid high-risk situations."
+
+  utter_self_care_with_drug_abuse:
+    - text: "You can search for alternatives to do when you feel the urge to use drugs again. Redirect this energy and find another output. A good one would be to exercise or read."
+    - text: "It is imporant to realize that your drug use impacts your health. When you feel the need to take drugs, it can be replaced with fruits."
+
+  utter_expressing_struggles_or_concerns_with_drug_use:
+    - text: "You're not alone in this. Many people face similar challenges, and there's help available. It's good that you shared this. It takes courage to talk about your struggles. Feel free to share more about what you're going through. Talking about it can be a crucial first step." 
+    - text: "While you're on this journey, don't forget to take care of yourself. Self-care is an essential part of recovery. There are people out there that are willing to help you in anyway they can. Remember, taking the first step and talking about your concerns is a significant move towards a healthier path. There's hope for recovery." 
+
+
+
+
+
+Stories:
+
+- story: Learn About Drug Use Disorders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: learn_about_drug_use_disorders
+  - action: utter_learn_about_drug_use_disorders
+  - intent: effects_of_drug_use
+  - action: utter_effects_of_drug_use
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Identify Symptoms and Seek Treatment for Drug Use Disorders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: identify_drug_use_symptoms
+  - action: utter_identify_drug_use_symptoms
+  - intent: treatment_options_for_drug_abuse
+  - action: utter_treatment_options
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: Understanding Drug Use Disorders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: learn_about_drug_use_disorders
+  - action: utter_learn_about_drug_use_disorders
+  - intent: identify_drug_use_symptoms
+  - action: utter_identify_drug_use_symptoms
+  - intent: treatment_options
+  - action: utter_treatment_options
+  - intent: support_network
+  - action: utter_support_network
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: Seeking Help for Drug Use Disorders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: treatment_options_for_drug_abuse
+  - action: utter_treatment_options
+  - intent: support_network_for_drug_abuse
+  - action: utter_support_network_for_drug_abuse
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: Coping and Self-Care with Drug Use Disorders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cope_strat_with_drug_abuse
+  - action: utter_cope_strat_with_drug_abuse
+  - intent: self_care_with_drug_abuse
+  - action: utter_self_care_with_drug_abuse
+  - intent: goodbye
+  - action: utter_goodbye
+
+
+

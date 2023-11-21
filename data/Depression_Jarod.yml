@@ -1,0 +1,412 @@
+nlu:
+  - intent: learn_about_depression
+    examples: |
+      - What is depression?
+      - Explain major depressive disorder.
+      - Tell me about the symptoms of depression.
+      - What causes depression?
+      - How can I help someone with depression?
+    
+  - intent: learn_about_depression_types
+    examples: |
+      - What are the different types of depression?
+      - Are there different types of depression? 
+      - Tell me about other types of depression.
+      - What other types of depression are there?
+      - What are the different kinds of depression?
+      - Are there different kinds of depression? 
+      - Tell me about other kinds of depression.
+      - What other kinds of depression are there?     
+
+  - intent: learn_about_mdd
+    examples: |
+      - Tell me about Major Depressive Disorder.
+      - What is Major Depressive Disorder?
+      - Explain Major Depressive Disorder.
+      - Tell me about MDD.
+      - What is MDD?
+      - Explain MDD.
+  - intent: learn_about_dysthymia
+    examples: |
+      - Tell me about Persistent Depressive Disorder.
+      - What is Persistent Depressive Disorder?
+      - Explain Persistent Depressive Disorder.
+      - Tell me about Dysthymia.
+      - What is Dysthymia?
+      - Explain Dysthymia.
+      
+  - intent: learn_about_bipolar_disorder
+    examples: |
+      - Tell me about Bipolar Disorder.
+      - What is Bipolar Disorder?
+      - Explain Bipolar Disorder.
+  - intent: learn_about_sad
+    examples: |
+      - Tell me about Seasonal Affective Disorder.
+      - What is Seasonal Affective Disorder?
+      - Explain Seasonal Affective Disorder.
+      - Tell me about SAD.
+      - What is SAD?
+      - Explain SAD.
+      
+  - intent: learn_about_postpartum_depression
+    examples: |
+      - Tell me about Postpartum Depression.
+      - What is Postpartum Depre  ssion?
+      - Explain Postpartum Depression.
+
+  - intent: learn_about_psychotic_depression
+    examples: |
+      - Tell me about Psychotic Depression.
+      - What is Psychotic Depression?
+      - Explain Psychotic Depression.
+
+  - intent: learn_about_pmdd
+    examples: |
+      - Tell me about Premenstrual Dysphoric Disorder.
+      - What is Premenstrual Dysphoric Disorder?
+      - Explain Premenstrual Dysphoric Disorder.
+      - Tell me about PMDD.
+      - What is PMDD?
+      - Explain PMDD.
+      
+  - intent: learn_about_atypical_depression
+    examples: |
+      - Tell me about Atypical Depression.
+      - What is Atypical Depression?
+      - Explain Atypical Depression.
+
+  - intent: learn_about_situational_depression
+    examples: |
+      - Tell me about Situational Depression.
+      - What is Situational Depression?
+      - Explain Situational Depression.
+      
+  - intent: learn_about_cyclothymic_disorder
+    examples: | 
+      - Tell me about Cyclothymic Disorder.
+      - What is Cyclothymic Disorder?
+      - Explain Cyclothymic Disorder.
+
+  - intent: identify_depression_symptoms
+    examples: |
+      - What are the signs of depression?
+      - How can I recognize depressive symptoms?
+      - Tell me about the emotional effects of depression.
+      - What are the physical symptoms of depression?
+      - How does depression affect daily life?
+
+  - intent: coping_strategies
+    examples: |
+      - How can I cope with depression?
+      - What are some strategies for managing depression?
+      - Tell me about self-care techniques for depression.
+      - How can I handle negative thoughts and low mood?
+      - What are some activities that can help with depression?
+
+  - intent: treatment_options
+    examples: |
+      - What are the treatment options for depression?
+      - Tell me about therapy for depression.
+      - How can I find a therapist for depression?
+      - Are there any support groups for depression?
+      - Can you recommend any medications for depression?
+
+  - intent: support_network
+    examples: |
+      - Are there support groups for depression?
+      - How can I find a therapist for depression?
+      - Tell me about the role of family support in depression.
+      - Can you recommend any resources for depression self-help?
+      - Where can I find information about depression?
+
+  - intent: share_stress_experiences
+    examples: |
+      - Describe your experiences with stress.
+      - How does stress affect your daily life?
+      - Tell me about your reactions to stress.
+
+  - intent: screen_depression
+    examples: |
+      - Can you describe your experiences with low mood or loss of interest in activities you used to enjoy? How has this impacted your daily life?
+      - Have you ever experienced thoughts of self-harm or suicide? Please share any details you're comfortable with.
+      - Are there any changes in your appetite, sleep patterns, or energy levels that you've noticed?
+
+  - intent: user_feeling_sad
+    examples: |
+      - I'm feeling really sad today.
+      - Feeling down and can't shake it.
+      - I've been feeling sad lately.
+
+  - intent: user_feeling_lonely
+    examples: |
+      - I'm feeling really lonely right now.
+      - I've been alone by myself and want to talk to someone.
+      - Feeling a bit isolated and need to talk.
+
+  - intent: user_feeling_down
+    examples: |
+      - I'm feeling quite down today.
+      - Feeling really down and need some support.
+      - Feeling a bit low and could use some help.
+      
+  - intent: user_existential
+    examples: |
+      - What if I just disappear?
+      - Am I worhtless?
+      - Am I important?
+
+responses:
+  utter_learn_about_depression:
+    - text: "Depression is a common mental health disorder characterized by persistent sadness, loss of interest or pleasure in activities, changes in appetite or weight, sleep disturbances, fatigue, feelings of worthlessness or guilt, difficulty concentrating, and recurrent thoughts of death or suicide. Would you like more information about depression or its causes?"
+    - text: "Depression is a complex disorder that affects how a person thinks, feels, and behaves. It can manifest in various ways, including feelings of sadness, hopelessness, or emptiness, loss of interest in activities, changes in appetite and sleep patterns, difficulty concentrating, and thoughts of self-harm or suicide. Seeking professional help is important for accurate diagnosis and effective treatment."
+
+  utter_learn_about_depression_types:
+    - text: "There are different types of depression, each with its own set of symptoms and characteristics. Some common types of depression include: Major Depressive Disorder (MDD), Persistent Depressive Disorder (Dysthymia), Bipolar Disorder, Seasonal Affective Disorder (SAD), Postpartum Depression, Psychotic Depression, Premenstrual Dysphoric Disorder (PMDD), Atypical Depression, ituational Depression, and Cyclothymic Disorder. These are just some of the many types of depression. Each individual's experience of depression is unique, and it's important to consult a mental health professional for an accurate diagnosis and appropriate treatment."
+
+  utter_learn_about_mdd:
+    - text: "This is what most people think of as clinical depression. It involves persistent and severe symptoms, including a low mood, loss of interest or pleasure in activities, and changes in appetite and sleep patterns."
+
+  utter_learn_about_dysthymia:
+    - text: "This is a milder, but chronic form of depression. It involves long-term (often two years or more) symptoms that may not be as severe as MDD but can still have a significant impact on daily life."
+
+  utter_learn_about_bipolar_disorder:
+    - text: "This involves cycling between periods of depression and periods of mania or hypomania (elevated mood and energy). There are different types of bipolar disorder, including bipolar I and bipolar II."
+
+  utter_learn_about_sad:
+    - text: "This type of depression occurs seasonally, usually in the fall and winter when there is less natural sunlight. It often leads to symptoms of low energy and increased sleep."
+
+  utter_learn_about_postpartum_depression:
+    - text: "This type of depression occurs after childbirth and can involve feelings of extreme sadness, anxiety, and exhaustion. It's important to note that it can affect both mothers and fathers."
+
+  utter_learn_about_psychotic_depression:
+    - text: "This involves severe depression accompanied by psychosis, which can include hallucinations or delusions."
+
+  utter_learn_about_pmdd:
+    - text: "This type of depression is associated with the menstrual cycle and involves severe mood disturbances and physical symptoms in the days leading up to menstruation."
+
+  utter_learn_about_atypical_depression:
+    - text: "This type may involve symptoms like increased appetite and weight gain, excessive sleep, and a feeling of heaviness in the limbs."
+
+  utter_learn_about_situational_depression:
+    - text: "Also known as adjustment disorder with depressed mood, this type occurs in response to specific stressors or life changes. It's generally milder and temporary."
+  utter_learn_about_cyclothymic_disorder:
+    - text: "This is a milder form of bipolar disorder that involves cyclical mood swings but doesn't reach the severity of full-blown mania or depression."
+
+  utter_identify_depression_symptoms:
+    - text: "Recognizing depression symptoms can include persistent feelings of sadness, hopelessness, or irritability, loss of interest in previously enjoyed activities, changes in appetite or weight, sleep disturbances, fatigue, difficulty concentrating, and thoughts of death or suicide. It's important to consult a healthcare professional for a comprehensive evaluation."
+    - text: "Common symptoms of depression may manifest as persistent feelings of sadness, guilt, or worthlessness, loss of interest in activities, changes in appetite and weight, sleep disturbances, lack of energy, difficulty concentrating, and recurring thoughts of death or suicide. Identifying these symptoms is an essential step in seeking help and support."
+
+  utter_coping_strategies:
+    - text: "Coping with depression involves developing healthy strategies such as engaging in regular physical exercise, practicing relaxation techniques, maintaining a balanced routine, seeking social support, and seeking professional help. It's important to find coping mechanisms that work best for you and to remember that recovery takes time."
+    - text: "Managing depression requires a multi-faceted approach. Some coping strategies include engaging in activities you enjoy, setting realisticgoals, practicing self-care, challenging negative thoughts, and seeking support from friends, family, or therapists. Remember that everyone's experience with depression is unique, so finding what works for you is important."
+
+  utter_treatment_options:
+    - text: "Treatment options for depression can include therapy, medication, or a combination of both. Therapy, such as cognitive-behavioral therapy (CBT) or interpersonal therapy (IPT), can help individuals identify and change negative thought patterns, develop coping skills, and improve interpersonal relationships. Medications, such as selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs), may be prescribed in some cases. It's crucial to consult with a healthcare professional to determine the best treatment approach."
+    - text: "There are various treatment options available for depression, including therapy, medication, and alternative approaches like mindfulness-based practices or exercise therapy. Therapy can provide a safe space to explore and address underlying issues contributing to depression, while medication can help balance brain chemistry. It's important to work with a healthcare professional to develop a personalized treatment plan."
+
+  utter_support_network:
+    - text: "Having a support network is crucial for individuals with depression. It can include friends, family, support groups, therapists, or helplines. Connecting with others who understand your experiences can provide comfort, validation, and resources for managing depression."
+    - text: "Support networks play an important role in managing depression. Building a support system can involve reaching out to trusted friends or family members, participating in support groups or therapy, or seeking assistance from helplines or online communities. Remember that you don't have to face depression alone."
+
+  utter_share_stress_experiences:
+    - text: "Understanding your experiences with stress is important. Can you describe how it affects your daily life?"
+    - text: "Stress can affect people differently. How does it impact you in your daily life?"
+
+  utter_screen_depression:
+    - text: "I'm here to listen. Have you been experiencing low mood, changes in appetite, difficulty sleeping, or loss of interest in activities?"
+    - text: "I'm here to help. Can you tell me if you've been experiencing persistent low moods, changes in appetite, sleep troubles, or loss of interest in activities?"
+    - text: "I'm here for you. Have you noticed any significant changes in your mood, appetite, sleep patterns, or interest in activities?"
+
+  utter_user_feeling_sad:
+    - text: "I'm really sorry to hear that you're feeling this way. It's important to talk to someone who can offer support. Can you tell me more about what's been bothering you?"
+    - text: "I'm here for you. I'm really sorry to hear that you're feeling this way. Talking about it can be a good first step. Can you share more about what's been on your mind?"
+
+  utter_user_feeling_lonely:
+    - text: "I'm here to listen. Loneliness can be really tough. Would you like to talk about why you're feeling this way?"
+    - text: "You're not alone. Loneliness can be a difficult feeling. Would you like to share more about why you're feeling this way?"
+
+  utter_user_feeling_down:
+    - text: "I'm really sorry to hear that. It's okay to feel this way sometimes. Would you like to share what's been on your mind?"
+    - text: "Feeling down is something we all experience. It's okay to talk about it. Would you like to share more about what's going on?"
+
+  utter_ask_more_about_feelings:
+    - text: "I'm here to listen and help. Can you tell me more about what's been going on? Sometimes talking about it can make a difference."
+    - text: "Thank you for opening up. Can you tell me more about what's been on your mind? Sharing your feelings is an important step."
+
+  utter_encourage_sharing:
+    - text: "Thank you for sharing that. It's important to express how you feel. Is there anything specific on your mind that you'd like to talk about?"
+    - text: "You're taking an important step by sharing. Is there anything specific that's been on your mind that you'd like to discuss?"
+
+  utter_offer_support_and_resources:
+    - text: "I'm really glad you reached out to talk. Remember, you're not alone. There are people who care about you and want to help. Is there anything else you'd like to share?"
+    - text: "You've taken a brave step in reaching out. There are people who care and want to help. Is there anything else you'd like to talk about or ask?"
+
+  utter_validation:
+    - text: "The most important thing is that you get through the day and be able to continue. Would you like to share how you go through your day?"
+    - text: "It is important to recognize self-worth. You're here to impact the world, and it begins with yourself. Don't you think so?"
+
+stories:
+  - story: Depression Conversation
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: learn_about_depression
+    - action: utter_learn_about_depression
+    - intent: identify_depression_symptoms
+    - action: utter_identify_depression_symptoms
+    - intent: coping_strategies
+    - action: utter_coping_strategies
+    - intent: treatment_options
+    - action: utter_treatment_options
+    - intent: support_network
+    - action: utter_support_network
+    
+  - story: Seeking Help for Depression
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: learn_about_depression
+    - action: utter_learn_about_depression
+    - intent: identify_depression_symptoms
+    - action: utter_identify_depression_symptoms
+    - intent: coping_strategies
+    - action: utter_coping_strategies
+    - intent: treatment_options
+    - action: utter_treatment_options
+    - intent: support_network
+    - action: utter_support_network
+    - intent: identify_depression_symptoms
+    - action: utter_identify_depression_symptoms
+    - intent: seek_professional_help
+    - action: utter_seek_professional_help
+
+  - story: Sharing Stress Experiences
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: share_stress_experiences
+      - action: utter_share_stress_experiences
+      - intent: handle_stress_experiences
+      - action: action_to_handle_stress_experiences
+      - intent: thank_you
+      - action: utter_you_are_welcome
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Depression Screening
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: screen_depression
+      - action: utter_screen_depression
+      - intent: user_provides_screening
+      - action: action_to_handle_depression_screening
+      - intent: thank_you
+      - action: utter_you_are_welcome
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: User Expresses Sadness
+    steps:
+      - intent: user_feeling_sad
+      - action: utter_user_feeling_sad
+      - intent: user_provides_details
+      - action: utter_ask_more_about_feelings
+      - intent: user_shares_details
+      - action: utter_encourage_sharing
+      - intent: user_wants_advice
+      - action: utter_offer_support_and_resources
+
+  - story: User Expresses Loneliness
+    steps:
+      - intent: user_feeling_lonely
+      - action: utter_user_feeling_lonely
+      - intent: user_provides_details
+      - action: utter_ask_more_about_feelings
+      - intent: user_shares_details
+      - action: utter_encourage_sharing
+      - intent: user_wants_advice
+      - action: utter_offer_support_and_resources
+
+  - story: User Expresses Feeling Down
+    steps:
+      - intent: user_feeling_down
+      - action: utter_user_feeling_down
+      - intent: user_provides_details
+      - action: utter_ask_more_about_feelings
+      - intent: user_shares_details
+      - action: utter_encourage_sharing
+      - intent: user_wants_advice
+      - action: utter_offer_support_and_resources
+    
+  - story: Understanding Depression 
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: learn_about_depression
+    - action: utter_learn_about_depression
+    - intent: identify_depression_symptoms
+    - action: utter_identify_depression_symptoms
+    - intent: coping_strategies
+    - action: utter_coping_strategies
+    - intent: treatment_options
+    - action: utter_treatment_options
+    - intent: support_network
+    - action: utter_support_network
+    - intent: share_stress_experiences
+    - action: utter_share_stress_experiences
+    - intent: user_shares_details
+    - action: utter_ask_more_about_feelings
+    - intent: user_provides_details
+    - action: utter_encourage_sharing
+    - intent: user_wants_advice
+    - action: utter_offer_support_and_resources
+    - intent: thank_you
+    - action: utter_you_are_welcome
+    - intent: goodbye
+    - action: utter_goodbye
+
+  - story: Providing Validation and Support for Depression
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: user_existential
+    - action: utter_validation
+    - intent: user_provides_details
+    - action: utter_ask_more_about_feelings
+    - intent: user_shares_details
+    - action: utter_encourage_sharing
+    - intent: user_wants_advice
+    - action: utter_offer_support_and_resources
+    - intent: thank_you
+    - action: utter_you_are_welcome
+    - intent: goodbye
+    - action: utter_goodbye
+
+  - story: Building Connections While Handling Depression
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: learn_about_depression
+    - action: utter_learn_about_depression
+    - intent: coping_strategies
+    - action: utter_coping_strategies
+    - intent: treatment_options
+    - action: utter_treatment_options
+    - intent: support_network
+    - action: utter_support_network
+    - intent: user_feeling_lonely
+    - action: utter_user_feeling_lonely
+    - intent: user_provides_details
+    - action: utter_ask_more_about_feelings
+    - intent: user_shares_details
+    - action: utter_encourage_sharing
+    - intent: user_wants_advice
+    - action: utter_offer_support_and_resources
+    - intent: sharing_experiences
+    - action: utter_share_stress_experiences
+    - intent: user_provides_stress_details
+    - action: action_to_handle_stress_experiences
+    - intent: goodbye
+    - action: utter_goodbye

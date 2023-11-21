@@ -1,0 +1,532 @@
+[
+    {
+        "title": "medication_management_schizophrenia",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3,
+        "confused_with": {}
+    },
+    {
+        "title": "health_resources",
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1-score": 0.9411764705882353,
+        "support": 8,
+        "confused_with": {}
+    },
+    {
+        "title": "feeling_schizophrenia",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 9,
+        "confused_with": {}
+    },
+    {
+        "title": "identify_anxiety_symptoms",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "support_network_anxiety_disorders",
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1-score": 0.6666666666666666,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "support_network_alcohol_use_disorders",
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "deny",
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1-score": 0.9333333333333333,
+        "support": 7,
+        "confused_with": {}
+    },
+    {
+        "title": "coping_strategies_anxiety_disorders",
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "learn_about_eating_disorders",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6,
+        "confused_with": {}
+    },
+    {
+        "title": "medical_leave",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10,
+        "confused_with": {}
+    },
+    {
+        "title": "identify_alcohol_use_symptoms",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "mood_great",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 14,
+        "confused_with": {}
+    },
+    {
+        "title": "find_support_resources_bipolar_disorder",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4,
+        "confused_with": {}
+    },
+    {
+        "title": "identify_drug_use_symptoms",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "thanks",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12,
+        "confused_with": {}
+    },
+    {
+        "title": "coping_strategies_schizophrenia",
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 3,
+        "confused_with": {
+            "willing_to_discuss_adviser": 1,
+            "coping_strategies_bipolar_disorder": 1
+        }
+    },
+    {
+        "title": "company_no_employees",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 9,
+        "confused_with": {}
+    },
+    {
+        "title": "coping_strategies_eating_disorders",
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.888888888888889,
+        "support": 5,
+        "confused_with": {
+            "coping_strategies_depression": 1
+        }
+    },
+    {
+        "title": "learn_about_drug_use_disorders",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6,
+        "confused_with": {}
+    },
+    {
+        "title": "support_network_drug_use_disorders",
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.888888888888889,
+        "support": 5,
+        "confused_with": {
+            "treatment_options_drug_use_disorders": 1
+        }
+    },
+    {
+        "title": "wellbeing",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "history_mental_illness",
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 6,
+        "confused_with": {
+            "health_resources": 1
+        }
+    },
+    {
+        "title": "greet",
+        "precision": 1.0,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.962962962962963,
+        "support": 14,
+        "confused_with": {
+            "goodbye": 1
+        }
+    },
+    {
+        "title": "identify_depression_symptoms",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "learn_about_anxiety_disorders",
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 6,
+        "confused_with": {
+            "coping_strategies_anxiety_disorders": 1
+        }
+    },
+    {
+        "title": "treatment_options_eating_disorders",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "discussing_mental_health",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7,
+        "confused_with": {}
+    },
+    {
+        "title": "negative_consequences_mental_collegaue",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7,
+        "confused_with": {}
+    },
+    {
+        "title": "coping_strategies_alcohol_use_disorders",
+        "precision": 1.0,
+        "recall": 0.4,
+        "f1-score": 0.5714285714285715,
+        "support": 5,
+        "confused_with": {
+            "coping_strategies_depression": 2,
+            "learn_about_alcohol_use_disorders": 1
+        }
+    },
+    {
+        "title": "treatment_options_anxiety_disorders",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 5,
+        "confused_with": {
+            "support_network_anxiety_disorders": 5
+        }
+    },
+    {
+        "title": "bot_challenge",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4,
+        "confused_with": {}
+    },
+    {
+        "title": "goodbye",
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1-score": 0.9565217391304348,
+        "support": 11,
+        "confused_with": {}
+    },
+    {
+        "title": "coping_strategies_bipolar_disorder",
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.888888888888889,
+        "support": 4,
+        "confused_with": {}
+    },
+    {
+        "title": "learn_about_alcohol_use_disorders",
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1-score": 0.9411764705882353,
+        "support": 8,
+        "confused_with": {}
+    },
+    {
+        "title": "self_employment",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7,
+        "confused_with": {}
+    },
+    {
+        "title": "relapse_prevention_drug_use_disorders",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "willing_to_discuss_adviser",
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1-score": 0.9473684210526316,
+        "support": 9,
+        "confused_with": {}
+    },
+    {
+        "title": "treatment_anonymity",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8,
+        "confused_with": {}
+    },
+    {
+        "title": "tech_company",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6,
+        "confused_with": {}
+    },
+    {
+        "title": "learn_about_schizophrenia",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3,
+        "confused_with": {}
+    },
+    {
+        "title": "learn_about_depression",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6,
+        "confused_with": {}
+    },
+    {
+        "title": "body_image_eating_disorders",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "treatment_options_depression",
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1-score": 0.7499999999999999,
+        "support": 5,
+        "confused_with": {
+            "support_network_depression": 2
+        }
+    },
+    {
+        "title": "treatment_options_drug_use_disorders",
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1-score": 0.9090909090909091,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "stress_reduction_schizophrenia",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3,
+        "confused_with": {}
+    },
+    {
+        "title": "willing_to_discuss_collegaue",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8,
+        "confused_with": {}
+    },
+    {
+        "title": "support_network_depression",
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1-score": 0.8333333333333333,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "identify_eating_disorder_symptoms",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "name_entry",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 22,
+        "confused_with": {}
+    },
+    {
+        "title": "mood_unhappy",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 14,
+        "confused_with": {}
+    },
+    {
+        "title": "learn_about_bipolar_disorder",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4,
+        "confused_with": {}
+    },
+    {
+        "title": "treatment_options_alcohol_use_disorders",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "health_benefits",
+        "precision": 1.0,
+        "recall": 0.7142857142857143,
+        "f1-score": 0.8333333333333333,
+        "support": 7,
+        "confused_with": {
+            "support_network_alcohol_use_disorders": 1,
+            "serious_mental_health": 1
+        }
+    },
+    {
+        "title": "work_interference",
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 6,
+        "confused_with": {
+            "deny": 1
+        }
+    },
+    {
+        "title": "gender",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 3,
+        "confused_with": {}
+    },
+    {
+        "title": "understand_symptoms_bipolar_disorder",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4,
+        "confused_with": {}
+    },
+    {
+        "title": "medication_management_bipolar_disorder",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4,
+        "confused_with": {}
+    },
+    {
+        "title": "affirm",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 7,
+        "confused_with": {}
+    },
+    {
+        "title": "coping_strategies_depression",
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1-score": 0.7692307692307693,
+        "support": 5,
+        "confused_with": {}
+    },
+    {
+        "title": "serious_mental_health",
+        "precision": 0.9,
+        "recall": 1.0,
+        "f1-score": 0.9473684210526316,
+        "support": 9,
+        "confused_with": {}
+    },
+    {
+        "title": "accuracy",
+        "value": 0.9491094147582697
+    },
+    {
+        "title": "macro avg",
+        "precision": 0.9418121693121694,
+        "recall": 0.9346031746031745,
+        "f1-score": 0.927918543565221,
+        "support": 393
+    },
+    {
+        "title": "weighted avg",
+        "precision": 0.9504503412900361,
+        "recall": 0.9491094147582697,
+        "f1-score": 0.9424404161187868,
+        "support": 393
+    },
+    {
+        "title": "micro avg",
+        "precision": 0.9491094147582697,
+        "recall": 0.9491094147582697,
+        "f1-score": 0.9491094147582697,
+        "support": 393
+    }
+]

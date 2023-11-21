@@ -1,0 +1,930 @@
+nlu:
+  - intent: what_is_depression
+    examples: |
+      - What is depression?
+      - Explain depressive disorders.
+      - Tell me about feeling depressed.
+      - Describe the types of depression.
+      - What causes depression?
+      - How can I get help for depression?
+      - Can you define major depressive disorder?
+      - Explain persistent depressive disorder.
+      - Tell me about postpartum depression.
+      - Describe seasonal affective disorder.
+      - What is the definition of bipolar disorder?
+      - What is the meaning of mood disorders?
+      - Tell me about the symptoms of depression.
+      - Describe the signs of clinical depression.
+      - Explain the diagnosis of depressive disorders.
+      - How is depression characterized?
+      - Can you provide an overview of mental health disorders?
+      - Tell me about the concept of emotional well-being.
+      - What are the behavioral aspects of depression?
+      - Discuss the psychological aspects of depressive disorders.
+      - Tell me about the impact of depression on individuals.
+      - Explain the health consequences of untreated depression.
+      - How does depression affect people's lives?
+      - Describe the signs of mood disorders.
+      - What are the risk factors for developing depression?
+      - How can one recognize the signs of depression?
+      - Explain the cycle of depressive episodes.
+      - What is the role of genetics in depression?
+      - Tell me about the social implications of depression.
+      - Discuss the impact of depression on families.
+
+  - intent: types_of_depression
+    examples: |
+      - What are the different types of depression?
+      - Types of depressive disorders
+      - Types of mood disorders
+      - Describe the various forms of mood disorders.
+      - Explain the categorization of depressive disorders.
+      - What are the main types of mood disorders?
+      - Explain the subcategories of depressive disorders.
+      - What are the specific forms of depressive episodes?
+      - Describe the classifications within mood disorders.
+      - Explain the variations of mood-related conditions.
+      - Can you differentiate between types of mood disorders?
+      - What are the sub-classifications of depressive episodes?
+      - Describe the varieties of mood disturbances.
+      - Explain the different divisions within mood disorders.
+      - Tell me about mood-related disorders.
+      - Discuss the categories of depressive conditions.
+      - Differentiate between types of mood disorders
+
+  - intent: disruptive_mood_dysregulation_disorder
+    examples: |
+      - What is Disruptive Mood Dysregulation Disorder?
+      - Explain DMDD.
+      - Tell me about temper outbursts in children.
+      - Symptoms of DMDD.
+      - Causes of Disruptive Mood Dysregulation Disorder?
+      - How to help children with DMDD?
+      - Diagnosis of DMDD.
+      - Difference between DMDD and other disorders?
+      - Is DMDD common in adolescents?
+      - Treatments for Disruptive Mood Dysregulation Disorder.
+      - How does DMDD affect family dynamics?
+      - Does DMDD persist into adulthood?
+      - Living with a child diagnosed with DMDD.
+      - Can DMDD lead to other behavioral issues?
+
+  - intent: major_depressive_disorder
+    examples: |
+      - What is major depressive disorder?
+      - Tell me about MDD.
+      - Explain major depression.
+      - Symptoms of major depressive disorder.
+      - Causes of MDD?
+      - How to treat major depressive disorder?
+      - Difference between sadness and MDD?
+      - Can MDD be genetic?
+      - Coping with major depressive disorder?
+      - Medications for major depression?
+      - Living with major depressive disorder.
+      - Major depression in teens.
+      - What to do if I have MDD?
+      - Can MDD lead to other health issues?
+      - Tell me about the symptoms of MDD.
+      - How is major depressive disorder diagnosed?
+      - What causes major depression?
+      - Are there effective treatments for MDD?
+      - How does MDD affect daily life?
+      - Is major depression common in young adults?
+      - Coping strategies for major depressive disorder.
+      - Impact of MDD on relationships.
+
+  - intent: persistent_depressive_disorder
+    examples: |
+      - What is persistent depressive disorder?
+      - Tell me about PDD.
+      - Explain persistent depression.
+      - Symptoms of persistent depressive disorder.
+      - Causes of PDD?
+      - How to treat persistent depressive disorder?
+      - Diagnosis of persistent depression?
+      - Difference between PDD and MDD?
+      - Is persistent depressive disorder hereditary?
+      - Coping with persistent depressive disorder?
+      - Medications for persistent depression?
+      - Living with persistent depressive disorder.
+      - Can PDD lead to other health issues?
+      - Tell me about the symptoms of PDD.
+      - How is persistent depressive disorder diagnosed?
+      - What causes persistent depression?
+      - Are there effective treatments for PDD?
+      - How does PDD affect daily life?
+      - Is persistent depression common in older adults?
+      - Coping strategies for persistent depressive disorder.
+      - Impact of PDD on work and productivity.
+
+  - intent: postpartum_depression
+    examples: |
+      - What is postpartum depression?
+      - Tell me about postpartum depression.
+      - Explain postnatal depression.
+      - Symptoms of postpartum depression.
+      - Causes of postpartum depression?
+      - How to treat postnatal depression?
+      - Diagnosis of postpartum depression?
+      - Can postpartum depression be genetic?
+      - Coping with postnatal depression?
+      - Is therapy effective for postpartum depression?
+      - Medications for postpartum depression?
+      - Living with postpartum depression.
+      - Postnatal depression in fathers.
+      - What to do if I have postpartum depression?
+      - Can postpartum depression lead to other health issues?
+      - Tell me about the symptoms of postnatal depression.
+      - How is postpartum depression diagnosed?
+      - What causes postnatal depression?
+      - Are there effective treatments for postpartum depression?
+      - How does postpartum depression affect daily life?
+      - Is postnatal depression common among new mothers?
+      - Can postpartum depression improve on its own?
+      - Coping strategies for postpartum depression.
+      - Impact of postnatal depression on family dynamics.
+      - Does postpartum depression affect bonding with the baby?
+
+  - intent: premenstrual_dysphoric_disorder
+    examples: |
+      - What is Premenstrual Dysphoric Disorder?
+      - Explain PMDD.
+      - Tell me about severe PMS.
+      - Symptoms of PMDD.
+      - Causes of Premenstrual Dysphoric Disorder?
+      - How to manage PMDD symptoms?
+      - Diagnosis of PMDD.
+      - Coping with PMDD.
+      - Is therapy effective for PMDD?
+      - Medications for severe PMS.
+      - Living with PMDD.
+      - Can PMDD affect relationships?
+      - Tell me about the symptoms of severe PMS.
+      - How is PMDD diagnosed?
+
+  - intent: seasonal_affective_disorder
+    examples: |
+      - What is seasonal affective disorder?
+      - Tell me about seasonal affective disorder.
+      - Explain SAD.
+      - Symptoms of seasonal affective disorder.
+      - Causes of SAD?
+      - How to treat seasonal affective disorder?
+      - Diagnosis of seasonal affective disorder?
+      - Difference between SAD and depression?
+      - Is seasonal affective disorder hereditary?
+      - Coping with seasonal affective disorder?
+      - Is therapy effective for SAD?
+      - Light therapy for seasonal affective disorder?
+      - Living with SAD.
+      - Seasonal affective disorder in different climates.
+      - Can seasonal affective disorder lead to other health issues?
+      - Tell me about the symptoms of SAD.
+      - What causes seasonal affective disorder?
+      - How does seasonal affective disorder affect daily life?
+      - Coping strategies for seasonal affective disorder.
+      - Impact of SAD on academic performance.
+
+  - intent: depression_due_to_medical_condition
+    examples: |
+      - What is Depressive Disorder Due to Another Medical Condition?
+      - Explain depression related to medical issues.
+      - Tell me about depression caused by illnesses.
+      - Symptoms of depression due to a medical condition.
+      - Causes of depressive disorder in the presence of other health issues?
+      - How to treat depression linked to medical conditions?
+      - Diagnosis of depression related to medical problems.
+      - Coping with depression while dealing with a medical condition.
+      - Is therapy effective for depression due to other medical issues?
+      - Medications for depression with a medical cause.
+      - Living with depression linked to an illness.
+      - Impact on mental health due to medical conditions.
+      - Managing emotions when dealing with a medical illness.
+      - Can medical issues lead to depression?
+      - Tell me about the symptoms of depression due to a medical condition.
+      - How is depression linked to other health problems diagnosed?
+
+  - intent: causes_of_depression
+    examples: |
+      - What are the causes of depression?
+      - Tell me about the factors that lead to mood disorders.
+      - Explain why people develop depressive disorders.
+      - What contributes to the onset of depression?
+      - Are there specific reasons for mood disorders?
+      - Describe the factors that can cause depression.
+      - How do genetics play a role in mood disorders?
+      - Tell me about the environmental causes of depression.
+      - What role does stress play in depressive disorders?
+      - Discuss the psychological factors behind depression.
+      - Are there lifestyle factors that lead to mood disorders?
+      - Explain how trauma can contribute to depression.
+      - Tell me about the link between brain chemistry and mood disorders.
+      - Are there hormonal factors associated with depressive disorders?
+      - Why do people get depressed?
+      - What causes depression in individuals?
+      - Tell me about depression triggers.
+      - Explain the science behind depression.
+      - How can I understand the causes of mood disorders?
+      - Why do some people develop mood disorders?
+      - Are there specific factors behind depression?
+      - Tell me more about depression origins.
+      - Explain the root causes of depressive disorders.
+      - What triggers depressive episodes?
+      - How does genetics influence depression?
+      - Can you elaborate on the causes of depression?
+      - Are there external factors that lead to mood disorders?
+      - Tell me about the biology of depression.
+
+  - intent: helping_depressed_people
+    examples: |
+      - How to help someone with depression?
+      - Supporting a depressed friend
+      - Ways to assist someone with depression
+      - What can I do for a loved one with depression?
+      - Family member with depression
+      - Friend is depressed
+      - Offering help to a depressed colleague
+      - Tips for aiding someone with depressive symptoms
+      - Supporting a family member who has depression
+      - How to be there for a depressed spouse
+      - Helping a teenager dealing with depression
+      - Providing emotional support to someone with depression
+      - Coping strategies for friends with depression
+      - Understanding the needs of a depressed partner
+      - What should I say to a depressed person?
+      - Actions to take when someone is depressed
+      - Helping a child who may be experiencing depression
+      - How to talk to someone about their depression
+      - Supporting a sibling with depression
+      - Encouraging a loved one to seek therapy for depression
+
+  - intent: identify_depression_symptoms
+    examples: |
+      - Signs of depression?
+      - Spotting depressive signs
+      - How does depression affect?
+      - Emotional impact?
+      - Physical symptoms?
+      - Daily life with depression?
+      - Recognizing depression in teenagers
+      - Understanding the emotional toll of depression
+      - Identifying the early signs of depressive disorders
+      - Recognizing depression in children
+      - Physical effects of depression
+      - Emotional symptoms of depression
+      - Detecting depression in a partner
+      - Common signs of major depressive disorder
+      - Spotting depression in the elderly
+      - Identifying depression in the workplace
+      - Coping with depression-related fatigue
+      - Recognizing depression in men
+      - Emotional changes associated with depression
+      - Detecting signs of postpartum depression
+      - Identifying signs of depression in women
+      - Physical manifestations of depressive symptoms
+      - Recognizing depression in loved ones
+      - Understanding the behavioral indicators of depression
+      - Detecting signs of depression in a spouse
+
+  - intent: express_depression_concerns
+    examples: |
+      - Feeling so down
+      - Think I'm depressed
+      - Sad and hopeless
+      - No motivation
+      - Not enjoying anything
+      - Crying a lot
+      - Isolation
+      - Unmotivated
+      - I am lonely
+      - Feeling lonely
+      - Overwhelmed by sadness
+      - Can't find joy in anything
+      - Struggling with constant tears
+      - Want to talk about my depression
+      - Feeling like life has no purpose
+      - Isolating myself from friends
+      - Need someone to talk to about depression
+      - Feeling empty inside
+      - Dealing with persistent sadness
+      - Feeling like a burden to others
+      - Just want to feel better
+
+  - intent: ask_advice_depression
+    examples: |
+      - Need advice for depression
+      - What to do if I'm depressed?
+      - Boost mood when down?
+      - Coping with negative thoughts?
+      - Help for feeling hopeless?
+      - Give me advice for depression
+      - How to manage depression symptoms?
+      - Strategies for improving mood
+      - Seeking advice on dealing with loneliness
+      - Ways to find motivation when depressed
+      - Coping strategies for overwhelming sadness
+      - Help for managing depressive episodes
+      - Advice on talking to a therapist about depression
+      - How to open up about depression with friends
+      - Seeking guidance for coping with isolation
+      - Strategies for finding joy in life again
+      - Tips for managing crying spells
+      - Coping with feelings of hopelessness
+      - Advice for staying motivated despite depression
+      - Ways to combat loneliness and depression
+      - Help for overcoming the sense of emptiness
+
+  - intent: ask_coping_strategies_for_depression
+    examples: |
+      - Coping with depression
+      - Handling depressive symptoms
+      - Coping with sadness
+      - Self-help for depression
+      - Manage hopelessness
+      - How to cope with depression
+      - How to not feel depressed
+      - Manage depression
+      - Managing depressive thoughts
+      - Self-care for low mood
+      - Dealing with negativity
+      - Activities to improve mood
+      - Strategies for depression
+      - Need advice for depression
+      - What to do if I'm depressed?
+      - Boost mood when down?
+      - Coping with negative thoughts?
+      - Help for feeling hopeless?
+
+  - intent: treatment_options_for_depression
+    examples: |
+      - Depression treatment
+      - Therapy for depression
+      - Depression meds
+      - Medications for depressive disorders
+      - Options for managing depression
+      - What can help with depression?
+      - Treating depression effectively
+      - Seeking professional help for depression
+      - Types of therapy for depressive episodes
+      - Managing depressive symptoms
+      - Ways to address my depression
+      - Coping strategies for depression
+      - Medication for mood disorders
+      - How to get help for my depressive symptoms
+      - Treatment options for emotional distress
+      - Therapy and counseling for mood disorders
+      - Medication for managing mood swings
+      - Seeking treatment for persistent sadness
+      - Coping with depression through therapy
+      - Medication options for major depression
+
+  - intent: ask_support_resources_for_depression
+    examples: |
+      - Recommend depression support
+      - Find help for depression
+      - Online communities for depression
+      - Helplines for depression
+      - Support groups for depression
+      - Where to seek help for depression
+      - Depression support near me
+      - Connect with others facing depression
+      - Coping with depression: Support options
+      - Helplines for emotional well-being
+      - Supportive communities for mood disorders
+      - Online resources for managing depression
+      - Finding a therapist for depressive symptoms
+      - Joining a depression support group
+      - Local resources for mood-related issues
+      - Where to find emotional support
+      - Supportive networks for dealing with sadness
+      - Connecting with others experiencing depression
+      - Accessing online forums for depression help
+      - Helplines for mental health support
+
+  - intent: recognizing_depression_on_self
+    examples: |
+      - Am I depressed?
+      - Do I have depression?
+      - Is this depression?
+      - Could I be suffering from depression?
+      - I want to know if I have depression.
+      - How do I know if I have depression?
+      - How to know if I am depressed
+      - Signs of depression in myself
+      - Self-assessment for depression
+      - Identifying depression in me
+      - Am I experiencing depressive symptoms?
+      - Recognizing depression in my own feelings
+      - Assessing my emotional well-being
+      - Evaluating my mental state for depression
+      - Checking if I exhibit signs of depression
+      - Self-awareness of depressive episodes
+      - Determining if I need help for depression
+      - Understanding my emotional health
+      - Self-reflection on feelings of sadness
+      - Questioning if I have symptoms of depression
+
+  - intent: experiencing_depression_long_time
+    examples: |
+      - I've been feeling this way for over two weeks.
+      - My symptoms have persisted for more than two weeks.
+      - It's been longer than two weeks, and I still feel this way.
+      - Experiencing depression for several months.
+      - My depressive symptoms have lasted for about a year.
+      - I've been dealing with depression for more than a year.
+      - Living with these feelings for several months now.
+      - My struggle with depression has been ongoing for over a year.
+      - I've felt this way for quite a few months.
+      - Suffering from depression for an extended period.
+      - Experiencing these symptoms for an extended timeframe.
+      - I've had these feelings for a prolonged duration.
+
+  - intent: experiencing_depression_short_time
+    examples: |
+      - I've been feeling this way for less than two weeks.
+      - My symptoms started recently, just within the past week.
+      - It's been less than two weeks, and I'm already struggling.
+      - Feeling like this for a few days now.
+      - I've been experiencing these symptoms for about a week.
+      - It's only been a few days, but I feel really down.
+      - Recently, I've been feeling this way.
+      - I started feeling like this just a few days ago.
+      - These feelings are relatively new, less than two weeks.
+      - I've noticed these symptoms for only a short time.
+      - I haven't felt like myself for about a week.
+      - My mood has been low for just a few days.
+      - It's only been a short while, but I'm concerned.
+
+  - intent: express_suicidal_thoughts
+    examples: |
+      - I'm having suicidal thoughts.
+      - I can't go on like this, I want to end my life.
+      - Life feels unbearable, and I'm thinking about suicide.
+      - I'm considering self-harm.
+      - I don't want to live anymore.
+      - I need help, I'm thinking of ending my life.
+      - Suicide seems like the only way out.
+      - I have suicidal ideation.
+      - I'm feeling hopeless and thinking about suicide.
+      - I can't cope anymore, and I'm considering suicide.
+      - I need someone to talk to about my suicidal thoughts.
+      - Thoughts of self-harm are overwhelming me.
+      - I'm in a dark place and need help with my suicidal feelings.
+      - I'm contemplating suicide.
+      - I feel like I want to die.
+      - I'm having thoughts of ending my life.
+      - I'm feeling suicidal.
+      - I don't see a reason to live.
+      - I'm thinking about taking my own life.
+      - I'm struggling with suicidal thoughts.
+      - I need assistance with my suicidal ideation.
+      - I want to kill myself.
+
+  - intent: affirm_ask_sleep_disturbance
+    examples: |
+      - Yes, I have experienced sleep disturbances.
+      - I've had trouble sleeping lately.
+      - My sleep patterns have changed recently.
+      - I've been having insomnia.
+      - I often wake up in the middle of the night.
+
+  - intent: deny_ask_sleep_disturbance
+    examples: |
+      - No, I haven't experienced any sleep disturbances.
+      - My sleep has been normal.
+      - I've been sleeping well.
+      - I don't have trouble sleeping.
+      - My sleep patterns are unchanged.
+
+  - intent: affirm_ask_interest_reduction
+    examples: |
+      - Yes, I've lost interest in things I used to enjoy.
+      - I don't find pleasure in activities like before.
+      - I've experienced a significant decrease in interest.
+      - Nothing seems fun or interesting anymore.
+
+  - intent: deny_ask_interest_reduction
+    examples: |
+      - No, I still enjoy the things I used to.
+      - I haven't noticed any reduction in interest.
+      - My interest in activities remains the same.
+      - I'm still finding pleasure in my hobbies.
+
+  - intent: affirm_ask_guilt_feelings
+    examples: |
+      - Yes, I often feel guilty and worthless.
+      - I blame myself for everything.
+      - Guilt feelings are common for me.
+      - I've had persistent thoughts of worthlessness.
+
+  - intent: deny_ask_guilt_feelings
+    examples: |
+      - No, I don't feel guilty or worthless.
+      - I rarely blame myself for things.
+      - I have a healthy self-esteem.
+      - I don't have persistent thoughts of worthlessness.
+
+  - intent: affirm_ask_energy_changes
+    examples: |
+      - Yes, I've felt extremely fatigued.
+      - My energy levels are significantly lower.
+      - I experience exhaustion frequently.
+      - I've noticed a decrease in my energy.
+
+  - intent: deny_ask_energy_changes
+    examples: |
+      - No, I have normal energy levels.
+      - I'm not experiencing fatigue.
+      - My energy levels are fine.
+      - I don't have a decrease in energy.
+
+  - intent: affirm_ask_concentration_impairment
+    examples: |
+      - Yes, I've had trouble concentrating.
+      - My focus has been impaired.
+      - I find it difficult to pay attention.
+      - I can't concentrate on tasks.
+
+  - intent: deny_ask_concentration_impairment
+    examples: |
+      - No, I haven't had trouble concentrating.
+      - My focus is normal.
+      - I can easily pay attention to tasks.
+      - I have no issues with concentration.
+
+  - intent: affirm_ask_appetite_changes
+    examples: |
+      - Yes, I've noticed significant changes in my appetite.
+      - I've been eating significantly more or less.
+      - My weight has changed recently.
+      - I have an altered appetite.
+
+  - intent: deny_ask_appetite_changes
+    examples: |
+      - No, my appetite and weight are stable.
+      - I haven't noticed any changes in my eating habits.
+      - My weight has remained constant.
+      - I have a regular appetite.
+
+  - intent: affirm_ask_psychomotor_disturbances
+    examples: |
+      - Yes, I've experienced changes in my physical movements.
+      - I've been restless or unusually slow.
+      - My speech and body movements have altered.
+      - I've noticed psychomotor disturbances.
+
+  - intent: deny_ask_psychomotor_disturbances
+    examples: |
+      - No, my physical movements are normal.
+      - I haven't experienced restlessness or slowness.
+      - My speech and body movements are unchanged.
+      - I don't have psychomotor disturbances.
+
+  - intent: affirm_ask_suicidal_thoughts
+    examples: |
+      - Yes, I've had thoughts of harming myself.
+      - I've considered suicide.
+      - I'm experiencing suicidal thoughts.
+      - I need help with suicidal thoughts.
+      - I have harmed myself before.
+      - I harm myself.
+      - Yes, I harm myself sometimes.
+      - Sometimes
+
+  - intent: deny_ask_suicidal_thoughts
+    examples: |
+      - No, I haven't had any thoughts of harming myself.
+      - I don't consider suicide.
+      - I'm not experiencing suicidal thoughts.
+      - I'm not in a crisis with such thoughts.
+
+  - intent: affirm_ask_depressed_mood
+    examples: |
+      - Yes, I've been consistently feeling down and sad.
+      - I'm experiencing a depressed mood.
+      - I feel depressed almost every day.
+      - My mood has been consistently low.
+
+  - intent: deny_ask_depressed_mood
+    examples: |
+      - No, I haven't been feeling consistently depressed.
+      - My mood is relatively stable.
+      - I have good days as well.
+      - I'm not in a state of constant depression.
+
+responses:
+  utter_what_is_depression:
+    - text: "Depression, also known as major depressive disorder (MDD), is a common mental health condition characterized by persistent feelings of sadness, hopelessness, and a lack of interest or pleasure in daily activities. It can affect how you think, feel, and handle daily activities, and it may lead to a variety of emotional and physical problems. Depression can be caused by a combination of genetic, biological, environmental, and psychological factors. If you or someone you know is experiencing depression, it's essential to seek help from a healthcare professional."
+    - text: "Depression is a mental health disorder characterized by persistent feelings of sadness, disinterest in activities, changes in sleep and appetite, and negative thoughts. It's a serious condition that can impact various aspects of life. Don't hesitate to seek help if you think you might be experiencing depression."
+
+  utter_types_of_depression_disorders:
+    - text: "Depression disorders encompass a range of conditions classified in the DSM-5. These include"
+    - text: "Disruptive Mood Dysregulation Disorder (DMDD): Typically seen in children and adolescents, DMDD involves severe temper outbursts and persistent irritability."
+    - text: "Major Depressive Disorder (MDD): MDD is characterized by persistent feelings of sadness, hopelessness, and a loss of interest in activities, often accompanied by physical symptoms."
+    - text: "Persistent Depressive Disorder (Dysthymia): This is a chronic form of depression where individuals experience a low mood for an extended period, lasting for years."
+    - text: "Premenstrual Dysphoric Disorder (PMDD): PMDD is a severe form of premenstrual syndrome (PMS) marked by severe mood disturbances before menstruation."
+    - text: "Depressive Disorder Due to Another Medical Condition: This type of depression occurs as a result of underlying medical issues, and treating the medical condition is a key part of management."
+    - text: "Within the realm of depression disorders in accordance with the DSM-5, you'll find various classifications, including"
+    - text: "Disruptive Mood Dysregulation Disorder (DMDD): Often diagnosed in children and adolescents, DMDD involves severe temper outbursts and persistent irritability."
+    - text: "Major Depressive Disorder (MDD): MDD is characterized by prolonged feelings of deep sadness, hopelessness, and a diminished interest in usual activities, often accompanied by physical symptoms."
+    - text: "Persistent Depressive Disorder (Dysthymia): This represents a chronic form of depression, with individuals experiencing a consistently low mood over an extended period, sometimes spanning years."
+    - text: "Premenstrual Dysphoric Disorder (PMDD): PMDD is an intense variant of premenstrual syndrome (PMS), marked by severe mood disturbances in the days leading up to menstruation."
+    - text: "Depressive Disorder Due to Another Medical Condition: This type of depression arises as a result of underlying medical conditions, and addressing the medical issue is integral to managing the depression."
+  utter_major_depressive_disorder:
+    - text: "Major depressive disorder (MDD), often referred to as clinical depression, is a severe form of depression characterized by persistent feelings of sadness, loss of interest in activities, changes in appetite or weight, sleep disturbances, and feelings of worthlessness or guilt. It can interfere with daily life and may lead to physical symptoms. Treatment options for MDD include therapy, medication, and lifestyle changes."
+    - text: "Major depressive disorder (MDD) is a mental health condition characterized by persistent low mood, loss of interest in activities, and various physical and emotional symptoms. If you suspect you or someone you know has MDD, it's important to seek help from a mental health professional."
+
+  utter_persistent_depressive_disorder:
+    - text: "Persistent depressive disorder (PDD), also known as dysthymia, is a type of depression characterized by long-lasting symptoms that may not be as severe as MDD but can persist for years. Symptoms of PDD include low energy, poor self-esteem, changes in sleep and appetite, and a sense of hopelessness. Therapy and medication can help manage PDD."
+    - text: "Persistent depressive disorder (PDD) is a chronic form of depression with symptoms lasting for years. While it may not be as severe as MDD, it can still significantly impact one's life. Treatment options can improve the quality of life for individuals with PDD."
+
+  utter_postpartum_depression:
+    - text: "Postpartum depression (PPD) is a type of depression that affects some individuals after giving birth. It can include symptoms such as extreme sadness, fatigue, and changes in sleeping and eating habits. PPD can impact the ability to care for a newborn. Treatment options may include therapy, support groups, and medication."
+    - text: "Postpartum depression (PPD) is a form of depression that can occur after childbirth. It's important to recognize the symptoms and seek help if you think you or someone you know may be experiencing PPD."   
+  utter_seasonal_affective_disorder:
+    - text: "Seasonal affective disorder (SAD) is a form of depression that occurs at a specific time of the year, typically during the fall and winter months when there is less natural sunlight. Symptoms of SAD may include low energy, oversleeping, weight gain, and mood changes. Light therapy and lifestyle adjustments can help alleviate SAD symptoms."
+    - text: "Seasonal affective disorder (SAD) is a type of depression that tends to occur during the winter months when there's less sunlight. If you find yourself experiencing symptoms like low energy and mood changes during the winter, it's essential to consider the possibility of SAD and explore treatment options."
+  utter_causes_of_depression:
+    - text: "The causes of depression are complex and can involve a combination of genetic, biological, environmental, and psychological factors. It's not always easy to pinpoint a single cause. Stressful life events, trauma, family history of depression, and imbalances in brain chemicals are some contributing factors."
+    - text: "Depression can be caused by a variety of factors, including genetic predisposition, brain chemistry imbalances, trauma, and life stressors. It's essential to understand that depression is a multifaceted condition, and its causes can vary from person to person."
+    - text: "The exact causes of depression can vary among individuals. It may result from a combination of factors, including genetic vulnerability, chemical imbalances in the brain, and life experiences such as trauma or loss. Identifying the specific causes often requires a comprehensive assessment by a mental health professional."
+    - text: "The causes of depression are complex and can vary from person to person. They often involve a combination of factors, including genetics, brain chemistry, life events, and environmental influences. Genetics can play a role in predisposing individuals to depression, while imbalances in brain chemicals, such as serotonin, can also contribute. Life events such as trauma, loss, or chronic stress can trigger depressive episodes. Additionally, environmental factors like a lack of social support or substance abuse can exacerbate depression."
+    - text: "Understanding the causes of depression is essential for effective treatment. It's important to recognize that there is no single cause, and it often results from a combination of factors. Genetic predisposition, changes in brain chemistry, and life experiences all contribute to the development of depression. If you or someone you know is struggling with depression, seeking help from a mental health professional can provide guidance and support tailored to the individual's unique situation."
+
+  utter_helping_depressed_people:
+    - text: "If you want to help someone with depression, it's essential to offer your support, understanding, and encouragement. Listen to their feelings without judgment, encourage them to seek professional help, and assist with practical tasks when needed."
+    - text: "Supporting a depressed friend or family member involves being there for them, listening without judgment, and encouraging them to seek professional help. You can also assist with daily tasks and offer emotional support."
+    - text: "Helping someone with depression requires empathy and patience. Encourage them to talk about their feelings, accompany them to therapy appointments if they're comfortable, and educate yourself about depression to better understand their experience."
+
+  utter_identify_depression_symptoms:
+    - text: "Depression symptoms can vary among individuals, but common signs may include persistent feelings of sadness, hopelessness, or irritability. Other emotional impacts can include a loss of interest in activities you once enjoyed, changes in appetite or weight, sleep disturbances, fatigue, difficulty concentrating, and thoughts of death or suicide. These symptoms can significantly affect daily life."
+    - text: "Recognizing depression symptoms is important for seeking help. Signs may include a persistent low mood, a loss of interest or pleasure in activities, changes in appetite or weight, sleep disturbances, fatigue, difficulty concentrating, and thoughts of self-harm or suicide."
+
+  utter_express_depression_concerns:
+    - text: "I'm really sorry to hear that you're experiencing these feelings. It's essential to talk to someone you trust about your emotions, such as a friend, family member, or mental health professional. They can provide support and help you navigate your feelings. Can you share how long you've been struggling with these emotions?"
+    - text: "Feeling down, sad, and lonely can be indicative of depression. It's important to reach out to someone you trust and consider consulting with a mental health expert. You don't have to go through this alone. Can you tell me how long you've been experiencing these emotions?"
+    - text: "I hear that you're feeling unmotivated and lonely. These can be challenging emotions to deal with. It's essential to talk to someone you trust and consider seeking professional support. Remember, you don't have to face this alone. Can you let me know how long you've been struggling with these feelings?"
+
+  utter_ask_advice_depression:
+    - text: "When dealing with depression, it's crucial to reach out to a mental health professional who can provide personalized guidance and support. Coping strategies may include therapy, medication, self-care practices, and developing a strong support network. Remember that seeking help is a positive step towards improving your mental health."
+    - text: "Dealing with depression can be challenging, but there are steps you can take to improve your mood and well-being. Consider seeking help from a mental health professional who can provide personalized guidance. Coping strategies may include therapy, medication, self-care practices, and building a support network."
+    - text: "Coping with depression can be challenging, but there are strategies that can help. It's essential to consult with a mental health expert who can provide tailored advice. Coping strategies may include therapy, medication, self-care routines, and seeking support from loved ones."
+
+  utter_coping_strategies_for_depression:
+    - text: "Coping with depression involves developing healthy strategies such as engaging in regular physical exercise, practicing relaxation techniques, maintaining a balanced routine, seeking social support, and seeking professional help. It's important to find coping mechanisms that work best for you and to remember that recovery takes time."
+    - text: "Managing depression requires a multi-faceted approach. Some coping strategies include engaging in activities you enjoy, setting realisticgoals, practicing self-care, challenging negative thoughts, and seeking support from friends, family, or therapists. Remember that everyone's experience with depression is unique, so finding what works for you is important."
+    - text: "Coping with depression can be challenging, but there are strategies that can help you manage your symptoms. Here are some tips to consider:"
+    - text: "One important aspect of coping with depression is to reach out and stay connected. Connecting with friends or family members who make you feel safe and cared for can provide emotional support. Consider engaging in social activities or volunteering to boost your mood."
+    - text: "Doing things that make you feel good is another key strategy. Reconnect with hobbies or interests you used to enjoy. Spending time with friends and practicing relaxation techniques like yoga or meditation can help reduce depressive symptoms."
+    - text: "Exercise is a powerful tool in battling depression. Aim for at least 30 minutes of physical activity per day. Activities like walking, dancing, or swimming can improve your mood. Consider partnering up with an exercise buddy for added motivation."
+    - text: "Getting a daily dose of sunlight is essential for enhancing serotonin levels and improving your mood. Spend time outdoors during daylight hours, whether it's taking a walk, having lunch outside, or tending to a garden."
+    - text: "Challenge negative thinking patterns that often accompany depression. Recognize cognitive distortions such as all-or-nothing thinking and emotional reasoning. Keep a 'negative thought log' to identify destructive thought patterns and replace them with more balanced thinking."
+    - text: "Support your overall health through nutrition and sleep. Aim for a balanced diet rich in fruits and vegetables while minimizing caffeine and alcohol intake. Ensure you get 7-9 hours of quality sleep each night by establishing a sleep schedule and practicing healthy sleep habits."
+
+  utter_treatment_options_for_depression:
+    - text: "Treatment options for depression may include therapy, medication, or a combination of both. Therapies like cognitive-behavioral therapy (CBT) or medication such as selective serotonin reuptake inhibitors (SSRIs) are commonly used. It's important to consult with a mental health professional to determine the most suitable treatment plan for your specific needs. If you are in the Philippines and need immediate assistance, you can contact the National Mental Health Crisis Hotline at 1553 or at (0966) 351-4518."
+    - text: "There are various treatment options available for depression, including therapy, medication, and alternative approaches like mindfulness-based practices or exercise therapy. Therapy can provide a safe space to explore and address underlying issues contributing to depression, while medication can help balance brain chemistry. It's important to work with a healthcare professional to develop a personalized treatment plan. If you are in the Philippines and need immediate assistance, consider reaching out to the National Mental Health Crisis Hotline at 1553 or at (0908) 639-2672."
+
+  utter_ask_support_resources_for_depression:
+    - text: "If you're looking for support and resources related to depression in the Philippines, consider reaching out to the following helplines and organizations:"
+    - text: "If you're in the Philippines and need support for depression, there are several resources available, including helplines and organizations. You can contact the National Mental Health Crisis Hotline at 1553 or at (0966) 351-4518 for immediate assistance."
+    - text: "Finding support and resources for depression in the Philippines is essential. You can explore helplines like the National Mental Health Crisis Hotline at 1553 or at (0908) 639-2672. Additionally, consider seeking assistance from organizations like the Ateneo Bulatao Center and Psych Consult, Inc. for psychological services and support."
+    - text: "When dealing with depression, it's crucial to connect with local resources in the Philippines. You can reach out to the National Mental Health Crisis Hotline at 1553 or at (0966) 351-4518 for immediate help. Organizations like the Ateneo Bulatao Center and Psych Consult, Inc. also offer valuable support and services."
+    - text: "Support is available for those dealing with depression in the Philippines. You can contact the National Mental Health Crisis Hotline at 1553 or at (0908) 639-2672 for immediate assistance. Additionally, organizations like the Ateneo Bulatao Center and Psych Consult, Inc. provide valuable resources and psychological services."
+
+  utter_experiencing_depression_long_time:
+    - text: "I'm really sorry to hear that you've been experiencing these symptoms for an extended period. It's important to take your feelings seriously. Persistent symptoms lasting for more than two weeks can be a sign of a more serious condition. I strongly recommend reaching out to a mental health professional for a comprehensive evaluation and support. They can provide you with a proper diagnosis and develop a treatment plan to help you feel better."
+    - text: "It's concerning that you've been going through this for an extended period. When depressive symptoms persist for more than two weeks, it's crucial to seek professional help. A mental health professional can assess your situation, provide a diagnosis, and offer effective treatment options. Please consider reaching out to one."
+    - text: "I'm here to support you, but it's concerning that you've been dealing with these symptoms for more than two weeks. I strongly encourage you to reach out to a mental health professional who can provide a thorough evaluation and guidance. They can help determine the best course of action to improve your mental well-being."
+
+  utter_experiencing_depression_short_time:
+    - text: "I'm sorry to hear that you've been experiencing these symptoms, even if it's only been for a short time. It's essential to address your feelings early on. You can start by trying some coping strategies that may help improve your mood. Consider reconnecting with friends or family, engaging in activities you enjoy, and getting some physical activity. These steps can make a positive difference in how you feel."
+    - text: "I understand that these symptoms have started recently, and it's important to address them promptly. You might find it helpful to try some coping strategies to manage your mood. Reach out to supportive friends or family, engage in activities that bring you joy, and aim to get some daily physical activity. These steps can contribute to your well-being."
+    - text: "I'm here to support you through this challenging time, even if it's only been for a short period. You can take proactive steps to improve your mood. Try connecting with friends or family, engaging in enjoyable activities, and incorporating some physical activity into your routine. These coping strategies can be beneficial for managing depressive symptoms early on."
+
+  utter_empathy_suicidal_thoughts:
+    - text: "I'm really sorry to hear that you're feeling this way, but I can't provide the help that you need. It's important to talk to someone who can, though. Please consider reaching out to a mental health professional, a trusted friend, or a family member. You don't have to go through this alone, and there are people who want to support you."
+
+  utter_suicide_hotlines:
+    - text: "In the Philippines, you can contact these suicide crisis lines for immediate support:\nLandline: (02) 8893-7603\nGlobe: 0917-8001123 (Sun: 0917-8001123)\nHopeLine: Landline: (02) 8804-4673, Globe: 0917-5584673, Smart: 0918-8784673\nThese helplines are available 24/7 to provide support and assistance to those in crisis. Please reach out to them – your life is valuable, and there are people who care about your well-being."
+
+  utter_positive_likelihood_depression:
+    - text: "Since 5 or more of the symptoms you've mentioned are present, there is a possibility that you might be experiencing symptoms of a depression disorder. It's essential to reach out to a mental health professional for a proper evaluation and support. You don't have to go through this alone, and seeking help can make a significant difference in how you feel."
+
+  utter_negative_likelihood_depression:
+    - text: "Based on the symptoms you've described, it doesn't appear that you are currently experiencing the criteria typically associated with a depression disorder. However, please remember that I'm not a substitute for professional medical advice. If you ever feel overwhelmed or your symptoms change, it's always a good idea to consult with a healthcare provider or mental health professional."
+
+
+  utter_ask_sleep_disturbance:
+    - text: "Have you experienced any significant changes in your sleep patterns, such as insomnia or oversleeping, over the past few weeks?"
+
+  utter_ask_interest_reduction:
+    - text: "Lately, have you noticed a marked decrease in your interest or pleasure in activities that you used to enjoy?"
+
+  utter_ask_guilt_feelings:
+    - text: "Do you ever have persistent feelings of guilt or thoughts of worthlessness, where you blame yourself for things, even if they aren't your fault?"
+
+  utter_ask_energy_changes:
+    - text: "Have you felt a significant change in your energy levels, like extreme fatigue or a noticeable decrease in your usual energy?"
+
+  utter_ask_concentration_impairment:
+    - text: "Have you experienced difficulty concentrating or paying attention to tasks, even those that used to be easy for you?"
+
+  utter_ask_appetite_changes:
+    - text: "Have you noticed any significant changes in your appetite or weight, like eating significantly more or less than usual?"
+
+  utter_ask_psychomotor_disturbances:
+    - text: "Do you find that your physical movements, such as pacing, restlessness, or slowed speech and body movements, have changed recently?"
+
+  utter_ask_suicidal_thoughts:
+    - text: "Have you had any thoughts of harming yourself or considered suicide? If you're experiencing such thoughts, it's important to seek help immediately."
+
+  utter_ask_depressed_mood:
+    - text: "Have you been consistently feeling down, sad, or depressed over the past few weeks?"
+
+
+stories:
+  - story: What is Depression
+    steps:
+    - intent: what_is_depression
+    - action: utter_what_is_depression
+
+  - story: Types of Depression
+    steps:
+    - intent: types_of_depression
+    - action: utter_types_of_depression
+
+  - story: Disruptive Mood Disorder
+    steps:
+    - intent: disruptive_mood_dysregulation_disorder
+    - action: utter_disruptive_mood_dysregulation_disorder
+
+  - story: Major Depressive Disorder
+    steps:
+    - intent: major_depressive_disorder
+    - action: utter_major_depressive_disorder
+
+  - story: Persistent Depressive Disorder
+    steps:
+    - intent: persistent_depressive_disorder
+    - action: utter_persistent_depressive_disorder
+
+  - story: Postpartum Depression
+    steps:
+    - intent: postpartum_depression
+    - action: utter_postpartum_depression
+
+  - story: Premenstrual Dysphoric Disorder
+    steps:
+    - intent: premenstrual_dysphoric_disorder
+    - action: utter_premenstrual_dysphoric_disorder
+
+  - story: Seasonal Affective Disorder
+    steps:
+    - intent: seasonal_affective_disorder
+    - action: utter_seasonal_affective_disorder
+
+  - story: Depression due to other medical condition
+    steps:
+    - intent: depression_due_to_medical_condition
+    - action: utter_depression_due_to_medical_condition
+
+  - story: Causes
+    steps:
+    - intent: causes_of_depression
+    - action: utter_causes_of_depression
+
+  - story: Helping depressed people
+    steps:
+    - intent: helping_depressed_people
+    - action: utter_helping_depressed_people
+
+  - story: Depression symptoms
+    steps:
+    - intent: identify_depression_symptoms
+    - action: utter_identify_depression_symptoms
+
+  - story: Depression concerns
+    steps:
+    - intent: express_depression_concerns
+    - action: utter_express_depression_concerns
+
+  - story: Long time
+    steps:
+    - intent: experiencing_depression_long_time
+    - action: utter_experiencing_depression_long_time
+
+  - story: Short time
+    steps:
+    - intent: experiencing_depression_short_time
+    - action: utter_experiencing_depression_short_time
+
+  - story: Depression advice
+    steps:
+    - intent: ask_advice_depression
+    - action: utter_ask_advice_depression
+
+  - story: Asking for coping strategies for depression
+    steps:
+    - intent: ask_coping_strategies_for_depression
+    - action: utter_ask_coping_strategies_for_depression
+
+  - story: Treatment options for depression
+    steps:
+    - intent: treatment_options_for_depression
+    - action: utter_treatment_options_for_depression
+
+  - story: Support
+    steps:
+    - intent: ask_support_resources_for_depression
+    - action: utter_ask_support_resources_for_depression
+
+  - story: Expressing suicidal thoughts
+    steps:
+      - intent: express_suicidal_thoughts
+      - action: utter_empathy_suicidal_thoughts
+      - action: utter_suicide_hotlines
+
+  # - story: Screening Questions for Depression
+  #   steps:
+  #     - intent: recognizing_depression_on_self
+  #     - actions: utter_ask_sleep_disturbance
+  #     - intent: affirm_ask_sleep_disturbance
+  #     - slot: {"sleep_disturbance": "yes"}
+  #     - actions: utter_ask_interest_reduction
+  #     - intent: affirm_ask_interest_reduction
+  #     - slot: {"interest_reduction": "yes"}
+  #     - actions: utter_ask_guilt_feelings
+  #     - intent: affirm_ask_guilt_feelings
+  #     - slot: {"guilt_feelings": "yes"}
+  #     - actions: utter_ask_energy_changes
+  #     - intent: affirm_ask_energy_changes
+  #     - slot: {"energy_changes": "yes"}
+  #     - actions: utter_ask_concentration_impairment
+  #     - intent: affirm_ask_concentration_impairment
+  #     - slot: {"concentration_impairment": "yes"}
+  #     - actions: utter_ask_appetite_changes
+  #     - intent: affirm_ask_appetite_changes
+  #     - slot: {"appetite_changes": "yes"}
+  #     - actions: utter_ask_psychomotor_disturbances
+  #     - intent: affirm_ask_psychomotor_disturbances
+  #     - slot: {"psychomotor_disturbances": "yes"}
+  #     - actions: utter_ask_suicidal_thoughts
+  #     - intent: affirm_ask_suicidal_thoughts
+
+  #     - slot: {"suicidal_thoughts": "yes"}
+  #     - actions: utter_ask_depressed_mood
+
+  #     - intent: affirm_ask_depressed_mood
+
+  #     - slot: {"depressed_mood": "yes"}
+  #     - actions: utter_positive_likelihood_depression
+      
+  #     - intent: deny_ask_sleep_disturbance
+
+  #     - slot: {"sleep_disturbance": "no"}
+  #     - actions: utter_ask_interest_reduction
+      
+  #     - intent: deny_ask_interest_reduction
+
+  #     - slot: {"interest_reduction": "no"}
+  #     - actions: utter_ask_guilt_feelings
+      
+  #     - intent: deny_ask_guilt_feelings
+
+  #     - slot: {"guilt_feelings": "no"}
+  #     - actions: utter_ask_energy_changes
+      
+  #     - intent: deny_ask_energy_changes
+
+  #     - slot: {"energy_changes": "no"}
+  #     - actions: utter_ask_concentration_impairment
+      
+  #     - intent: deny_ask_concentration_impairment
+
+  #     - slot: {"concentration_impairment": "no"}
+  #     - actions: utter_ask_appetite_changes
+  
+  #     - intent: deny_ask_appetite_changes
+
+  #     - slot: {"appetite_changes": "no"}
+  #     - actions: utter_ask_psychomotor_disturbances
+      
+  #     - intent: deny_ask_psychomotor_disturbances
+
+  #     - slot: {"psychomotor_disturbances": "no"}
+  #     - actions: utter_ask_suicidal_thoughts
+      
+  #     - intent: deny_ask_suicidal_thoughts
+
+  #     - slot: {"suicidal_thoughts": "no"}
+  #     - actions: utter_ask_depressed_mood
+    
+  #     - intent: deny_ask_depressed_mood
+
+  #     - slot: {"depressed_mood": "no"}
+  #     - actions: utter_negative_likelihood_depression
+
+
+

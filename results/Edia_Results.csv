@@ -1,0 +1,64 @@
+Row Labels,Sum of recall
+affirm,1
+body_image_eating_disorders,1
+bot_challenge,1
+company_no_employees,1
+coping_strategies_alcohol_use_disorders,0.4
+coping_strategies_anxiety_disorders,1
+coping_strategies_bipolar_disorder,1
+coping_strategies_depression,1
+coping_strategies_eating_disorders,0.8
+coping_strategies_schizophrenia,0.333333333
+deny,1
+discussing_mental_health,1
+feeling_schizophrenia,1
+find_support_resources_bipolar_disorder,1
+gender,1
+goodbye,1
+greet,0.928571429
+health_benefits,0.714285714
+health_resources,1
+history_mental_illness,0.833333333
+identify_alcohol_use_symptoms,1
+identify_anxiety_symptoms,1
+identify_depression_symptoms,1
+identify_drug_use_symptoms,1
+identify_eating_disorder_symptoms,1
+learn_about_alcohol_use_disorders,1
+learn_about_anxiety_disorders,0.833333333
+learn_about_bipolar_disorder,1
+learn_about_depression,1
+learn_about_drug_use_disorders,1
+learn_about_eating_disorders,1
+learn_about_schizophrenia,1
+macro avg,0.934603175
+medical_leave,1
+medication_management_bipolar_disorder,1
+medication_management_schizophrenia,1
+micro avg,0.949109415
+mood_great,1
+mood_unhappy,1
+name_entry,1
+negative_consequences_mental_collegaue,1
+relapse_prevention_drug_use_disorders,1
+self_employment,1
+serious_mental_health,1
+stress_reduction_schizophrenia,1
+support_network_alcohol_use_disorders,1
+support_network_anxiety_disorders,1
+support_network_depression,1
+support_network_drug_use_disorders,0.8
+tech_company,1
+thanks,1
+treatment_anonymity,1
+treatment_options_alcohol_use_disorders,1
+treatment_options_depression,0.6
+treatment_options_drug_use_disorders,1
+treatment_options_eating_disorders,1
+understand_symptoms_bipolar_disorder,1
+weighted avg,0.949109415
+wellbeing,1
+willing_to_discuss_adviser,1
+willing_to_discuss_collegaue,1
+work_interference,0.833333333
+Grand Total,58.90901248

@@ -1,0 +1,294 @@
+nlu:
+  - intent: learn_about_eating_disorders
+    examples: |
+      - What are eating disorders?
+      - Tell me about eating disorders.
+      - Explain an eating disorder.
+      - What causes eating disorders?
+      - How can I help someone with an eating disorder?
+    
+  - intent: learn_about_eating_disorder_types
+    examples: |
+      - What are the different types of eating disorders?
+      - Are there different kinds of eating disorders? 
+      - Tell me about other eating disorders.
+      - What other eating disorders are there?
+
+  - intent: learn_about_anorexia
+    examples: |
+      - Tell me about Anorexia Nervosa.
+      - What is Anorexia Nervosa?
+      - Explain Anorexia Nervosa.
+    
+  - intent: learn_about_bulimia
+    examples: |
+      - Tell me about Bulimia Nervosa.
+      - What is Bulimia Nervosa?
+      - Explain Bulimia Nervosa.
+    
+  - intent: learn_about_bed
+    examples: |
+      - Tell me about Binge-Eating Disorder.
+      - Tell me about BED.
+      - What is Binge-Eating Disorder?
+      - What is BED?
+      - Explain Binge-Eating Disorder.
+      - Explain BED.
+    
+  - intent: learn_about_arfid
+    examples: |
+      - Tell me about Avoidant/Restrictive Food Intake Disorder.
+      - Tell me about ARFID.
+      - What is Avoidant/Restrictive Food Intake Disorder?
+      - What is ARFID?
+      - Explain Avoidant/Restrictive Food Intake Disorder.
+      - Explain ARFID.
+    
+  - intent: learn_about_orthorexia
+    examples: |
+      - Tell me about Orthorexia Nervosa.
+      - What is Orthorexia Nervosa?
+      - Explain Orthorexia Nervosa.
+    
+  - intent: learn_about_osfed
+    examples: |
+      - Tell me about Other Specified Feeding or Eating Disorder.
+      - Tell me about OSFED.
+      - What is Other Specified Feeding or Eating Disorder?
+      - What is OSFED?
+      - Explain Other Specified Feeding or Eating Disorder.
+      - Explain OSFED.
+    
+  - intent: learn_about_bigorexia
+    examples: |
+      - Tell me about Muscle Dysmorphia.
+      - Tell me about Bigorexia.
+      - What is Muscle Dysmorphia?
+      - What is Bigorexia?
+      - Explain Muscle Dysmorphia.
+      - Explain Bigorexia.
+
+  - intent: learn_about_pica
+    examples: |
+      - Tell me about Pica.
+      - What is Pica?
+      - Explain Pica.
+
+  - intent: learn_about_rumination
+    examples: |
+      - Tell me about Rumination Disorder.
+      - What is Rumination Disorder?
+      - Explain Rumination Disorder.
+
+  - intent: identify_eating_disorder_symptoms
+    examples: |
+      - What are the signs of anorexia?
+      - How can I recognize bulimia symptoms?
+      - Tell me about binge eating disorder symptoms.
+      - How does an eating disorder affect weight?
+      - What are the physical effects of eating disorders?
+    
+  - intent: learn_eating_disorder_effects
+    examples: |
+      - How does my eating disorder affect me physically?
+      - How does my eating disorder affect me mentally?
+      - How does my eating disorder affect me socially?
+      - Will my friends and family think about me?
+
+  - intent: coping_strategies_for_eating_disorders
+    examples: |
+      - How can I manage my eating disorder?
+      - What are some coping strategies for eating disorders?
+      - What are some strategies for developing a healthier relationship with food?
+
+  - intent: treatment_options_for_eating_disorders
+    examples: |
+      - What are the treatment options for eating disorders?
+      - Tell me about therapy for eating disorder recovery.
+      - How can I find an eating disorder specialist?
+      - Are there any support groups for eating disorder recovery?
+      - What role does nutrition play in eating disorder treatment?
+
+  - intent: body_image_concerning_eating_disorders
+    examples: |
+      - How can I improve my body image?
+      - Tell me about body positivity and eating disorders.
+      - How does social media impact body image?
+      - What are some strategies for developing a healthier body image?
+      - Can you recommend any resources for body acceptance?
+
+  - intent: expressing_struggles_or_concerns_with_eating_disorders
+    examples: |
+      - I don't feel good about my body.
+      - I don't feel accepted.
+      - I don't feel like myself with my body.
+      - I eat whenever I feel anxious.
+      - I eat whenever I feel stressed.
+      - I eat whenever I feel something bad.
+
+  - intent: self_care_for_eating_disorders
+    examples: |
+      - How can I handle triggers and urges?
+      - Tell me about self-care techniques for eating disorder recovery.
+      - Tell me alternatives to do when I get the urge to eat?
+
+responses:
+  utter_learn_about_eating_disorders:
+    - text: "Eating disorders are serious mental health conditions characterized by unhealthy eating patterns and distorted attitudes toward food, weight, and body image. They include anorexia nervosa, bulimia nervosa, binge eating disorder, and other specified feeding or eating disorders. Would you like more information about specific eating disorders or their causes?"
+    - text: "Eating disorders can involve restrictive eating, binge eating, purging behaviors, and excessive concerns about weight and body shape. They can have severe physical and psychological consequences. It's important to seek help from healthcare professionals for accurate diagnosis and effective treatment."
+
+  utter_learn_about_eating_disorder_types:
+    - text: "Eating disorders are complex mental health conditions characterized by abnormal eating habits and a preoccupation with body weight and shape. There are several different types of eating disorders, including: Anorexia Nervosa, Bulimia Nervosa, Binge-Eating Disorder, Avoidant/Restrictive Food Intake Disorder, Orthorexia Nervosa, Other Specified Feeding or Eating Disorder, Muscle Dysmorphia, Pica, and Rumination Disorder."
+
+  utter_learn_about_anorexia:
+    - text: "Anorexia is characterized by an extreme fear of gaining weight and a distorted body image. People with anorexia may severely restrict their food intake, leading to significant weight loss, malnutrition, and other physical and psychological health issues."
+
+  utter_learn_about_bulimia:
+    - text: "Bulimia involves a cycle of binge eating, where individuals consume large amounts of food in a short period, followed by compensatory behaviors such as self-induced vomiting, laxative use, or excessive exercise to rid the body of the calories consumed during the binge."
+
+  utter_learn_about_bed:
+    - text: "Binge-Eating Disorder or BED is characterized by recurrent episodes of binge eating without compensatory behaviors. Individuals with BED often feel a loss of control during binges and experience feelings of guilt and shame afterward."
+
+  utter_learn_about_arfid:
+    - text: "Avoidant/Restrictive Food Intake Disorder or ARFID involves severe and selective food restrictions, often driven by sensory sensitivities, fear of choking, or other food-related concerns. This can lead to inadequate nutrition and weight loss."
+  
+  utter_learn_about_orthorexia:
+    - text: "Orthorexia is an obsession with eating only foods that are considered healthy, clean, or pure. While this may seem like a positive focus on health, it can become extreme and lead to malnutrition and social isolation."
+
+  utter_learn_about_osfed:
+    - text: "Other Specified Feeding or Eating Disorder or OSFED is used for individuals who exhibit disordered eating patterns that do not meet the criteria for other specific eating disorders. It includes a range of symptoms and behaviors related to eating, weight, and body image."
+
+  utter_learn_about_bigorexia:
+    - text: "Muscle Dysmorphia or Bigorexia is more common in men and is characterized by an excessive preoccupation with bodybuilding, muscle mass, and achieving a hyper-muscular physique. Individuals with muscle dysmorphia may engage in excessive exercise and dietary behaviors."
+
+  utter_learn_about_pica:
+    - text: "Pica is characterized by the consumption of non-nutritive, non-food substances such as dirt, chalk, paper, or ice. This behavior can have serious health consequences."
+
+  utter_learn_about_rumination:
+    - text: "Rumination disorder involves the repeated regurgitation of food, which is then re-chewed, re-swallowed, or spit out. This behavior is not related to a medical condition and is not due to another eating disorder."
+
+  utter_identify_eating_disorder_symptoms:
+    - text: "Recognizing the signs of an eating disorder can include extreme weight loss, preoccupation with food and weight, strict dieting or fasting, excessive exercising, avoiding social eating situations, and distorted body image. It's crucial to consult a healthcare professional for a proper assessment."
+    - text: "Common symptoms of eating disorders may include significant changes in weight, obsession with food and body image, secretive eating habits, mood swings, self-esteem issues, and social withdrawal. It's important to be aware of these signs and encourage individuals to seek professional help."
+
+  utter_eating_disorder_effects:
+    - text: "The effects of eating disorder can vary. It includes inconsistent times of hunger or amount of consumption. It can even induce consumption of inedible materials and substances. It can also lead to phyiscal and mental deterioration, and social isolation."
+
+  utter_coping_strategies_for_eating_disorders:
+    - text: "The important thing is that you are accepted by, communicated to, and surrounded by your friends and family. They will be the ones that will be with you in your journey of health. They will stay by you, as they always have."
+    - text: "Managing an eating disorder involves developing healthy coping strategies such as seeking therapy or counseling, practicing self-care activities, building a support system, challenging negative thoughts, and adopting a balanced approach to food and exercise. It's essential to work with professionals to develop an individualized plan."
+    - text: "Coping with an eating disorder requires a multi-faceted approach. Some strategies include journaling, mindfulness exercises, participating in support groups, setting realistic goals, and practicing self-compassion. It's important to remember that recovery is a journey, and professional guidance can be invaluable."
+
+  utter_treatment_options_for_eating_disorders:
+    - text: "Treatment for eating disorders often includes a combination of therapy, medical monitoring, nutrition counseling, and, in some cases, medication. Therapies such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and family-based therapy (FBT) can be effective. It's essential to consult with healthcare professionals to determine the best treatment approach."
+    - text: "There are various treatment options available for eating disorders, including individual therapy, group therapy, residential treatment programs, and outpatient programs. These approaches aim to address the underlying psychological, emotional, and behavioral aspects of the disorder. It's important to find a treatment team that specializes in eating disorder recovery."
+
+  utter_body_image_concerning_eating_disorders:
+    - text: "Improving body image involves challenging negative thoughts and societal beauty standards, focusing on self-acceptance and self-care, surrounding yourself with positive influences, practicing self-compassion, and seeking professional support if needed. It's important to prioritize overall well-being rather than solely focusing on appearance."
+    - text: "Body image is a complex issue, especially in the context of eating disorders. Promoting body positivity, fostering a healthy relationship with oneself, and developing self-esteem can support recovery. Engaging in activities that promote self-expression and connecting with supportive communities can also contribute to improving body image."
+
+  utter_validation_for_eating_disorders:
+    - text: "Your eating habits could be caused by external factors, but it is important that you prioritize your health. Would you like to share your eating habits?"
+    - text: "You don't have to rush things. Take your time adjusting your eating habits. Would you like to share your eating habits?"
+
+  utter_self_care_for_eating_disorders:
+    - text: "It is important to recognize what triggers your urges to eat and methodically work with or around them. You can do this by doing something else to redirect your feelings of eating to something else. It could be exercise, creation, meditation, studying, etc."
+    - text: "A good way to channel your eating disorder is to eat a plant-based diet and consume fiber-rich products to maintain the urges of hunger and to prolong food satisfaction and the feeling of fullness."
+
+stories:
+- story: Eating Disorder Conversation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: learn_about_eating_disorders
+  - action: utter_learn_about_eating_disorders
+  - intent: identify_eating_disorder_symptoms
+  - action: utter_identify_eating_disorder_symptoms
+  - intent: coping_strategies
+  - action: utter_coping_strategies
+  - intent: treatment_options
+  - action: utter_treatment_options
+  - intent: body_image
+  - action: utter_body_image
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Eating Disorder Support
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: learn_about_eating_disorders
+  - action: utter_learn_about_eating_disorders
+  - intent: coping_strategies
+  - action: utter_coping_strategies
+  - intent: treatment_options
+  - action: utter_treatment_options
+  - intent: support_network
+  - action: utter_support_network
+  - intent: additional_resources
+  - action: utter_additional_resources
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: Exploring Eating Disorders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: learn_about_eating_disorders
+  - action: utter_learn_about_eating_disorders
+  - intent: learn_about_anorexia
+  - action: utter_learn_about_anorexia
+  - intent: learn_about_bulimia
+  - action: utter_learn_about_bulimia
+  - intent: learn_about_bed
+  - action: utter_learn_about_bed
+  - intent: learn_about_arfid
+  - action: utter_learn_about_arfid
+  - intent: learn_about_orthorexia
+  - action: utter_learn_about_orthorexia
+  - intent: learn_about_osfed
+  - action: utter_learn_about_osfed
+  - intent: learn_about_bigorexia
+  - action: utter_learn_about_bigorexia
+  - intent: learn_about_pica
+  - action: utter_learn_about_pica
+  - intent: learn_about_rumination
+  - action: utter_learn_about_rumination
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Self-Care and Coping for Eating Disorders
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: learn_about_eating_disorders
+  - action: utter_learn_about_eating_disorders
+  - intent: coping_strategies_for_eating_disorders
+  - action: utter_coping_strategies_for_eating_disorders
+  - intent: self_care_for_eating_disorders
+  - action: utter_self_care_for_eating_disorders
+  - intent: body_image_concerning_eating_disorders
+  - action: utter_body_image_concerning_eating_disorders
+  - intent: expressing_struggles_or_concerns_with_eating_disorders
+  - action: utter_validation_for_eating_disorders
+  - intent: self_care_for_eating_disorders
+  - action: utter_self_care_for_eating_disorders
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Comforting the User
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: user_feeling_sad
+  - action: utter_user_feeling_sad
+  - intent: user_provides_details
+  - action: utter_ask_more_about_feelings
+  - intent: user_shares_details
+  - action: utter_encourage_sharing
+  - intent: user_wants_advice
+  - action: utter_validation_for_eating_disorders
+  - intent: thank_you
+  - action: utter_you_are_welcome
+  - intent: goodbye
+  - action: utter_goodbye

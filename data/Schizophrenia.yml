@@ -1,0 +1,55 @@
+nlu:
+  - intent: learn_about_schizophrenia
+    examples: |
+      - about schizophrenia
+      - population schizophrenia
+      - symptoms schizophrenia
+
+  - intent: feeling_schizophrenia
+    examples: |
+      - hallucinations
+      - hallucination
+      - delusions
+      - delusion
+      - delusional
+      - cannot speak well
+      - can't speak well
+      - seeing unicorns
+      - weird animals
+
+  - intent: coping_strategies_schizophrenia
+    examples: |
+      - coping strategies
+      - how to cope with schizophrenia
+      - managing symptoms
+
+  - intent: medication_management_schizophrenia
+    examples: |
+      - medication management
+      - how to manage schizophrenia medications
+      - Adhering to medication regimen
+
+  - intent: stress_reduction_schizophrenia
+    examples: |
+      - stress reduction techniques
+      - managing stress with schizophrenia
+      - relaxation techniques
+
+responses:
+  utter_learn_about_schizophrenia:
+    - text: "Schizophrenia is a chronic mental disorder characterized by hallucinations, delusions, disorganized thinking, and other symptoms. It affects individuals' perceptions of reality. Would you like more information about the symptoms or treatments?"
+  utter_feeling_schizophrenia:
+    - text: "Symptoms of schizophrenia can include hallucinations, such as hearing voices, delusions, disorganized thinking and speech, lack of motivation, social withdrawal, and difficulty in concentrating. These symptoms can vary in severity and may impact daily functioning."
+    - text: "Common signs of schizophrenia include a combination of positive symptoms like hallucinations and delusions, negative symptoms like reduced emotional expression and lack of motivation, cognitive impairments, and disorganized behavior. It's important to consult a healthcare professional for a comprehensive evaluation."
+    - text: "The exact causes of schizophrenia are still being researched, but it is believed to result from a combination of genetic, environmental, and neurochemical factors. Factors such as family history, brain chemistry imbalances, and early-life stress may contribute to the development of schizophrenia."
+    - text: "Schizophrenia affects about 1% of the global population. It can occur in both men and women, typically emerging in late adolescence or early adulthood. Early detection, intervention, and appropriate treatment can help manage symptoms and improve quality of life."
+
+  suggest_coping_strategies_schizophrenia:
+    - text: "Some effective coping strategies for managing schizophrenia symptoms include engaging in regular exercise, practicing relaxation techniques like deep breathing or mindfulness, maintaining a structured routine, seeking support from friends and family, and participating in activities that bring joy and fulfillment."
+  utter_recommend_medication_management_schizophrenia:
+    - text: "There are various support options available for individuals with schizophrenia and their families. Support groups, counseling services, and online communities can provide valuable resources and connections."
+  utter_stress_reduction_techniques_schizophrenia:
+    - text: "Managing symptoms of schizophrenia involves a combination of medication, therapy, and support. It's important to work with healthcare professionals for personalized treatment options. Would you like to know more about coping strategies or treatment approaches?"
+
+  recommend_medication_management_schizophrenia:
+    - text: "Proper medication management is crucial for managing schizophrenia symptoms. It is important to take medications as prescribed, attend regular check-ups with a healthcare professional, and communicate any concerns or side effects. Following a consistent medication regimen can help stabilize symptoms and improve overall well-being."

@@ -1,0 +1,429 @@
+nlu:
+  - intent: alcohol_disorder_struggles
+    examples: |
+      - Intense mood shifts.
+      - Control drinking.
+      - Suspect Alcohol Use Disorder.
+      - Hard to handle.
+      - Extreme highs and lows.
+      - Finding it tough.
+      - Need help with drinking.
+      - Difficult habits.
+      - Overwhelming at times.
+      - Possible Alcohol Use Disorder.
+      - Dealing with extremes.
+      - Coping with consumption.
+      - Managing highs and lows.
+      - Concerned about drinking.
+      - Struggling with balance.
+      - Feeling up and down.
+      - Hard to control.
+      - Mood swings evident.
+      - Finding it overwhelming.
+      - I think I have a problem.
+      - Facing serious challenges.
+      - Dealing with intensity.
+      - Extreme mood swings.
+      - Having difficulty.
+      - Control slipping away.
+      - Finding it hard.
+      - Need advice on drinking.
+      - Emotional rollercoaster.
+      - Struggling with balance.
+      - Possible problem.
+      - Need guidance.
+
+  - intent: ask_guidance_for_alcohol
+    examples: |
+      - Manage Alcohol Use Disorder.
+      - Control drinking habits.
+      - Handle without clinics.
+      - Coping strategies.
+      - Strategies for control.
+      - Manage without clinics.
+      - Overcoming challenges.
+      - Tips for moderation.
+      - Support without clinics.
+      - Manage without help.
+      - Strategies for coping.
+      - Overcome challenges.
+      - Control consumption.
+      - Tips for balance.
+      - Handle without help.
+      - Coping advice.
+      - Strategies for stability.
+      - Support without help.
+      - Manage on my own.
+      - Overcome problems.
+      - Control habits.
+      - Tips for management.
+      - Handle independently.
+      - Coping techniques.
+      - Strategies for handling.
+      - Support independently.
+      - Manage by myself.
+      - Overcome difficulties.
+      - Control on my own.
+      - Tips for self-management.
+
+  - intent: alcohol_coping_activities
+    examples: |
+      - Coping activities.
+      - Hobbies for stability.
+      - Manage condition.
+      - Activities for control.
+      - Strategies for balance.
+      - Techniques for stability.
+      - Practices for management.
+      - Hobbies for control.
+      - Coping mechanisms.
+      - Methods for stability.
+      - Activities for stability.
+      - Strategies for moderation.
+      - Techniques for control.
+      - Practices for stability.
+      - Hobbies for management.
+      - Coping strategies.
+      - Methods for balance.
+      - Activities for moderation.
+      - Strategies for self-care.
+      - Techniques for moderation.
+      - Practices for balance.
+      - Hobbies for self-care.
+      - Coping techniques.
+      - Methods for self-care.
+      - Activities for self-care.
+      - Strategies for well-being.
+      - Techniques for self-care.
+      - Practices for self-care.
+      - Hobbies for well-being.
+      - Coping methods.
+
+  - intent: alcohol_disorder_challenges
+    examples: |
+      - Struggling with consumption.
+      - Difficult habits.
+      - Finding it hard.
+      - Need advice.
+      - Emotional rollercoaster.
+      - Struggling with balance.
+      - Possible problem.
+      - Need guidance.
+      - Intense mood swings.
+      - Control slipping away.
+      - Finding it overwhelming.
+      - I think I have a problem.
+      - Facing serious challenges.
+      - Dealing with intensity.
+      - Extreme mood swings.
+      - Having difficulty.
+      - Control habits.
+      - Tips for balance.
+      - Handle independently.
+      - Coping techniques.
+      - Strategies for handling.
+      - Support independently.
+      - Manage by myself.
+      - Overcome difficulties.
+      - Control on my own.
+      - Tips for self-management.
+      - Activities for stability.
+      - Strategies for moderation.
+      - Techniques for control.
+      - Practices for stability.
+      - Hobbies for management.
+
+  - intent: ask_support_for_alcohol
+    examples: |
+      - Get professional support.
+      - Resources for coping.
+      - Manage without clinics.
+      - Overcoming challenges.
+      - Tips for moderation.
+      - Support without clinics.
+      - Manage without help.
+      - Overcome problems.
+      - Control habits.
+      - Tips for management.
+      - Handle independently.
+      - Coping techniques.
+      - Strategies for handling.
+      - Support independently.
+      - Manage by myself.
+      - Overcome difficulties.
+      - Control on my own.
+      - Tips for self-management.
+      - Activities for stability.
+      - Strategies for moderation.
+      - Techniques for control.
+      - Practices for stability.
+      - Hobbies for management.
+      - Get help.
+      - Resources for stability.
+      - Manage without professionals.
+      - Tips for control.
+      - Support without professionals.
+      - Overcome challenges.
+      - Control on my own.
+      - Tips for self-care.
+
+  - intent: alcohol_management_strategies
+    examples: |
+      - Control drinking.
+      - Manage Alcohol Use Disorder.
+      - Tips for balance.
+      - Techniques for stability.
+      - Practices for control.
+      - Hobbies for stability.
+      - Coping strategies.
+      - Strategies for control.
+      - Manage without clinics.
+      - Overcoming challenges.
+      - Tips for moderation.
+      - Support without clinics.
+      - Manage without help.
+      - Overcome problems.
+      - Control habits.
+      - Tips for management.
+      - Handle independently.
+      - Coping techniques.
+      - Strategies for handling.
+      - Support independently.
+      - Manage by myself.
+      - Overcome difficulties.
+      - Control on my own.
+      - Tips for self-management.
+      - Activities for stability.
+      - Strategies for moderation.
+      - Techniques for control.
+      - Practices for stability.
+      - Hobbies for management.
+      - Strategies for self-care.
+
+  - intent: alcohol_duration
+    examples: |
+      - More than a week.
+      - Less than a week.
+      - Not sure.
+      - About two weeks.
+      - Few days.
+      - Can't pinpoint.
+      - Weeks now.
+      - A few days.
+      - Started recently.
+      - Recently began.
+      - Unsure of timing.
+      - Started a while ago.
+      - Can't specify.
+      - Recently started.
+      - Been a while.
+      - Can't say exactly.
+      - Around two weeks.
+      - Just started.
+      - Less than a month.
+      - Less than two weeks.
+      - More than two weeks.
+      - Just began.
+      - Recently noticed.
+      - Not sure when.
+      - Started recently.
+      - Within the month.
+      - Less than a fortnight.
+      - More than a fortnight.
+      - Been going on.
+      - Recently experienced.
+
+  - intent: seek_professional_help_alcohol
+    examples: |
+      - See a doctor.
+      - Consult a professional.
+      - Seek medical help.
+      - Get professional advice.
+      - Talk to a doctor.
+      - Consult healthcare.
+      - Need a doctor's opinion.
+      - Ask a healthcare provider.
+      - Professional opinion.
+      - Medical advice needed.
+      - Should I see a doctor?
+      - Advisable to consult.
+      - Need to seek help.
+      - Opinion on seeing a doctor?
+      - Is it advisable?
+      - Talk to a healthcare provider.
+      - Seek medical opinion.
+      - Get professional help.
+      - Ask for a doctor's opinion.
+      - Is a doctor's opinion needed?
+      - Consult a healthcare provider.
+      - Should I consult a doctor?
+      - Is medical advice needed?
+      - Need professional advice.
+      - Is it recommended?
+      - Is a doctor's advice needed?
+      - Should I consult a professional?
+      - Is a healthcare provider needed?
+      - Is a professional opinion needed?
+      - Is medical help needed?
+      - Is it advisable to seek help?
+
+  - intent: prevent_alcohol_abuse
+    examples: |
+      - Prevent alcohol abuse.
+      - Strategies to avoid abuse.
+      - Maintain a healthy relationship.
+      - Lifestyle changes for prevention.
+      - Reduce risk of abuse.
+      - Avoid developing problems.
+      - Tips for moderation.
+      - Strategies for control.
+      - Maintain balance with alcohol.
+      - Foster a healthy relationship.
+      - Prevent misuse of alcohol.
+      - Make healthy lifestyle choices.
+      - Establish a balanced relationship.
+      - Avoid excessive alcohol consumption.
+      - Create a healthy lifestyle.
+      - Foster responsible alcohol use.
+      - Strategies for responsible drinking.
+      - Make positive lifestyle changes.
+      - Cultivate a healthy relationship.
+      - Promote responsible alcohol use.
+      - Strategies for balanced consumption.
+      - Make lifestyle adjustments.
+      - Foster a positive alcohol relationship.
+      - Establish a balanced approach.
+      - Avoid excessive drinking.
+      - Create a balanced approach.
+      - Foster responsible drinking habits.
+      - Make lifestyle modifications.
+      - Promote a healthy alcohol relationship.
+      - Establish a healthy approach.
+      - Avoid excessive alcohol intake.
+
+  - intent: self_care_tips_alcohol
+    examples: |
+      - Coping with alcohol struggles.
+      - Prioritizing self-care in recovery.
+      - Self-care for Alcohol Use Disorder.
+      - Managing alcohol, self-care tips.
+      - Balancing self-care and alcohol.
+      - Alcohol issues, self-care practices.
+      - Self-care while dealing with alcohol.
+      - Supporting recovery, self-care practices.
+      - Prioritizing self-care in alcohol control.
+      - Self-care for alcohol challenges.
+      - Alcohol, self-care techniques.
+      - Coping with alcohol, self-care.
+
+
+responses:
+  utter_alcohol_disorder_struggles:
+    - text: "I'm really sorry to hear that you're going through this. Dealing with alcohol consumption can be incredibly challenging. Can you tell me more about what you've been experiencing?"
+    - text: "Thank you for sharing. Coping with drinking habits is not easy. Can you tell me more about how it's affecting you?"
+
+  utter_ask_guidance_for_alcohol:
+    - text: "Managing Alcohol Use Disorder is important. You might try activities that support recovery. Additionally, seeking professional help is crucial. What feels like it might work for you?"
+    - text: "Dealing with Alcohol Use Disorder can be complex. Trying activities that support recovery can be beneficial. Finding professional support is also essential. How does that sound?"
+
+  utter_alcohol_coping_activities:
+    - text: "There are activities that can help you control your drinking. Exploring creative outlets or engaging in physical activities can be really beneficial for Alcohol Use Disorder. Would any of these resonate with you?"
+    - text: "Exploring activities that support recovery is crucial. Engaging in creative or physical pursuits might make a difference. What are you open to trying?"
+
+  utter_alcohol_disorder_challenges:
+    - text: "Experiencing difficulties with alcohol consumption is a common challenge. It's important to address this. Can you tell me how long you've been struggling with this?"
+  
+  utter_ask_alcohol_duration:
+    - text: "Have you been struggling with alcohol consumption for more than a week?"
+
+  utter_ask_support_for_alcohol:
+    - text: "Professional support is crucial for managing Alcohol Use Disorder. It's advised to consult a healthcare professional for an accurate assessment. In the meantime, you can explore resources and engage in self-care. Have you reached out to a healthcare professional recently?"
+
+  utter_alcohol_management_strategies:
+    - text: "Managing Alcohol Use Disorder involves a comprehensive approach. It's important to consult a healthcare professional for personalized guidance. In the meantime, maintaining a regular routine, practicing mindfulness, and avoiding triggers can be helpful. Have you noticed any specific triggers for your drinking?"
+
+  utter_seek_professional_help_alcohol:
+    - text: "I'm glad you're considering this. I'm here to provide support, but it's important to remember that I'm not a substitute for professional medical advice. I highly recommend consulting a healthcare professional who can offer a thorough evaluation and personalized guidance."
+
+  utter_prevent_alcohol_abuse:
+    - text: "Taking proactive steps to prevent alcohol abuse is important. Regular exercise, maintaining a balanced diet, and engaging in activities that promote mental well-being can be very beneficial. Would you like more information on these strategies?"
+
+  utter_exercise_and_diets_benefits:
+    - text: "Regular exercise and a balanced diet can have a significant positive impact on mental and physical well-being. They can also contribute to a healthy lifestyle that reduces the risk of alcohol abuse. Would you like more information on how to incorporate these into your routine?"
+
+  utter_self_care_tips:
+    - text: "Prioritizing self-care is crucial for overall well-being. It involves practices like getting regular exercise, maintaining a balanced diet, getting enough rest, and finding activities that bring you joy. Would you like more specific tips on self-care?"
+
+  utter_action_to_handle_alcohol_duration:
+    - text: "Please seek professional help immediately."
+    - text: "It's crucial to consult a healthcare provider ASAP."
+
+
+stories:
+  - story: Alcohol Use Disorder Coping
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: alcohol_disorder_struggles
+      - action: utter_alcohol_disorder_struggles
+      - intent: ask_guidance_for_alcohol
+      - action: utter_ask_guidance_for_alcohol
+      - intent: alcohol_coping_activities
+      - action: utter_alcohol_coping_activities
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Alcohol Use Disorder Support
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: alcohol_disorder_challenges
+      - action: utter_alcohol_disorder_challenges
+      - action: utter_ask_alcohol_duration
+      - intent: alcohol_duration
+      - action: action_to_handle_alcohol_duration
+      - intent: ask_support_for_alcohol
+      - action: utter_ask_support_for_alcohol
+      - intent: alcohol_management_strategies
+      - action: utter_alcohol_management_strategies
+      - intent: seek_professional_help_alcohol
+      - action: utter_seek_professional_help_alcohol
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Preventing Alcohol Use Disorder
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: prevent_alcohol_abuse
+      - action: utter_prevent_alcohol_abuse
+      - intent: exercise_and_diets_benefits
+      - action: utter_exercise_and_diets_benefits
+      - intent: self_care_tips_alcohol
+      - action: utter_self_care_tips_alcohol
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Alcohol Use Disorder Support with Prevention and Self-Care
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: alcohol_disorder_challenges
+      - action: utter_alcohol_disorder_challenges
+      - action: utter_ask_alcohol_duration
+      - intent: alcohol_duration
+      - action: action_to_handle_alcohol_duration
+      - intent: prevent_alcohol_abuse
+      - action: utter_prevent_alcohol_abuse
+      - intent: exercise_and_diets_benefits
+      - action: utter_exercise_and_diets_benefits
+      - intent: self_care_tips_alcohol
+      - action: utter_self_care_tips_alcohol
+      - intent: ask_support_for_alcohol
+      - action: utter_ask_support_for_alcohol
+      - intent: alcohol_management_strategies
+      - action: utter_alcohol_management_strategies
+      - intent: seek_professional_help_alcohol
+      - action: utter_seek_professional_help_alcohol
+      - intent: goodbye
+      - action: utter_goodbye

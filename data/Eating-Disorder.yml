@@ -1,0 +1,62 @@
+nlu:
+  - intent: learn_about_eating_disorders
+    examples: |
+      - What are eating disorders?
+      - Tell me about anorexia nervosa.
+      - Explain bulimia.
+      - What are the different types of eating disorders?
+      - What causes eating disorders?
+      - How can I help someone with an eating disorder?
+
+  - intent: identify_eating_disorder_symptoms
+    examples: |
+      - What are the signs of anorexia?
+      - How can I recognize bulimia symptoms?
+      - Tell me about binge eating disorder symptoms.
+      - How does an eating disorder affect weight?
+      - What are the physical effects of eating disorders?
+
+  - intent: coping_strategies_eating_disorders
+    examples: |
+      - How can I manage my eating disorder?
+      - What are some coping strategies for eating disorders?
+      - Tell me about self-care techniques for eating disorder recovery.
+      - How can I handle triggers and urges?
+      - What are some strategies for developing a healthier relationship with food?
+
+  - intent: treatment_options_eating_disorders
+    examples: |
+      - What are the treatment options for eating disorders?
+      - Tell me about therapy for eating disorder recovery.
+      - How can I find an eating disorder specialist?
+      - Are there any support groups for eating disorder recovery?
+      - What role does nutrition play in eating disorder treatment?
+
+  - intent: body_image_eating_disorders
+    examples: |
+      - How can I improve my body image?
+      - Tell me about body positivity and eating disorders.
+      - How does social media impact body image?
+      - What are some strategies for developing a healthier body image?
+      - Can you recommend any resources for body acceptance?
+
+responses:
+  utter_learn_about_eating_disorders:
+    - text: "Eating disorders are serious mental health conditions characterized by unhealthy eating patterns and distorted attitudes toward food, weight, and body image. They include anorexia nervosa, bulimia nervosa, binge eating disorder, and other specified feeding or eating disorders. Would you like more information about specific eating disorders or their causes?"
+    - text: "Eating disorders can involve restrictive eating, binge eating, purging behaviors, and excessive concerns about weight and body shape. They can have severe physical and psychological consequences. It's important to seek help from healthcare professionals for accurate diagnosis and effective treatment."
+
+  utter_identify_eating_disorder_symptoms:
+    - text: "Recognizing the signs of an eating disorder can include extreme weight loss, preoccupation with food and weight, strict dieting or fasting, excessive exercising, avoiding social eating situations, and distorted body image. It's crucial to consult a healthcare professional for a proper assessment."
+    - text: "Common symptoms of eating disorders may include significant changes in weight, obsession with food and body image, secretive eating habits, mood swings, self-esteem issues, and social withdrawal. It's important to be aware of these signs and encourage individuals to seek professional help."
+
+  utter_coping_strategies_eating_disorders:
+    - text: "Managing an eating disorder involves developing healthy coping strategies such as seeking therapy or counseling, practicing self-care activities, building a support system, challenging negative thoughts, and adopting a balanced approach to food and exercise. It's essential to work with professionals to develop an individualized plan."
+    - text: "Coping with an eating disorder requires a multi-faceted approach. Some strategies include journaling, mindfulness exercises, participating in support groups, setting realistic goals, and practicing self-compassion. It's important to remember that recovery is a journey, and professional guidance can be invaluable."
+
+  utter_treatment_options_eating_disorders:
+    - text: "Treatment for eating disorders often includes a combination of therapy, medical monitoring, nutrition counseling, and, in some cases, medication. Therapies such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and family-based therapy (FBT) can be effective. It's essential to consult with healthcare professionals to determine the best treatment approach."
+    - text: "There are various treatment options available for eating disorders, including individual therapy, group therapy, residential treatment programs, and outpatient programs. These approaches aim to address the underlying psychological, emotional, and behavioral aspects of the disorder. It's important to find a treatment team that specializes in eating disorder recovery."
+
+  utter_body_image_eating_disorders:
+    - text: "Improving body image involves challenging negative thoughts and societal beauty standards, focusing on self-acceptance and self-care, surrounding yourself with positive influences, practicing self-compassion, and seeking professional support if needed. It's important to prioritize overall well-being rather than solely focusing on appearance."
+    - text: "Body image is a complex issue, especially in the context of eating disorders. Promoting body positivity, fostering a healthy relationship with oneself, and developing self-esteem can support recovery. Engaging in activities that promote self-expression and connecting with supportive communities can also contribute to improving body image."

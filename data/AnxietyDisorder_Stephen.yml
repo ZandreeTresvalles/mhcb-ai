@@ -1,0 +1,475 @@
+nlu:
+  - intent: anxiety_disorder_struggles
+    examples: |
+      - Constant worry.
+      - Overwhelming anxiety.
+      - Struggling with panic.
+      - Intrusive thoughts.
+      - Feeling on edge.
+      - Difficulty relaxing.
+      - Nervous all the time.
+      - Racing heart.
+      - Avoiding situations.
+      - Trouble concentrating.
+      - Overthinking everything.
+      - Fearful thoughts.
+      - Feeling tense.
+      - Experiencing restlessness.
+      - Sweating excessively.
+      - Avoiding social events.
+      - Feeling trapped.
+      - Uncontrollable fear.
+      - Trembling or shaking.
+      - Need help with anxiety.
+      - Experiencing dread.
+      - Heart palpitations.
+      - Finding it hard.
+      - Need advice on anxiety.
+      - Chest tightness.
+      - Overwhelmed by fear.
+      - Struggling with nerves.
+      - Feeling helpless.
+      - Difficulty breathing.
+      - Need guidance.
+
+  - intent: ask_guidance_for_anxiety
+    examples: |
+      - Manage anxiety.
+      - Coping with panic.
+      - Handle without clinics.
+      - Strategies for control.
+      - Techniques for stability.
+      - Practices for management.
+      - Hobbies for stability.
+      - Coping strategies.
+      - Strategies for self-care.
+      - Overcoming challenges.
+      - Tips for relaxation.
+      - Support without clinics.
+      - Manage without help.
+      - Overcome problems.
+      - Control habits.
+      - Tips for management.
+      - Handle independently.
+      - Coping techniques.
+      - Support independently.
+      - Manage by myself.
+      - Overcome difficulties.
+      - Control on my own.
+      - Tips for self-management.
+      - Activities for stability.
+      - Strategies for relaxation.
+      - Techniques for control.
+      - Practices for stability.
+      - Hobbies for self-care.
+      - Get help.
+      - Resources for stability.
+
+  - intent: anxiety_coping_activities
+    examples: |
+      - Coping activities.
+      - Hobbies for stability.
+      - Manage condition.
+      - Activities for control.
+      - Techniques for stability.
+      - Practices for control.
+      - Hobbies for control.
+      - Coping mechanisms.
+      - Methods for stability.
+      - Activities for stability.
+      - Strategies for moderation.
+      - Techniques for control.
+      - Practices for stability.
+      - Hobbies for management.
+      - Coping strategies.
+      - Methods for balance.
+      - Activities for moderation.
+      - Strategies for self-care.
+      - Techniques for moderation.
+      - Practices for balance.
+      - Hobbies for self-care.
+      - Coping techniques.
+      - Methods for self-care.
+      - Activities for self-care.
+      - Strategies for well-being.
+      - Techniques for self-care.
+      - Practices for self-care.
+      - Hobbies for well-being.
+      - Coping methods.
+
+  - intent: anxiety_disorder_challenges
+    examples: |
+      - Struggling with anxiety.
+      - Difficult to relax.
+      - Finding it hard.
+      - Need advice.
+      - Feeling trapped.
+      - Uncontrollable fear.
+      - Trembling or shaking.
+      - Overwhelmed by fear.
+      - Struggling with nerves.
+      - Feeling helpless.
+      - Difficulty breathing.
+      - Need guidance.
+      - Constant worry.
+      - Overwhelming anxiety.
+      - Struggling with panic.
+      - Intrusive thoughts.
+      - Feeling on edge.
+      - Difficulty relaxing.
+      - Nervous all the time.
+      - Racing heart.
+      - Avoiding situations.
+      - Trouble concentrating.
+      - Overthinking everything.
+      - Fearful thoughts.
+      - Feeling tense.
+      - Experiencing restlessness.
+      - Sweating excessively.
+      - Avoiding social events.
+      - Need help with anxiety.
+      - Experiencing dread.
+      - Heart palpitations.
+
+  - intent: ask_support_for_anxiety
+    examples: |
+      - Get professional support.
+      - Resources for coping.
+      - Manage without clinics.
+      - Overcoming challenges.
+      - Tips for relaxation.
+      - Support without clinics.
+      - Manage without help.
+      - Overcome problems.
+      - Control habits.
+      - Tips for management.
+      - Handle independently.
+      - Coping techniques.
+      - Strategies for handling.
+      - Support independently.
+      - Manage by myself.
+      - Overcome difficulties.
+      - Control on my own.
+      - Tips for self-management.
+      - Activities for stability.
+      - Strategies for relaxation.
+      - Techniques for control.
+      - Practices for stability.
+      - Hobbies for management.
+      - Get help.
+      - Resources for stability.
+      - Manage without professionals.
+      - Tips for control.
+      - Support without professionals.
+      - Overcome challenges.
+      - Control on my own.
+      - Tips for self-care.
+
+  - intent: anxiety_management_strategies
+    examples: |
+      - Control anxiety.
+      - Manage anxiety disorder.
+      - Tips for relaxation.
+      - Techniques for stability.
+      - Practices for control.
+      - Hobbies for stability.
+      - Coping strategies.
+      - Strategies for self-care.
+      - Manage without clinics.
+      - Overcoming challenges.
+      - Tips for management.
+      - Support without clinics.
+      - Manage without help.
+      - Overcome problems.
+      - Control habits.
+      - Tips for management.
+      - Handle independently.
+      - Coping techniques.
+      - Strategies for handling.
+      - Support independently.
+      - Manage by myself.
+      - Overcome difficulties.
+      - Control on my own.
+      - Tips for self-management.
+      - Activities for stability.
+      - Strategies for relaxation.
+      - Techniques for control.
+      - Practices for stability.
+      - Hobbies for self-care.
+
+  - intent: anxiety_duration
+    examples: |
+      - More than a week.
+      - Less than a week.
+      - Not sure.
+      - About two weeks.
+      - Few days.
+      - Can't pinpoint.
+      - Weeks now.
+      - A few days.
+      - Started recently.
+      - Recently began.
+      - Unsure of timing.
+      - Started a while ago.
+      - Can't specify.
+      - Recently started.
+      - Been a while.
+      - Can't say exactly.
+      - Around two weeks.
+      - Just started.
+      - Less than a month.
+      - Less than two weeks.
+      - More than two weeks.
+      - Just began.
+      - Recently noticed.
+      - Not sure when.
+      - Started recently.
+      - Within the month.
+      - Less than a fortnight.
+      - More than a fortnight.
+      - Been going on.
+      - Recently experienced.
+
+  - intent: seek_professional_help_anxiety
+    examples: |
+      - See a doctor.
+      - Consult a professional.
+      - Seek medical help.
+      - Get professional advice.
+      - Talk to a doctor.
+      - Consult healthcare.
+      - Need a doctor's opinion.
+      - Ask a healthcare provider.
+      - Professional opinion.
+      - Medical advice needed.
+      - Should I see a doctor?
+      - Advisable to consult.
+      - Need to seek help.
+      - Opinion on seeing a doctor?
+      - Is it advisable?
+      - Talk to a healthcare provider.
+      - Seek medical opinion.
+      - Get professional help.
+      - Ask for a doctor's opinion.
+      - Is a doctor's opinion needed?
+      - Consult a healthcare provider.
+      - Should I consult a doctor?
+      - Is medical advice needed?
+      - Need professional advice.
+      - Is it recommended?
+      - Is a doctor's advice needed?
+      - Should I consult a professional?
+      - Is a healthcare provider needed?
+      - Is a professional opinion needed?
+      - Is medical help needed?
+      - Is it advisable to seek help?
+
+  - intent: prevent_anxiety_disorder
+    examples: |
+      - Prevent anxiety disorder.
+      - Strategies to reduce anxiety.
+      - Maintain mental well-being.
+      - Lifestyle changes for prevention.
+      - Reduce risk of anxiety.
+      - Avoid developing anxiety issues.
+      - Tips for relaxation.
+      - Strategies for control.
+      - Foster mental well-being.
+      - Establish a balanced routine.
+      - Foster a healthy mindset.
+      - Prevent the onset of anxiety.
+      - Make lifestyle adjustments.
+      - Foster a positive mindset.
+      - Establish a balanced approach.
+      - Foster emotional well-being.
+      - Make lifestyle modifications.
+      - Promote mental health.
+      - Establish a healthy approach.
+      - Foster positive mental health.
+      - Foster a healthy mindset.
+      - Promote emotional well-being.
+      - Establish a healthy mindset.
+
+  - intent: self_care_tips_anxiety
+    examples: |
+      - Coping with anxiety struggles.
+      - Prioritizing self-care in anxiety.
+      - Self-care for anxiety issues.
+      - Managing anxiety, self-care tips.
+      - Balancing self-care and anxiety.
+      - Anxiety, self-care practices.
+      - Self-care while dealing with anxiety.
+      - Supporting anxiety recovery.
+      - Prioritizing self-care in anxiety.
+      - Self-care for anxiety challenges.
+      - Anxiety, self-care techniques.
+      - Coping with anxiety, self-care.
+
+  - intent: anxiety_disorder_feelings
+    examples: |
+      - Feeling constantly anxious.
+      - Overwhelmed by worry.
+      - Experiencing panic.
+      - Struggling with fear.
+      - Nervousness taking over.
+      - Heart racing from anxiety.
+      - Finding it hard to relax.
+      - Constant tension in body.
+      - Restlessness due to anxiety.
+      - Feeling on edge all the time.
+      - Overthinking and worrying.
+      - Apprehensive about everything.
+      - Need help with anxiety.
+      - Feeling uneasy most of the time.
+      - Overwhelmed by anxious moments.
+      - Racing thoughts due to anxiety.
+      - Difficulty concentrating.
+      - Trouble sleeping from anxiety.
+      - Feeling overwhelmed by stress.
+      - Experiencing physical symptoms.
+      - Having trouble breathing.
+      - Feeling detached or unreal.
+      - Experiencing muscle tension.
+      - Experiencing restlessness.
+      - Feeling fatigued from anxiety.
+      - Experiencing irritability.
+      - Having trouble with focus.
+      - Feeling irritable or tense.
+      - Experiencing excessive worry.
+      - Feeling overwhelmed and stressed.
+      - Experiencing emotional distress.
+
+responses:
+  utter_anxiety_disorder_struggles:
+    - text: "I'm really sorry to hear that you're going through this. Dealing with anxiety can be incredibly challenging. Can you tell me more about what you've been experiencing?"
+    - text: "Thank you for sharing. Coping with anxious thoughts is not easy. Can you tell me more about how it's affecting you?"
+
+  utter_ask_guidance_for_anxiety:
+    - text: "Managing Anxiety Disorder is important. You might try activities that support calmness. Additionally, seeking professional help is crucial. What feels like it might work for you?"
+    - text: "Dealing with anxiety can be complex. Trying activities that support calmness can be beneficial. Finding professional support is also essential. How does that sound?"
+
+  utter_anxiety_coping_activities:
+    - text: "There are activities that can help you manage Anxiety Disorder. Exploring creative outlets or engaging in physical activities can be really beneficial for anxious thoughts. Would any of these resonate with you?"
+    - text: "Exploring activities that support calmness is crucial. Engaging in creative or physical pursuits might make a difference. What are you open to trying?"
+
+  utter_anxiety_challenges:
+    - text: "Experiencing difficulties with anxiety is a common challenge. It's important to address this. Can you tell me how long you've been struggling with this?"
+  
+  utter_ask_anxiety_duration:
+    - text: "Have you been struggling with anxiety for more than a few months?"
+
+  utter_ask_support_for_anxiety:
+    - text: "Professional support is crucial for managing Anxiety Disorder. It's advised to consult a healthcare professional for an accurate assessment. In the meantime, you can explore resources and engage in self-care. Have you reached out to a healthcare professional recently?"
+
+  utter_anxiety_management_strategies:
+    - text: "Managing Anxiety Disorder involves a comprehensive approach. It's important to consult a healthcare professional for personalized guidance. In the meantime, maintaining a regular routine, practicing mindfulness, and avoiding triggers can be helpful. Have you noticed any specific triggers for your anxiety?"
+
+  utter_seek_professional_help_anxiety:
+    - text: "I'm glad you're considering this. I'm here to provide support, but it's important to remember that I'm not a substitute for professional medical advice. I highly recommend consulting a healthcare professional who can offer a thorough evaluation and personalized guidance."
+
+  utter_prevent_anxiety:
+    - text: "While Anxiety Disorders are complex and can arise from various factors, there are strategies that can support mental well-being. These include maintaining a balanced lifestyle, getting regular exercise, and practicing mindfulness. Would you like more information on these strategies?"
+
+  utter_self_care_anxiety:
+    - text: "Prioritizing self-care is crucial for overall well-being, especially with Anxiety Disorder. It involves practices like getting regular exercise, maintaining a balanced diet, getting enough rest, and finding activities that bring you calmness. Would you like more specific tips on self-care for anxiety?"
+
+stories:
+  - story: Anxiety Disorder Coping
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: anxiety_disorder_struggles
+      - action: utter_anxiety_disorder_struggles
+      - intent: ask_guidance_for_anxiety
+      - action: utter_ask_guidance_for_anxiety
+      - intent: anxiety_coping_activities
+      - action: utter_anxiety_coping_activities
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Anxiety Disorder Support
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: anxiety_challenges
+      - action: utter_anxiety_challenges
+      - intent: anxiety_duration
+      - action: utter_ask_anxiety_duration
+      - intent: user_provides_duration_anxiety
+      - action: action_to_handle_anxiety_duration
+      - intent: prevent_anxiety
+      - action: utter_prevent_anxiety
+      - intent: self_care_anxiety
+      - action: utter_self_care_anxiety
+      - intent: ask_support_for_anxiety
+      - action: utter_ask_support_for_anxiety
+      - intent: anxiety_management_strategies
+      - action: utter_anxiety_management_strategies
+      - intent: seek_professional_help_anxiety
+      - action: utter_seek_professional_help_anxiety
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Preventing Anxiety Disorder
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: prevent_anxiety
+      - action: utter_prevent_anxiety
+      - intent: self_care_anxiety
+      - action: utter_self_care_anxiety
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Anxiety Disorder Support with Prevention and Self-Care
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: anxiety_challenges
+      - action: utter_anxiety_challenges
+      - action: utter_ask_anxiety_duration
+      - intent: anxiety_duration
+      - action: action_to_handle_anxiety_duration
+      - intent: prevent_anxiety
+      - action: utter_prevent_anxiety
+      - intent: self_care_anxiety
+      - action: utter_self_care_anxiety
+      - intent: ask_support_for_anxiety
+      - action: utter_ask_support_for_anxiety
+      - intent: anxiety_management_strategies
+      - action: utter_anxiety_management_strategies
+      - intent: seek_professional_help_anxiety
+      - action: utter_seek_professional_help_anxiety
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Anxiety Disorder Feelings and Coping
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: anxiety_disorder_feelings
+      - action: utter_anxiety_disorder_feelings
+      - intent: anxiety_disorder_struggles
+      - action: utter_anxiety_disorder_struggles
+      - intent: ask_guidance_for_anxiety
+      - action: utter_ask_guidance_for_anxiety
+      - intent: anxiety_coping_activities
+      - action: utter_anxiety_coping_activities
+      - intent: anxiety_challenges
+      - action: utter_anxiety_challenges
+      - intent: anxiety_duration
+      - action: utter_ask_anxiety_duration
+      - intent: user_provides_duration_anxiety
+      - action: action_to_handle_anxiety_duration
+      - intent: prevent_anxiety_disorder
+      - action: utter_prevent_anxiety_disorder
+      - intent: self_care_tips_anxiety
+      - action: utter_self_care_tips_anxiety
+      - intent: ask_support_for_anxiety
+      - action: utter_ask_support_for_anxiety
+      - intent: anxiety_management_strategies
+      - action: utter_anxiety_management_strategies
+      - intent: seek_professional_help_anxiety
+      - action: utter_seek_professional_help_anxiety
+      - intent: goodbye
+      - action: utter_goodbye

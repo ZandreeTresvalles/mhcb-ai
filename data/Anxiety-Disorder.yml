@@ -1,0 +1,62 @@
+nlu:
+  - intent: learn_about_anxiety_disorders
+    examples: |
+      - What are anxiety disorders?
+      - Tell me about generalized anxiety disorder.
+      - Explain panic disorder.
+      - What are the different types of anxiety disorders?
+      - What causes anxiety disorders?
+      - How can I manage anxiety?
+
+  - intent: identify_anxiety_symptoms
+    examples: |
+      - What are the signs of generalized anxiety?
+      - How can I recognize panic attack symptoms?
+      - Tell me about social anxiety symptoms.
+      - What are the physical symptoms of anxiety?
+      - How does anxiety affect daily life?
+
+  - intent: coping_strategies_anxiety_disorders
+    examples: |
+      - How can I manage my anxiety?
+      - What are some coping strategies for anxiety?
+      - Tell me about relaxation techniques for anxiety relief.
+      - How can I handle anxious thoughts and worries?
+      - What are some strategies for practicing self-care with anxiety?
+
+  - intent: treatment_options_anxiety_disorders
+    examples: |
+      - What are the treatment options for anxiety disorders?
+      - Tell me about therapy for anxiety.
+      - How can I find an anxiety disorder specialist?
+      - Are there any support groups for anxiety?
+      - Can you recommend any medications for anxiety?
+
+  - intent: support_network_anxiety_disorders
+    examples: |
+      - Are there support groups for anxiety disorders?
+      - How can I find a therapist for anxiety?
+      - Tell me about the role of family support in anxiety disorders.
+      - Can you recommend any resources for anxiety self-help?
+      - Where can I find information about anxiety?
+
+responses:
+  utter_learn_about_anxiety_disorders:
+    - text: "Anxiety disorders are mental health conditions characterized by excessive worry, fear, and nervousness. They can include generalized anxiety disorder, panic disorder, social anxiety disorder, and others. Would you like more information about specific anxiety disorders or their causes?"
+    - text: "Anxiety disorders involve persistent and intense anxiety or fear that is out of proportion to the situation. They can lead to significant distress and impairment in daily life. Seeking professional help can provide effective strategies for managing anxiety symptoms."
+
+  utter_identify_anxiety_symptoms:
+    - text: "Recognizing anxiety symptoms may include excessive worrying, restlessness, irritability, difficulty concentrating, muscle tension, and sleep disturbances. It's important to consult a healthcare professional for an accurate diagnosis and appropriate treatment."
+    - text: "Common symptoms of anxiety disorders may manifest as panic attacks, social discomfort, avoidance behaviors, obsessive thoughts, or physical symptoms like rapid heartbeat, shortness of breath, and stomach distress. Identifying these symptoms is a crucial step in seeking proper help."
+
+  utter_coping_strategies_anxiety_disorders:
+    - text: "Managing anxiety involves developing healthy coping strategies such as deep breathing exercises, mindfulness techniques, regular exercise, maintaining a balanced lifestyle, and seeking support from friends, family, or professionals. It's important to find coping mechanisms that work best for you."
+    - text: "Coping with anxiety requires a multi-faceted approach. Some strategies include challenging negative thoughts, practicing self-care activities, setting realistic goals, maintaining a support network, and seeking therapy or counseling. Remember that everyone's experience with anxiety is unique, so finding what works for you is important."
+
+  utter_treatment_options_anxiety_disorders:
+    - text: "Treatment for anxiety disorders often includes therapy, such as cognitive-behavioral therapy (CBT) or exposure therapy, which can help individuals identify and changeunhelpful thought patterns and behaviors. Medications, such as selective serotonin reuptake inhibitors (SSRIs) or benzodiazepines, may also be prescribed in some cases. It's important to consult with a healthcare professional to determine the best treatment approach."
+    - text: "There are various treatment options available for anxiety disorders, including therapy, medication, or a combination of both. Therapy can help individuals develop effective coping strategies, challenge negative thoughts, and address underlying issues. Medication can be prescribed to manage symptoms in certain cases. It's crucial to work with a healthcare professional to determine the most suitable treatment plan for your specific needs."
+
+  utter_support_network_anxiety_disorders:
+    - text: "Having a support network is essential for individuals with anxiety disorders. It can include friends, family, support groups, and therapists. Seeking support from others who understand your experiences can provide comfort and valuable resources for managing anxiety."
+    - text: "Support networks play a vital role in managing anxiety disorders. They can offer emotional support, practical guidance, and a sense of belonging. Connecting with others who have similar experiences through support groups or online communities can be beneficial. Remember, you don't have to face anxiety alone."

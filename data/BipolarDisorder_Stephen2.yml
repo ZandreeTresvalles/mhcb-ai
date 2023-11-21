@@ -1,0 +1,323 @@
+nlu:
+  - intent: what_is_bipolar_disorder
+    examples: |
+      - What is bipolar disorder?
+      - Explain bipolar disorder to me
+      - Tell me about bipolar disorder
+      - Describe bipolar disorder
+      - What does bipolar disorder mean?
+      - Can you give me an overview of bipolar disorder?
+      - I'd like to learn about bipolar disorder
+      - Could you define bipolar disorder for me?
+      - What's the meaning of bipolar disorder?
+      - Explain different types of bipolar disorder
+      - Help me understand bipolar disorder
+      - Provide information on bipolar disorder
+      - What are the basics of bipolar disorder?
+      - Define bipolar disorder
+      - Give me a rundown on bipolar disorder
+      - Could you explain bipolar disorder in simple terms?
+      - What should I know about bipolar disorder?
+      - Provide an overview of bipolar disorder
+      - I'm curious about bipolar disorder
+      - What's the background of bipolar disorder
+      - Give me some insights on bipolar disorder
+      - Break down bipolar disorder for me
+      - Help me grasp the concept of bipolar disorder
+      - Tell me the fundamentals of bipolar disorder
+      - I'd like an introduction to bipolar disorder
+      - What's bipolar disorder all about?
+      - Brief me on bipolar disorder
+      - Explain bipolar disorder briefly
+      - Can you give me a quick overview of bipolar disorder?
+      - I want to know more about bipolar disorder
+
+  - intent: bipolar_disorder_symptoms
+    examples: |
+      - Symptoms of bipolar disorder
+      - Recognizing bipolar disorder
+      - What are the symptoms of bipolar disorder?
+      - How to identify bipolar disorder?
+      - Signs of bipolar disorder
+      - Explain early signs of bipolar disorder
+      - Tell me about common symptoms of bipolar disorder
+      - Provide information on bipolar disorder symptoms
+      - Describe the onset of bipolar disorder
+      - What behaviors indicate bipolar disorder?
+      - How to recognize early signs of bipolar disorder
+      - Explain manic episodes in bipolar disorder
+      - Describe depressive episodes in bipolar disorder
+      - Provide insights on bipolar disorder symptoms
+      - What are the behavioral signs of bipolar disorder?
+      - Explain hypomania in bipolar disorder
+      - Describe mixed episodes in bipolar disorder
+      - What should I watch for in bipolar disorder?
+      - Give me an overview of bipolar disorder symptoms
+      - Break down bipolar disorder behaviors
+      - List common symptoms of bipolar disorder
+
+  - intent: causes_of_bipolar_disorder
+    examples: |
+      - Causes of bipolar disorder
+      - What leads to bipolar disorder?
+      - Factors behind bipolar disorder
+      - Why do people develop bipolar disorder?
+      - Is there a genetic component to bipolar disorder?
+      - Explain the causes of bipolar disorder
+      - Tell me about risk factors for bipolar disorder
+      - Provide insights on bipolar disorder causes
+      - What contributes to bipolar disorder development?
+      - Elaborate on bipolar disorder origins
+      - Break down the factors of bipolar disorder
+      - I'd like to know about bipolar disorder causes
+      - What influences bipolar disorder development?
+      - Give me information on bipolar disorder causes
+      - Describe the roots of bipolar disorder
+      - Explain genetic factors in bipolar disorder
+      - Tell me about bipolar disorder predisposition
+      - Provide info on bipolar disorder etiology
+      - What factors play a role in bipolar disorder?
+      - Help me understand bipolar disorder causes
+      - What leads to bipolar disorder?
+      - Give me an overview of bipolar disorder origins
+      - Explain environmental factors in bipolar disorder
+      - Tell me about bipolar disorder susceptibility
+      - Provide insights on bipolar disorder development
+      - What are the contributing factors to bipolar disorder?
+      - Describe the genetics of bipolar disorder
+      - Elaborate on bipolar disorder risk elements
+      - What are the potential causes of bipolar disorder?
+      - I'm curious about bipolar disorder origins
+
+  - intent: managing_bipolar_disorder
+    examples: |
+      - Managing bipolar disorder
+      - Coping with bipolar disorder
+      - Strategies for bipolar disorder
+      - Bipolar disorder self-help
+      - Bipolar disorder treatment
+      - Living with bipolar disorder
+      - How to handle bipolar disorder
+      - Bipolar disorder support
+      - Techniques for bipolar disorder management
+      - Coping strategies for bipolar disorder
+      - Living a healthy life with bipolar disorder
+      - How to live with bipolar disorder
+      - Help for managing bipolar disorder
+      - Bipolar disorder self-care
+      - Strategies to deal with bipolar disorder
+      - How to navigate life with bipolar disorder
+      - Bipolar disorder coping mechanisms
+      - Tips for bipolar disorder management
+      - Techniques for living with bipolar disorder
+      - How to thrive with bipolar disorder
+      - Bipolar disorder support and strategies
+      - Ways to cope with bipolar disorder
+      - Bipolar disorder living tips
+      - Self-help for bipolar disorder
+      - Managing bipolar disorder effectively
+      - Strategies for living with bipolar disorder
+      - Bipolar disorder wellness techniques
+      - How to succeed with bipolar disorder
+      - Coping mechanisms for bipolar disorder
+
+  - intent: bipolar_disorder_diagnosis
+    examples: |
+      - Getting a bipolar disorder diagnosis
+      - How is bipolar disorder diagnosed?
+      - Bipolar disorder evaluation process
+      - Do I have bipolar disorder?
+      - Diagnosing bipolar disorder in adults
+      - Bipolar disorder assessment
+      - How to determine if I have bipolar disorder
+      - Bipolar disorder diagnostic process
+      - What's involved in a bipolar disorder diagnosis?
+      - Can you tell me about bipolar disorder assessment?
+      - How do professionals diagnose bipolar disorder?
+      - I think I might have bipolar disorder
+      - What's the process for a bipolar disorder diagnosis?
+      - Can you explain how bipolar disorder is diagnosed?
+      - How do I get a bipolar disorder assessment?
+      - Do adults get diagnosed with bipolar disorder?
+      - Can you tell me about diagnosing bipolar disorder in adults?
+      - I'm wondering if I have bipolar disorder
+      - What's the evaluation process for bipolar disorder?
+      - How do professionals determine if someone has bipolar disorder?
+      - Can you explain the bipolar disorder assessment process?
+      - I suspect I might have bipolar disorder
+      - How is bipolar disorder diagnosed in adults?
+      - What steps are involved in getting a bipolar disorder diagnosis?
+      - Can you guide me through the bipolar disorder diagnostic process?
+      - I'm curious about the process of diagnosing bipolar disorder
+      - How can I find out if I have bipolar disorder?
+      - What's the procedure for a bipolar disorder assessment?
+      - Can you tell me how professionals diagnose bipolar disorder in adults?
+      - I think I might need a bipolar disorder assessment  
+
+  - intent: bipolar_disorder_therapy
+    examples: |
+      - Bipolar disorder therapy
+      - Therapy for bipolar disorder
+      - Behavioral therapy for bipolar disorder
+      - Counseling for bipolar disorder
+      - Bipolar disorder coaching
+      - Talk therapy for bipolar disorder
+      - Information on bipolar disorder therapy
+      - What's involved in therapy for bipolar disorder?
+      - Explain behavioral therapy for bipolar disorder
+      - Tell me about counseling for bipolar disorder
+      - Provide insights on bipolar disorder coaching
+      - How does talk therapy help with bipolar disorder?
+      - Describe therapy options for bipolar disorder
+      - What's the role of counseling in bipolar disorder treatment?
+      - Explain bipolar disorder coaching techniques
+      - Provide info on talk therapy for bipolar disorder
+      - How does therapy support bipolar disorder treatment?
+      - Tell me about behavioral therapy techniques for bipolar disorder
+      - What are the benefits of bipolar disorder therapy?
+      - Explain the different types of bipolar disorder therapy
+      - Provide information on counseling for bipolar disorder
+      - How can bipolar disorder coaching help?
+      - Tell me about therapy options for bipolar disorder
+      - What's the impact of therapy on bipolar disorder?
+      - Describe talk therapy for bipolar disorder
+      - Provide insights on behavioral therapy for bipolar disorder
+      - What should I know about bipolar disorder counseling?
+      - Explain the role of therapy in bipolar disorder treatment
+      - Tell me about bipolar disorder coaching strategies
+      - Provide info on talk therapy techniques for bipolar disorder
+      - How can therapy be beneficial for bipolar disorder?
+
+  - intent: feeling_manic
+    examples: |
+      - I'm feeling manic
+      - Experiencing mania
+      - Manic right now
+      - Feeling high-energy
+      - Manic episode
+      - Hyperactive
+      - Extremely energetic
+      - Overly enthusiastic
+      - Unusually upbeat
+      - Full of energy
+      - Can't sit still
+      - Racing thoughts
+      - On top of the world
+      - Excited and restless
+      - Bursting with energy
+      - Feeling unstoppable
+      - Excessively optimistic
+      - Talkative and fast-paced
+      - On a creative spree
+      - Overwhelmed by ideas
+      - Over-the-top enthusiasm
+      - Racing heart and mind
+      - Unstoppable energy levels
+      - High levels of motivation
+      - Hyper and restless
+      - Feeling invincible
+      - Euphoric and energized
+      - On a productivity high
+      - Overly ambitious
+      - On a creative high
+      - Can't slow down
+
+responses:
+  utter_what_is_bipolar_disorder:
+    - text: "Bipolar disorder, also known as manic-depressive illness, is a mental health condition characterized by extreme mood swings. These swings typically include episodes of mania, where a person feels overly energetic and euphoric, and episodes of depression, marked by sadness and low energy levels."
+    - text: "Bipolar disorder is a mental health condition characterized by intense mood swings. These can range from episodes of high energy and euphoria, known as mania, to periods of deep sadness and low energy, known as depression."
+    - text: "Bipolar disorder is a mental health condition that involves extreme mood swings. These mood swings can be divided into manic episodes, characterized by high energy and euphoria, and depressive episodes, marked by low energy and sadness."
+  
+  utter_bipolar_disorder_symptoms:
+    - text: "The symptoms of bipolar disorder can vary, but they generally include manic episodes with elevated mood, high energy, and impulsive behavior, as well as depressive episodes with low mood, loss of interest, and feelings of hopelessness."
+    - text: "In bipolar disorder, symptoms can include manic episodes characterized by high energy, euphoria, and impulsive behavior, as well as depressive episodes marked by low energy, sadness, and a sense of hopelessness."
+    - text: "Symptoms of bipolar disorder can manifest in manic episodes with heightened energy, euphoria, and impulsive behavior, as well as depressive episodes with low energy, sadness, and a lack of interest in usual activities."
+  
+  utter_causes_of_bipolar_disorder:
+    - text: "The exact causes of bipolar disorder are not fully understood, but it's believed to result from a combination of genetic, environmental, and neurological factors. Family history can play a significant role in predisposition to bipolar disorder."
+    - text: "Bipolar disorder can be influenced by various factors including genetics, environment, and brain chemistry. It often runs in families, suggesting a genetic component in its development."
+    - text: "The development of bipolar disorder is thought to be influenced by a combination of genetic and environmental factors. A family history of the condition can increase the likelihood of its occurrence."
+  
+  utter_managing_bipolar_disorder:
+    - text: "Managing bipolar disorder involves a combination of medication, therapy, and lifestyle changes. It's crucial to work closely with a mental health professional to create a personalized treatment plan."
+    - text: "Effective management of bipolar disorder often includes a combination of medication, therapy, and adopting healthy lifestyle practices. It's important to collaborate with a mental health professional to tailor a plan that suits your needs."
+    - text: "Coping with bipolar disorder involves a holistic approach that includes medication, therapy, and lifestyle adjustments. Collaborating with a mental health expert is essential in developing a plan tailored to your unique situation."
+  
+  utter_bipolar_disorder_diagnosis:
+    - text: "Diagnosing bipolar disorder involves a comprehensive evaluation by a mental health professional. This may include a thorough assessment of symptoms, medical history, and sometimes, psychological testing."
+    - text: "Getting a diagnosis for bipolar disorder typically involves a detailed evaluation conducted by a mental health specialist. This evaluation may encompass an assessment of symptoms, medical history, and occasionally, psychological tests."
+    - text: "Determining if someone has bipolar disorder requires a thorough assessment by a mental health professional. This assessment may involve an examination of symptoms, medical background, and in some cases, psychological assessments."
+  
+  utter_bipolar_disorder_therapy:
+    - text: "Therapy for bipolar disorder can include various approaches such as cognitive-behavioral therapy (CBT), psychoeducation, and family-focused therapy. It's important to work with a mental health professional to determine the most effective treatment plan for you."
+    - text: "Treatment for bipolar disorder often involves therapy, which may encompass cognitive-behavioral techniques, psychoeducation, and family-oriented approaches. Collaborate with a mental health expert to find the best therapy for your needs."
+    - text: "Therapy is a crucial component in treating bipolar disorder and can involve cognitive-behavioral techniques, psychoeducation, and family-focused strategies. Consulting a mental health professional will help determine the most suitable therapy for you."
+  
+  utter_seek_professional_help_bipolar:
+    - text: "It's important to remember that I am not a replacement for professional help. If you suspect you may have bipolar disorder, I strongly recommend seeking assistance from a qualified mental health professional in the Philippines. They can provide a proper diagnosis and develop a tailored treatment plan for you."
+    - text: "While I can offer information and support, I cannot replace the expertise of a mental health professional. If you believe you may be experiencing symptoms of bipolar disorder, please seek help from a qualified professional in the Philippines. They can provide an accurate diagnosis and guide you towards appropriate treatment."
+    - text: "I'm here to provide information and support, but it's crucial to consult a qualified mental health professional in the Philippines if you suspect you have bipolar disorder. They can conduct a thorough assessment and create a personalized treatment plan to address your specific needs."
+
+utter_mental_health_institute_contact:
+    - text: "If you're in need of immediate assistance or would like to speak with a mental health professional in the Philippines, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They offer confidential and compassionate support. Remember, you're not alone, and help is available."
+    - text: "In case you require urgent help or wish to talk to a mental health expert in the Philippines, please reach out to the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They provide confidential and empathetic assistance. Always remember, there are people who care and are ready to help you."
+    - text: "If you're facing a crisis or simply need to talk to someone about your mental health, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. Your conversations are kept private, and their team is here to support you."
+    - text: "For immediate help or to talk with a mental health professional in the Philippines, please call the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). Your discussions will be kept confidential, and their team is ready to offer you assistance."
+    - text: "If you're experiencing a crisis or need someone to talk to about your mental health, please don't hesitate to contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. They provide confidential and caring support."
+
+stories:
+  - story: what_is_bipolar_disorder
+    steps:
+      - intent: what_is_bipolar_disorder
+      - action: utter_what_is_bipolar_disorder
+
+  - story: bipolar_disorder_symptoms
+    steps:
+      - intent: bipolar_disorder_symptoms
+      - action: utter_bipolar_disorder_symptoms
+
+  - story: causes_of_bipolar_disorder
+    steps:
+      - intent: causes_of_bipolar_disorder
+      - action: utter_causes_of_bipolar_disorder
+
+  - story: managing_bipolar_disorder
+    steps:
+      - intent: managing_bipolar_disorder
+      - action: utter_managing_bipolar_disorder
+
+  - story: bipolar_disorder_diagnosis
+    steps:
+      - intent: bipolar_disorder_diagnosis
+      - action: utter_bipolar_disorder_diagnosis
+
+  - story: bipolar_disorder_therapy
+    steps:
+      - intent: bipolar_disorder_therapy
+      - action: utter_bipolar_disorder_therapy
+
+  - story: feeling_manic
+    steps:
+      - intent: feeling_manic
+      - action: utter_seek_professional_help_bipolar
+
+  - story: bipolar_disorder_full_story
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: what_is_bipolar_disorder
+      - action: utter_what_is_bipolar_disorder
+      - intent: bipolar_disorder_symptoms
+      - action: utter_bipolar_disorder_symptoms
+      - intent: causes_of_bipolar_disorder
+      - action: utter_causes_of_bipolar_disorder
+      - intent: managing_bipolar_disorder
+      - action: utter_managing_bipolar_disorder
+      - intent: bipolar_disorder_diagnosis
+      - action: utter_bipolar_disorder_diagnosis
+      - intent: bipolar_disorder_therapy
+      - action: utter_bipolar_disorder_therapy
+      - action: utter_seek_professional_help_bipolar
+      - action: utter_mental_health_institute_contact
+      - intent: goodbye
+      - action: utter_goodbye

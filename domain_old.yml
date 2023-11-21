@@ -1,0 +1,290 @@
+version: "3.1"
+intents:
+  - affirm
+  - body_image_eating_disorders
+  - bot_challenge
+  - company_no_employees
+  - coping_strategies_alcohol_use_disorders
+  - coping_strategies_anxiety_disorders
+  - coping_strategies_bipolar_disorder
+  - coping_strategies_depression
+  - coping_strategies_eating_disorders
+  - coping_strategies_schizophrenia
+  - deny
+  - discussing_mental_health
+  - feeling_schizophrenia
+  - find_support_resources_bipolar_disorder
+  - gender
+  - goodbye
+  - greet
+  - health_benefits
+  - health_resources
+  - history_mental_illness
+  - identify_alcohol_use_symptoms
+  - identify_anxiety_symptoms
+  - identify_depression_symptoms
+  - identify_drug_use_symptoms
+  - identify_eating_disorder_symptoms
+  - learn_about_alcohol_use_disorders
+  - learn_about_anxiety_disorders
+  - learn_about_bipolar_disorder
+  - learn_about_depression
+  - learn_about_drug_use_disorders
+  - learn_about_eating_disorders
+  - learn_about_schizophrenia
+  - medical_leave
+  - medication_management_bipolar_disorder
+  - medication_management_schizophrenia
+  - mood_great
+  - mood_unhappy
+  - name_entry
+  - negative_consequences_mental_collegaue
+  - relapse_prevention_drug_use_disorders
+  - self_employment
+  - serious_mental_health
+  - stress_reduction_schizophrenia
+  - support_network_alcohol_use_disorders
+  - support_network_anxiety_disorders
+  - support_network_depression
+  - support_network_drug_use_disorders
+  - tech_company
+  - thanks
+  - treatment_anonymity
+  - treatment_options_alcohol_use_disorders
+  - treatment_options_anxiety_disorders
+  - treatment_options_depression
+  - treatment_options_drug_use_disorders
+  - treatment_options_eating_disorders
+  - understand_symptoms_bipolar_disorder
+  - wellbeing
+  - willing_to_discuss_adviser
+  - willing_to_discuss_collegaue
+  - willing_to_discuss_physical_adviser
+  - willing_to_discuss_supervisor
+  - work_interference
+entities:
+  - name
+slots:
+  name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name
+responses:
+  utter_cheer_up:
+    - text: |-
+        Here is something to cheer you up 
+         “Your present circumstances don’t determine where you go; they merely determine where you start.” – Nido Qubein
+  utter_cheer_up_two:
+    - text: Maybe you should try opening up to your close friends, it always helps!
+  utter_did_that_help:
+    - text: Did that help you?
+  utter_happy:
+    - text: Great, carry on!
+  utter_goodbye:
+    - text: Bye
+  utter_iamabot:
+    - text: I am a friendly edia chat bot, your closest ally.
+  utter_welcome:
+    - text: Great news!
+  utter_mood:
+    - text: Hey, tell me about yourself. How are you today?
+  utter_survey:
+    - text: Would you like to go on a quick mental health analysis questionnaire with me? Dont worry, all your responses will be safe between just us!
+  utter_greet:
+    - text: Hey! How are you?
+  utter_gender:
+    - text: What is your gender identity?
+  utter_employment:
+    - text: Are you a student?
+  utter_history_mental_illness:
+    - text: Do you have a family history of mental illness?
+  utter_univ_interference:
+    - text: Do you feel anypne interfere with your studies?
+  utter_company_no_employees:
+    - text: How many students does your class or section have?
+  utter_tech_company:
+    - text: Is your university primarily a tech university/institute?
+  utter_health_benefits:
+    - text: Does your school provide mental health care?
+  utter_health_resources:
+    - text: Do you know the options for mental health care your school provides?
+  utter_treatment_anonymity:
+    - text: Is your anonymity protected if you choose to take advantage of mental health treatment resources?
+  utter_medical_leave:
+    - text: How easy is it for you to take absents for a mental health condition?
+  utter_discussing_mental_health:
+    - text: Do you think that discussing a mental health issue with your adviser would have negative consequences?
+  utter_willing_to_discuss_collegaue:
+    - text: Would you be willing to discuss a mental health issue with your classmates?
+  utter_willing_to_discuss_adviser:
+    - text: Would you bring up a mental health issue with a potential classmate in a seection?
+  utter_serious_mental_health:
+    - text: Do you feel that your university/school takes mental health as seriously as physical health?
+  utter_negative_consequences_mental_collegaue:
+    - text: Have you heard of or observed negative consequences for classmates with mental health conditions in your campus?
+  utter_learn_about_alcohol_use_disorders:
+    - text: Alcohol use disorders, also known as alcoholism or alcohol addiction, are chronic conditions characterized by a compulsive pattern of alcohol consumption, loss of control over drinking, and negative consequences. They can include physical and psychological dependence on alcohol. Would you like more information about alcohol use disorders or their causes?
+    - text: Alcohol use disorders involve the inability to control or stop drinking despite harmful effects on physical health, mental well-being, and interpersonal relationships. They can lead to tolerance, withdrawal symptoms, and a loss of control over alcohol consumption. Seeking professional help is crucial for accurate diagnosis and effective treatment.
+  utter_identify_alcohol_use_symptoms:
+    - text: Recognizing alcohol use symptoms can include increased tolerance to alcohol, withdrawal symptoms when not drinking, unsuccessful attempts to cut down or stop drinking, neglecting responsibilities due to alcohol use, continuing to drink despite negative consequences, and prioritizing drinking over other activities. It's important to consult a healthcare professional for a comprehensive evaluation.
+    - text: Common symptoms of alcohol use disorders may manifest as a strong desire to drink, difficulty controlling alcohol consumption, withdrawal symptoms like tremors or sweating, neglecting personal or professional responsibilities, continued alcohol use despite negative consequences, and an increasing amount of time spent drinking or recovering from its effects. Identifying these symptoms is an essential step in seeking help and support.
+  utter_coping_strategies_alcohol_use_disorders:
+    - text: Coping with alcohol addiction involves developing healthy strategies such as attending support group meetings, engaging in therapy or counseling, practicing stress-reduction techniques, maintaining a supportive social network, and setting achievable goals for recovery. It's important to find coping mechanisms that work best for you and to remember that recovery is a lifelongjourney.
+  utter_treatment_options_alcohol_use_disorders:
+    - text: Treatment options for alcohol use disorders can include therapy, medication, or a combination of both. Therapy, such as cognitive-behavioral therapy (CBT) or motivational interviewing, can help individuals address underlying issues, develop coping skills, and change addictive behaviors. Medications, such as naltrexone or acamprosate, may be prescribed to reduce cravings or discourage alcohol consumption. It's crucial to consult with a healthcare professional to determine the best treatment approach.
+    - text: There are various treatment options available for alcohol use disorders, including individual counseling, group therapy, and residential or outpatient programs. Medications such as disulfiram, naltrexone, or acamprosate can be prescribed to support sobriety. It's important to work with a healthcare professional to develop a personalized treatment plan.
+  utter_support_network_alcohol_use_disorders:
+    - text: Having a support network is essential for individuals in alcohol recovery. It can include support groups like Alcoholics Anonymous (AA), therapists specializing in addiction, family and friends who provide understanding and encouragement, and other individuals in recovery. Connecting with others who have similar experiences can provide comfort, accountability, and valuable resources for managing alcohol addiction.
+  utter_seek_professional_help_alcohol_use_disorders:
+    - text: Support networks play a vital role in alcohol recovery. They can provide emotional support, practical guidance, and a sense of belonging. Support groups like Alcoholics Anonymous (AA) offer a structured environment where individuals can share their experiences, gain insights, and receive support from others who understand the challenges of alcohol addiction. Remember, you don't have to face alcoholism alone.
+  utter_learn_about_anxiety_disorders:
+    - text: Anxiety disorders are mental health conditions characterized by excessive worry, fear, and nervousness. They can include generalized anxiety disorder, panic disorder, social anxiety disorder, and others. Would you like more information about specific anxiety disorders or their causes?
+    - text: Anxiety disorders involve persistent and intense anxiety or fear that is out of proportion to the situation. They can lead to significant distress and impairment in daily life. Seeking professional help can provide effective strategies for managing anxiety symptoms.
+  utter_identify_anxiety_symptoms:
+    - text: Recognizing anxiety symptoms may include excessive worrying, restlessness, irritability, difficulty concentrating, muscle tension, and sleep disturbances. It's important to consult a healthcare professional for an accurate diagnosis and appropriate treatment.
+    - text: Common symptoms of anxiety disorders may manifest as panic attacks, social discomfort, avoidance behaviors, obsessive thoughts, or physical symptoms like rapid heartbeat, shortness of breath, and stomach distress. Identifying these symptoms is a crucial step in seeking proper help.
+  utter_coping_strategies_anxiety_disorders:
+    - text: Managing anxiety involves developing healthy coping strategies such as deep breathing exercises, mindfulness techniques, regular exercise, maintaining a balanced lifestyle, and seeking support from friends, family, or professionals. It's important to find coping mechanisms that work best for you.
+    - text: Coping with anxiety requires a multi-faceted approach. Some strategies include challenging negative thoughts, practicing self-care activities, setting realistic goals, maintaining a support network, and seeking therapy or counseling. Remember that everyone's experience with anxiety is unique, so finding what works for you is important.
+  utter_treatment_options_anxiety_disorders:
+    - text: Treatment for anxiety disorders often includes therapy, such as cognitive-behavioral therapy (CBT) or exposure therapy, which can help individuals identify and changeunhelpful thought patterns and behaviors. Medications, such as selective serotonin reuptake inhibitors (SSRIs) or benzodiazepines, may also be prescribed in some cases. It's important to consult with a healthcare professional to determine the best treatment approach.
+    - text: There are various treatment options available for anxiety disorders, including therapy, medication, or a combination of both. Therapy can help individuals develop effective coping strategies, challenge negative thoughts, and address underlying issues. Medication can be prescribed to manage symptoms in certain cases. It's crucial to work with a healthcare professional to determine the most suitable treatment plan for your specific needs.
+  utter_support_network_anxiety_disorders:
+    - text: Having a support network is essential for individuals with anxiety disorders. It can include friends, family, support groups, and therapists. Seeking support from others who understand your experiences can provide comfort and valuable resources for managing anxiety.
+    - text: Support networks play a vital role in managing anxiety disorders. They can offer emotional support, practical guidance, and a sense of belonging. Connecting with others who have similar experiences through support groups or online communities can be beneficial. Remember, you don't have to face anxiety alone.
+  utter_learn_about_bipolar_disorder:
+    - text: Bipolar disorder, also known as manic depression, is a mental health condition characterized by extreme mood swings. It involves alternating periods of mania or hypomania and depression. The symptoms and severity can vary between individuals. Treatment options may include medication, therapy, and lifestyle changes. Would you like more information about the different types of bipolar disorder or its treatment approaches?
+    - text: Bipolar disorder is a complex mental health condition marked by dramatic shifts in mood, energy, and activity levels. It can impact a person's daily functioning and relationships. If you'd like, I can provide more details about the symptoms, diagnostic criteria, available treatment approaches, and strategies for managing bipolar disorder.
+  utter_understand_symptoms_bipolar_disorder:
+    - text: One of the key features of bipolar disorder is the presence of mood swings. People with bipolar disorder may experience periods of high energy and euphoria during manic episodes, followed by periods of depression and low mood. These mood shifts can be  disruptive and interfere with various aspects of life. It's important to consult a healthcare professional for an accurate diagnosis and personalized treatment plan.
+    - text: Bipolar disorder manifests through manic episodes characterized by elevated mood, increased energy, racing thoughts, and impulsive behavior. Depressive episodes involve feelings of sadness, loss of interest, low energy, and difficulty concentrating.  These symptoms can have a significant impact on daily life. It's essential to seek professional help to manage bipolar symptoms effectively.
+  utter_medication_management_bipolar_disorder:
+    - text: Managing bipolar disorder often involves medication. It's important to work closely with a healthcare professional to find the right medication regimen. Adhering to the prescribed medications, being aware of potential side effects, and attending regular check-ups are crucial for effective management of bipolar symptoms. It's important to communicate any concerns or changes in symptoms to your healthcare provider.
+    - text: Medication management plays a significant role in treating bipolar disorder. By working closely with a healthcare provider, individuals can find the right medications to stabilize their moods and reduce the frequency and intensity of mood swings. Regular monitoring and open communication about any side effects or concerns are essential for successful medication management. Remember to follow the prescribed dosage and consult your doctor before making any changes.
+  utter_coping_strategies_bipolar_disorder:
+    - text: Coping strategies play a vital role in managing bipolar symptoms. Strategies such as maintaining a regular sleep schedule, practicing stress-reduction techniques like meditation or exercise, seeking support from loved ones, and developing healthy routines can help individuals better cope with the challenges of bipolar disorder. It's important to find strategies that work best for you and incorporate them into your daily life.
+    - text: Developing effective coping strategies is important for individuals living with bipolar disorder. Engaging in activities that promote relaxation and emotional well-being, seeking therapy or counseling, building a strong support system, and creating a structured daily routine are some strategies that can help manage symptoms and enhance overall quality of life. Remember, it's okay to reach out for support and make self-care a priority.
+  utter_find_support_resources_bipolar_disorder:
+    - text: There are various support resources available for individuals with bipolar disorder. Support groups, both online and in-person, provide a platform to connect with others who understand what you're going through. Mental health organizations can offer educational materials, helplines, and referrals to specialized services. Remember, you don't have to face bipolar disorder alone. Seeking support can make a significant difference in your journey.
+    - text: Finding support resources is crucial for individuals with bipolar disorder. Mental health organizations, such as [Organization Name], provide valuable information, resources, and referrals to specialized services. Support groups, online communities, and helplines offer a sense of belonging and understanding. You are not alone in this journey. Together, we can explore the available resources and find the support that suits your needs.
+  utter_learn_about_depression:
+    - text: Depression is a common mental health disorder characterized by persistent sadness, loss of interest or pleasure in activities, changes in appetite or weight, sleep disturbances, fatigue, feelings of worthlessness or guilt, difficulty concentrating, and recurrent thoughts of death or suicide. Would you like more information about depression or its causes?
+    - text: Depression is a complex disorder that affects how a person thinks, feels, and behaves. It can manifest in various ways, including feelings of sadness, hopelessness, or emptiness, loss of interest in activities, changes in appetite and sleep patterns, difficulty concentrating, and thoughts of self-harm or suicide. Seeking professional help is important for accurate diagnosis and effective treatment.
+  utter_identify_depression_symptoms:
+    - text: Recognizing depression symptoms can include persistent feelings of sadness, hopelessness, or irritability, loss of interest in previously enjoyed activities, changes in appetite or weight, sleep disturbances, fatigue, difficulty concentrating, and thoughts of death or suicide. It's important to consult a healthcare professional for a comprehensive evaluation.
+    - text: Common symptoms of depression may manifest as persistent feelings of sadness, guilt, or worthlessness, loss of interest in activities, changes in appetite and weight, sleep disturbances, lack of energy, difficulty concentrating, and recurring thoughts of death or suicide. Identifying these symptoms is an essential step in seeking help and support.
+  utter_coping_strategies_depression:
+    - text: Coping with depression involves developing healthy strategies such as engaging in regular physical exercise, practicing relaxation techniques, maintaining a balanced routine, seeking social support, and seeking professional help. It's important to find coping mechanisms that work best for you and to remember that recovery takes time.
+    - text: Managing depression requires a multi-faceted approach. Some coping strategies include engaging in activities you enjoy, setting realisticgoals, practicing self-care, challenging negative thoughts, and seeking support from friends, family, or therapists. Remember that everyone's experience with depression is unique, so finding what works for you is important.
+  utter_treatment_options_depression:
+    - text: Treatment options for depression can include therapy, medication, or a combination of both. Therapy, such as cognitive-behavioral therapy (CBT) or interpersonal therapy (IPT), can help individuals identify and change negative thought patterns, develop coping skills, and improve interpersonal relationships. Medications, such as selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs), may be prescribed in some cases. It's crucial to consult with a healthcare professional to determine the best treatment approach.
+    - text: There are various treatment options available for depression, including therapy, medication, and alternative approaches like mindfulness-based practices or exercise therapy. Therapy can provide a safe space to explore and address underlying issues contributing to depression, while medication can help balance brain chemistry. It's important to work with a healthcare professional to develop a personalized treatment plan.
+  utter_support_network_depression:
+    - text: Having a support network is crucial for individuals with depression. It can include friends, family, support groups, therapists, or helplines. Connecting with others who understand your experiences can provide comfort, validation, and resources for managing depression.
+  utter_seek_professional_help_depression:
+    - text: Support networks play an important role in managing depression. Building a support system can involve reaching out to trusted friends or family members, participating in support groups or therapy, or seeking assistance from helplines or online communities. Remember that you don't have to face depression alone.
+  utter_learn_about_drug_use_disorders:
+    - text: Drug use disorders, also known as substance use disorders or addiction, are chronic conditions characterized by the compulsive use of drugs despite negative consequences. They can involve the misuse of substances such as alcohol, opioids, stimulants, or illicit drugs. Would you like more information about specific drug use disorders or their causes?
+    - text: Drug use disorders involve the inability to control or stop using a substance despite harmful effects on physical health, mental well-being, and interpersonal relationships. They can lead to tolerance, withdrawal symptoms, and a loss of control over drug use. Seeking professional help is essential for effective treatment.
+  utter_identify_drug_use_symptoms:
+    - text: Recognizing drug use symptoms can include changes in behavior, physical health issues, neglecting responsibilities, financial difficulties, secrecy, and social withdrawal. It's important to consult a healthcare professional or addiction specialist for a comprehensive assessment.
+    - text: Common signs of drug use disorders may include drug cravings, impaired judgment, risky behaviors, relationship problems, tolerance, and withdrawal symptoms when drug use is stopped. Identifying these symptoms is an important step in seeking help and support.
+  utter_treatment_options_drug_use:
+    - text: Treatment options for drug use disorders can include therapy, medication-assisted treatment, support groups, and residential or outpatient programs. Therapies such as cognitive-behavioral therapy (CBT) and motivational interviewing can be effective in addressing underlying issues and changing addictive behaviors. It's important to work with healthcare professionals to determine the best treatment plan.
+    - text: There are various treatment approaches available for drug use disorders, including individual counseling, group therapy, and family therapy. Medications may also be prescribed to
+  utter_learn_about_eating_disorders:
+    - text: Eating disorders are serious mental health conditions characterized by unhealthy eating patterns and distorted attitudes toward food, weight, and body image. They include anorexia nervosa, bulimia nervosa, binge eating disorder, and other specified feeding or eating disorders. Would you like more information about specific eating disorders or their causes?
+    - text: Eating disorders can involve restrictive eating, binge eating, purging behaviors, and excessive concerns about weight and body shape. They can have severe physical and psychological consequences. It's important to seek help from healthcare professionals for accurate diagnosis and effective treatment.
+  utter_identify_eating_disorder_symptoms:
+    - text: Recognizing the signs of an eating disorder can include extreme weight loss, preoccupation with food and weight, strict dieting or fasting, excessive exercising, avoiding social eating situations, and distorted body image. It's crucial to consult a healthcare professional for a proper assessment.
+    - text: Common symptoms of eating disorders may include significant changes in weight, obsession with food and body image, secretive eating habits, mood swings, self-esteem issues, and social withdrawal. It's important to be aware of these signs and encourage individuals to seek professional help.
+  utter_coping_strategies_eating_disorders:
+    - text: Managing an eating disorder involves developing healthy coping strategies such as seeking therapy or counseling, practicing self-care activities, building a support system, challenging negative thoughts, and adopting a balanced approach to food and exercise. It's essential to work with professionals to develop an individualized plan.
+    - text: Coping with an eating disorder requires a multi-faceted approach. Some strategies include journaling, mindfulness exercises, participating in support groups, setting realistic goals, and practicing self-compassion. It's important to remember that recovery is a journey, and professional guidance can be invaluable.
+  utter_treatment_options_eating_disorders:
+    - text: Treatment for eating disorders often includes a combination of therapy, medical monitoring, nutrition counseling, and, in some cases, medication. Therapies such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and family-based therapy (FBT) can be effective. It's essential to consult with healthcare professionals to determine the best treatment approach.
+    - text: There are various treatment options available for eating disorders, including individual therapy, group therapy, residential treatment programs, and outpatient programs. These approaches aim to address the underlying psychological, emotional, and behavioral aspects of the disorder. It's important to find a treatment team that specializes in eating disorder recovery.
+  utter_body_image_eating_disorders:
+    - text: Improving body image involves challenging negative thoughts and societal beauty standards, focusing on self-acceptance and self-care, surrounding yourself with positive influences, practicing self-compassion, and seeking professional support if needed. It's important to prioritize overall well-being rather than solely focusing on appearance.
+    - text: Body image is a complex issue, especially in the context of eating disorders. Promoting body positivity, fostering a healthy relationship with oneself, and developing self-esteem can support recovery. Engaging in activities that promote self-expression and connecting with supportive communities can also contribute to improving body image.
+  utter_learn_about_schizophrenia:
+    - text: Schizophrenia is a chronic mental disorder characterized by hallucinations, delusions, disorganized thinking, and other symptoms. It affects individuals' perceptions of reality. Would you like more information about the symptoms or treatments?
+  utter_feeling_schizophrenia:
+    - text: Symptoms of schizophrenia can include hallucinations, such as hearing voices, delusions, disorganized thinking and speech, lack of motivation, social withdrawal, and difficulty in concentrating. These symptoms can vary in severity and may impact daily functioning.
+    - text: Common signs of schizophrenia include a combination of positive symptoms like hallucinations and delusions, negative symptoms like reduced emotional expression and lack of motivation, cognitive impairments, and disorganized behavior. It's important to consult a healthcare professional for a comprehensive evaluation.
+    - text: The exact causes of schizophrenia are still being researched, but it is believed to result from a combination of genetic, environmental, and neurochemical factors. Factors such as family history, brain chemistry imbalances, and early-life stress may contribute to the development of schizophrenia.
+    - text: Schizophrenia affects about 1% of the global population. It can occur in both men and women, typically emerging in late adolescence or early adulthood. Early detection, intervention, and appropriate treatment can help manage symptoms and improve quality of life.
+  suggest_coping_strategies_schizophrenia:
+    - text: Some effective coping strategies for managing schizophrenia symptoms include engaging in regular exercise, practicing relaxation techniques like deep breathing or mindfulness, maintaining a structured routine, seeking support from friends and family, and participating in activities that bring joy and fulfillment.
+  utter_recommend_medication_management_schizophrenia:
+    - text: There are various support options available for individuals with schizophrenia and their families. Support groups, counseling services, and online communities can provide valuable resources and connections.
+  utter_stress_reduction_techniques_schizophrenia:
+    - text: Managing symptoms of schizophrenia involves a combination of medication, therapy, and support. It's important to work with healthcare professionals for personalized treatment options. Would you like to know more about coping strategies or treatment approaches?
+  recommend_medication_management_schizophrenia:
+    - text: Proper medication management is crucial for managing schizophrenia symptoms. It is important to take medications as prescribed, attend regular check-ups with a healthcare professional, and communicate any concerns or side effects. Following a consistent medication regimen can help stabilize symptoms and improve overall well-being.
+actions:
+  - action_hello_world
+  - utter_goodbye
+  - utter_happy
+  - utter_greet
+  - utter_cheer_up
+  - utter_cheer_up_two
+  - utter_did_that_help
+  - utter_iamabot
+  - utter_mood
+  - utter_welcome
+  - utter_survey
+  - utter_gender
+  - utter_employment
+  - utter_history_mental_illness
+  - utter_univ_interference
+  - utter_company_no_employees
+  - utter_tech_company
+  - utter_health_benefits
+  - utter_health_resources
+  - utter_treatment_anonymity
+  - utter_medical_leave
+  - utter_serious_mental_health
+  - utter_negative_consequences_mental_collegaue
+  - utter_willing_to_discuss_adviser
+  - utter_discussing_mental_health
+  - utter_willing_to_discuss_collegaue
+  - utter_learn_about_alcohol_use_disorders
+  - utter_identify_alcohol_use_symptoms
+  - utter_coping_strategies_alcohol_use_disorders
+  - utter_treatment_options_alcohol_use_disorders
+  - utter_support_network_alcohol_use_disorders
+  - utter_seek_professional_help_alcohol_use_disorders
+  - utter_learn_about_anxiety_disorders
+  - utter_identify_anxiety_symptoms
+  - utter_coping_strategies_anxiety_disorders
+  - utter_treatment_options_anxiety_disorders
+  - utter_support_network_anxiety_disorders
+  - utter_learn_about_bipolar_disorder
+  - utter_understand_symptoms_bipolar_disorder
+  - utter_medication_management_bipolar_disorder
+  - utter_coping_strategies_bipolar_disorder
+  - utter_find_support_resources_bipolar_disorder
+  - utter_learn_about_schizophrenia
+  - recommend_medication_management_schizophrenia
+  - suggest_coping_strategies_schizophrenia
+  - utter_learn_about_depression
+  - utter_identify_depression_symptoms
+  - utter_coping_strategies_depression
+  - utter_treatment_options_depression
+  - utter_support_network_depression
+  - utter_seek_professional_help_depression
+  - utter_learn_about_drug_use_disorders
+  - utter_identify_drug_use_symptoms
+  - utter_treatment_options_drug_use
+  - utter_learn_about_eating_disorders
+  - utter_identify_eating_disorder_symptoms
+  - utter_coping_strategies_eating_disorders
+  - utter_treatment_options_eating_disorders
+  - utter_body_image_eating_disorders
+  - utter_dealing_with_alcohol_cravings
+  - utter_expressing_fear_of_judgment_due_to_alcoholism
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

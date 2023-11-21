@@ -1,0 +1,571 @@
+nlu:
+  - intent: generalized_anxiety_disorder
+    examples: |
+      - What is generalized anxiety disorder?
+      - Explain generalized anxiety disorder
+      - Tell me about generalized anxiety disorder
+      - Describe generalized anxiety disorder
+      - What are the symptoms of generalized anxiety disorder?
+      - How is generalized anxiety disorder diagnosed?
+      - Can you provide information on generalized anxiety disorder?
+      - What are the common behaviors associated with generalized anxiety disorder?
+      - How does generalized anxiety disorder affect a person's daily life?
+
+  - intent: panic_disorder
+    examples: |
+      - What is panic disorder?
+      - Explain panic disorder
+      - Tell me about panic disorder
+      - Describe panic disorder
+      - What are the symptoms of panic disorder?
+      - How is panic disorder different from generalized anxiety disorder?
+      - Can you provide information on panic disorder?
+      - What are the common triggers for panic attacks?
+      - How does panic disorder affect a person's life?
+
+  - intent: social_anxiety_disorder
+    examples: |
+      - What is social anxiety disorder?
+      - Explain social anxiety disorder
+      - Tell me about social anxiety disorder
+      - Describe social anxiety disorder
+      - What are the symptoms of social anxiety disorder?
+      - How is social anxiety disorder diagnosed?
+      - Can you provide information on social anxiety disorder?
+      - What are common situations that trigger social anxiety?
+      - How does social anxiety disorder impact daily interactions?
+
+  - intent: feeling_generalized_anxiety
+    examples: |
+      - I'm feeling overwhelmed by general anxiety
+      - Generalized anxiety is taking over
+      - I can't shake this feeling of anxiety
+      - My mind won't stop racing with worries
+      - I'm struggling with the weight of generalized anxiety
+      - I feel a constant sense of unease
+      - I'm anxious about everything
+      - Generalized anxiety is making it hard to focus
+      - I can't calm down, I'm anxious
+      - I'm on edge due to generalized anxiety
+      - This anxiety is consuming me
+
+  - intent: feeling_panic
+    examples: |
+      - I'm feeling a sense of panic
+      - Panic is setting in
+      - My heart is racing, I'm panicking
+      - I'm overwhelmed by panic
+      - I can't control this panic
+      - Panic is taking over
+      - I'm in the midst of a panic attack
+      - I'm struggling with panic
+      - I feel like I'm going to have a panic attack
+      - Panic is consuming me
+      - My chest feels tight, I'm panicking
+
+  - intent: feeling_social_anxiety
+    examples: |
+      - I'm feeling extremely anxious in social situations
+      - Social anxiety is making it hard to interact with others
+      - I'm overwhelmed by social anxiety
+      - I'm anxious about being judged by others
+      - Social situations trigger intense anxiety for me
+      - I feel a sense of dread in social settings
+      - Social anxiety is affecting my relationships
+      - I'm struggling with the fear of social interactions
+      - I find social situations incredibly stressful
+      - I'm anxious about speaking or performing in public
+
+  - intent: feeling_obsessive_compulsive
+    examples: |
+      - I'm feeling consumed by obsessive thoughts
+      - Obsessive thoughts won't let up
+      - I can't stop obsessing
+      - Obsessive thinking is taking a toll on me
+      - I'm struggling with compulsive behaviors
+      - Compulsions are dominating my thoughts
+      - I feel trapped in a cycle of obsessions and compulsions
+      - Obsessive-compulsive behaviors are overwhelming me
+      - I'm anxious about not performing compulsions
+      - Obsessive-compulsive disorder is causing distress
+
+  - intent: feeling_ptsd
+    examples: |
+      - I'm feeling overwhelmed by traumatic memories
+      - PTSD is causing intense anxiety and flashbacks
+      - I can't escape the effects of trauma
+      - Traumatic experiences are impacting my daily life
+      - I'm struggling with the aftermath of trauma
+      - PTSD is taking a toll on my mental health
+      - I feel trapped in my traumatic memories
+      - I'm anxious about triggers related to my trauma
+      - PTSD is consuming me
+
+  - intent: obsessive_compulsive_disorder
+    examples: |
+      - What is obsessive-compulsive disorder (OCD)?
+      - Explain obsessive-compulsive disorder
+      - Tell me about obsessive-compulsive disorder
+      - Describe obsessive-compulsive disorder
+      - What are the symptoms of OCD?
+      - How is obsessive-compulsive disorder treated?
+      - Can you provide information on OCD?
+
+  - intent: post_traumatic_stress_disorder
+    examples: |
+      - What is post-traumatic stress disorder (PTSD)?
+      - Explain post-traumatic stress disorder
+      - Tell me about post-traumatic stress disorder
+      - Describe post-traumatic stress disorder
+      - What are the common symptoms of PTSD?
+      - How is post-traumatic stress disorder treated?
+      - Can you provide information on PTSD?
+
+  - intent: anxiety_disorder
+    examples: |
+      - What is anxiety disorder?
+      - Explain anxiety disorder
+      - Tell me about anxiety disorder
+      - Describe anxiety disorder
+      - What are the characteristics of anxiety disorder?
+      - How does anxiety disorder affect a person's mental health?
+      - Can you provide information on anxiety disorder?
+      - What are the signs of anxiety disorder?
+      - What are the common behaviors associated with anxiety disorder?
+      - How can anxiety disorder impact daily life?
+      - What are the physical symptoms of anxiety disorder?
+      - What are the emotional symptoms of anxiety disorder?
+      - How does anxiety disorder make a person feel?
+
+  - intent: types_of_anxiety_disorder
+    examples: |
+      - Types of anxiety disorders
+      - Different anxiety disorder categories
+      - Explain generalized anxiety disorder (GAD)
+      - Describe panic disorder
+      - What is social anxiety disorder?
+      - Explain specific phobias
+      - Describe obsessive-compulsive disorder (OCD)
+      - What is post-traumatic stress disorder (PTSD)?
+      - Provide info on separation anxiety disorder
+      - What are the characteristics of agoraphobia?
+      - Explain selective mutism
+      - Describe substance-induced anxiety disorder
+      - Provide insights on anxiety disorder types
+
+  - intent: signs_of_anxiety_disorder
+    examples: |
+      - Signs of anxiety disorder
+      - Recognizing anxiety disorders
+      - What are the signs of generalized anxiety disorder (GAD)?
+      - How to identify panic disorder?
+      - Signs of social anxiety disorder
+      - What are the symptoms of specific phobias?
+      - Explain signs of obsessive-compulsive disorder (OCD)
+      - Tell me about signs of post-traumatic stress disorder (PTSD)
+      - Provide information on signs of separation anxiety disorder
+      - Describe common signs of agoraphobia
+      - What behaviors indicate an anxiety disorder?
+      - How to recognize selective mutism?
+      - List signs of substance-induced anxiety disorder
+      - Provide insights on recognizing anxiety disorders
+      - What are the behavioral signs of an anxiety disorder?
+
+  - intent: causes_of_anxiety_disorder
+    examples: |
+      - Causes of anxiety disorders
+      - What leads to an anxiety disorder?
+      - Factors behind anxiety disorders
+      - Why do people develop anxiety disorders?
+      - Is there a genetic component to anxiety disorders?
+      - Explain the causes of generalized anxiety disorder (GAD)
+      - Tell me about risk factors for anxiety disorders
+      - Provide insights on anxiety disorder causes
+      - What contributes to anxiety disorder development?
+      - Elaborate on anxiety disorder origins
+      - Break down the factors of anxiety disorders
+      - I'd like to know about anxiety disorder causes
+      - What influences anxiety disorder development?
+      - Give me information on anxiety disorder causes
+      - Describe the roots of anxiety disorders
+      - Explain genetic factors in anxiety disorders
+      - Tell me about anxiety disorder predisposition
+      - Provide info on anxiety disorder etiology
+      - What factors play a role in anxiety disorders?
+      - Help me understand anxiety disorder causes
+      - What leads to anxiety disorders?
+      - Give me an overview of anxiety disorder origins
+      - Explain environmental factors in anxiety disorders
+      - Tell me about anxiety disorder susceptibility
+      - Provide insights on anxiety disorder development
+      - What are the contributing factors to anxiety disorders?
+      - Describe the genetics of anxiety disorders
+      - Elaborate on anxiety disorder risk elements
+      - What are the potential causes of anxiety disorders?
+      - I'm curious about anxiety disorder origins
+
+  - intent: managing_anxiety_disorder
+    examples: |
+      - Managing anxiety disorder
+      - Coping with anxiety disorder
+      - Strategies for anxiety disorder management
+      - Anxiety disorder self-help
+      - Anxiety disorder treatment options
+      - Living with anxiety disorder
+      - How to handle anxiety disorder
+      - Anxiety disorder support
+      - Techniques for anxiety disorder management
+      - Coping strategies for anxiety disorders
+      - Living a balanced life with anxiety disorder
+      - How to live with anxiety disorder
+      - Help for managing an anxiety disorder
+      - Anxiety disorder self-care
+      - Strategies to deal with anxiety disorder
+      - How to navigate life with anxiety disorder
+      - Anxiety disorder coping mechanisms
+      - Tips for anxiety disorder management
+      - Techniques for living with anxiety disorder
+      - How to thrive with anxiety disorder
+      - Anxiety disorder support and strategies
+      - Ways to cope with anxiety disorder
+      - Anxiety disorder living tips
+      - Self-help for anxiety disorders
+      - Managing anxiety disorder effectively
+      - Strategies for living with anxiety disorder
+      - Anxiety disorder wellness techniques
+      - How to succeed with anxiety disorder
+      - Coping mechanisms for anxiety disorders
+
+  - intent: anxiety_disorder_diagnosis
+    examples: |
+      - Getting an anxiety disorder diagnosis
+      - How is an anxiety disorder diagnosed?
+      - Anxiety disorder evaluation process
+      - Do I have an anxiety disorder?
+      - Diagnosing an anxiety disorder in adults
+      - Anxiety disorder assessment
+      - How to determine if I have an anxiety disorder
+      - Anxiety disorder diagnostic process
+      - What's involved in an anxiety disorder diagnosis?
+      - Can you tell me about anxiety disorder assessment?
+      - How do professionals diagnose an anxiety disorder?
+      - I think I might have an anxiety disorder
+      - What's the process for an anxiety disorder diagnosis?
+      - Can you explain how an anxiety disorder is diagnosed?
+      - How do I get an anxiety disorder assessment?
+      - Do adults get diagnosed with anxiety disorders?
+      - Can you tell me about diagnosing anxiety disorders in adults?
+      - I'm wondering if I have an anxiety disorder
+      - What's the evaluation process for an anxiety disorder?
+      - How do professionals determine if someone has an anxiety disorder?
+      - Can you explain the anxiety disorder assessment process?
+      - I suspect I might have an anxiety disorder
+      - How is an anxiety disorder diagnosed in adults?
+      - What steps are involved in getting an anxiety disorder diagnosis?
+      - Can you guide me through the anxiety disorder diagnostic process?
+      - I'm curious about the process of diagnosing an anxiety disorder
+      - How can I find out if I have an anxiety disorder?
+      - What's the procedure for an anxiety disorder assessment?
+      - Can you tell me how professionals diagnose an anxiety disorder in adults?
+      - I think I might need an anxiety disorder assessment
+
+  - intent: anxiety_disorder_therapy
+    examples: |
+      - Anxiety disorder therapy
+      - Therapy for anxiety disorders
+      - Behavioral therapy for anxiety disorders
+      - Counseling for anxiety disorders
+      - Anxiety disorder coaching
+      - Talk therapy for anxiety disorders
+      - Information on anxiety disorder therapy
+      - What's involved in therapy for anxiety disorders?
+      - Explain behavioral therapy for anxiety disorders
+      - Tell me about counseling for anxiety disorders
+      - Provide insights on anxiety disorder coaching
+      - How does talk therapy help with anxiety disorders?
+      - Describe therapy options for anxiety disorders
+      - What's the role of counseling in anxiety disorder treatment?
+      - Explain anxiety disorder coaching techniques
+      - Provide info on talk therapy for anxiety disorders
+      - How does therapy support anxiety disorder recovery?
+      - Describe the benefits of behavioral therapy for anxiety disorders
+      - What types of therapy are effective for anxiety disorders?
+      - Provide insights on therapy options for anxiety disorders
+      - How can counseling contribute to anxiety disorder recovery?
+      - Explain anxiety disorder coaching methods
+      - Describe the role of talk therapy in anxiety disorder treatment
+      - What are the key elements of anxiety disorder therapy?
+      - Provide information on behavioral therapy for anxiety disorders
+      - Explain how therapy helps with anxiety disorders
+      - Tell me about effective counseling for anxiety disorders
+      - Provide insights on talk therapy for anxiety disorders
+      - How can anxiety disorder coaching be beneficial?
+      - Describe therapy techniques for anxiety disorders
+
+  - intent: feeling_anxious_talking_to_people
+    examples: |
+      - I'm feeling anxious talking to people
+      - Talking to others makes me anxious
+      - Social situations make me nervous
+      - I get nervous in conversations
+      - I feel anxious when speaking in public
+
+responses:
+  utter_generalized_anxiety_disorder:
+    - text: "Generalized Anxiety Disorder (GAD) is a mental health condition characterized by excessive and persistent worrying about a wide range of everyday problems. This anxiety is not limited to a specific situation and is often accompanied by physical symptoms like restlessness, fatigue, and muscle tension. GAD can significantly impact daily life and functioning."
+  
+  utter_panic_disorder:
+    - text: "Panic Disorder is a type of anxiety disorder characterized by recurrent and sudden episodes of intense fear or panic, often accompanied by physical symptoms like rapid heart rate, trembling, and shortness of breath. These panic attacks can be overwhelming and may lead to a fear of having more attacks, which can disrupt daily life."
+
+  utter_social_anxiety_disorder:
+    - text: "Social Anxiety Disorder, also known as social phobia, is an anxiety disorder characterized by an intense fear of social situations where one might be judged or scrutinized by others. This fear can be so severe that it leads to avoidance of social interactions. It can significantly impact a person's ability to engage in everyday activities."
+
+  utter_obsessive_compulsive_disorder:
+    - text: "Obsessive-Compulsive Disorder (OCD) is a mental health condition characterized by intrusive, persistent, and unwanted thoughts (obsessions) and repetitive behaviors or mental acts (compulsions). These behaviors are often performed in an attempt to reduce anxiety or prevent a feared event. OCD can be distressing and time-consuming."
+
+  utter_post_traumatic_stress_disorder:
+    - text: "Post-Traumatic Stress Disorder (PTSD) is a mental health condition that can develop after experiencing or witnessing a traumatic event. Symptoms may include flashbacks, nightmares, severe anxiety, and avoidance of reminders of the trauma. PTSD can significantly impact a person's daily life and relationships."
+
+  utter_mental_health_institute_contact:
+    - text: "If you're in need of immediate assistance or would like to speak with a mental health professional in the Philippines, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They offer confidential and compassionate support. Remember, you're not alone, and help is available."
+
+  utter_anxiety_disorder:
+      - text: "Anxiety disorders are a group of mental health conditions characterized by excessive and persistent feelings of anxiety and fear. They can manifest in various ways, such as generalized anxiety, panic attacks, social anxiety, specific phobias, obsessive-compulsive behaviors, and more. These conditions can lead to significant distress and interference with daily life."
+
+  utter_how_anxiety_disorder_feels:
+      - text: "People with anxiety disorders may experience a range of feelings, including constant worry, restlessness, irritability, muscle tension, and a sense of impending doom. They might also have physical symptoms like rapid heartbeat, sweating, trembling, and shortness of breath. It's important to remember that the experience of anxiety can vary from person to person."
+
+  utter_types_of_anxiety_disorder:
+      - text: "There are several types of anxiety disorders, including Generalized Anxiety Disorder (GAD), Panic Disorder, Social Anxiety Disorder, Specific Phobias, Obsessive-Compulsive Disorder (OCD), Post-Traumatic Stress Disorder (PTSD), Separation Anxiety Disorder, Agoraphobia, Selective Mutism, and Substance-Induced Anxiety Disorder. Each type has its own unique features and characteristics."
+
+  utter_signs_of_anxiety_disorder:
+      - text: "Recognizing an anxiety disorder involves observing both physical and emotional signs. These may include excessive worrying, restlessness, muscle tension, irritability, rapid heart rate, sweating, trembling, and difficulty concentrating. It's important to seek professional help if you or someone you know is experiencing these symptoms."
+
+  utter_causes_of_anxiety_disorder:
+      - text: "The causes of anxiety disorders can be complex and may involve a combination of genetic, environmental, and psychological factors. Genetic predisposition, brain chemistry imbalances, traumatic experiences, and chronic stress are some of the factors that can contribute to the development of an anxiety disorder."
+
+  utter_managing_anxiety_disorder:
+      - text: "Managing anxiety disorders often involves a combination of strategies. These may include therapy (such as cognitive-behavioral therapy), medication, relaxation techniques, regular exercise, maintaining a balanced diet, and seeking support from loved ones. It's important to work with a healthcare professional to develop an individualized plan."
+
+  utter_anxiety_disorder_diagnosis:
+      - text: "Diagnosing an anxiety disorder typically involves a comprehensive assessment by a mental health professional. This may include a detailed discussion of symptoms, a physical examination, and possibly some psychological tests. It's important to be open and honest about your experiences to receive an accurate diagnosis."
+
+  utter_anxiety_disorder_therapy:
+      - text: "Therapy is an important component of anxiety disorder treatment. Various forms of therapy, such as cognitive-behavioral therapy, exposure therapy, and mindfulness-based approaches, can be effective in helping individuals manage their anxiety. Additionally, medication and self-care techniques may also be incorporated into a treatment plan."
+
+  utter_feeling_anxious_talking_to_people:
+      - text: "I'm sorry to hear that you're feeling anxious in social situations. It's important to remember that you're not alone in experiencing this. One strategy is to take slow, deep breaths and focus on the conversation. You can also try to shift your focus to the topic at hand. Gradual exposure to social situations can also be helpful in building confidence over time."
+
+  utter_feeling_generalized_anxiety:
+      - text: "I'm really sorry to hear that you're feeling this way. Generalized anxiety can be incredibly challenging to deal with. It's important to remember that you're not alone, and there are steps you can take to manage this. Would you like some guidance on coping with generalized anxiety?"
+      
+  utter_feeling_panic:
+      - text: "I'm really sorry to hear that you're experiencing panic. It can be an incredibly distressing feeling. Remember to take slow, deep breaths. If you're in a safe place, you might also want to try grounding exercises. Would you like some guidance on managing panic attacks?"
+
+  utter_feeling_social_anxiety:
+      - text: "I'm sorry to hear that you're feeling this way in social situations. Social anxiety can be really tough to navigate. It's important to go at your own pace. Would you like some tips on managing social anxiety?"
+
+  utter_feeling_obsessive_compulsive:
+      - text: "I'm really sorry to hear that you're struggling with obsessive thoughts and compulsive behaviors. It's important to remember that you're not alone, and there are strategies that can help. Would you like some advice on managing obsessive-compulsive tendencies?"
+      
+  utter_feeling_ptsd:
+      - text: "I'm really sorry to hear that you're feeling this way due to traumatic memories. PTSD can be incredibly challenging to cope with. Remember, seeking support is a sign of strength. Would you like some guidance on managing PTSD symptoms?"
+
+
+stories:
+
+  - story: generalized_anxiety_disorder_story
+    steps:
+      - intent: generalized_anxiety_disorder
+      - action: utter_generalized_anxiety_disorder
+
+  - story: panic_disorder_story
+    steps:
+      - intent: panic_disorder
+      - action: utter_panic_disorder
+
+  - story: social_anxiety_disorder_story
+    steps:
+      - intent: social_anxiety_disorder
+      - action: utter_social_anxiety_disorder
+
+  - story: obsessive_compulsive_disorder_story
+    steps:
+      - intent: obsessive_compulsive_disorder
+      - action: utter_obsessive_compulsive_disorder
+
+  - story: post_traumatic_stress_disorder_story
+    steps:
+      - intent: post_traumatic_stress_disorder
+      - action: utter_post_traumatic_stress_disorder
+
+  - story: anxiety_disorder_story
+    steps:
+      - intent: anxiety_disorder
+      - action: utter_anxiety_disorder
+
+  - story: types_of_anxiety_disorder_story
+    steps:
+      - intent: types_of_anxiety_disorder
+      - action: utter_types_of_anxiety_disorder
+
+  - story: signs_of_anxiety_disorder_story
+    steps:
+      - intent: signs_of_anxiety_disorder
+      - action: utter_signs_of_anxiety_disorder
+
+  - story: causes_of_anxiety_disorder_story
+    steps:
+      - intent: causes_of_anxiety_disorder
+      - action: utter_causes_of_anxiety_disorder
+
+  - story: managing_anxiety_disorder_story
+    steps:
+      - intent: managing_anxiety_disorder
+      - action: utter_managing_anxiety_disorder
+
+  - story: anxiety_disorder_diagnosis_story
+    steps:
+      - intent: anxiety_disorder_diagnosis
+      - action: utter_anxiety_disorder_diagnosis
+
+  - story: anxiety_disorder_therapy_story
+    steps:
+      - intent: anxiety_disorder_therapy
+      - action: utter_anxiety_disorder_therapy
+
+  - story: feeling_anxious_talking_to_people_story
+    steps:
+      - intent: feeling_anxious_talking_to_people
+      - action: utter_feeling_anxious_talking_to_people
+
+  - story: handling_anxiety_in_social_situations
+    steps:
+      - intent: feeling_anxious_talking_to_people
+      - action: utter_feeling_anxious_talking_to_people
+      - action: utter_how_to_handle_social_anxiety
+
+  - story: handling_anxiety_seek_for_therapy
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+      - intent: feeling_panic
+      - action: utter_feeling_panic
+
+      - intent: signs_of_mental_health_struggle
+      - action: utter_signs_of_mental_health_struggle
+
+      - intent: anxiety_management
+      - action: utter_anxiety_management
+
+      - intent: seeking_help_for_anxiety
+      - action: utter_seeking_help_for_anxiety
+      - action: utter_mental_health_institute_contact
+
+      - intent: anxiety_therapy
+      - action: utter_anxiety_therapy
+
+      - intent: anxiety_self_care
+      - action: utter_anxiety_self_care
+
+      - intent: seeking_resources_for_mental_health
+      - action: utter_seeking_resources_for_mental_health
+      - action: utter_mental_health_institute_contact
+
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Understanding Anxiety Disorder - Social Anxiety
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+      - intent: feeling_social_anxiety
+      - action: utter_feeling_social_anxiety
+
+      - intent: signs_of_mental_health_struggle
+      - action: utter_signs_of_mental_health_struggle
+
+      - intent: anxiety_management
+      - action: utter_anxiety_management
+
+      - intent: seeking_help_for_anxiety
+      - action: utter_seeking_help_for_anxiety
+      - action: utter_mental_health_institute_contact
+
+      - intent: anxiety_therapy
+      - action: utter_anxiety_therapy
+
+      - intent: anxiety_self_care
+      - action: utter_anxiety_self_care
+
+      - intent: seeking_resources_for_mental_health
+      - action: utter_seeking_resources_for_mental_health
+      - action: utter_mental_health_institute_contact
+
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Understanding Anxiety Disorder - OCD
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+      - intent: feeling_obsessive_compulsive
+      - action: utter_feeling_obsessive_compulsive
+
+
+      - intent: signs_of_mental_health_struggle
+      - action: utter_signs_of_mental_health_struggle
+
+      - intent: anxiety_management
+      - action: utter_anxiety_management
+
+      - intent: seeking_help_for_anxiety
+      - action: utter_seeking_help_for_anxiety
+      - action: utter_mental_health_institute_contact
+
+      - intent: anxiety_therapy
+      - action: utter_anxiety_therapy
+
+      - intent: anxiety_self_care
+      - action: utter_anxiety_self_care
+
+      - intent: seeking_resources_for_mental_health
+      - action: utter_seeking_resources_for_mental_health
+      - action: utter_mental_health_institute_contact
+
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Understanding Anxiety Disorder - PTSD
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+      - intent: feeling_ptsd
+      - action: utter_feeling_ptsd
+
+      - intent: signs_of_mental_health_struggle
+      - action: utter_signs_of_mental_health_struggle
+
+      - intent: anxiety_management
+      - action: utter_anxiety_management
+
+      - intent: seeking_help_for_anxiety
+      - action: utter_seeking_help_for_anxiety
+      - action: utter_mental_health_institute_contact
+
+      - intent: anxiety_therapy
+      - action: utter_anxiety_therapy
+
+      - intent: anxiety_self_care
+      - action: utter_anxiety_self_care
+
+      - intent: seeking_resources_for_mental_health
+      - action: utter_seeking_resources_for_mental_health
+      - action: utter_mental_health_institute_contact
+
+      - intent: goodbye
+      - action: utter_goodbye

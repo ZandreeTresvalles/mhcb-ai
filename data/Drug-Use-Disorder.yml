@@ -1,0 +1,54 @@
+nlu:
+  - intent: learn_about_drug_use_disorders
+    examples: |
+      - What are drug use disorders?
+      - Tell me about substance abuse.
+      - Explain addiction.
+      - What are the different types of drug use disorders?
+      - What causes drug use disorders?
+      - How can I get help for drug addiction?
+
+  - intent: identify_drug_use_symptoms
+    examples: |
+      - What are the signs of substance abuse?
+      - How can I recognize drug addiction symptoms?
+      - Tell me about the physical effects of drug use.
+      - What are the behavioral indicators of drug use disorders?
+      - How does drug use affect relationships?
+
+  - intent: treatment_options_drug_use_disorders
+    examples: |
+      - What are the treatment options for drug use disorders?
+      - Tell me about therapy for addiction recovery.
+      - How can I find a substance abuse counselor?
+      - Are there any support groups for addiction recovery?
+      - Can you recommend any medications for drug addiction?
+
+  - intent: relapse_prevention_drug_use_disorders
+    examples: |
+      - How can I prevent relapse?
+      - Tell me about coping strategies for addiction recovery.
+      - What are some triggers for drug use?
+      - How can I develop a support system for relapse prevention?
+      - Can you provide tips for maintaining sobriety?
+
+  - intent: support_network_drug_use_disorders
+    examples: |
+      - Are there support groups for addiction recovery?
+      - How can I find a therapist for substance abuse?
+      - Tell me about the role of family support in addiction recovery.
+      - Can you recommend any resources for addiction self-help?
+      - Where can I find information about drug use disorders?
+
+responses:
+  utter_learn_about_drug_use_disorders:
+    - text: "Drug use disorders, also known as substance use disorders or addiction, are chronic conditions characterized by the compulsive use of drugs despite negative consequences. They can involve the misuse of substances such as alcohol, opioids, stimulants, or illicit drugs. Would you like more information about specific drug use disorders or their causes?"
+    - text: "Drug use disorders involve the inability to control or stop using a substance despite harmful effects on physical health, mental well-being, and interpersonal relationships. They can lead to tolerance, withdrawal symptoms, and a loss of control over drug use. Seeking professional help is essential for effective treatment."
+
+  utter_identify_drug_use_symptoms:
+    - text: "Recognizing drug use symptoms can include changes in behavior, physical health issues, neglecting responsibilities, financial difficulties, secrecy, and social withdrawal. It's important to consult a healthcare professional or addiction specialist for a comprehensive assessment."
+    - text: "Common signs of drug use disorders may include drug cravings, impaired judgment, risky behaviors, relationship problems, tolerance, and withdrawal symptoms when drug use is stopped. Identifying these symptoms is an important step in seeking help and support."
+
+  utter_treatment_options_drug_use:
+    - text: "Treatment options for drug use disorders can include therapy, medication-assisted treatment, support groups, and residential or outpatient programs. Therapies such as cognitive-behavioral therapy (CBT) and motivational interviewing can be effective in addressing underlying issues and changing addictive behaviors. It's important to work with healthcare professionals to determine the best treatment plan."
+    - text: "There are various treatment approaches available for drug use disorders, including individual counseling, group therapy, and family therapy. Medications may also be prescribed to"

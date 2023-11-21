@@ -1,0 +1,438 @@
+nlu:
+  - intent: expressing_concern_for_drinking
+    examples: |
+      - Worried about a friend's drinking?
+      - How to talk about a loved one's alcohol use?
+      - Noticed changes in someone's behavior related to alcohol?
+      - Friend drinking more, how can I help?
+      - Concerned about a colleague's alcohol consumption?
+      - How to approach a sibling about their drinking?
+      - Partner's drinking worries me, what to do?
+      - Signs someone may be struggling with alcohol?
+      - Friend seems to have a drinking problem, how to support?
+      - Tips for helping someone with potential alcohol issues?
+      - Concerned about a neighbor's alcohol habits?
+      - Approaching a friend about their excessive drinking?
+      - Worried about a teenager's alcohol use, what to say?
+      - Noticing alcohol-related changes in a parent, how to address?
+      - Supporting a coworker in recognizing alcohol issues, tips?
+      - Concerned about a friend's binge drinking, how to intervene?
+      - How to express concern for a friend's drinking without judgment?
+      - Noticing signs of alcohol dependence in a family member, what to do?
+      - Supporting a friend in denial about their alcohol problem, strategies?
+      - Concerned about a partner's drinking affecting our relationship, advice?
+
+  - intent: supporting_loved_one_in_recovery
+    examples: |
+      - Tips for supporting a friend in recovery?
+      - Ways to assist a recovering family member?
+      - How to be supportive of a partner's recovery journey?
+      - Helping a sister through recovery, advice?
+      - Encouraging someone in early recovery, how?
+      - Creating a supportive environment for a friend in recovery?
+      - Guidance on supporting a spouse quitting drinking?
+      - How to assist a friend newly committed to sobriety?
+      - Understanding and supporting someone in recovery?
+      - Tips for being patient with someone in early recovery?
+      - Supporting a loved one in recovery without being overbearing?
+      - Celebrating recovery milestones with a friend, what to do?
+      - Helping a friend deal with triggers during recovery, strategies?
+      - How to encourage healthy habits in a friend's recovery journey?
+      - Supporting a friend in recovery who is facing setbacks, advice?
+      - Navigating challenges in a family member's recovery, how to help?
+      - Helping a friend rebuild their life after alcoholism, suggestions?
+      - Encouraging a friend to stay connected to a recovery community, how?
+      - Tips for supporting a loved one in recovery from a relapse, what to say?
+      - Celebrating the achievements of someone in recovery, ideas?
+
+  - intent: dealing_with_alcohol_related_guilt
+    examples: |
+      - Coping with guilt about drinking?
+      - Overcoming guilt related to alcohol use?
+      - Regret over actions while drinking, how to move forward?
+      - Managing guilt from alcohol-related incidents?
+      - Impact of drinking on family, feeling guilty?
+      - Advice on forgiveness for past mistakes related to alcohol?
+      - Letting go of guilt tied to alcohol consumption?
+      - Strategies for breaking the cycle of guilt and drinking?
+      - Coping with guilt after relapse?
+      - Dealing with guilt over hurting people due to drinking?
+      - Regret over damaged friendships due to alcohol, how to repair?
+      - Overcoming guilt about neglecting responsibilities during drinking, tips?
+      - Coping with guilt about the impact of alcohol on mental health?
+      - Strategies for addressing guilt without turning to alcohol, how?
+      - Dealing with guilt about the financial consequences of alcoholism, advice?
+      - Coping with guilt when facing legal issues due to alcohol use, what to do?
+      - Overcoming guilt about setting a bad example for children, guidance?
+      - Strategies for managing guilt about jeopardizing work or career due to alcohol, how?
+      - Addressing guilt about the strain alcohol has put on romantic relationships, suggestions?
+      - Coping with guilt about the impact of alcoholism on physical health, how?
+
+  - intent: seeking_understanding_about_alcoholism
+    examples: |
+      - Trying to understand alcohol use disorder.
+      - Insights into the experiences of someone with alcoholism?
+      - Learning about challenges faced by those with alcohol addiction?
+      - Impact of alcoholism on mental health?
+      - Emotional toll of living with alcohol use disorder?
+      - Personal stories of overcoming alcoholism for inspiration?
+      - Information on psychological aspects of alcoholism?
+      - How alcoholism affects relationships?
+      - Daily life with alcohol use disorder, what's it like?
+      - Science behind addiction and alcoholism, explain?
+      - Understanding the stages of alcoholism for better support, how?
+      - Exploring the connection between trauma and alcohol addiction, insights?
+      - How to differentiate between social drinking and alcoholism?
+      - Recognizing the signs of alcohol use disorder, what to look for?
+      - Understanding the role of genetics in alcohol addiction, explain?
+      - Exploring the impact of co-occurring mental health disorders and alcoholism, insights?
+      - Learning about the link between stress and alcohol use disorder, what's known?
+      - Understanding the impact of childhood experiences on the development of alcoholism, insights?
+      - Exploring the connection between peer influence and alcohol use, what research says?
+
+  - intent: expressing_self_concern_about_drinking
+    examples: |
+      - Worried I might have a problem with alcohol, what to do?
+      - Expressing concerns about my drinking habits?
+      - Impact of alcohol on my life, feeling concerned?
+      - Signs to look for if concerned about own drinking?
+      - Questioning my relationship with alcohol, where to start seeking help?
+      - Advice on self-assessment for alcohol use disorder?
+      - Talking to someone about my drinking, where to begin?
+      - Knowing if I need professional help for my drinking?
+      - Struggling with the idea of giving up alcohol, how to cope?
+      - First steps if concerned about own drinking habits?
+      - Recognizing the need for change in my drinking habits, what next?
+      - Coping with the fear of admitting I have a problem with alcohol, how?
+      - Navigating the internal conflict about seeking help for alcoholism, any advice?
+      - Recognizing the impact of alcohol on my mental health, what to do next?
+      - Coping with the fear of judgment when opening up about personal struggles with alcohol, how?
+      - Exploring the reasons behind my concerns about alcohol, what to consider?
+      - Recognizing the signs of dependence on alcohol, what to do next?
+      - Coping with the fear of facing life without relying on alcohol, any guidance?
+      - Strategies for discussing concerns about alcohol with a healthcare professional, what to prepare?
+      - Navigating the emotional aspects of realizing I may have a problem with alcohol, how?
+
+  - intent: supporting_friend_in_recovery
+    examples: |
+      - Friend in recovery, how can I support them?
+      - Helping a friend quit drinking, what are the ways?
+      - Being supportive of a friend's recovery, how?
+      - Encouraging someone in early recovery, how?
+      - Activities to suggest to a friend in recovery that don't involve alcohol?
+      - Navigating social events with a friend staying sober, tips?
+      - How to be a good listener for a friend in recovery?
+      - Addressing triggers for a friend's recovery journey?
+      - What to avoid saying or doing to support a friend's recovery?
+      - Concerned about a friend's relapse triggers, how to help?
+      - Supporting a friend who is hesitant to attend recovery meetings, advice?
+      - Creating a positive and non-judgmental environment for a friend in recovery, how?
+      - Encouraging a friend to celebrate their recovery milestones, ideas?
+      - Navigating challenges in a friend's recovery without being overbearing, tips?
+      - Supporting a friend who is considering making amends during recovery, how?
+      - Helping a friend establish a daily routine to support their recovery, suggestions?
+      - Encouraging a friend to seek professional help if needed during recovery, how?
+      - Navigating the dynamics of supporting a friend in recovery from a distance, tips?
+      - Supporting a friend in addressing underlying issues contributing to their alcohol use, how?
+      - Strategies for maintaining a healthy friendship while supporting a friend in recovery, advice?
+
+  - intent: coping_with_alcohol_related_stress
+    examples: |
+      - Using alcohol to cope with stress, need alternatives.
+      - Managing stress without relying on alcohol, how?
+      - Feeling stressed, impacting drinking habits, what to do?
+      - Stress-relief strategies without involving alcohol?
+      - Breaking the cycle of using alcohol as a stress coping mechanism, advice?
+      - Healthy ways to unwind without turning to alcohol?
+      - Struggling with stress from work, impacting drinking, suggestions?
+      - Addressing underlying stressors contributing to alcohol use?
+      - Mindfulness exercises to manage stress without alcohol?
+      - Positive habits to replace drinking as a stress coping mechanism?
+      - Coping with stress without resorting to old drinking habits, how?
+      - Strategies for handling stress in a healthy way during recovery, tips?
+      - Coping with stress from family or relationship issues without alcohol, how?
+      - Incorporating self-care practices to manage stress without turning to alcohol, suggestions?
+      - Building a support system for stress management during recovery, how?
+      - Addressing stress-related triggers for alcohol use, what to do?
+      - Developing healthy coping mechanisms for stress as an alternative to drinking, tips?
+      - Coping with stress during social events without turning to alcohol, how?
+      - Strategies for preventing stress-induced relapse during recovery, advice?
+      - Creating a personalized stress management plan for recovery, how?
+
+  - intent: dealing_with_social_pressure_to_drink
+    examples: |
+      - Feeling pressured to drink in social situations, how to handle it?
+      - Uncomfortable with the drinking culture in my social circle, what to do?
+      - Resisting social pressure to consume alcohol, tips?
+      - Staying sober at a party, afraid of judgment, any advice?
+      - Declining a drink without making it awkward, how?
+      - Strategies for navigating social events without drinking?
+      - Going to a social gathering, trying to stay sober, any advice?
+      - Explaining to friends that I'm not drinking without going into details, how?
+      - Responses to social invitations that don't involve alcohol, suggestions?
+      - Building a social circle that doesn't revolve around drinking, how?
+      - Communicating boundaries about alcohol consumption with friends, how?
+      - Navigating social events where everyone else is drinking, what to do?
+      - How to handle peer pressure to drink without giving in, advice?
+      - Strategies for addressing social expectations around alcohol, how?
+      - Setting boundaries with friends and family regarding alcohol, suggestions?
+      - Coping with the fear of missing out on social events if not drinking, how?
+      - Explaining to coworkers that I'm not drinking without feeling judged, tips?
+      - Finding non-alcoholic alternatives at social gatherings, suggestions?
+      - Building connections with others who share a sober lifestyle, how?
+      - Overcoming anxiety about socializing without the buffer of alcohol, guidance?
+
+  - intent: expressing_fear_of_judgment_due_to_alcoholism
+    examples: |
+      - Afraid of being judged due to alcohol use disorder, what to do?
+      - Coping with the fear of being stigmatized for drinking habits, how?
+      - Worried about how others perceive me due to alcoholism, suggestions?
+      - Strategies for overcoming fear of judgment related to alcoholism?
+      - Fear that friends will abandon me if they know about alcohol use disorder, how to cope?
+      - Dealing with the shame and stigma associated with alcoholism, how?
+      - Hesitant to seek help for alcoholism due to fear of judgment, any advice?
+      - Stories of people overcoming the fear of judgment during recovery?
+      - Resources for those struggling with societal stigma of alcoholism, where?
+      - Rebuilding self-esteem after facing judgment due to alcohol use disorder, how?
+      - Coping with judgment from family members about alcohol use, strategies?
+      - Addressing the fear of judgment from healthcare professionals when seeking help for alcoholism, how?
+      - Strategies for handling judgment from coworkers or colleagues about alcohol use, tips?
+      - Coping with judgment from friends who don't understand alcohol addiction, how?
+      - Overcoming the fear of judgment in a romantic relationship due to alcoholism, advice?
+      - Navigating judgment from others in recovery circles, how to handle?
+      - Strategies for educating others about alcohol use disorder to reduce judgment, suggestions?
+      - Coping with judgment from oneself about past actions during alcohol use, how?
+      - Overcoming the fear of judgment when participating in group therapy for alcoholism, tips?
+      - Addressing judgment from society about alcohol use disorder, what to consider?
+
+  - intent: dealing_with_alcohol_cravings
+    examples: |
+      - Struggling with alcohol cravings, how to resist them?
+      - Distracting myself from intense alcohol cravings, tips?
+      - Techniques for managing and overcoming alcohol cravings?
+      - Staying strong when faced with cravings to drink, any advice?
+      - Healthy alternatives to give in to cravings without turning to alcohol?
+      - Preparing for situations that trigger alcohol cravings, how?
+      - Coping strategies for dealing with unexpected alcohol cravings?
+      - Mindfulness exercises to navigate alcohol cravings, suggestions?
+      - Handling cravings during social events without relapsing, how?
+      - Overcoming the urge to drink when facing stress or anxiety, guidance?
+      - Strategies for preventing late-night cravings for alcohol, tips?
+      - Coping with cravings during celebrations or special occasions, how?
+      - Creating a plan for managing cravings in different settings, advice?
+      - Using positive affirmations to overcome alcohol cravings, how?
+      - Navigating cravings for specific types of alcoholic beverages, what to do?
+      - Incorporating physical activity to reduce alcohol cravings, tips?
+      - Addressing emotional triggers for alcohol cravings, how?
+      - Developing a toolkit of coping mechanisms for various types of cravings, suggestions?
+      - Overcoming cravings that arise from boredom, how?
+      - Strategies for managing cravings without relying on willpower alone, advice?
+
+  - intent: dealing_with_alcohol_related_fear_and_anxiety
+    examples: |
+      - Overcoming anxiety about attending social events without alcohol, tips?
+      - Coping with fear of judgment from friends when disclosing alcoholism, how?
+      - Anxiety about the impact of alcohol on relationships, how to address it?
+      - Managing the fear of losing coping mechanisms by giving up alcohol, advice?
+      - Overcoming anxiety about relapse during stressful times, any strategies?
+      - Coping with fear of rejection from support groups, how to navigate?
+      - Dealing with anxiety about the societal perception of being in recovery, tips?
+      - Addressing the fear of being labeled as an "alcoholic," how to handle it?
+      - Coping with anxiety about rebuilding life after alcohol, any guidance?
+      - Overcoming the fear of facing suppressed emotions without alcohol, how?
+
+  - intent: dealing_with_alcohol_related_anger_and_frustration
+    examples: |
+      - Channeling anger into creative outlets during recovery, suggestions?
+      - Coping with frustration over the slow progress in recovery, how to stay motivated?
+      - Strategies for forgiving oneself and letting go of anger in recovery?
+      - Expressing frustration in a healthy way without resorting to alcohol, tips?
+      - Coping with anger towards others who may not understand the journey, how?
+      - Dealing with frustration about the impact of alcohol on career, any advice?
+      - Addressing anger towards the healthcare system for lack of support, how?
+      - Finding patience and understanding to deal with frustration in recovery, tips?
+      - Coping with frustration over the societal glamorization of alcohol, how?
+      - Strategies for managing anger when faced with triggers during recovery?
+
+  - intent: dealing_with_alcohol_related_sadness_and_regret
+    examples: |
+      - Seeking therapy to cope with deep sadness rooted in past alcohol-related actions.
+      - Strategies for addressing regret about missed opportunities due to alcohol use.
+      - Coping with sadness over strained family relationships caused by alcohol, how?
+      - Expressing emotions and finding closure to overcome lingering sadness, any tips?
+      - Strategies for transforming regret into motivation for positive change in recovery.
+      - Addressing the sadness of losing friendships due to alcohol, how to rebuild?
+      - Coping with the weight of regret and finding self-compassion in recovery.
+      - Navigating the sadness of confronting the impact of alcohol on personal goals.
+      - Healing from past hurts and using regret as a stepping stone towards growth.
+      - Coping with the sadness of realizing the toll alcohol has taken on mental health.
+
+  - intent: dealing_with_alcohol_related_isolation
+    examples: |
+      - Reaching out to old friends and explaining the desire to reconnect after isolation.
+      - Strategies for rebuilding trust with family members after periods of isolation.
+      - Coping with loneliness during recovery by engaging in new hobbies, any advice?
+      - Navigating isolation due to societal stigma through online recovery communities.
+      - Overcoming the fear of judgment and isolation by attending support group meetings.
+      - Finding comfort in solitude without falling back into the isolation of alcohol use.
+      - Reconnecting with friends after opening up about struggles and dispelling isolation.
+      - Strategies for building a new social circle that supports a sober lifestyle.
+      - Coping with loneliness during recovery by volunteering and giving back to the community.
+      - Addressing isolation by seeking guidance from a mentor or recovery sponsor.
+
+  - intent: dealing_with_alcohol_related_shame
+    examples: |
+      - Practicing self-compassion as a way to counteract feelings of overwhelming shame.
+      - Overcoming shame by sharing personal stories of recovery with trusted individuals.
+      - Coping with shame by focusing on the positive steps taken in the recovery journey.
+      - Strategies for letting go of shame through mindfulness and self-reflection.
+      - Addressing shame associated with attending support groups by focusing on growth.
+      - Breaking the cycle of shame by embracing vulnerability and seeking professional help.
+      - Coping with shame related to past actions by making amends and seeking forgiveness.
+      - Strategies for reframing shame as a motivator for positive change in recovery.
+      - Overcoming shame by recognizing and challenging negative self-talk.
+      - Cultivating self-love and acceptance as a way to counteract feelings of shame.
+
+  - intent: seeking_support_for_alcoholism
+    examples: |
+      - Reaching out to friends for emotional support when seeking help for alcoholism.
+      - Strategies for involving family in the recovery journey and building a support system.
+      - Seeking support for alcoholism through online forums and virtual communities.
+      - Exploring different support group options to find the most suitable one.
+      - Initiating a conversation with a healthcare professional about seeking help for alcoholism.
+      - Gathering information on available resources and treatment options for alcohol use disorder.
+      - Reaching out to local addiction helplines for guidance on seeking support.
+      - Seeking support through therapy or counseling to address underlying issues.
+      - Joining a recovery community or attending support group meetings for ongoing support.
+      - Involving close friends in the recovery process by educating them about alcoholism.
+
+  - intent: dealing_with_alcohol_related_health_issues
+    examples: |
+      - Seeking medical advice to address concerns about liver health and alcohol use.
+      - Strategies for managing anxiety about potential health issues caused by alcohol.
+      - Addressing sleep disturbances and seeking professional help for alcohol-related sleep issues.
+      - Coping with digestive problems by making dietary changes during recovery.
+      - Seeking support from healthcare professionals to address mental health issues related to alcohol use.
+      - Strategies for maintaining a healthy diet and exercise routine to support overall health in recovery.
+      - Initiating regular check-ups with a healthcare provider to monitor the impact of alcohol on health.
+      - Seeking guidance on nutritional supplements to support recovery from alcohol-related deficiencies.
+      - Addressing cardiovascular concerns through lifestyle changes and medical consultation.
+      - Initiating conversations with healthcare professionals about addressing the impact of alcohol on overall well-being.
+
+responses:
+  utter_expressing_concern_empathy:
+    - text: "I understand that expressing concern about a friend's drinking can be challenging. It's important to approach them with empathy. You might want to find a suitable time to talk and express your worries in a non-confrontational way. Mention specific changes you've noticed and let them know you care about their well-being."
+    - text: "It's tough when someone you care about is struggling with alcohol. Offering support can make a significant difference. You can start by expressing your concern in a caring manner. Share specific instances that raised your worry and emphasize your desire to help them through any challenges they may be facing."
+
+  utter_expressing_concern_support:
+    - text: "Supporting a loved one in recovery requires patience and understanding. Be a reliable source of encouragement and celebrate their successes, no matter how small. Educate yourself about alcohol use disorder to better comprehend their struggles. Engage in open and non-judgmental conversations, providing a safe space for them to share their thoughts and feelings."
+    - text: "It's commendable that you want to support your friend in their recovery journey. Being there for them emotionally is crucial. Encourage healthy activities, and be mindful of potential triggers. Learn about relapse prevention strategies to offer practical assistance. Remember, professional help is available, and it's okay to suggest seeking guidance from mental health experts."
+
+  utter_coping_with_alcohol_related_guilt_self_reflection:
+    - text: "Coping with guilt related to alcohol use is a common challenge. Recognize that everyone makes mistakes, and it's never too late to make amends. If your guilt is impacting your well-being, consider seeking therapy or counseling to explore these emotions further. Acknowledge the steps you're taking to address the guilt, whether it's through self-reflection or making positive changes in your life."
+    - text: "Guilt can be a heavy burden, especially when it comes to alcohol use. It's important to remember that you're not alone in feeling this way. Consider talking to a mental health professional who can help you navigate and process these emotions. Reflect on your actions, but also focus on the positive steps you're taking towards change."
+
+  utter_coping_with_alcohol_related_guilt_seeking_professional_help:
+    - text: "Understanding alcohol use disorder is a crucial step. The DSM-5 classifies it as a chronic, relapsing disorder characterized by an impaired ability to stop or control alcohol use despite adverse social, occupational, or health consequences. If you suspect someone may have alcohol use disorder, it's essential to approach them with empathy and encourage seeking professional help."
+    - text: "It's great that you're seeking to understand alcohol use disorder. According to the DSM-5, it's diagnosed based on specific criteria, including impaired control over alcohol use, social impairment, risky use, and pharmacological criteria. If you or someone you know is struggling, consider reaching out to a mental health professional for a comprehensive assessment."
+
+  utter_expressing_self_concern_seeking_clarity:
+    - text: "Expressing concern about your own drinking is a brave step. If you're questioning your relationship with alcohol, it's essential to consider professional guidance. The DSM-5 outlines criteria for alcohol use disorder, and seeking a mental health professional's assessment can provide clarity on your situation."
+    - text: "It takes courage to express concerns about your own drinking habits. It's crucial to self-assess and reflect on the impact of alcohol on your life. Consider seeking guidance from a mental health professional for a comprehensive evaluation. Remember, recognizing the need for change is a positive first step."
+
+  utter_expressing_self_concern_courage_to_change:
+    - text: "Supporting a friend in recovery is admirable. Keep in mind that recovery is a journey with its ups and downs. Be a good listener, avoid judgment, and encourage positive activities. If your friend faces challenges, suggesting professional help aligned with the DSM-5 criteria for alcohol use disorder is beneficial."
+    - text: "Your friend's journey in recovery is significant, and your support can make a difference. Encourage healthy choices, and be understanding if they encounter setbacks. Remind them of their progress and offer assistance when needed. Professional support, aligned with DSM-5 criteria, can provide personalized guidance."
+
+  utter_coping_with_alcohol_related_stress_distraction_techniques:
+    - text: "Coping with alcohol cravings is challenging but manageable. Distract yourself with engaging activities, practice mindfulness, or connect with a supportive friend. Recognize the cravings without judgment, and remember that they will pass. If needed, seek professional help aligned with DSM-5 criteria for alcohol use disorder."
+    - text: "Dealing with alcohol cravings can be tough, but remember they are temporary. Engage in activities that bring you joy or provide a sense of accomplishment. Consider reaching out to a mental health professional for strategies tailored to your situation, as outlined in the DSM-5 criteria for alcohol use disorder."
+
+  utter_dealing_with_alcohol_related_fear_and_anxiety_coping_strategies:
+    - text: "Feeling anxious about the impact of alcohol on your health is understandable. Consider developing coping strategies such as mindfulness, deep breathing, or exercise to manage anxiety. If the fear of withdrawal symptoms is a concern, seeking professional guidance aligned with DSM-5 criteria can provide you with the necessary support."
+    - text: "It's natural to feel anxious about the potential impact of quitting alcohol, both on your health and social life. Develop healthy coping mechanisms, and consider reaching out to a mental health professional for personalized support. The DSM-5 criteria can help guide your understanding of alcohol use disorder and inform your recovery journey."
+
+  utter_dealing_with_alcohol_related_anger_and_frustration_healthy_outlets:
+    - text: "Addressing anger related to alcohol's impact on your life requires healthy outlets. Consider activities like exercise, journaling, or talking to a supportive friend. Channeling anger into positive changes in alignment with DSM-5 criteria for recovery can lead to meaningful progress."
+    - text: "Feeling angry about the impact of alcohol on your life is valid. Explore healthy outlets for expressing anger, such as engaging in physical activities or seeking therapeutic support. Many people have successfully channeled their anger into positive change during their recovery journey, in line with DSM-5 criteria for alcohol use disorder."
+
+  utter_dealing_with_alcohol_related_sadness_and_regret_techniques_for_management:
+    - text: "Coping with sadness related to alcohol's impact on your life requires techniques for management. Consider mindfulness, self-compassion, and seeking professional help aligned with DSM-5 criteria. Healing from regret is a process, and your commitment to positive change is a significant step forward."
+    - text: "Struggling with feelings of sadness related to past actions due to alcohol is a common challenge. Techniques for management include self-reflection, seeking support from loved ones, and considering therapy. Acknowledge your journey, and remember that recovery, guided by DSM-5 criteria, involves both healing and personal growth."
+
+  utter_dealing_with_alcohol_related_isolation_reconnecting_with_others:
+    - text: "Feeling isolated due to struggles with alcohol is a common experience. Reconnecting with others involves taking small steps, such as reaching out to friends or joining support groups. Overcoming isolation is a gradual process, and professional guidance aligned with DSM-5 criteria can provide additional support."
+    - text: "Breaking free from isolation due to hiding alcohol use is a positive step toward recovery. Reconnecting with others may involve joining social activities or support groups. If you find it challenging, seeking guidance from mental health professionals aligned with DSM-5 criteria can provide valuable assistance."
+
+  utter_dealing_with_alcohol_related_shame_coping_strategies:
+    - text: "Coping with overwhelming shame about alcohol use involves developing strategies for self-compassion and acceptance. Consider therapy, support groups, or mindfulness practices. Embracing vulnerability and seeking help in alignment with DSM-5 criteria are essential steps in breaking free from the cycle of shame and alcohol use."
+    - text: "Addressing shame related to alcohol use is a courageous endeavor. Coping strategies include acknowledging your journey, practicing self-forgiveness, and seeking professional help aligned with DSM-5 criteria. Many individuals have overcome shame during their recovery, finding strength in vulnerability and positive change."
+
+  utter_seeking_support_for_alcoholism_helplines_and_resources:
+    - text: "If you need help for alcohol use, there are various resources available. Consider reaching out to helplines or online communities for support. Additionally, talking to a mental health professional about your concerns can provide valuable guidance. The National Center for Mental Health is also available at [0908-639-2672 (SMART/TNT) / 0966-351-4518; 0917-899-8727 (USAP)(GLOBE/TM)] for assistance."
+    - text: "Finding support for alcoholism is a crucial step in the journey to recovery. Helplines, online communities, and mental health professionals can offer assistance. If you're in the Philippines, you can contact the National Center for Mental Health at [0908-639-2672 (SMART/TNT) / 0966-351-4518; 0917-899-8727 (USAP)(GLOBE/TM)] for guidance and support."
+
+  utter_dealing_with_alcohol_related_health_issues_seeking_help:
+    - text: "If you're concerned about the impact of alcohol on your health, seeking help is important. Begin by consulting with a healthcare professional to address health issues related to alcohol consumption. They can guide you on the necessary steps to improve your well-being."
+    - text: "Addressing health issues related to alcohol consumption is a proactive step. If you're worried about the long-term effects of alcohol on your health, seeking help from healthcare professionals is crucial. They can provide guidance on managing and improving your overall well-being."
+
+stories:
+  - story: Supporting a Friend in Recovery
+    steps:
+      - intent: expressing_concern_for_drinking
+      - action: utter_expressing_concern_empathy
+
+      - intent: supporting_friend_in_recovery
+      - action: utter_expressing_concern_support
+
+      - intent: dealing_with_alcohol_related_guilt
+      - action: utter_coping_with_alcohol_related_guilt_self_reflection
+
+      - intent: seeking_support_for_alcoholism
+      - action: utter_seeking_support_for_alcoholism_helplines_and_resources
+
+      - intent: dealing_with_alcohol_related_health_issues
+      - action: utter_dealing_with_alcohol_related_health_issues_seeking_help
+
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Overcoming Alcohol Cravings
+    steps:
+      - intent: dealing_with_alcohol_cravings
+      - action: utter_dealing_with_alcohol_cravings
+
+      - intent: coping_with_alcohol_related_stress
+      - action: utter_coping_with_alcohol_related_stress_distraction_techniques
+
+      - intent: dealing_with_alcohol_related_fear_and_anxiety
+      - action: utter_dealing_with_alcohol_related_fear_and_anxiety_coping_strategies
+
+      - intent: seeking_support_for_alcoholism
+      - action: utter_seeking_support_for_alcoholism_helplines_and_resources
+
+      - intent: expressing_fear_of_judgment_due_to_alcoholism
+      - action: utter_expressing_fear_of_judgment_due_to_alcoholism
+
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Navigating Alcohol-Related Guilt
+    steps:
+      - intent: dealing_with_alcohol_related_guilt
+      - action: utter_coping_with_alcohol_related_guilt_seeking_professional_help
+
+      - intent: expressing_self_concern_about_drinking
+      - action: utter_expressing_self_concern_seeking_clarity
+
+      - intent: seeking_support_for_alcoholism
+      - action: utter_seeking_support_for_alcoholism_helplines_and_resources
+
+      - intent: dealing_with_alcohol_related_sadness_and_regret
+      - action: utter_dealing_with_alcohol_related_sadness_and_regret_techniques_for_management
+
+      - intent: dealing_with_alcohol_related_isolation
+      - action: utter_dealing_with_alcohol_related_isolation_reconnecting_with_others
+
+      - intent: goodbye
+      - action: utter_goodbye

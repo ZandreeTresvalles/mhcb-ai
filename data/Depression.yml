@@ -1,0 +1,63 @@
+nlu:
+  - intent: learn_about_depression
+    examples: |
+      - What is depression?
+      - Explain major depressive disorder.
+      - Tell me about the symptoms of depression.
+      - What are the different types of depression?
+      - What causes depression?
+      - How can I help someone with depression?
+
+  - intent: identify_depression_symptoms
+    examples: |
+      - What are the signs of depression?
+      - How can I recognize depressive symptoms?
+      - Tell me about the emotional effects of depression.
+      - What are the physical symptoms of depression?
+      - How does depression affect daily life?
+
+  - intent: coping_strategies_depression
+    examples: |
+      - How can I cope with depression?
+      - What are some strategies for managing depression?
+      - Tell me about self-care techniques for depression.
+      - How can I handle negative thoughts and low mood?
+      - What are some activities that can help with depression?
+
+  - intent: treatment_options_depression
+    examples: |
+      - What are the treatment options for depression?
+      - Tell me about therapy for depression.
+      - How can I find a therapist for depression?
+      - Are there any support groups for depression?
+      - Can you recommend any medications for depression?
+
+  - intent: support_network_depression
+    examples: |
+      - Are there support groups for depression?
+      - How can I find a therapist for depression?
+      - Tell me about the role of family support in depression.
+      - Can you recommend any resources for depression self-help?
+      - Where can I find information about depression?
+
+responses:
+  utter_learn_about_depression:
+    - text: "Depression is a common mental health disorder characterized by persistent sadness, loss of interest or pleasure in activities, changes in appetite or weight, sleep disturbances, fatigue, feelings of worthlessness or guilt, difficulty concentrating, and recurrent thoughts of death or suicide. Would you like more information about depression or its causes?"
+    - text: "Depression is a complex disorder that affects how a person thinks, feels, and behaves. It can manifest in various ways, including feelings of sadness, hopelessness, or emptiness, loss of interest in activities, changes in appetite and sleep patterns, difficulty concentrating, and thoughts of self-harm or suicide. Seeking professional help is important for accurate diagnosis and effective treatment."
+
+  utter_identify_depression_symptoms:
+    - text: "Recognizing depression symptoms can include persistent feelings of sadness, hopelessness, or irritability, loss of interest in previously enjoyed activities, changes in appetite or weight, sleep disturbances, fatigue, difficulty concentrating, and thoughts of death or suicide. It's important to consult a healthcare professional for a comprehensive evaluation."
+    - text: "Common symptoms of depression may manifest as persistent feelings of sadness, guilt, or worthlessness, loss of interest in activities, changes in appetite and weight, sleep disturbances, lack of energy, difficulty concentrating, and recurring thoughts of death or suicide. Identifying these symptoms is an essential step in seeking help and support."
+
+  utter_coping_strategies_depression:
+    - text: "Coping with depression involves developing healthy strategies such as engaging in regular physical exercise, practicing relaxation techniques, maintaining a balanced routine, seeking social support, and seeking professional help. It's important to find coping mechanisms that work best for you and to remember that recovery takes time."
+    - text: "Managing depression requires a multi-faceted approach. Some coping strategies include engaging in activities you enjoy, setting realisticgoals, practicing self-care, challenging negative thoughts, and seeking support from friends, family, or therapists. Remember that everyone's experience with depression is unique, so finding what works for you is important."
+
+  utter_treatment_options_depression:
+    - text: "Treatment options for depression can include therapy, medication, or a combination of both. Therapy, such as cognitive-behavioral therapy (CBT) or interpersonal therapy (IPT), can help individuals identify and change negative thought patterns, develop coping skills, and improve interpersonal relationships. Medications, such as selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs), may be prescribed in some cases. It's crucial to consult with a healthcare professional to determine the best treatment approach."
+    - text: "There are various treatment options available for depression, including therapy, medication, and alternative approaches like mindfulness-based practices or exercise therapy. Therapy can provide a safe space to explore and address underlying issues contributing to depression, while medication can help balance brain chemistry. It's important to work with a healthcare professional to develop a personalized treatment plan."
+
+  utter_support_network_depression:
+    - text: "Having a support network is crucial for individuals with depression. It can include friends, family, support groups, therapists, or helplines. Connecting with others who understand your experiences can provide comfort, validation, and resources for managing depression."
+  utter_seek_professional_help_depression:
+    - text: "Support networks play an important role in managing depression. Building a support system can involve reaching out to trusted friends or family members, participating in support groups or therapy, or seeking assistance from helplines or online communities. Remember that you don't have to face depression alone."

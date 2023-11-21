@@ -1,0 +1,178 @@
+[
+  {
+    "text": "How can I cope with alcohol addiction?",
+    "intent": "coping_strategies_alcohol_use_disorders",
+    "intent_prediction": {
+      "name": "identify_alcohol_use_symptoms",
+      "confidence": 0.3663766384124756
+    }
+  },
+  {
+    "text": "What are some strategies for managing alcohol cravings?",
+    "intent": "coping_strategies_alcohol_use_disorders",
+    "intent_prediction": {
+      "name": "identify_alcohol_use_symptoms",
+      "confidence": 0.417783260345459
+    }
+  },
+  {
+    "text": "How can I manage anxiety?",
+    "intent": "learn_about_anxiety_disorders",
+    "intent_prediction": {
+      "name": "coping_strategies_anxiety_disorders",
+      "confidence": 0.5653315186500549
+    }
+  },
+  {
+    "text": "coping strategies",
+    "intent": "coping_strategies_bipolar_disorder",
+    "intent_prediction": {
+      "name": "express_struggles_with_organization_adhd",
+      "confidence": 0.2599233388900757
+    }
+  },
+  {
+    "text": "Tell me about the symptoms of depression.",
+    "intent": "learn_about_depression",
+    "intent_prediction": {
+      "name": "identify_depression_symptoms",
+      "confidence": 0.4473719000816345
+    }
+  },
+  {
+    "text": "What are some strategies for managing depression?",
+    "intent": "coping_strategies_depression",
+    "intent_prediction": {
+      "name": "express_impact_of_adhd_on_relationships",
+      "confidence": 0.31338968873023987
+    }
+  },
+  {
+    "text": "How can I find a therapist for depression?",
+    "intent": "treatment_options_depression",
+    "intent_prediction": {
+      "name": "support_network_depression",
+      "confidence": 0.6904710531234741
+    }
+  },
+  {
+    "text": "Are there support groups for depression?",
+    "intent": "support_network_depression",
+    "intent_prediction": {
+      "name": "treatment_options_depression",
+      "confidence": 0.47900643944740295
+    }
+  },
+  {
+    "text": "What are the treatment options for drug use disorders?",
+    "intent": "treatment_options_drug_use_disorders",
+    "intent_prediction": {
+      "name": "treatment_options_alcohol_use_disorders",
+      "confidence": 0.24592745304107666
+    }
+  },
+  {
+    "text": "Tell me about coping strategies for addiction recovery.",
+    "intent": "relapse_prevention_drug_use_disorders",
+    "intent_prediction": {
+      "name": "express_impact_of_adhd_on_relationships",
+      "confidence": 0.42416292428970337
+    }
+  },
+  {
+    "text": "Tell me about the role of family support in addiction recovery.",
+    "intent": "support_network_drug_use_disorders",
+    "intent_prediction": {
+      "name": "support_network_depression",
+      "confidence": 0.3167729675769806
+    }
+  },
+  {
+    "text": "Can you recommend any resources for addiction self-help?",
+    "intent": "support_network_drug_use_disorders",
+    "intent_prediction": {
+      "name": "support_network_depression",
+      "confidence": 0.42162618041038513
+    }
+  },
+  {
+    "text": "What are eating disorders?",
+    "intent": "learn_about_eating_disorders",
+    "intent_prediction": {
+      "name": "treatment_options_eating_disorders",
+      "confidence": 0.509650468826294
+    }
+  },
+  {
+    "text": "How can I help someone with an eating disorder?",
+    "intent": "learn_about_eating_disorders",
+    "intent_prediction": {
+      "name": "treatment_options_eating_disorders",
+      "confidence": 0.5569727420806885
+    }
+  },
+  {
+    "text": "How can I manage my eating disorder?",
+    "intent": "coping_strategies_eating_disorders",
+    "intent_prediction": {
+      "name": "treatment_options_eating_disorders",
+      "confidence": 0.6938980221748352
+    }
+  },
+  {
+    "text": "What are some coping strategies for eating disorders?",
+    "intent": "coping_strategies_eating_disorders",
+    "intent_prediction": {
+      "name": "treatment_options_anxiety_disorders",
+      "confidence": 0.2736011743545532
+    }
+  },
+  {
+    "text": "coping strategies",
+    "intent": "coping_strategies_schizophrenia",
+    "intent_prediction": {
+      "name": "express_struggles_with_organization_adhd",
+      "confidence": 0.2599233388900757
+    }
+  },
+  {
+    "text": "how to cope with schizophrenia",
+    "intent": "coping_strategies_schizophrenia",
+    "intent_prediction": {
+      "name": "negative_consequences_mental_collegaue",
+      "confidence": 0.23981231451034546
+    }
+  },
+  {
+    "text": "managing symptoms",
+    "intent": "coping_strategies_schizophrenia",
+    "intent_prediction": {
+      "name": "express_difficulty_concentrating",
+      "confidence": 0.2507910132408142
+    }
+  },
+  {
+    "text": "how to manage schizophrenia medications",
+    "intent": "medication_management_schizophrenia",
+    "intent_prediction": {
+      "name": "discussing_mental_health",
+      "confidence": 0.36524543166160583
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6629886031150818
+    }
+  },
+  {
+    "text": "never",
+    "intent": "work_interference",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5164589285850525
+    }
+  }
+]

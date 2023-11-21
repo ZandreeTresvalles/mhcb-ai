@@ -1,0 +1,237 @@
+nlu:
+  - intent: express_difficulties_with_focus_adhd
+    examples: |
+      - I often find it hard to focus, and it's taking a toll on me. Could it be related to ADHD?
+      - My focus has been all over the place lately, and I'm getting concerned. Is this a sign of ADHD?
+      - Concentrating on tasks has become increasingly challenging for me. Is it possible that I have ADHD?
+      - Focus issues are affecting my work, and I'm wondering if it's linked to ADHD.
+      - Lately, I've been struggling to stay focused, and it's impacting my daily life. Could this be ADHD?
+
+  - intent: express_struggles_with_impulsivity_adhd
+    examples: |
+      - Impulsivity is causing issues in my life, and I'm wondering if it's connected to ADHD.
+      - I often act on impulses without thinking, and it's causing problems. Could this be a sign of ADHD?
+      - Impulsivity is affecting my relationships, and I'm concerned it might be related to ADHD.
+      - I struggle with impulsive decisions, and it's becoming a pattern. Is ADHD a possibility?
+      - Impulsivity is impacting my daily life, and I'm curious if it's a symptom of ADHD.
+
+  - intent: express_feeling_overwhelmed_by_forgetfulness_adhd
+    examples: |
+      - Forgetfulness is overwhelming me, and I'm considering if it's a symptom of ADHD.
+      - Lately, I've been incredibly forgetful, and it's stressing me out. Could this be related to ADHD?
+      - Forgetting things constantly is becoming a real challenge. Is ADHD a possible explanation?
+      - The level of forgetfulness I'm experiencing is causing stress. Could it be linked to ADHD?
+      - Feeling overwhelmed by forgetfulness, and I'm exploring if it might be ADHD-related.
+
+  - intent: express_struggles_with_organization_adhd
+    examples: |
+      - Staying organized has become incredibly difficult for me. Could it be a sign of ADHD?
+      - I'm constantly struggling to stay organized, and it's affecting my daily life. Is ADHD a possibility?
+      - Organizing tasks and activities feels like an uphill battle. Could this be related to ADHD?
+      - My lack of organization is becoming a real challenge. Is ADHD something I should consider?
+      - Struggling with organization, and I'm wondering if it's a symptom of ADHD.
+
+  - intent: express_emotional_impact_of_adhd
+    examples: |
+      - The emotional toll of potential ADHD is overwhelming. How can I cope with this?
+      - Realizing the emotional impact of ADHD is challenging. How do others navigate through this?
+      - Coping with the emotional aspects of ADHD is becoming a struggle. Any advice on managing this?
+      - Emotionally, I'm finding it hard to process the idea of having ADHD. How do others deal with this?
+      - The emotional challenges tied to ADHD are affecting my well-being. Any tips for managing this aspect?
+
+  - intent: express_impact_of_adhd_on_relationships
+    examples: |
+      - I'm worried about how ADHD might be impacting my relationships. Any advice on navigating this?
+      - The potential impact of ADHD on my relationships is concerning. How do others manage this?
+      - Relationships seem strained, and I wonder if it's related to ADHD. Any insights on this?
+      - Balancing relationships with the challenges of ADHD is proving difficult. Any strategies for improvement?
+      - I'm experiencing challenges in my relationships and suspect ADHD might be a factor. How do others handle this?
+
+  - intent: inquire_about_adhd_causes_inattention
+    examples: |
+      - Why does ADHD cause inattention?
+      - How does ADHD lead to difficulty focusing?
+      - Can you explain why someone with ADHD may struggle with attention?
+      - What are the underlying causes of inattention in ADHD?
+
+  - intent: inquire_about_adhd_causes_impulsivity
+    examples: |
+      - How does ADHD contribute to impulsivity?
+      - Why are individuals with ADHD often impulsive?
+      - Can you explain the reasons behind impulsivity in ADHD?
+      - What causes impulsive behavior in people with ADHD?
+
+  - intent: inquire_about_adhd_causes_hyperactivity
+    examples: |
+      - Why is hyperactivity associated with ADHD?
+      - How does ADHD lead to hyperactivity?
+      - Can you explain the reasons for hyperactivity in individuals with ADHD?
+      - What causes hyperactive behavior in people with ADHD?
+
+  - intent: inquire_about_adhd_causes_forgetfulness
+    examples: |
+      - Why does ADHD result in forgetfulness?
+      - How does ADHD contribute to memory issues?
+      - Can you explain why someone with ADHD may be forgetful?
+      - What are the underlying causes of forgetfulness in ADHD?
+
+  - intent: inquire_about_adhd_causes_disorganization
+    examples: |
+      - How does ADHD cause disorganization?
+      - Why are individuals with ADHD often disorganized?
+      - Can you explain the reasons behind disorganization in ADHD?
+      - What causes difficulties with organization in people with ADHD?
+
+  - intent: inquire_about_adhd_causes_emotional_impact
+    examples: |
+      - Why does ADHD have an emotional impact?
+      - How does ADHD affect one's emotions?
+      - Can you explain the emotional aspects of ADHD?
+      - What causes the emotional challenges associated with ADHD?
+
+  - intent: express_difficulty_concentrating
+    examples: |
+      - I want to work, but I just can't concentrate.
+      - Concentrating on tasks is really challenging for me right now.
+      - I'm struggling to focus on what I need to do.
+      - How can I improve my concentration? I find it hard to focus on my work.
+      - I have tasks to complete, but I can't seem to concentrate on them.
+
+  - intent: user_share_tasks
+    examples: |
+      - I have to finish a report for work.
+      - My tasks include studying for an exam and doing household chores.
+      - I need to respond to emails and complete some project tasks.
+      - I have a list of tasks for today, but I can't seem to focus on any of them.
+      - My to-do list includes writing, researching, and organizing files.
+
+  - intent: ask_concentration_strategies
+    examples: |
+      - Can you suggest techniques to improve concentration?
+      - How can I enhance my focus on tasks?
+      - Any tips for better concentration?
+      - What strategies do you recommend for improving focus?
+      - How can I train my mind to concentrate better?
+
+  - intent: thank_for_concentration_advice
+    examples: |
+      - Thanks for the advice. I'll give those strategies a try.
+      - Appreciate the help. I'll implement these concentration strategies.
+      - Thank you for the tips. I'll work on improving my concentration using these strategies.
+      - Great suggestions! I'll incorporate these concentration techniques into my routine.
+      - Thanks a lot. I'll see how these strategies work for me.
+
+responses:
+  utter_explain_focus_adhd:
+    - text: "Difficulty focusing can be challenging. It's possible that it could be related to ADHD. It's essential to consult with a healthcare professional for a thorough evaluation."
+
+  utter_explain_impulsivity_adhd:
+    - text: "Struggling with impulsivity may indeed be a concern. ADHD is one of the conditions associated with impulsive behavior. It's advisable to consult with a healthcare professional to explore this further."
+
+  utter_explain_forgetfulness_adhd:
+    - text: "Feeling overwhelmed by forgetfulness can be distressing. ADHD is known to impact memory and attention. Seeking guidance from a healthcare professional is a prudent step to understand your situation better."
+
+  utter_explain_organization_adhd:
+    - text: "Difficulty staying organized is a common challenge for individuals with ADHD. Consulting with a healthcare professional can provide insights and strategies to manage organizational difficulties."
+
+  utter_acknowledge_emotional_impact_adhd:
+    - text: "The emotional impact of potentially having ADHD is significant. It's okay to feel overwhelmed. Seeking support from friends, family, or a mental health professional can be beneficial in navigating these emotions."
+
+  utter_acknowledge_impact_on_relationships_adhd:
+    - text: "ADHD can indeed impact relationships, and it's a valid concern. Seeking open communication with loved ones and considering professional guidance can help in managing and understanding these challenges."
+
+  utter_explain_adhd_causes_inattention:
+    - text: "In ADHD, the underlying cause of inattention is often attributed to difficulties in sustaining attention on tasks, making careless mistakes, and being easily distracted. This is outlined in the DSM-5 criteria for ADHD."
+
+  utter_explain_adhd_causes_impulsivity:
+    - text: "Impulsivity in ADHD is related to challenges in inhibiting or delaying responses. Individuals with ADHD may act on impulses without fully considering the consequences, as described in the DSM-5 criteria for ADHD."
+
+  utter_explain_adhd_causes_hyperactivity:
+    - text: "Hyperactivity in ADHD involves excessive motor activity, such as fidgeting or an inability to stay seated. It is a key aspect of the hyperactive-impulsive presentation of ADHD, as outlined in the DSM-5 criteria."
+
+  utter_explain_adhd_causes_forgetfulness:
+    - text: "Forgetfulness in ADHD is associated with difficulties in sustaining attention and organizational challenges. Individuals with ADHD may have trouble remembering tasks or completing them due to these factors, as per the DSM-5 criteria."
+
+  utter_explain_adhd_causes_disorganization:
+    - text: "Disorganization in ADHD is linked to difficulties in organizing tasks and activities. Individuals may struggle with managing their time and belongings, a characteristic outlined in the DSM-5 criteria for ADHD."
+
+  utter_explain_adhd_causes_emotional_impact:
+    - text: "The emotional impact of ADHD can be significant and is often related to the challenges individuals face in various aspects of their lives. It can affect self-esteem, relationships, and overall well-being, as recognized in the DSM-5 criteria for ADHD."
+
+  utter_acknowledge_difficulty_concentrating:
+    - text: "I understand. Difficulty concentrating can be frustrating. What tasks are you working on?"
+
+  utter_concentration_strategies:
+    - text: "Certainly! Here are some concentration strategies you can try:\n\n1. Break tasks into smaller, manageable steps.\n2. Use a timer to create focused work intervals.\n3. Prioritize tasks to tackle the most critical ones first.\n4. Minimize distractions in your environment.\n5. Practice mindfulness and deep breathing to enhance focus."
+    - text: "Sure thing! To improve concentration, you can try:\n\n1. Establish a dedicated and organized workspace.\n2. Take short breaks to prevent mental fatigue.\n3. Stay hydrated and maintain a balanced diet.\n4. Use tools like to-do lists or apps to track tasks.\n5. Incorporate regular physical activity into your routine."
+    - text: "Absolutely! There are various strategies for better concentration, such as:\n\n1. Implement the Pomodoro Technique for focused work intervals.\n2. Ensure adequate sleep to support cognitive function.\n3. Consider using noise-canceling headphones in noisy environments.\n4. Break larger tasks into smaller, more manageable subtasks.\n5. Experiment with different techniques to discover what works best for you."
+    - text: "I can definitely help with that! Consider trying:\n\n1. Visualization exercises to enhance mental clarity.\n2. Establishing a consistent daily routine to promote focus.\n3. Setting specific goals for each task to stay motivated.\n4. Getting regular exercise to boost overall cognitive function.\n5. Seeking professional advice for personalized strategies based on your unique situation."
+    - text: "Of course! There are effective ways to improve concentration, like:\n\n1. Implementing the 2-Minute Rule for quick tasks.\n2. Using tools like mind maps for visual organization.\n3. Incorporating natural light into your workspace for better alertness.\n4. Experimenting with different productivity techniques.\n5. Consulting with a healthcare professional for personalized advice and strategies."
+
+  utter_user_share_tasks:
+    - text: "I appreciate you letting me know your tasks. Let's discuss strategies to make these tasks more manageable for you."
+    - text: "Got it! Now that I know your tasks, we can explore ways to prioritize and tackle them more effectively."
+    - text: "Understanding your tasks helps. Let's work on a plan to make focusing on them more achievable."
+    - text: "Great! Knowing your tasks, we can now explore how to enhance your concentration while working on them."
+
+  utter_you_are_welcome:
+    - text: "You're welcome! If you have more questions or need further assistance, feel free to ask."
+    - text: "Anytime! If there's anything else you'd like to discuss, just let me know."
+    - text: "You got it! If there's anything else on your mind, I'm here to help."
+    - text: "No problem at all! If you need additional support or have more questions, don't hesitate to reach out."
+    - text: "Glad I could assist! If there's anything else you'd like to explore, I'm here for you."
+
+stories:
+  - story: Exploring ADHD Concerns
+    steps:
+      - intent: express_difficulties_with_focus_adhd
+      - action: utter_explain_focus_adhd
+
+      - intent: express_struggles_with_impulsivity_adhd
+      - action: utter_explain_impulsivity_adhd
+
+      - intent: express_feeling_overwhelmed_by_forgetfulness_adhd
+      - action: utter_explain_forgetfulness_adhd
+
+      - intent: express_struggles_with_organization_adhd
+      - action: utter_explain_organization_adhd
+
+      - intent: express_emotional_impact_of_adhd
+      - action: utter_acknowledge_emotional_impact_adhd
+
+      - intent: express_impact_of_adhd_on_relationships
+      - action: utter_acknowledge_impact_on_relationships_adhd
+
+  - story: Exploring Causes of ADHD Symptoms
+    steps:
+      - intent: inquire_about_adhd_causes_inattention
+      - action: utter_explain_adhd_causes_inattention
+
+      - intent: inquire_about_adhd_causes_impulsivity
+      - action: utter_explain_adhd_causes_impulsivity
+
+      - intent: inquire_about_adhd_causes_hyperactivity
+      - action: utter_explain_adhd_causes_hyperactivity
+
+      - intent: inquire_about_adhd_causes_forgetfulness
+      - action: utter_explain_adhd_causes_forgetfulness
+
+      - intent: inquire_about_adhd_causes_disorganization
+      - action: utter_explain_adhd_causes_disorganization
+
+      - intent: inquire_about_adhd_causes_emotional_impact
+      - action: utter_explain_adhd_causes_emotional_impact
+
+  - story: User Struggling to Concentrate
+    steps:
+      - intent: express_difficulty_concentrating
+      - action: utter_acknowledge_difficulty_concentrating
+
+      - intent: user_share_tasks
+      - action: utter_user_share_tasks
+
+      - intent: ask_concentration_strategies
+      - action: utter_concentration_strategies
+
+      - intent: thank_for_concentration_advice
+      - action: utter_you_are_welcome

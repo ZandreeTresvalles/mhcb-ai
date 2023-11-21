@@ -1,0 +1,56 @@
+nlu:
+  - intent: learn_about_bipolar_disorder
+    examples: |
+      - bipolar disorder 
+      - manic depression 
+      - mood swings 
+      - treatment options
+
+  - intent: understand_symptoms_bipolar_disorder
+    examples: |
+      - manic episodes
+      - depressive episodes 
+      - mood shifts 
+      - impact on daily life
+
+  - intent: medication_management_bipolar_disorder
+    examples: |
+      - medication
+      - medication regimen 
+      - side effects 
+      - regular check-ups
+
+  - intent: coping_strategies_bipolar_disorder
+    examples: |
+      - coping strategies
+      - stress reduction 
+      - healthy routines
+      - support from loved ones
+
+  - intent: find_support_resources_bipolar_disorder
+    examples: |
+      - support groups
+      - mental health organizations
+      - specialized services 
+      - educational materials
+
+responses:
+  utter_learn_about_bipolar_disorder:
+    - text: "Bipolar disorder, also known as manic depression, is a mental health condition characterized by extreme mood swings. It involves alternating periods of mania or hypomania and depression. The symptoms and severity can vary between individuals. Treatment options may include medication, therapy, and lifestyle changes. Would you like more information about the different types of bipolar disorder or its treatment approaches?"
+    - text: "Bipolar disorder is a complex mental health condition marked by dramatic shifts in mood, energy, and activity levels. It can impact a person's daily functioning and relationships. If you'd like, I can provide more details about the symptoms, diagnostic criteria, available treatment approaches, and strategies for managing bipolar disorder."
+
+  utter_understand_symptoms_bipolar_disorder:
+    - text: "One of the key features of bipolar disorder is the presence of mood swings. People with bipolar disorder may experience periods of high energy and euphoria during manic episodes, followed by periods of depression and low mood. These mood shifts can be  disruptive and interfere with various aspects of life. It's important to consult a healthcare professional for an accurate diagnosis and personalized treatment plan."
+    - text: "Bipolar disorder manifests through manic episodes characterized by elevated mood, increased energy, racing thoughts, and impulsive behavior. Depressive episodes involve feelings of sadness, loss of interest, low energy, and difficulty concentrating.  These symptoms can have a significant impact on daily life. It's essential to seek professional help to manage bipolar symptoms effectively."
+
+  utter_medication_management_bipolar_disorder:
+    - text: "Managing bipolar disorder often involves medication. It's important to work closely with a healthcare professional to find the right medication regimen. Adhering to the prescribed medications, being aware of potential side effects, and attending regular check-ups are crucial for effective management of bipolar symptoms. It's important to communicate any concerns or changes in symptoms to your healthcare provider."
+    - text: "Medication management plays a significant role in treating bipolar disorder. By working closely with a healthcare provider, individuals can find the right medications to stabilize their moods and reduce the frequency and intensity of mood swings. Regular monitoring and open communication about any side effects or concerns are essential for successful medication management. Remember to follow the prescribed dosage and consult your doctor before making any changes."
+
+  utter_coping_strategies_bipolar_disorder:
+    - text: "Coping strategies play a vital role in managing bipolar symptoms. Strategies such as maintaining a regular sleep schedule, practicing stress-reduction techniques like meditation or exercise, seeking support from loved ones, and developing healthy routines can help individuals better cope with the challenges of bipolar disorder. It's important to find strategies that work best for you and incorporate them into your daily life."
+    - text: "Developing effective coping strategies is important for individuals living with bipolar disorder. Engaging in activities that promote relaxation and emotional well-being, seeking therapy or counseling, building a strong support system, and creating a structured daily routine are some strategies that can help manage symptoms and enhance overall quality of life. Remember, it's okay to reach out for support and make self-care a priority."
+
+  utter_find_support_resources_bipolar_disorder:
+    - text: "There are various support resources available for individuals with bipolar disorder. Support groups, both online and in-person, provide a platform to connect with others who understand what you're going through. Mental health organizations can offer educational materials, helplines, and referrals to specialized services. Remember, you don't have to face bipolar disorder alone. Seeking support can make a significant difference in your journey."
+    - text: "Finding support resources is crucial for individuals with bipolar disorder. Mental health organizations, such as [Organization Name], provide valuable information, resources, and referrals to specialized services. Support groups, online communities, and helplines offer a sense of belonging and understanding. You are not alone in this journey. Together, we can explore the available resources and find the support that suits your needs."

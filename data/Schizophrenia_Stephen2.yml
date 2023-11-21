@@ -1,0 +1,267 @@
+nlu:
+  - intent: what_is_schizophrenia
+    examples: |
+      - What is schizophrenia?
+      - Explain schizophrenia to me
+      - Tell me about schizophrenia
+      - Describe schizophrenia
+      - What does schizophrenia mean?
+      - Can you give me an overview of schizophrenia?
+      - I'd like to learn about schizophrenia
+      - Could you define schizophrenia for me?
+      - What's the meaning of schizophrenia?
+      - Explain different types of schizophrenia
+      - Help me understand schizophrenia
+      - Provide information on schizophrenia
+      - What are the basics of schizophrenia?
+      - Define schizophrenia
+      - Give me a rundown on schizophrenia
+      - Could you explain schizophrenia in simple terms?
+      - What should I know about schizophrenia?
+      - Provide an overview of schizophrenia
+      - I'm curious about schizophrenia
+      - What's the background of schizophrenia?
+      - Give me some insights on schizophrenia
+      - Break down schizophrenia for me
+      - Help me grasp the concept of schizophrenia
+      - Tell me the fundamentals of schizophrenia
+      - I'd like an introduction to schizophrenia
+      - What's schizophrenia all about?
+      - Brief me on schizophrenia
+      - Explain schizophrenia briefly
+      - Can you give me a quick overview of schizophrenia?
+      - I want to know more about schizophrenia
+
+  - intent: schizophrenia_symptoms
+    examples: |
+      - Symptoms of schizophrenia
+      - Recognizing schizophrenia
+      - What are the symptoms of schizophrenia?
+      - How to identify schizophrenia?
+      - Signs of schizophrenia
+      - Explain early signs of schizophrenia
+      - Tell me about common symptoms of schizophrenia
+      - Provide information on schizophrenia symptoms
+      - Describe the onset of schizophrenia
+      - What behaviors indicate schizophrenia?
+      - How to recognize early signs of schizophrenia?
+      - Explain hallucinations in schizophrenia
+      - Describe delusions in schizophrenia
+      - Provide insights on schizophrenia symptoms
+      - What are the behavioral signs of schizophrenia?
+      - Explain negative symptoms of schizophrenia
+      - Describe cognitive symptoms of schizophrenia
+      - What should I watch for in schizophrenia?
+      - Give me an overview of schizophrenia symptoms
+      - Break down schizophrenia behaviors
+      - List common symptoms of schizophrenia
+
+  - intent: causes_of_schizophrenia
+    examples: |
+      - Causes of schizophrenia
+      - What leads to schizophrenia?
+      - Factors behind schizophrenia
+      - Why do people develop schizophrenia?
+      - Is there a genetic component to schizophrenia?
+      - Explain the causes of schizophrenia
+      - Tell me about risk factors for schizophrenia
+      - Provide insights on schizophrenia causes
+      - What contributes to schizophrenia development?
+      - Elaborate on schizophrenia origins
+      - Break down the factors of schizophrenia
+      - I'd like to know about schizophrenia causes
+      - What influences schizophrenia development?
+      - Give me information on schizophrenia causes
+      - Describe the roots of schizophrenia
+      - Explain genetic factors in schizophrenia
+      - Tell me about schizophrenia predisposition
+      - Provide info on schizophrenia etiology
+      - What factors play a role in schizophrenia?
+      - Help me understand schizophrenia causes
+      - What leads to schizophrenia?
+      - Give me an overview of schizophrenia origins
+      - Explain environmental factors in schizophrenia
+      - Tell me about schizophrenia susceptibility
+      - Provide insights on schizophrenia development
+      - What are the contributing factors to schizophrenia?
+      - Describe the genetics of schizophrenia
+      - Elaborate on schizophrenia risk elements
+      - What are the potential causes of schizophrenia?
+      - I'm curious about schizophrenia origins
+
+  - intent: managing_schizophrenia
+    examples: |
+      - Managing schizophrenia
+      - Coping with schizophrenia
+      - Strategies for schizophrenia
+      - Schizophrenia self-help
+      - Schizophrenia treatment
+      - Living with schizophrenia
+      - How to handle schizophrenia
+      - Schizophrenia support
+      - Techniques for schizophrenia management
+      - Coping strategies for schizophrenia
+      - Living a healthy life with schizophrenia
+      - How to live with schizophrenia
+      - Help for managing schizophrenia
+      - Schizophrenia self-care
+      - Strategies to deal with schizophrenia
+      - How to navigate life with schizophrenia
+      - Schizophrenia coping mechanisms
+      - Tips for schizophrenia management
+      - Techniques for living with schizophrenia
+      - How to thrive with schizophrenia
+      - Schizophrenia support and strategies
+      - Ways to cope with schizophrenia
+      - Schizophrenia living tips
+      - Self-help for schizophrenia
+      - Managing schizophrenia effectively
+      - Strategies for living with schizophrenia
+      - Schizophrenia wellness techniques
+      - How to succeed with schizophrenia
+      - Coping mechanisms for schizophrenia
+
+  - intent: schizophrenia_diagnosis
+    examples: |
+      - Getting a schizophrenia diagnosis
+      - How is schizophrenia diagnosed?
+      - Schizophrenia evaluation process
+      - Do I have schizophrenia?
+      - Diagnosing schizophrenia in adults
+      - Schizophrenia assessment
+      - How to determine if I have schizophrenia
+      - Schizophrenia diagnostic process
+      - What's involved in a schizophrenia diagnosis?
+      - Can you tell me about schizophrenia assessment?
+      - How do professionals diagnose schizophrenia?
+      - I think I might have schizophrenia
+      - What's the process for a schizophrenia diagnosis?
+      - Can you explain how schizophrenia is diagnosed?
+      - How do I get a schizophrenia assessment?
+      - Do adults get diagnosed with schizophrenia?
+      - Can you tell me about diagnosing schizophrenia in adults?
+      - I'm wondering if I have schizophrenia
+      - What's the evaluation process for schizophrenia?
+      - How do professionals determine if someone has schizophrenia?
+      - Can you explain the schizophrenia assessment process?
+      - I suspect I might have schizophrenia
+      - How is schizophrenia diagnosed in adults?
+      - What steps are involved in getting a schizophrenia diagnosis?
+      - Can you guide me through the schizophrenia diagnostic process?
+      - I'm curious about the process of diagnosing schizophrenia
+      - How can I find out if I have schizophrenia?
+      - What's the procedure for a schizophrenia assessment?
+      - Can you tell me how professionals diagnose schizophrenia in adults?
+      - I think I might need a schizophrenia assessment
+
+  - intent: schizophrenia_therapy
+    examples: |
+      - Schizophrenia therapy
+      - Therapy for schizophrenia
+      - Behavioral therapy for schizophrenia
+      - Counseling for schizophrenia
+      - Schizophrenia coaching
+      - Talk therapy for schizophrenia
+      - Information on schizophrenia therapy
+      - What's involved in therapy for schizophrenia?
+      - Explain behavioral therapy for schizophrenia
+      - Tell me about counseling for schizophrenia
+      - Provide insights on schizophrenia coaching
+      - How does talk therapy help with schizophrenia?
+      - Describe therapy options for schizophrenia
+      - What's the role of counseling in schizophrenia treatment?
+      - Explain schizophrenia coaching techniques
+      - Provide info on talk therapy for schizophrenia
+      - How does therapy support schizophrenia treatment?
+      - Tell me about behavioral therapy techniques for schizophrenia
+      - What are the benefits of schizophrenia therapy?
+      - Explain the different types of schizophrenia therapy
+      - Provide information on counseling for schizophrenia
+      - How can schizophrenia coaching help?
+      - Tell me about therapy options for schizophrenia
+      - What's the impact of therapy on schizophrenia?
+      - Describe talk therapy for schizophrenia
+      - Provide insights on behavioral therapy for schizophrenia
+      - What should I know about schizophrenia counseling?
+      - Explain the role of therapy in schizophrenia treatment
+      - Tell me about schizophrenia coaching strategies
+      - Provide info on talk therapy techniques for schizophrenia
+      - How can therapy be beneficial for schizophrenia?
+
+responses:
+  utter_what_is_schizophrenia:
+  - text: Schizophrenia is a mental disorder characterized by a distorted perception of reality, including hallucinations, delusions, and disorganized thinking and behavior. It often impairs a person's ability to think clearly, manage emotions, make decisions, and relate to others. Schizophrenia is a complex condition with various subtypes and symptoms that can vary widely among individuals.
+
+  utter_schizophrenia_symptoms:
+  - text: The symptoms of schizophrenia can vary, but common ones include hallucinations (perceiving things that aren't real), delusions (false beliefs), disorganized thinking and speech, diminished emotional expression, reduced motivation, and difficulties with social interactions. Some people may also experience cognitive impairments, such as problems with memory and attention.
+
+  utter_causes_of_schizophrenia:
+  - text: The exact causes of schizophrenia are not fully understood, but it's believed to result from a combination of genetic, biological, and environmental factors. There is evidence of a genetic predisposition, meaning it can run in families. Additionally, disruptions in brain development, neurotransmitter imbalances, and stressful life events may contribute to its onset.
+
+  utter_managing_schizophrenia:
+  - text: Managing schizophrenia involves a comprehensive approach. It often includes a combination of antipsychotic medications, psychotherapy, and support from mental health professionals. Additionally, lifestyle modifications, such as regular exercise, a balanced diet, and adequate sleep, can be beneficial. Building a strong support system with family, friends, and mental health professionals is crucial for long-term management.
+
+  utter_schizophrenia_diagnosis:
+  - text: Diagnosing schizophrenia typically involves a thorough psychiatric evaluation conducted by a qualified mental health professional. This may include a detailed history of symptoms, a physical examination, and sometimes laboratory tests to rule out other medical conditions. It's important to consult a healthcare professional if you suspect you may have schizophrenia.
+
+  utter_schizophrenia_therapy:
+  - text: Therapy is a crucial component of schizophrenia treatment. Various types of therapy, including cognitive behavioral therapy, family therapy, and supportive counseling, can be effective in helping individuals manage their symptoms and improve their quality of life. Medication management and regular follow-ups with a mental health professional are often combined with therapy for comprehensive care.
+
+  utter_mental_health_institute_contact:
+    - text: "If you're in need of immediate assistance or would like to speak with a mental health professional in the Philippines, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They offer confidential and compassionate support. Remember, you're not alone, and help is available."
+    - text: "In case you require urgent help or wish to talk to a mental health expert in the Philippines, please reach out to the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They provide confidential and empathetic assistance. Always remember, there are people who care and are ready to help you."
+    - text: "If you're facing a crisis or simply need to talk to someone about your mental health, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. Your conversations are kept private, and their team is here to support you."
+    - text: "For immediate help or to talk with a mental health professional in the Philippines, please call the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). Your discussions will be kept confidential, and their team is ready to offer you assistance."
+    - text: "If you're experiencing a crisis or need someone to talk to about your mental health, please don't hesitate to contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. They provide confidential and caring support."
+
+stories:
+- story: what_is_schizophrenia
+  steps:
+  - intent: what_is_schizophrenia
+  - action: utter_what_is_schizophrenia
+
+- story: schizophrenia_symptoms
+  steps:
+  - intent: schizophrenia_symptoms
+  - action: utter_schizophrenia_symptoms
+
+- story: causes_of_schizophrenia
+  steps:
+  - intent: causes_of_schizophrenia
+  - action: utter_causes_of_schizophrenia
+
+- story: managing_schizophrenia
+  steps:
+  - intent: managing_schizophrenia
+  - action: utter_managing_schizophrenia
+
+- story: schizophrenia_diagnosis
+  steps:
+  - intent: schizophrenia_diagnosis
+  - action: utter_schizophrenia_diagnosis
+
+- story: schizophrenia_therapy
+  steps:
+  - intent: schizophrenia_therapy
+  - action: utter_schizophrenia_therapy
+  - action: utter_mental_health_institute_contact
+
+- story: Understanding Schizophrenia Journey
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_schizophrenia
+  - action: utter_what_is_schizophrenia
+  - intent: schizophrenia_symptoms
+  - action: utter_schizophrenia_symptoms
+  - intent: causes_of_schizophrenia
+  - action: utter_causes_of_schizophrenia
+  - intent: managing_schizophrenia
+  - action: utter_managing_schizophrenia
+  - intent: schizophrenia_diagnosis
+  - action: utter_schizophrenia_diagnosis
+  - intent: schizophrenia_therapy
+  - action: utter_schizophrenia_therapy
+  - action: utter_mental_health_institute_contact
+  - intent: goodbye
+  - action: utter_goodbye

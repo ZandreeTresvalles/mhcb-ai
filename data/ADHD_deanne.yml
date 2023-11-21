@@ -1,0 +1,807 @@
+nlu:
+  - intent: types_of_adhd
+    examples: |
+      - Tell me about the different types of ADHD.
+      - Explain the various ADHD classifications.
+      - Can you describe the ADHD subtypes?
+      - What are the subcategories of ADHD?
+      - ADHD types, please.
+      - ADHD variations, tell me more.
+      - Break down the types of ADHD for me.
+      - Differentiate between the kinds of ADHD.
+      - List the classifications of ADHD.
+      - Elaborate on the subtypes of ADHD.
+      - What are the types of ADHD?
+      - Are there any types of ADHD?
+
+  - intent: inattentive_adhd_type
+    examples: |
+      - What's inattentive ADHD all about?
+      - Dive into the details of inattentive ADHD.
+      - I'm interested in learning about the inattentive type of ADHD.
+      - Tell me more about ADHD without hyperactivity.
+      - Describe the characteristics of inattentive ADHD.
+      - Give me insights into inattentive ADHD.
+      - Explain inattentive ADHD to me.
+      - Inattentive ADHD specifics, please.
+      - Let's talk about inattentive ADHD.
+      - I'd like information on ADHD without the hyperactive component.
+      - What is inattentive ADHD?
+
+  - intent: hyperactivity_impulsivity_adhd_type
+    examples: |
+      - Share details about ADHD with hyperactivity and impulsivity.
+      - I want to understand hyperactivity and impulsivity ADHD.
+      - Explain what's involved in hyperactive-impulsive ADHD.
+      - Describe the characteristics of ADHD with hyperactivity.
+      - Tell me about ADHD that includes impulsivity and hyperactivity.
+      - What can you tell me about hyperactivity and impulsivity ADHD?
+      - Give me insights into hyperactivity and impulsivity in ADHD.
+      - Elaborate on hyperactive-impulsive ADHD.
+      - Let's discuss ADHD with hyperactivity and impulsivity.
+      - Explain the features of ADHD that include hyperactivity and impulsivity.
+
+  - intent: combined_adhd_type
+    examples: |
+      - What is combined type ADHD?
+      - Describe ADHD that combines inattentiveness and hyperactivity.
+      - Can you explain ADHD with both inattentive and hyperactive features?
+      - Tell me about the combined type of ADHD.
+      - Explain the characteristics of combined ADHD.
+      - I'm curious about ADHD that combines inattentive and hyperactive elements.
+      - Share information on combined type ADHD.
+      - Elaborate on ADHD with both inattentive and hyperactive aspects.
+      - Let's talk about combined ADHD.
+      - Give me insights into the combined type of ADHD.
+      - What if someone has inattention and hyperactivity?
+
+  - intent: user_express_adhd_concerns
+    examples: |
+      - Feeling restless and unfocused
+      - Think I might have ADHD
+      - Difficulty paying attention
+      - Impulsivity and hyperactivity
+      - Losing track of tasks
+      - Can't follow instructions or stay organized
+      - Constant fidgeting and squirming
+      - Excessive talking and impulsiveness
+      - Need to move constantly
+      - Feeling overwhelmed by tasks
+      - Struggling with attention at school or work
+      - Seeking help for my ADHD concerns
+      - Difficulty waiting and taking turns
+      - Making careless mistakes in tasks
+      - Can't sit still or focus
+      - Disruptive behavior and impulsivity
+      - Need help for ADHD symptoms
+
+  - intent: ask_coping_strategies_adhd
+    examples: |
+      - Coping with ADHD symptoms
+      - Managing inattentiveness and hyperactivity
+      - Strategies for living with ADHD
+      - Self-help for improving focus
+      - Managing impulsivity
+      - How to stay organized with ADHD
+      - Managing the effects of ADHD on daily life
+      - Coping with the emotional toll of ADHD
+      - Strategies for alleviating restlessness
+      - Self-care for individuals with ADHD
+      - Dealing with impulsiveness and hyperactivity
+      - Activities to improve life with ADHD
+      - Coping with the impact of ADHD at school or work
+      - How to find support for ADHD
+      - Finding focus and stability with ADHD
+      - Coping with the challenges of ADHD
+
+  - intent: user_share_adhd_experience
+    examples: |
+      - Lately, I've been unable to sit still for more than a few minutes.
+      - My mind is constantly racing, and it's hard to concentrate on anything.
+      - I often get distracted by the smallest things, and it's affecting my work.
+      - Impulsivity has been a part of my life, and it's been tough to cope with it.
+      - I've noticed significant changes in my attention span and focus.
+      - Coping with ADHD has been challenging, especially the restlessness it brings.
+      - My experiences with ADHD have had a significant impact on my daily life.
+      - I've been talking excessively and making impulsive decisions.
+      - It's hard to follow instructions and complete tasks due to my impulsivity.
+      - I've been struggling with organization and time management.
+      - Sometimes, I'm unable to wait or take turns because of my impatience.
+      - ADHD has made it difficult to maintain relationships.
+      - My self-esteem has taken a hit because of my experiences with ADHD.
+      - I'm constantly battling with the restlessness and inability to stay focused.
+
+  - intent: recognizing_adhd_on_self
+    examples: |
+      - Am I experiencing symptoms of ADHD?
+      - Do I have ADHD?
+      - Is this indicative of ADHD?
+      - Could I be suffering from ADHD?
+      - I want to know if I have ADHD.
+      - How do I recognize if I have symptoms of ADHD?
+      - How to know if I am exhibiting signs of ADHD?
+      - Recognizing ADHD symptoms in myself
+      - Self-assessment for ADHD
+      - Identifying ADHD in me
+      - Am I experiencing symptoms of an attention disorder?
+      - Recognizing attention issues in my own experiences
+      - Assessing my mental state for ADHD
+      - Checking if I exhibit signs of ADHD
+      - Self-awareness of hyperactivity and inattention
+      - Determining if I need help for attention issues
+      - Understanding my mental health related to ADHD
+      - Self-reflection on experiences related to ADHD
+      - Questioning if I have symptoms of an attention disorder
+      - How do I know if I have ADHD?
+
+  - intent: experiencing_adhd_long_time
+    examples: |
+      - I've been experiencing these ADHD symptoms for over six months.
+      - My symptoms have persisted for more than six months.
+      - It's been longer than six months, and I still feel this way.
+      - Experiencing symptoms of ADHD for several months.
+      - My attention and hyperactivity issues have lasted for about a year.
+      - I've been dealing with ADHD-like symptoms for more than a year.
+      - Living with these experiences for several months now.
+      - My struggle with attention and hyperactivity issues has been ongoing for over a year.
+      - I've had these experiences for quite a few months.
+      - Suffering from symptoms of ADHD for an extended period.
+      - Experiencing these symptoms for an extended timeframe.
+      - I've had these experiences for a prolonged duration.
+      - It has been a few years.
+      - I think I have had it since I was a teenager.
+      - I think I have been experiencing it since I was a teenager.
+      - I've been experiencing it ever since the pandemic started.
+
+  - intent: experiencing_adhd_short_time
+    examples: |
+      - I've been experiencing these ADHD symptoms for less than two weeks.
+      - My ADHD symptoms started recently, just within the past week.
+      - It's been less than two weeks, and I'm already experiencing these ADHD symptoms.
+      - Experiencing these ADHD symptoms for a few days now.
+      - I've been noticing these ADHD symptoms for about a week.
+      - It's only been a few days, but I've been feeling this way.
+      - Recently, I've been experiencing these ADHD symptoms.
+      - I started feeling like this just a few days ago.
+      - These experiences are relatively new, less than two weeks.
+      - I've noticed these symptoms for only a short time.
+      - I haven't felt like myself for about a week.
+      - My mental state has been affected for just a few days.
+      - It's only been a short while, but I'm concerned.
+
+  - intent: helping_someone_with_adhd
+    examples: |
+      - How can I support a friend with ADHD?
+      - Tips for helping a family member with ADHD.
+      - Ways to assist someone dealing with ADHD.
+      - Supporting a loved one with ADHD.
+      - Strategies for helping my child who has ADHD.
+      - How do I best help someone diagnosed with ADHD?
+      - I want to be more supportive of my partner with ADHD.
+      - Understanding and assisting my colleague with ADHD.
+      - Seeking advice on helping a classmate with ADHD.
+      - How to be a better friend to someone with ADHD.
+      - Supporting a coworker with ADHD in the workplace.
+      - I'm a teacher; how can I assist a student with ADHD?
+      - Ways to help a roommate who has ADHD.
+      - Tips for assisting a child with ADHD with their schoolwork.
+      - How to create an ADHD-friendly environment at home.
+      - I want to help my sibling who's been diagnosed with ADHD.
+      - Supporting my teenager who has ADHD.
+      - Advice on helping my elderly parent with ADHD.
+      - How to make accommodations for a friend with ADHD.
+      - Strategies for assisting my partner in managing their ADHD.
+
+  - intent: coping_with_adhd_alarms
+    examples: |
+      - How can alarms help with managing ADHD?
+      - Tell me more about using alarms for ADHD management.
+      - What's the role of alarms in coping with ADHD?
+      - Explain how setting alarms is beneficial for ADHD.
+      - Can you provide details on using alarms for ADHD support?
+
+  - intent: coping_with_adhd_schedule
+    examples: |
+      - How does having a structured schedule help with ADHD?
+      - Tell me more about creating a daily schedule for managing ADHD.
+      - What's the importance of a structured routine in ADHD coping?
+      - Explain how a daily schedule can assist in dealing with ADHD.
+      - Can you provide insights into using a schedule for ADHD support?
+
+  - intent: coping_with_adhd_task_lists
+    examples: |
+      - How do task lists help with managing ADHD?
+      - Tell me more about using task lists for ADHD management.
+      - What's the role of task lists in coping with ADHD?
+      - Explain how creating lists of tasks is beneficial for ADHD.
+      - Can you provide details on using task lists for ADHD support?
+
+  - intent: coping_with_adhd_minimizing_distractions
+    examples: |
+      - How can I minimize distractions to cope with ADHD?
+      - Tell me more about reducing distractions for managing ADHD.
+      - What's the importance of minimizing distractions in ADHD coping?
+      - Explain how to create an environment with fewer distractions for dealing with ADHD.
+      - Can you provide insights into minimizing distractions for ADHD support?
+
+  - intent: coping_with_adhd_mindfulness
+    examples: |
+      - How does mindfulness and meditation help with ADHD management?
+      - Tell me more about practicing mindfulness for managing ADHD.
+      - What's the role of mindfulness and meditation in coping with ADHD?
+      - Explain how mindfulness techniques can assist in dealing with ADHD.
+      - Can you provide details on using mindfulness and meditation for ADHD support?
+
+  - intent: affirm_adhd_symptoms_inattentive_1
+    examples: |
+      - Yes, I often make careless mistakes in my work.
+      - I frequently struggle to pay close attention to details.
+      - I have difficulty sustaining attention in tasks.
+      - I tend to overlook details in my schoolwork.
+      - Making careless mistakes is common for me.
+
+  - intent: deny_adhd_symptoms_inattentive_1
+    examples: |
+      - No, I usually pay close attention to details.
+      - I rarely make careless mistakes.
+      - I don't struggle to sustain attention in tasks.
+      - I typically listen when spoken to directly.
+      - I follow instructions and complete my tasks efficiently.
+
+  - intent: affirm_adhd_symptoms_inattentive_2
+    examples: |
+      - Yes, it's challenging to sustain attention during activities.
+      - I often find it difficult to stay focused on tasks.
+      - I frequently lose track of what I'm doing.
+      - I struggle to concentrate for extended periods.
+      - Sustaining attention can be a problem for me.
+
+  - intent: deny_adhd_symptoms_inattentive_2
+    examples: |
+      - No, I can sustain attention in activities.
+      - I don't lose track of my tasks.
+      - I can stay focused on what I'm doing.
+      - I usually concentrate well during tasks.
+      - Sustaining attention is not a problem for me.
+
+  - intent: affirm_adhd_symptoms_inattentive_3
+    examples: |
+      - Yes, I often don't seem to listen when someone speaks to me directly.
+      - It's true, I sometimes miss what people say.
+      - I frequently find my mind wandering during conversations.
+      - I'm guilty of not paying direct attention when others talk.
+      - I often drift away during conversations.
+
+  - intent: deny_adhd_symptoms_inattentive_3
+    examples: |
+      - No, I usually listen when spoken to directly.
+      - I'm attentive during conversations.
+      - I don't typically miss what people say.
+      - I pay direct attention to others when they talk.
+      - I'm good at focusing during conversations.
+
+  - intent: affirm_adhd_symptoms_inattentive_4
+    examples: |
+      - Yes, I often don't follow through on instructions.
+      - I sometimes fail to complete schoolwork or tasks.
+      - I can be forgetful about instructions and duties.
+      - I frequently fail to finish chores or workplace duties.
+      - Not following through is a common issue for me.
+
+  - intent: deny_adhd_symptoms_inattentive_4
+    examples: |
+      - No, I typically follow through on instructions.
+      - I usually complete schoolwork and tasks.
+      - I'm not forgetful about duties and instructions.
+      - I efficiently finish chores and workplace duties.
+      - Following through is not a problem for me.
+
+  - intent: affirm_adhd_symptoms_inattentive_5
+    examples: |
+      - Yes, I often have difficulty organizing tasks.
+      - I frequently struggle to manage activities.
+      - I find it hard to keep things organized.
+      - I'm not great at task organization.
+      - I frequently face difficulties in organizing tasks.
+
+  - intent: deny_adhd_symptoms_inattentive_5
+    examples: |
+      - No, I can efficiently organize tasks.
+      - I manage activities without difficulty.
+      - I keep things well organized.
+      - I'm good at task organization.
+      - I don't frequently face difficulties in organizing tasks.
+
+  - intent: affirm_adhd_symptoms_inattentive_6
+    examples: |
+      - Yes, I often avoid tasks that require sustained mental effort.
+      - I tend to dislike or feel reluctant about tasks that require effort.
+      - I avoid engaging in tasks that need prolonged focus.
+      - I sometimes find it hard to engage in tasks requiring sustained mental effort.
+      - Avoiding tasks that require effort is common for me.
+
+  - intent: deny_adhd_symptoms_inattentive_6
+    examples: |
+      - No, I engage in tasks that require sustained mental effort.
+      - I don't typically avoid such tasks.
+      - I'm not reluctant to take on tasks requiring effort.
+      - I efficiently engage in tasks with prolonged focus.
+      - Avoiding such tasks is not an issue for me.
+
+  - intent: affirm_adhd_symptoms_inattentive_7
+    examples: |
+      - Yes, I often lose things necessary for tasks.
+      - I frequently misplace school assignments, books, or tools.
+      - I'm forgetful and misplace essential items.
+      - Losing necessary items is a common occurrence for me.
+      - Misplacing school assignments, books, or tools happens frequently.
+
+  - intent: deny_adhd_symptoms_inattentive_7
+    examples: |
+      - No, I usually keep track of necessary items for tasks.
+      - I don't frequently lose essential items.
+      - I'm not forgetful about school assignments, books, or tools.
+      - I efficiently manage necessary items for tasks.
+      - Misplacing such items is not common for me.
+
+  - intent: affirm_adhd_symptoms_inattentive_8
+    examples: |
+      - Yes, I am easily distracted by extraneous stimuli.
+      - I often find it hard to stay focused due to distractions.
+      - External stimuli easily distract me.
+      - I frequently lose focus due to distractions.
+      - Being easily distracted is common for me.
+
+  - intent: deny_adhd_symptoms_inattentive_8
+    examples: |
+      - No, I can maintain focus despite distractions.
+      - I don't find it hard to stay focused.
+      - I'm not easily distracted by external stimuli.
+      - I efficiently deal with distractions.
+      - Being easily distracted is not an issue for me.
+
+  - intent: affirm_adhd_symptoms_inattentive_9
+    examples: |
+      - Yes, I am often forgetful in daily activities.
+      - I sometimes forget to complete tasks.
+      - I'm forgetful about everyday activities.
+      - Forgetting to complete tasks is common for me.
+      - Sometimes, I forget things related to daily activities.
+
+  - intent: deny_adhd_symptoms_inattentive_9
+    examples: |
+      - No, I'm usually good at remembering to complete tasks.
+      - I don't forget things related to daily activities.
+      - I'm not forgetful in daily activities.
+      - Forgetting to complete tasks is not a regular occurrence for me.
+
+  - intent: affirm_adhd_symptoms_hyperactive_impulsive_1
+    examples: |
+      - Yes, I often fidget with my hands or feet.
+      - I frequently tap my hands or feet and squirm in my seat.
+      - I often engage in physical restlessness.
+      - Fidgeting with my hands or feet is common for me.
+      - Physical restlessness happens frequently for me.
+
+  - intent: deny_adhd_symptoms_hyperactive_impulsive_1
+    examples: |
+      - No, I don't typically fidget with my hands or feet.
+      - I usually stay seated without tapping my hands or feet.
+      - I'm not physically restless.
+      - Fidgeting with my hands or feet is not common for me.
+      - Physical restlessness doesn't happen frequently for me.
+
+  - intent: affirm_adhd_symptoms_hyperactive_impulsive_2
+    examples: |
+      - Yes, I often leave my seat in situations when I should remain seated.
+      - I frequently get up and leave my seat unexpectedly.
+      - Leaving my seat when I should remain seated is common for me.
+      - I don't always stay seated when expected.
+      - I often find it hard to sit still.
+
+  - intent: deny_adhd_symptoms_hyperactive_impulsive_2
+    examples: |
+      - No, I usually remain seated when I'm expected to.
+      - I don't frequently leave my seat unexpectedly.
+      - I'm good at staying seated when required.
+      - Leaving my seat unexpectedly is not common for me.
+      - I can sit still when needed.
+
+  - intent: affirm_adhd_symptoms_hyperactive_impulsive_3
+    examples: |
+      - Yes, I often run about or climb in situations where it's not appropriate.
+      - I sometimes engage in physical activities that aren't suitable for the situation.
+      - Running about or climbing in inappropriate situations happens frequently for me.
+      - Physical activities that don't fit the situation are common for me.
+      - I often feel the need to move around.
+
+  - intent: deny_adhd_symptoms_hyperactive_impulsive_3
+    examples: |
+      - No, I usually don't run about or climb in inappropriate situations.
+      - I typically engage in suitable physical activities.
+      - I'm good at matching my physical activities to the situation.
+      - Running about or climbing in inappropriate situations is not common for me.
+      - I don't often feel the need to move around inappropriately.
+
+  - intent: affirm_adhd_symptoms_hyperactive_impulsive_4
+    examples: |
+      - Yes, I often struggle to play or engage in activities quietly.
+      - I have difficulty engaging in quiet activities.
+      - Playing quietly can be a challenge for me.
+      - Engaging in quiet activities is not always easy for me.
+      - I frequently find it hard to play or engage quietly.
+
+  - intent: deny_adhd_symptoms_hyperactive_impulsive_4
+    examples: |
+      - No, I can usually play or engage in quiet activities without difficulty.
+      - Engaging in quiet activities is not a challenge for me.
+      - I'm good at playing or engaging quietly.
+      - I don't typically struggle to play quietly.
+      - Engaging in quiet activities is not a problem for me.
+
+  - intent: affirm_adhd_symptoms_hyperactive_impulsive_5
+    examples: |
+      - Yes, I often talk excessively.
+      - I sometimes find it hard to control the urge to talk.
+      - Excessive talking is common for me.
+      - I can be talkative.
+      - I tend to talk more than others.
+
+  - intent: deny_adhd_symptoms_hyperactive_impulsive_5
+    examples: |
+      - No, I usually don't talk excessively.
+      - I can control the urge to talk.
+      - Excessive talking is not common for me.
+      - I'm not typically talkative.
+      - I don't talk more than others.
+
+  - intent: affirm_adhd_symptoms_hyperactive_impulsive_6
+    examples: |
+      - Yes, I often blurt out an answer before a question is completed.
+      - I sometimes answer questions before they're finished.
+      - Blurring out answers is common for me.
+      - I can't always wait to hear the full question.
+      - I often blurt out responses.
+
+  - intent: deny_adhd_symptoms_hyperactive_impulsive_6
+    examples: |
+      - No, I usually wait to hear the full question before answering.
+      - I don't frequently blurt out responses.
+      - Blurring out answers is not common for me.
+      - I can wait before responding.
+      - I don't often blurt out answers.
+
+  - intent: affirm_adhd_symptoms_hyperactive_impulsive_7
+    examples: |
+      - Yes, I often have difficulty waiting my turn.
+      - I sometimes struggle to wait for my turn.
+      - Waiting my turn can be a challenge for me.
+      - Patience is not always easy for me.
+      - I find it hard to wait my turn in some situations.
+
+  - intent: deny_adhd_symptoms_hyperactive_impulsive_7
+    examples: |
+      - No, I usually don't have difficulty waiting my turn.
+      - I can wait for my turn without difficulty.
+      - Waiting my turn is not a challenge for me.
+      - Patience is typically easy for me.
+      - I don't often find it hard to wait my turn.
+
+  - intent: affirm_adhd_symptoms_hyperactive_impulsive_8
+    examples: |
+      - Yes, I often interrupt or intrude on others.
+      - I sometimes intrude on conversations or games.
+      - Interrupting or intruding is common for me.
+      - I can't always resist the urge to interrupt.
+      - I often butt into conversations or games.
+
+  - intent: deny_adhd_symptoms_hyperactive_impulsive_8
+    examples: |
+      - No, I usually don't interrupt or intrude on others.
+      - I can control the urge to interrupt.
+      - Interrupting or intruding is not common for me.
+      - I can resist the urge to butt into conversations or games.
+      - I don't often interrupt or intrude on others.
+
+responses:
+  utter_types_of_adhd:
+      - text: "ADHD, or Attention-Deficit/Hyperactivity Disorder, has several types. The three main classifications are inattentive, hyperactive-impulsive, and combined type ADHD. Inattentive ADHD primarily involves difficulties with focus and organization. Hyperactive-impulsive ADHD is characterized by excessive energy and impulsivity. Combined type ADHD combines both inattentive and hyperactive-impulsive symptoms. Understanding these types helps tailor treatments to individual needs."
+
+  utter_inattentive_adhd_type:
+      - text: "Inattentive ADHD, often referred to as ADHD without hyperactivity, focuses on difficulties with sustaining attention and staying organized. Individuals with this type may have trouble following instructions, staying on task, or paying attention to details. Treatment often involves behavioral therapy, medication, or a combination to address these specific challenges."
+
+  utter_hyperactivity_impulsivity_adhd_type:
+      - text: "Hyperactivity and Impulsivity ADHD is characterized by excessive energy, restlessness, and impulsive behavior. People with this type might have difficulty sitting still, often interrupt others, and act without thinking. Managing hyperactivity and impulsivity is essential, and treatment typically involves a combination of behavior therapy and, in some cases, medication."
+
+  utter_combined_adhd_type:
+      - text: "Combined type ADHD is when individuals exhibit both inattentive and hyperactive-impulsive symptoms. They struggle with focus, organization, restlessness, impulsivity, and difficulty following instructions. Addressing both aspects is crucial for comprehensive treatment. Approaches can include behavior therapy and medication tailored to the individual's needs."
+
+  utter_user_express_adhd_concerns:
+      - text: "It's essential to recognize these symptoms and seek the support you need. Restlessness, difficulty paying attention, impulsivity, and other symptoms can be challenging to deal with. Can you share more of your experiences?"
+
+  utter_ask_coping_strategies_adhd:
+      - text: "Living with ADHD can be challenging, but there are effective coping strategies that can make a significant difference in your daily life. Some of these strategies include setting alarms and reminders to stay organized, creating a structured daily schedule, using task lists to break down tasks, minimizing distractions in your environment, practicing mindfulness and meditation to improve focus, regular exercise to reduce restlessness, staying organized with calendars and planners, breaking tasks into smaller steps, avoiding multitasking, practicing self-care through proper sleep, nutrition, and stress management, and setting realistic goals to avoid overburdening yourself. These strategies can help you manage your ADHD symptoms and improve your overall well-being. Is there a specific coping strategy you'd like to know more about or any other questions you have about ADHD?"
+
+  utter_user_share_adhd_experience:
+      - text: "Thank you for opening up about your experiences with ADHD. Many individuals face challenges related to restlessness, inattention, impulsivity, and organization. These symptoms can impact various aspects of life. It's crucial to acknowledge these struggles, and if you haven't already, consider consulting with a healthcare professional who can offer tailored guidance and support."
+
+  utter_recognizing_adhd_on_self:
+      - text: "Recognizing ADHD symptoms in yourself is an important first step. Difficulty paying attention, impulsivity, or restlessness can affect daily life. Seeking a professional assessment is a positive move. If you're concerned about exhibiting signs of ADHD, reaching out to a healthcare provider can help you get a better understanding of your situation."
+
+  utter_experiencing_adhd_long_time:
+      - text: "I understand that you've been dealing with ADHD-like symptoms for an extended period. Prolonged restlessness, attention issues, or impulsivity can be challenging. It's essential to address these concerns. If you've been experiencing symptoms for more than six months, seeking professional assessment and guidance is advisable."
+
+  utter_experiencing_adhd_short_time:
+      - text: "I hear that you've recently started experiencing ADHD symptoms. Even if it's a short duration, restlessness, inattention, or impulsivity can be distressing. It's important to address these concerns promptly. Seeking professional assessment and guidance can provide valuable insights and support."
+
+  utter_helping_someone_with_adhd:
+      - text: "Supporting someone with ADHD is commendable. Whether it's a friend, family member, or colleague, understanding their challenges and offering assistance is valuable. Providing a supportive environment, being patient, and learning about ADHD management strategies can make a significant difference in their well-being. If you have specific questions about supporting someone with ADHD, feel free to ask."
+
+  utter_coping_with_adhd_alarms:
+      - text: "Using alarms can be incredibly helpful in managing ADHD. They act as reminders to keep you on track with your tasks and schedules. For instance, if you have an important meeting, you can set an alarm to ensure you don't forget it. By setting alarms, you can regain focus and improve time management. Remember, it's all about finding what works best for you, so give it a try!"
+
+  utter_coping_with_adhd_schedule:
+      - text: "Creating a structured daily schedule is a fantastic strategy for managing ADHD. It helps you stay organized, plan your day effectively, and reduce forgetfulness. For example, if you have a busy day ahead, you can schedule specific time blocks for work, breaks, and even relaxation. Having a routine can provide a sense of stability. Give it a shot and see how it positively impacts your daily life!"
+
+  utter_coping_with_adhd_task_lists:
+      - text: "Task lists are a great tool for managing ADHD. They allow you to break your tasks into manageable steps, making everything seem less overwhelming. For instance, if you have a project to complete, you can create a task list with clear steps to follow. Checking off completed tasks can give you a sense of accomplishment. Why not give it a go and experience the benefits?"
+
+  utter_coping_with_adhd_minimizing_distractions:
+      - text: "Minimizing distractions can be a game-changer when dealing with ADHD. Creating an environment with fewer interruptions can significantly improve your focus. For example, if you're studying, you can find a quiet place, turn off notifications on your devices, and close unnecessary browser tabs. Try to set up a dedicated workspace and remove unnecessary diversions. You've got this!"
+
+  utter_coping_with_adhd_mindfulness:
+      - text: "Practicing mindfulness and meditation can help calm the mind and enhance concentration, making it a valuable strategy for managing ADHD. It might take some time to master, but the benefits are worth it. For example, you can start with short daily sessions, focusing on your breath and clearing your mind. Over time, you'll notice improved concentration and a sense of calm. You're taking a proactive step toward managing your ADHD effectively."
+
+  utter_ask_adhd_symptoms_inattentive_1:
+      - text: "Do you ever find it challenging to pay close attention to details or frequently make careless mistakes in your schoolwork, job, or other activities?"
+  utter_ask_adhd_symptoms_inattentive_2:
+      - text: "Do you often struggle to sustain attention in tasks or play activities?"
+  utter_ask_adhd_symptoms_inattentive_3:
+      - text: "Do you sometimes feel like you're not listening when someone speaks to you directly?"
+  utter_ask_adhd_symptoms_inattentive_4:
+      - text: "Is it common for you to not follow through on instructions and fail to finish tasks, whether it's schoolwork, chores, or workplace duties?"
+  utter_ask_adhd_symptoms_inattentive_5:
+      - text: "Do you frequently face difficulties when organizing tasks and activities?"
+  utter_ask_adhd_symptoms_inattentive_6:
+      - text: "Do you often avoid, dislike, or feel reluctant to engage in tasks that require sustained mental effort, like schoolwork or homework?"
+  utter_ask_adhd_symptoms_inattentive_7:
+      - text: "Is it typical for you to lose things necessary for tasks and activities, like school assignments, pencils, books, or tools?"
+  utter_ask_adhd_symptoms_inattentive_8:
+      - text: "Are you easily distracted by extraneous stimuli in your environment?"
+  utter_ask_adhd_symptoms_inattentive_9:
+      - text: "Do you find yourself being forgetful in daily activities?"
+
+  utter_ask_adhd_symptoms_hyperactive_impulsive_1:
+      - text: "Do you often fidget with or tap your hands or feet, or squirm in your seat?"
+  utter_ask_adhd_symptoms_hyperactive_impulsive_2:
+      - text: "Do you frequently leave your seat in situations where remaining seated is expected?"
+  utter_ask_adhd_symptoms_hyperactive_impulsive_3:
+      - text: "Do you run about or climb in situations where it may not be appropriate for your age?"
+  utter_ask_adhd_symptoms_hyperactive_impulsive_4:
+      - text: "Is it challenging for you to play or engage in activities quietly?"
+  utter_ask_adhd_symptoms_hyperactive_impulsive_5:
+      - text: "Do you often talk excessively?"
+  utter_ask_adhd_symptoms_hyperactive_impulsive_6:
+      - text: "Are you prone to blurting out an answer before a question has been completed?"
+  utter_ask_adhd_symptoms_hyperactive_impulsive_7:
+      - text: "Do you have difficulty waiting your turn in various situations?"
+  utter_ask_adhd_symptoms_hyperactive_impulsive_8:
+      - text: "Do you find yourself frequently interrupting or intruding on others, like butting into conversations or games?"
+
+  utter_positive_likelihood_adhd:
+      - text: "Based on the symptoms you've described, it's possible that you may be experiencing signs commonly associated with ADHD. However, to receive a definitive diagnosis and appropriate guidance, it's crucial to consult with a healthcare professional. They can provide a comprehensive assessment and tailored recommendations for your specific situation."
+
+  utter_negative_likelihood_adhd:
+      - text: "While the symptoms you've mentioned can be challenging, they may not necessarily indicate ADHD. Various factors can contribute to similar experiences. If you're concerned about your symptoms or their impact on your life, it's advisable to consult with a healthcare professional. They can help you determine the underlying causes and provide suitable guidance."
+
+stories:
+  - story: Types of ADHD
+    steps:
+      - intent: types_of_adhd
+      - action: utter_types_of_adhd
+
+  - story: Inattentive ADHD Type
+    steps:
+      - intent: inattentive_adhd_type
+      - action: utter_inattentive_adhd_type
+
+  - story: Hyperactivity-Impulsivity ADHD Type
+    steps:
+      - intent: hyperactivity_impulsivity_adhd_type
+      - action: utter_hyperactivity_impulsivity_adhd_type
+
+  - story: Combined ADHD Type
+    steps:
+      - intent: combined_adhd_type
+      - action: utter_combined_adhd_type
+
+  - story: User Expresses ADHD Concerns
+    steps:
+      - intent: user_express_adhd_concerns
+      - action: utter_user_express_adhd_concerns
+
+  - story: User Asks for Coping Strategies for ADHD
+    steps:
+      - intent: ask_coping_strategies_adhd
+      - action: utter_ask_coping_strategies_adhd
+
+  - story: User Shares ADHD Experience
+    steps:
+      - intent: user_share_adhd_experience
+      - action: utter_user_share_adhd_experience
+
+  - story: Helping Someone with ADHD
+    steps:
+      - intent: helping_someone_with_adhd
+      - action: utter_helping_someone_with_adhd
+
+  - story: Coping with ADHD Alarms
+    steps:
+      - intent: coping_with_adhd_alarms
+      - action: utter_coping_with_adhd_alarms
+
+  - story: Coping with ADHD Schedule
+    steps:
+      - intent: coping_with_adhd_schedule
+      - action: utter_coping_with_adhd_schedule
+
+  - story: Coping with ADHD Task Lists
+    steps:
+      - intent: coping_with_adhd_task_lists
+      - action: utter_coping_with_adhd_task_lists
+
+  - story: Coping with ADHD Minimizing Distractions
+    steps:
+      - intent: coping_with_adhd_minimizing_distractions
+      - action: utter_coping_with_adhd_minimizing_distractions
+
+  - story: Coping with ADHD Mindfulness
+    steps:
+      - intent: coping_with_adhd_mindfulness
+      - action: utter_coping_with_adhd_mindfulness
+
+  # - story: Screening Questions for ADHD Symptoms
+  #   steps:
+  #     - intent: recognizing_adhd_on_self
+  #     - action: utter_ask_adhd_symptoms_inattentive_1
+  #     - intent: affirm_adhd_symptoms_inattentive_1
+  #     - slot: { "adhd_symptoms_inattentive_1": "yes" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_2
+  #     - intent: affirm_adhd_symptoms_inattentive_2
+  #     - slot: { "adhd_symptoms_inattentive_2": "yes" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_3
+
+  #     - intent: affirm_adhd_symptoms_inattentive_3
+
+  #     - slot: { "adhd_symptoms_inattentive_3": "yes" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_4
+
+  #     - intent: affirm_adhd_symptoms_inattentive_4
+
+  #     - slot: { "adhd_symptoms_inattentive_4": "yes" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_5
+
+  #     - intent: affirm_adhd_symptoms_inattentive_5
+
+  #     - slot: { "adhd_symptoms_inattentive_5": "yes" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_6
+
+  #     - intent: affirm_adhd_symptoms_inattentive_6
+
+  #     - slot: { "adhd_symptoms_inattentive_6": "yes" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_7
+
+  #     - intent: affirm_adhd_symptoms_inattentive_7
+
+  #     - slot: { "adhd_symptoms_inattentive_7": "yes" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_8
+
+  #     - intent: affirm_adhd_symptoms_inattentive_8
+
+  #     - slot: { "adhd_symptoms_inattentive_8": "yes" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_1
+
+  #     - intent: affirm_adhd_symptoms_hyperactive_impulsive_1
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_1": "yes" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_2
+
+  #     - intent: affirm_adhd_symptoms_hyperactive_impulsive_2
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_2": "yes" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_3
+
+  #     - intent: affirm_adhd_symptoms_hyperactive_impulsive_3
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_3": "yes" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_4
+
+  #     - intent: affirm_adhd_symptoms_hyperactive_impulsive_4
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_4": "yes" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_5
+
+  #     - intent: affirm_adhd_symptoms_hyperactive_impulsive_5
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_5": "yes" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_6
+
+  #     - intent: affirm_adhd_symptoms_hyperactive_impulsive_6
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_6": "yes" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_7
+
+  #     - intent: affirm_adhd_symptoms_hyperactive_impulsive_8
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_8": "yes" }
+  #     - action: utter_positive_likelihood_adhd
+
+  #     - intent: deny_adhd_symptoms_inattentive_1
+
+  #     - slot: { "adhd_symptoms_inattentive_1": "no" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_2
+
+  #     - intent: deny_adhd_symptoms_inattentive_2
+
+  #     - slot: { "adhd_symptoms_inattentive_2": "no" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_3
+
+  #     - intent: deny_adhd_symptoms_inattentive_3
+
+  #     - slot: { "adhd_symptoms_inattentive_3": "no" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_4
+
+  #     - intent: deny_adhd_symptoms_inattentive_4
+
+  #     - slot: { "adhd_symptoms_inattentive_4": "no" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_5
+
+  #     - intent: deny_adhd_symptoms_inattentive_5
+
+  #     - slot: { "adhd_symptoms_inattentive_5": "no" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_6
+
+  #     - intent: deny_adhd_symptoms_inattentive_7
+
+  #     - slot: { "adhd_symptoms_inattentive_7": "no" }
+  #     - action: utter_ask_adhd_symptoms_inattentive_8
+
+  #     - intent: deny_adhd_symptoms_inattentive_8
+
+  #     - slot: { "adhd_symptoms_inattentive_8": "no" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_1
+
+  #     - intent: deny_adhd_symptoms_hyperactive_impulsive_1
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_1": "no" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_2
+
+  #     - intent: deny_adhd_symptoms_hyperactive_impulsive_2
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_2": "no" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_3
+
+  #     - intent: deny_adhd_symptoms_hyperactive_impulsive_3
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_3": "no" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_4
+
+  #     - intent: deny_adhd_symptoms_hyperactive_impulsive_4
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_4": "no" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_5
+
+  #     - intent: deny_adhd_symptoms_hyperactive_impulsive_5
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_5": "no" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_6
+
+  #     - intent: deny_adhd_symptoms_hyperactive_impulsive_6
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_6": "no" }
+  #     - action: utter_ask_adhd_symptoms_hyperactive_impulsive_7
+
+  #     - intent: deny_adhd_symptoms_hyperactive_impulsive_8
+
+  #     - slot: { "adhd_symptoms_hyperactive_impulsive_8": "no" }
+  #     - action: utter_negative_likelihood_adhd

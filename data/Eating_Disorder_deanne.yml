@@ -1,0 +1,501 @@
+nlu:
+  - intent: ask_about_binge_eating_disorder
+    examples: |
+      - What is binge-eating disorder?
+      - Can you tell me about binge-eating disorder?
+      - Explain what binge-eating disorder is.
+      - I'd like information on binge-eating disorder.
+      - What are the symptoms of binge-eating disorder?
+      - How is binge-eating disorder diagnosed?
+      - Share details about the treatment of binge-eating disorder.
+      - Tell me more about living with binge-eating disorder.
+      - What causes binge-eating disorder?
+      - How common is binge-eating disorder?
+      - Is binge-eating disorder different from other eating disorders?
+      - Describe the emotional aspects of binge-eating disorder.
+
+  - intent: ask_coping_strategies_eating_disorders
+    examples: |
+      - What are some coping strategies for eating disorders?
+      - Can you provide coping strategies to deal with eating disorders?
+      - How can I cope with an eating disorder?
+      - Tell me about strategies for managing eating disorders.
+      - Coping strategies for eating disorders, please.
+      - I need help with coping strategies for an eating disorder.
+      - Share some ways to cope with eating disorders.
+      - What should I do to manage an eating disorder?
+
+  - intent: affirm_symptoms_anorexia_1
+    examples: |
+      - Yes, I do restrict my food intake to maintain a lower body weight.
+      - I am afraid of gaining weight, even if I am underweight.
+      - I strongly fear gaining weight.
+      - My weight is a constant concern for me.
+      - I've been restricting my food for weight loss.
+      - I avoid certain foods to maintain a low weight.
+
+  - intent: deny_symptoms_anorexia_1
+    examples: |
+      - No, I don't restrict my food intake for weight loss.
+      - I'm not concerned about my body weight.
+      - I eat normally without restricting my food.
+      - I don't have issues with food restriction.
+      - Weight is not a constant concern for me.
+      - I maintain a healthy diet without strict restrictions.
+
+  - intent: affirm_symptoms_anorexia_2
+    examples: |
+      - Yes, I have a distorted perception of my body shape and weight.
+      - My self-esteem is significantly impacted by my body shape.
+      - I see myself as overweight even when I'm underweight.
+      - Body image issues affect my self-esteem.
+      - I perceive myself as larger than I am.
+      - My self-worth is tied to my body shape.
+
+  - intent: deny_symptoms_anorexia_2
+    examples: |
+      - No, I don't have a distorted body image.
+      - My self-esteem is not primarily influenced by my body shape.
+      - I have a realistic perception of my body.
+      - Body image doesn't significantly impact my self-esteem.
+      - I have a healthy self-image.
+      - I don't see myself as overweight when I'm not.
+
+  - intent: affirm_symptoms_anorexia_3
+    examples: |
+      - Yes, I'm a female, and I've experienced the absence of three consecutive menstrual cycles.
+      - My periods have stopped due to my low body weight.
+      - I haven't had a period for several months.
+      - My menstrual cycles are irregular due to low weight.
+      - I've been diagnosed with amenorrhea.
+      - Yes, I've noticed a significant change in my menstrual cycles.
+
+  - intent: deny_symptoms_anorexia_3
+    examples: |
+      - No, I haven't experienced the absence of consecutive menstrual cycles.
+      - My periods are regular.
+      - My menstrual cycles are not affected by my weight.
+      - I haven't had issues with my menstrual cycles.
+      - Amenorrhea is not something I've experienced.
+      - I have regular menstrual cycles.
+
+  - intent: affirm_symptoms_anorexia_4
+    examples: |
+      - Yes, I've experienced hair loss and brittle nails.
+      - My hair has been thinning due to malnutrition.
+      - I've noticed changes in my hair and nails.
+      - Hair loss is a concern for me.
+      - I have physical symptoms related to anorexia.
+
+  - intent: deny_symptoms_anorexia_4
+    examples: |
+      - No, I haven't experienced hair loss or nail issues.
+      - My hair and nails are healthy.
+      - I don't have any physical symptoms related to anorexia.
+      - Hair loss is not a problem for me.
+      - My physical health is not affected by anorexia.
+
+  - intent: affirm_symptoms_bulimia_1
+    examples: |
+      - Yes, I have recurrent episodes of binge eating.
+      - I feel a lack of control during binge eating episodes.
+      - Binge eating is a regular occurrence for me.
+      - I consume large amounts of food during binges.
+      - My eating habits include uncontrollable binge episodes.
+      - I've experienced recurrent episodes of overeating.
+
+  - intent: deny_symptoms_bulimia_1
+    examples: |
+      - No, I don't have recurrent episodes of binge eating.
+      - I have control over my eating habits.
+      - Binge eating is not something I regularly experience.
+      - I don't consume large amounts of food in one sitting.
+      - I have a healthy relationship with food.
+      - I've never experienced episodes of overeating.
+
+  - intent: affirm_symptoms_bulimia_2
+    examples: |
+      - Yes, I engage in compensatory behaviors after binge eating.
+      - I've induced vomiting to counteract binge episodes.
+      - Using laxatives is something I do after binge eating.
+      - Compensatory behaviors are part of my routine.
+      - I've tried to compensate for overeating.
+      - Inducing vomiting is something I've done to offset binge episodes.
+
+  - intent: deny_symptoms_bulimia_2
+    examples: |
+      - No, I don't engage in compensatory behaviors after eating.
+      - I've never induced vomiting to offset overeating.
+      - Laxatives are not something I use to compensate for eating.
+      - Compensatory behaviors are not part of my routine.
+      - I've never tried to offset overeating.
+      - Inducing vomiting is not something I've done.
+
+  - intent: affirm_symptoms_bulimia_3
+    examples: |
+      - Yes, I'm excessively concerned about body shape and weight.
+      - My self-esteem is greatly affected by body image.
+      - I'm preoccupied with my appearance.
+      - Body shape and weight are constant concerns for me.
+      - I worry about my body image excessively.
+      - My self-worth is tied to my body shape.
+
+  - intent: deny_symptoms_bulimia_3
+    examples: |
+      - No, I'm not excessively concerned about body shape and weight.
+      - My self-esteem is not primarily influenced by my body shape.
+      - I have a realistic perception of my body.
+      - Body image doesn't significantly impact my self-esteem.
+      - I have a healthy self-image.
+      - I don't worry about my body image excessively.
+
+  - intent: affirm_symptoms_bulimia_4
+    examples: |
+      - Yes, I have recurrent episodes of binge eating.
+      - I feel a lack of control during binge eating episodes.
+      - Binge eating is a regular occurrence for me.
+      - I consume large amounts of food during binges.
+      - My eating habits include uncontrollable binge episodes.
+      - I've experienced recurrent episodes of overeating.
+
+  - intent: deny_symptoms_bulimia_4
+    examples: |
+      - No, I don't have recurrent episodes of binge eating.
+      - I have control over my eating habits.
+      - Binge eating is not something I regularly experience.
+      - I don't consume large amounts of food in one sitting.
+      - I have a healthy relationship with food.
+      - I've never experienced episodes of overeating.
+
+  - intent: affirm_symptoms_binge_eating_1
+    examples: |
+      - Yes, I have recurrent episodes of binge eating.
+      - I feel a lack of control during binge eating episodes.
+      - Binge eating is a regular occurrence for me.
+      - I consume large amounts of food during binges.
+      - My eating habits include uncontrollable binge episodes.
+      - I've experienced recurrent episodes of overeating.
+
+  - intent: deny_symptoms_binge_eating_1
+    examples: |
+      - No, I don't have recurrent episodes of binge eating.
+      - I have control over my eating habits.
+      - Binge eating is not something I regularly experience.
+      - I don't consume large amounts of food in one sitting.
+      - I have a healthy relationship with food.
+      - I've never experienced episodes of overeating.
+
+  - intent: affirm_symptoms_binge_eating_2
+    examples: |
+      - Yes, I eat much more rapidly than normal during binge episodes.
+      - I've noticed that I eat very quickly during binges.
+      - Rapid eating is part of my binge episodes.
+      - I consume food much faster than usual.
+      - Eating quickly is something I do during binges.
+      - I've experienced eating much more rapidly than usual.
+
+  - intent: deny_symptoms_binge_eating_2
+    examples: |
+      - No, I don't eat much more rapidly than normal during meals.
+      - My eating pace is regular, and I don't rush through meals.
+      - Rapid eating is not a part of my eating habits.
+      - I consume food at a normal pace.
+      - Eating quickly is not something I experience.
+      - I don't eat much more rapidly than usual.
+
+  - intent: affirm_symptoms_binge_eating_3
+    examples: |
+      - Yes, I eat large amounts of food even when not physically hungry.
+      - Binge eating occurs even when I'm not hungry.
+      - I've noticed eating excessive amounts when I'm not hungry.
+      - Consuming large quantities of food is a part of my binge episodes.
+      - I eat a lot even when there's no physical hunger.
+      - I've experienced eating large amounts when not hungry.
+
+  - intent: deny_symptoms_binge_eating_3
+    examples: |
+      - No, I don't eat large amounts of food when I'm not physically hungry.
+      - Binge eating occurs only when I'm hungry.
+      - Eating excessive amounts when not hungry is not something I do.
+      - I don't consume large quantities of food when I'm not hungry.
+      - I eat when I'm physically hungry, and that's it.
+      - I've never experienced eating large amounts when not hungry.
+
+  - intent: affirm_symptoms_binge_eating_4
+    examples: |
+      - Yes, I eat alone because I'm embarrassed by the amount I eat.
+      - I've felt embarrassed about my eating habits and eat in private.
+      - I prefer to eat alone to hide my binge episodes.
+      - Eating alone is a way to keep my binge eating secret.
+      - Embarrassment has led me to eat privately.
+      - I've experienced shame about my eating and eat alone because of it.
+
+  - intent: deny_symptoms_binge_eating_4
+    examples: |
+      - No, I don't eat alone because of embarrassment.
+      - I have no reason to hide my eating habits.
+      - Eating alone is not a way for me to keep secrets about eating.
+      - I have no shame about my eating, so I eat with others.
+      - I'm comfortable eating with company.
+      - I don't feel embarrassed about my eating habits.
+
+  - intent: recognizing_anorexia_on_self
+    examples: |
+      - Do I have anorexia?
+      - Am I experiencing symptoms of anorexia?
+      - Could I be suffering from anorexia?
+      - Is this indicative of anorexia?
+      - I think I might have anorexia.
+      - How do I recognize if I have symptoms of anorexia?
+      - How to know if I am exhibiting signs of anorexia?
+      - Recognizing anorexia symptoms in myself
+      - Self-assessment for anorexia
+      - Identifying anorexia in me
+      - Am I experiencing symptoms of anorexia nervosa?
+      - Recognizing eating disorder signs in my own experiences
+      - Assessing my mental state for anorexia
+      - Checking if I exhibit signs of anorexia
+      - Self-awareness of anorexia symptoms
+      - Determining if I need help for anorexia
+      - Understanding my mental health related to anorexia
+      - Self-reflection on experiences related to anorexia
+      - Questioning if I have symptoms of anorexia
+      - How do I know if I have anorexia?
+
+  - intent: recognizing_bulimia_on_self
+    examples: |
+      - Do I have bulimia?
+      - Am I experiencing symptoms of bulimia?
+      - Could I be suffering from bulimia?
+      - Is this indicative of bulimia?
+      - I think I might have bulimia.
+      - How do I recognize if I have symptoms of bulimia?
+      - How to know if I am exhibiting signs of bulimia?
+      - Recognizing bulimia symptoms in myself
+      - Self-assessment for bulimia
+      - Identifying bulimia in me
+      - Am I experiencing symptoms of bulimia nervosa?
+      - Recognizing eating disorder signs in my own experiences
+      - Assessing my mental state for bulimia
+      - Checking if I exhibit signs of bulimia
+      - Self-awareness of bulimia symptoms
+      - Determining if I need help for bulimia
+      - Understanding my mental health related to bulimia
+      - Self-reflection on experiences related to bulimia
+      - Questioning if I have symptoms of bulimia
+      - How do I know if I have bulimia?
+
+  - intent: recognizing_binge_eating_on_self
+    examples: |
+      - Do I have binge-eating disorder?
+      - Am I experiencing symptoms of binge-eating disorder?
+      - Could I be suffering from binge-eating disorder?
+      - Is this indicative of binge-eating disorder?
+      - I think I might have binge-eating disorder.
+      - How do I recognize if I have symptoms of binge-eating disorder?
+      - How to know if I am exhibiting signs of binge-eating disorder?
+      - Recognizing binge-eating disorder symptoms in myself
+      - Self-assessment for binge-eating disorder
+      - Identifying binge-eating disorder in me
+      - Am I experiencing symptoms of binge-eating?
+      - Recognizing eating disorder signs in my own experiences
+      - Assessing my mental state for binge-eating disorder
+      - Checking if I exhibit signs of binge-eating
+      - Self-awareness of binge-eating symptoms
+      - Determining if I need help for binge-eating
+      - Understanding my mental health related to binge-eating
+      - Self-reflection on experiences related to binge-eating
+      - Questioning if I have symptoms of binge-eating disorder
+      - How do I know if I have binge-eating disorder?
+
+responses:
+  utter_coping_strategies_eating_disorders:
+    - text: "Certainly, coping with eating disorders can be challenging, but there are effective strategies to support your recovery. These strategies include nutritional education to develop healthier eating habits, practicing mindful eating to foster a better relationship with food, journaling and self-reflection to identify triggers, stress reduction techniques for emotional well-being, positive self-talk and affirmations to boost self-esteem, and engaging in physical activity for overall health. It's crucial to remember that working with healthcare professionals is essential for a comprehensive approach to recovery."
+
+  utter_binge_eating_disorder:
+    - text: "Binge-eating disorder is a serious eating disorder characterized by recurrent episodes of consuming large amounts of food, often rapidly and to the point of discomfort. During these episodes, individuals feel a lack of control and may eat when they are not physically hungry. It's different from other eating disorders like anorexia and bulimia because there is no purging behavior, such as vomiting or excessive exercise, after binge eating. Binge-eating disorder can lead to physical, emotional, and social health issues. If you or someone you know is struggling with this disorder, it's important to seek professional help and support for effective treatment and recovery."
+
+  utter_ask_symptoms_anorexia_1:
+    - text: "Do you find yourself consistently restricting your food intake to maintain a lower body weight than is considered healthy?"
+  utter_ask_symptoms_anorexia_2:
+    - text: "Are you deeply afraid of gaining weight, even if you are underweight, and is this fear a prominent part of your daily life?"
+  utter_ask_symptoms_anorexia_3:
+    - text: "Do you have a distorted perception of your body shape or weight that significantly impacts your self-esteem?"
+  utter_ask_symptoms_anorexia_4:
+    - text: "In the case of females, have you experienced the absence of at least three consecutive menstrual cycles?"
+
+  utter_ask_symptoms_bulimia_1:
+    - text: "Do you have recurrent episodes of binge eating, during which you consume large amounts of food within a short time frame and feel a lack of control over eating?"
+  utter_ask_symptoms_bulimia_2:
+    - text: "Do you engage in recurrent inappropriate compensatory behaviors to prevent weight gain, such as self-induced vomiting, misuse of laxatives, fasting, or excessive exercise?"
+  utter_ask_symptoms_bulimia_3:
+    - text: "Is your self-esteem significantly influenced by your body shape and weight?"
+  utter_ask_symptoms_bulimia_4:
+    - text: "Do these behaviors occur, on average, at least once a week for three months?"
+
+  utter_ask_symptoms_binge_eating_1:
+    - text: "Do you experience recurrent episodes of binge eating, where you consume large amounts of food within a short time period and feel a lack of control over eating?"
+  utter_ask_symptoms_binge_eating_2:
+    - text: "Is binge eating associated with feelings of guilt, disgust, or depression?"
+  utter_ask_symptoms_binge_eating_3:
+    - text: "Do you refrain from using inappropriate compensatory behaviors, such as vomiting, after binge eating episodes?"
+  utter_ask_symptoms_binge_eating_4:
+    - text: "Do these binge-eating episodes occur, on average, at least once a week for three months?"
+  utter_positive_likelihood_anorexia:
+    - text: "It's important to reach out to a healthcare professional if you suspect you might have anorexia. They can provide you with an accurate diagnosis and guidance on the best course of action. You've taken an important step in recognizing the need for help."
+  utter_negative_likelihood_anorexia:
+    - text: "Noticing that you don't have anorexia symptoms is a positive sign. However, it's always a good idea to consult with a healthcare professional for a comprehensive assessment and peace of mind."
+  utter_positive_likelihood_bulimia:
+    - text: "If you think you might have bulimia, seeking help and professional guidance is a wise choice. Your awareness is the first step towards addressing any concerns related to your health."
+  utter_negative_likelihood_bulimia:
+    - text: "It's reassuring to recognize that you don't have bulimia symptoms. If you ever have concerns about your health, consulting with a healthcare professional is a good way to ensure your well-being."
+  utter_positive_likelihood_binge:
+    - text: "If you're worried about binge-eating disorder, seeking assistance and support is a proactive step. Your self-awareness is valuable in addressing any potential issues related to your health."
+  utter_negative_likelihood_binge:
+    - text: "It's reassuring to acknowledge that you don't have binge-eating disorder symptoms. However, if you ever have concerns about your health, don't hesitate to consult with a healthcare professional for guidance."
+
+
+stories:
+
+- story: Asking About Binge-Eating Disorder
+  steps:
+    - intent: ask_about_binge_eating_disorder
+    - action: utter_binge_eating_disorder
+
+- story: Asking About Coping Strategies for Eating Disorders
+  steps:
+    - intent: ask_coping_strategies_eating_disorders
+    - action: utter_coping_strategies_eating_disorders
+
+# - story: Screening Questions for Anorexia Symptoms
+#   steps:
+#     - intent: recognizing_anorexia_on_self
+#     - action: utter_ask_symptoms_anorexia_1
+    
+#     - intent: affirm_symptoms_anorexia_1
+#     - slot: {"symptoms_anorexia_1": "yes"}
+#     - action: utter_ask_symptoms_anorexia_2
+    
+#     - intent: affirm_symptoms_anorexia_2
+
+#     - slot: {"symptoms_anorexia_2": "yes"}
+#     - action: utter_ask_symptoms_anorexia_3
+
+#     - intent: affirm_symptoms_anorexia_3
+
+#     - slot: {"symptoms_anorexia_3": "yes"}
+#     - action: utter_ask_symptoms_anorexia_4
+
+#     - intent: affirm_symptoms_anorexia_4
+
+#     - slot: {"symptoms_anorexia_4": "yes"}
+#     - action: utter_positive_likelihood_anorexia
+
+#     - intent: deny_symptoms_anorexia_1
+
+#     - slot: {"symptoms_anorexia_1": "no"}
+#     - action: utter_ask_symptoms_anorexia_2
+
+#     - intent: deny_symptoms_anorexia_2
+
+#     - slot: {"symptoms_anorexia_2": "no"}
+#     - action: utter_ask_symptoms_anorexia_3
+
+#     - intent: deny_symptoms_anorexia_3
+
+#     - slot: {"symptoms_anorexia_3": "no"}
+#     - action: utter_ask_symptoms_anorexia_4
+
+#     - intent: deny_symptoms_anorexia_4
+
+#     - slot: {"symptoms_anorexia_4": "no"}
+#     - action: utter_negative_likelihood_anorexia
+
+# - story: Screening Questions for Bulimia Symptoms
+#   steps:
+#     - intent: recognizing_bulimia_on_self
+#     - action: utter_ask_symptoms_bulimia_1
+
+#     - intent: affirm_symptoms_bulimia_1
+
+#     - slot: {"symptoms_bulimia_1": "yes"}
+#     - action: utter_ask_symptoms_bulimia_2
+
+#     - intent: affirm_symptoms_bulimia_2
+
+#     - slot: {"symptoms_bulimia_2": "yes"}
+#     - action: utter_ask_symptoms_bulimia_3
+
+#     - intent: affirm_symptoms_bulimia_3
+
+#     - slot: {"symptoms_bulimia_3": "yes"}
+#     - action: utter_ask_symptoms_bulimia_4
+
+#     - intent: affirm_symptoms_bulimia_4
+
+#     - slot: {"symptoms_bulimia_4": "yes"}
+#     - action: utter_positive_likelihood_bulimia
+
+#     - intent: deny_symptoms_bulimia_1
+
+#     - slot: {"symptoms_bulimia_1": "no"}
+#     - action: utter_ask_symptoms_bulimia_2
+
+#     - intent: deny_symptoms_bulimia_2
+
+#     - slot: {"symptoms_bulimia_2": "no"}
+#     - action: utter_ask_symptoms_bulimia_3
+
+#     - intent: deny_symptoms_bulimia_3
+
+#     - slot: {"symptoms_bulimia_3": "no"}
+#     - action: utter_ask_symptoms_bulimia_4
+
+#     - intent: deny_symptoms_bulimia_4
+
+#     - slot: {"symptoms_bulimia_4": "no"}
+#     - action: utter_negative_likelihood_bulimia
+
+# - story: Screening Questions for Binge-Eating Disorder Symptoms
+#   steps:
+#     - intent: recognizing_binge_eating_on_self
+#     - action: utter_ask_symptoms_binge_eating_1
+#     - intent: affirm_symptoms_binge_eating_1
+
+#     - slot: {"symptoms_binge_eating_1": "yes"}
+#     - action: utter_ask_symptoms_binge_eating_2
+
+#     - intent: affirm_symptoms_binge_eating_2
+
+#     - slot: {"symptoms_binge_eating_2": "yes"}
+#     - action: utter_ask_symptoms_binge_eating_3
+
+#     - intent: affirm_symptoms_binge_eating_3
+
+#     - slot: {"symptoms_binge_eating_3": "yes"}
+#     - action: utter_ask_symptoms_binge_eating_4
+
+#     - intent: affirm_symptoms_binge_eating_4
+
+#     - slot: {"symptoms_binge_eating_4": "yes"}
+#     - action: utter_positive_likelihood_binge
+
+#     - intent: deny_symptoms_binge_eating_1
+
+#     - slot: {"symptoms_binge_eating_1": "no"}
+#     - action: utter_ask_symptoms_binge_eating_2
+
+#     - intent: deny_symptoms_binge_eating_2
+
+#     - slot: {"symptoms_binge_eating_2": "no"}
+#     - action: utter_ask_symptoms_binge_eating_3
+
+#     - intent: deny_symptoms_binge_eating_3
+
+#     - slot: {"symptoms_binge_eating_3": "no"}
+#     - action: utter_ask_symptoms_binge_eating_4
+
+#     - intent: deny_symptoms_binge_eating_4
+
+#     - slot: {"symptoms_binge_eating_4": "no"}
+#     - action: utter_negative_likelihood_binge

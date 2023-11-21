@@ -1,5 +1,3 @@
-version: "3.1"
-
 stories:
   - story: happy path
     steps:
@@ -28,20 +26,189 @@ stories:
       - intent: deny
       - action: utter_goodbye
 
-  - story: interactive_story_1
+  - story: survey yes
     steps:
       - intent: greet
-      - action: utter_greet
-      - intent: goodbye
-      - action: utter_goodbye
-
-  - story: interactive_story_2
-    steps:
-      - intent: greet
-      - action: utter_greet
-
-  - story: interactive_story_3
-    steps:
+      - action: utter_mood
       - intent: mood_great
+      - action: utter_survey
+      - intent: affirm
+      - action: utter_gender
+      - intent: gender
+      - action: utter_employment
+      - intent: self_employment
+      - action: utter_history_mental_illness
+      - intent: history_mental_illness
+      - action: utter_univ_interference
+      - intent: work_interference
+      - action: utter_company_no_employees
+      - intent: company_no_employees
+      - action: utter_tech_company
+      - intent: tech_company
+      - action: utter_health_benefits
+      - intent: health_benefits
+      - action: utter_health_resources
+      - intent: health_resources
+      - action: utter_treatment_anonymity
+      - intent: treatment_anonymity
+      - action: utter_medical_leave
+      - intent: medical_leave
+      - action: utter_discussing_mental_health
+      - intent: discussing_mental_health
+      - action: utter_willing_to_discuss_collegaue
+      - intent: willing_to_discuss_collegaue
+      - action: utter_willing_to_discuss_adviser
+      - intent: willing_to_discuss_adviser
+      - action: utter_serious_mental_health
+      - intent: serious_mental_health
+      - action: utter_negative_consequences_mental_collegaue
+      - intent: negative_consequences_mental_collegaue
+      - action: utter_welcome
+
+  - story: survey no ask bot
+    steps:
+      - intent: greet
+      - action: utter_mood
+      - intent: mood_great
+      - action: utter_survey
+      - intent: deny
+      - action: utter_iamabot
+      - action: utter_goodbye
+
+  - story: survey no
+    steps:
+      - intent: greet
+      - action: utter_mood
+      - intent: mood_great
+      - action: utter_survey
+      - intent: deny
+      - action: utter_goodbye
+  - story: bipolar disorder sad path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: learn_about_bipolar_disorder
+      - action: utter_learn_about_bipolar_disorder
+      - intent: understand_symptoms_bipolar_disorder
+      - action: utter_understand_symptoms_bipolar_disorder
+      - intent: medication_management_bipolar_disorder
+      - action: utter_medication_management_bipolar_disorder
+      - intent: coping_strategies_bipolar_disorder
+      - action: utter_coping_strategies_bipolar_disorder
+      - intent: find_support_resources_bipolar_disorder
+      - action: utter_find_support_resources_bipolar_disorder
+  - story: schizophrenia sad path
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: learn_about_schizophrenia
+      - action: utter_learn_about_schizophrenia
+      - intent: feeling_schizophrenia
+      - action: utter_feeling_schizophrenia
+      - intent: coping_strategies_schizophrenia
+      - action: suggest_coping_strategies_schizophrenia
+      - intent: medication_management_schizophrenia
+      - action: utter_recommend_medication_management_schizophrenia
+      - intent: stress_reduction_schizophrenia
+      - action: utter_stress_reduction_techniques_schizophrenia
+
+  - story: Eating Disorder Conversation
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: learn_about_eating_disorders
+      - action: utter_learn_about_eating_disorders
+      - intent: identify_eating_disorder_symptoms
+      - action: utter_identify_eating_disorder_symptoms
+      - intent: coping_strategies_eating_disorders
+      - action: utter_coping_strategies_eating_disorders
+      - intent: treatment_options_eating_disorders
+      - action: utter_treatment_options_eating_disorders
+      - intent: body_image_eating_disorders
+      - action: utter_body_image_eating_disorders
+  - story: depression_conversation
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: learn_about_depression
+      - action: utter_learn_about_depression
+      - intent: identify_depression_symptoms
+      - action: utter_identify_depression_symptoms
+      - intent: coping_strategies_depression
+      - action: utter_coping_strategies_depression
+      - intent: treatment_options_depression
+      - action: utter_treatment_options_depression
+      - intent: support_network_depression
+      - action: utter_support_network_depression
+  - story: seeking_help_for_depression
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: learn_about_depression
+      - action: utter_learn_about_depression
+      - intent: identify_depression_symptoms
+      - action: utter_identify_depression_symptoms
+      - intent: coping_strategies_depression
+      - action: utter_coping_strategies_depression
+      - intent: treatment_options_depression
+      - action: utter_treatment_options_depression
+      - intent: support_network_depression
+      - action: utter_support_network_depression
+      - intent: identify_depression_symptoms
+      - action: utter_identify_depression_symptoms
+      - action: utter_seek_professional_help_depression
+  - story: Anxiety Disorder Conversation
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: learn_about_anxiety_disorders
+      - action: utter_learn_about_anxiety_disorders
+      - intent: identify_anxiety_symptoms
+      - action: utter_identify_anxiety_symptoms
+      - intent: coping_strategies_anxiety_disorders
+      - action: utter_coping_strategies_anxiety_disorders
+      - intent: treatment_options_anxiety_disorders
+      - action: utter_treatment_options_anxiety_disorders
+      - intent: support_network_anxiety_disorders
+      - action: utter_support_network_anxiety_disorders
+  - story: Alcohol Use Disorder Conversation
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: learn_about_alcohol_use_disorders
+      - action: utter_learn_about_alcohol_use_disorders
+      - intent: identify_alcohol_use_symptoms
+      - action: utter_identify_alcohol_use_symptoms
+      - intent: coping_strategies_alcohol_use_disorders
+      - action: utter_coping_strategies_alcohol_use_disorders
+      - intent: treatment_options_alcohol_use_disorders
+      - action: utter_treatment_options_alcohol_use_disorders
+      - intent: support_network_alcohol_use_disorders
+      - action: utter_support_network_alcohol_use_disorders
+
+  - story: Seeking Help for Alcohol Addiction
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: learn_about_alcohol_use_disorders
+      - action: utter_learn_about_alcohol_use_disorders
+      - intent: identify_alcohol_use_symptoms
+      - action: utter_identify_alcohol_use_symptoms
+      - intent: coping_strategies_alcohol_use_disorders
+      - action: utter_coping_strategies_alcohol_use_disorders
+      - intent: treatment_options_alcohol_use_disorders
+      - action: utter_treatment_options_alcohol_use_disorders
+      - intent: support_network_alcohol_use_disorders
+      - action: utter_support_network_alcohol_use_disorders
+      - action: utter_seek_professional_help_alcohol_use_disorders
+
+rules:
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
       - intent: goodbye
       - action: utter_goodbye
+
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot

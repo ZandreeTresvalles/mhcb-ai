@@ -1,0 +1,261 @@
+nlu:
+  - intent: affirm_symptoms_anxiety_restlessness
+    examples: |
+      - Yes, I experience restlessness and feeling keyed up.
+      - I often feel on edge and restless.
+      - Restlessness is something I've noticed.
+      - I do experience restlessness.
+      - Yes, I feel keyed up and on edge.
+      - Feeling restless is familiar to me.
+
+  - intent: deny_symptoms_anxiety_restlessness
+    examples: |
+      - No, I don't experience restlessness or feeling keyed up.
+      - I'm not usually on edge or restless.
+      - Restlessness is not something I've noticed.
+      - I don't feel restless.
+      - No, I don't feel keyed up or on edge.
+      - Feeling restless is not something I experience.
+
+  - intent: affirm_symptoms_anxiety_fatigue
+    examples: |
+      - Yes, I'm easily fatigued.
+      - I often feel tired and fatigued.
+      - Fatigue is something I've experienced.
+      - I do experience fatigue.
+      - Yes, I tire easily.
+      - Feeling tired is familiar to me.
+
+  - intent: deny_symptoms_anxiety_fatigue
+    examples: |
+      - No, I'm not easily fatigued.
+      - I don't usually feel tired or fatigued.
+      - Fatigue is not something I've noticed.
+      - I'm not fatigued.
+      - No, I don't tire easily.
+      - Feeling tired is not something I experience.
+
+  - intent: affirm_symptoms_anxiety_concentration
+    examples: |
+      - Yes, I have difficulty concentrating and my mind goes blank.
+      - I often find it hard to focus and my mind goes blank.
+      - Difficulty concentrating is something I've experienced.
+      - I do have issues with concentration.
+      - Yes, my mind goes blank at times.
+      - Finding it hard to focus is familiar to me.
+
+  - intent: deny_symptoms_anxiety_concentration
+    examples: |
+      - No, I don't have difficulty concentrating and my mind doesn't go blank.
+      - I can usually focus without issues.
+      - Difficulty concentrating is not something I've noticed.
+      - I don't have issues with concentration.
+      - No, my mind doesn't go blank.
+      - Finding it hard to focus is not something I experience.
+
+  - intent: affirm_symptoms_anxiety_irritability
+    examples: |
+      - Yes, I'm often irritable.
+      - I experience irritability frequently.
+      - Irritability is something I've noticed.
+      - I do get irritable.
+      - Yes, I'm easily irritated.
+      - Feeling irritable is familiar to me.
+
+  - intent: deny_symptoms_anxiety_irritability
+    examples: |
+      - No, I'm not often irritable.
+      - I'm not usually irritable.
+      - Irritability is not something I've noticed.
+      - I'm not irritable.
+      - No, I'm not easily irritated.
+      - Feeling irritable is not something I experience.
+
+  - intent: affirm_symptoms_anxiety_tension
+    examples: |
+      - Yes, I have muscle tension.
+      - I often feel tense in my muscles.
+      - Muscle tension is something I've experienced.
+      - I do experience muscle tension.
+      - Yes, I feel tense in my muscles.
+      - Muscle tension is familiar to me.
+
+  - intent: deny_symptoms_anxiety_tension
+    examples: |
+      - No, I don't have muscle tension.
+      - My muscles are usually relaxed.
+      - Muscle tension is not something I've noticed.
+      - I don't experience muscle tension.
+      - No, I don't feel tense in my muscles.
+      - Muscle tension is not something I experience.
+
+  - intent: affirm_symptoms_anxiety_sleep_disturbance
+    examples: |
+      - Yes, I experience sleep disturbance such as difficulty falling or staying asleep.
+      - I often have trouble with my sleep.
+      - Sleep disturbance is something I've noticed.
+      - I do experience sleep disturbances.
+      - Yes, I have trouble falling asleep.
+      - Sleep disturbance is familiar to me.
+
+  - intent: deny_symptoms_anxiety_sleep_disturbance
+    examples: |
+      - No, I don't experience sleep disturbance such as difficulty falling or staying asleep.
+      - I usually sleep well without issues.
+      - Sleep disturbance is not something I've noticed.
+      - I don't have sleep disturbances.
+      - No, I don't have trouble falling asleep.
+      - Sleep disturbance is not something I experience.
+
+  - intent: affirm_symptoms_anxiety_past_6_months
+    examples: |
+      - Yes, I've been experiencing these symptoms more often than not for the past 6 months.
+      - These symptoms have been persistent for over 6 months.
+      - I've noticed these symptoms for most of the past 6 months.
+      - Yes, they've been ongoing for at least 6 months.
+      - These symptoms have been frequent for the past 6 months.
+      - I've experienced these symptoms for an extended period.
+      - Yes, it's been over 6 months with these symptoms.
+      - These symptoms have been constant for half a year.
+
+  - intent: deny_symptoms_anxiety_past_6_months
+    examples: |
+      - No, these symptoms have not been persistent for the past 6 months.
+      - I haven't experienced these symptoms for half a year.
+      - These symptoms come and go and are not constant.
+      - No, they've not been ongoing for over 6 months.
+      - These symptoms have not been frequent for the past 6 months.
+      - I've only noticed these symptoms recently.
+      - No, it's been less than 6 months with these symptoms.
+      - These symptoms are not constant and have not been for half a year.
+
+
+responses:
+
+  utter_ask_symptoms_anxiety_restlessness:
+    - text: "Do you experience restlessness or feeling keyed up or on edge?"
+    - text: "Are you often restless or on edge?"
+    - text: "Have you been feeling keyed up recently?"
+    - text: "Do you feel restless or on edge frequently?"
+    - text: "Is restlessness a symptom you've noticed?"
+
+  utter_ask_symptoms_anxiety_fatigue:
+    - text: "Are you easily fatigued?"
+    - text: "Do you often feel tired or fatigued?"
+    - text: "Have you been experiencing fatigue?"
+    - text: "Is fatigue a common feeling for you?"
+    - text: "Do you tire easily?"
+
+  utter_ask_symptoms_anxiety_concentration:
+    - text: "Do you have difficulty concentrating or mind going blank?"
+    - text: "Have you experienced trouble focusing or your mind going blank?"
+    - text: "Is difficulty concentrating a problem for you?"
+    - text: "Do you find it hard to concentrate?"
+    - text: "Have you had issues with your mind going blank?"
+
+  utter_ask_symptoms_anxiety_irritability:
+    - text: "Are you often irritable?"
+    - text: "Do you experience irritability?"
+    - text: "Have you been feeling more irritable than usual?"
+    - text: "Is irritability a common emotion for you?"
+    - text: "Are you easily irritated?"
+
+  utter_ask_symptoms_anxiety_tension:
+    - text: "Do you have muscle tension?"
+    - text: "Are you often tense in your muscles?"
+    - text: "Have you noticed muscle tension?"
+    - text: "Is muscle tension something you experience?"
+    - text: "Do you feel tense in your muscles?"
+
+  utter_ask_symptoms_anxiety_sleep_disturbance:
+    - text: "Are you experiencing sleep disturbance such as difficulty falling or staying asleep?"
+    - text: "Have you had trouble with your sleep, like difficulty falling or staying asleep?"
+    - text: "Do you suffer from sleep disturbances?"
+    - text: "Is sleep disturbance affecting your rest?"
+    - text: "Are you having trouble with your sleep?"
+
+  utter_ask_symptoms_anxiety_past_6_months:
+    - text: "Have you been experiencing these symptoms more often than not for the past 6 months?"
+    - text: "Do these symptoms occur more frequently than not over the last 6 months?"
+    - text: "Have you noticed these symptoms for most of the past 6 months?"
+    - text: "Are these symptoms a persistent issue for you?"
+    - text: "Have these symptoms been ongoing for at least 6 months?"
+
+  utter_positive_likelihood_anxiety:
+    - text: "Based on the symptoms you've described, it's possible that you may be experiencing symptoms of anxiety. It's important to consult with a healthcare professional for a proper evaluation and guidance on managing anxiety."
+
+  utter_negative_likelihood_anxiety:
+    - text: "It seems that you may not be experiencing symptoms of anxiety based on the information you've provided. If you have any concerns or questions about your mental health, it's always a good idea to seek advice from a healthcare professional."
+
+stories:
+
+# - story: Screening Questions for Anxiety Symptoms
+#   steps:
+#     - intent: recognizing_anxiety_on_self
+#     - action: utter_ask_symptoms_anxiety_restlessness
+#     - intent: affirm_symptoms_anxiety_restlessness
+#     - slot: {"symptoms_anxiety_restlessness": "yes"}
+#     - action: utter_ask_symptoms_anxiety_fatigue
+#     - intent: affirm_symptoms_anxiety_fatigue
+#     - slot: {"symptoms_anxiety_fatigue": "yes"}
+#     - action: utter_ask_symptoms_anxiety_concentration
+#     - intent: affirm_symptoms_anxiety_concentration
+
+#     - slot: {"symptoms_anxiety_concentration": "yes"}
+#     - action: utter_ask_symptoms_anxiety_irritability
+    
+#     - intent: affirm_symptoms_anxiety_irritability
+
+#     - slot: {"symptoms_anxiety_irritability": "yes"}
+#     - action: utter_ask_symptoms_anxiety_tension
+    
+#     - intent: affirm_symptoms_anxiety_tension
+
+#     - slot: {"symptoms_anxiety_tension": "yes"}
+#     - intent: utter_ask_symptoms_anxiety_sleep_disturbance
+    
+#     - intent: affirm_symptoms_anxiety_sleep_disturbance
+
+#     - slot: {"symptoms_anxiety_sleep_disturbance": "yes"}
+#     - intent: utter_ask_symptoms_anxiety_past_6_months
+
+#     - intent: affirm_symptoms_anxiety_past_6_months
+
+#     - slot: {"symptoms_anxiety_past_6_months": "yes"}
+#     - intent: utter_positive_likelihood_anxiety
+    
+#     - intent: deny_symptoms_anxiety_restlessness
+
+#     - slot: {"symptoms_anxiety_restlessness": "no"}
+#     - intent: utter_ask_symptoms_anxiety_fatigue
+    
+#     - intent: deny_symptoms_anxiety_fatigue
+
+#     - slot: {"symptoms_anxiety_fatigue": "no"}
+#     - intent: utter_ask_symptoms_anxiety_concentration
+    
+#     - intent: deny_symptoms_anxiety_concentration
+
+#     - slot: {"symptoms_anxiety_concentration": "no"}
+#     - intent: utter_ask_symptoms_anxiety_irritability
+    
+#     - intent: deny_symptoms_anxiety_irritability
+
+#     - slot: {"symptoms_anxiety_irritability": "no"}
+#     - intent: utter_ask_symptoms_anxiety_tension
+    
+#     - intent: deny_symptoms_anxiety_tension
+
+#     - slot: {"symptoms_anxiety_tension": "no"}
+#     - intent: utter_ask_symptoms_anxiety_sleep_disturbance
+    
+#     - intent: deny_symptoms_anxiety_sleep_disturbance
+
+#     - slot: {"symptoms_anxiety_sleep_disturbance": "no"}
+#     - intent: utter_ask_symptoms_anxiety_past_6_months
+    
+#     - intent: deny_symptoms_anxiety_past_6_months
+
+#     - slot: {"symptoms_anxiety_past_6_months": "no"}
+#     - intent: utter_negative_likelihood_anxiety
+

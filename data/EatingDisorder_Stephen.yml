@@ -1,0 +1,640 @@
+nlu:
+  - intent: bulimia_nervosa
+    examples: |
+      - What is bulimia nervosa?
+      - Explain bulimia nervosa
+      - Tell me about bulimia nervosa
+      - Describe bulimia nervosa
+      - What are the characteristics of bulimia nervosa?
+      - How is bulimia nervosa different from anorexia?
+      - Can you provide information on bulimia nervosa?
+      - What are the signs of bulimia nervosa?
+      - What are the common behaviors associated with bulimia nervosa?
+      - How does bulimia nervosa affect a person's health?
+
+  - intent: anorexia_nervosa
+    examples: |
+      - What is anorexia nervosa?
+      - Explain anorexia nervosa
+      - Tell me about anorexia nervosa
+      - Describe anorexia nervosa
+      - What are the characteristics of anorexia nervosa?
+      - How is anorexia nervosa different from bulimia?
+      - Can you provide information on anorexia nervosa?
+      - What are the signs of anorexia nervosa?
+      - What are the common behaviors associated with anorexia nervosa?
+      - How does anorexia nervosa affect a person's health?
+  - intent: what_is_eating_disorder
+    examples: |
+      - What is an eating disorder?
+      - Explain eating disorders to me
+      - Tell me about eating disorders
+      - Describe eating disorders
+      - What does an eating disorder mean?
+      - Can you give me an overview of eating disorders?
+      - I'd like to learn about eating disorders
+      - Could you define eating disorders for me?
+      - What's the meaning of an eating disorder?
+      - Explain different types of eating disorders
+      - Help me understand eating disorders
+      - Provide information on eating disorders
+      - What are the basics of eating disorders?
+      - Define an eating disorder
+      - Give me a rundown on eating disorders
+      - Could you explain eating disorders in simple terms?
+      - What should I know about eating disorders?
+      - Provide an overview of eating disorders
+      - I'm curious about eating disorders
+      - What's the background of eating disorders?
+      - Give me some insights on eating disorders
+      - Break down eating disorders for me
+      - Help me grasp the concept of eating disorders
+      - Tell me the fundamentals of eating disorders
+      - I'd like an introduction to eating disorders
+      - What's an eating disorder all about?
+      - Brief me on eating disorders
+      - Explain eating disorders briefly
+      - Can you give me a quick overview of eating disorders?
+      - I want to know more about eating disorders
+
+  - intent: eating_disorder_types
+    examples: |
+      - Types of eating disorders
+      - Different eating disorder categories
+      - What are the common eating disorders?
+      - Explain anorexia nervosa
+      - Tell me about bulimia nervosa
+      - Describe binge eating disorder
+      - What is orthorexia?
+      - Explain avoidant/restrictive food intake disorder (ARFID)
+      - Describe other specified feeding or eating disorder (OSFED)
+      - Provide info on eating disorder types
+      - What are the classifications of eating disorders?
+      - Tell me about disordered eating
+      - Explain purging disorder
+      - Describe night eating syndrome
+      - What is pica?
+      - Provide insights on eating disorder categories
+      - What are the main types of eating disorders?
+      - Explain muscle dysmorphia
+      - Describe diabulimia
+      - Provide information on atypical anorexia nervosa
+      - What's the difference between anorexia and bulimia?
+      - Tell me about the characteristics of orthorexia
+      - Describe subthreshold bulimia nervosa
+      - What is purging disorder?
+      - Explain other specified feeding or eating disorder (OSFED)
+      - Provide info on unspecified feeding or eating disorder (UFED)
+      - What are the characteristics of avoidant/restrictive food intake disorder (ARFID)?
+      - Explain night eating syndrome
+      - Describe pica
+
+  - intent: signs_of_eating_disorder
+    examples: |
+      - Signs of an eating disorder
+      - Recognizing eating disorders
+      - What are the signs of an eating disorder?
+      - How to identify anorexia nervosa?
+      - Signs of bulimia nervosa
+      - What are the symptoms of binge eating disorder?
+      - Explain signs of orthorexia
+      - Tell me about signs of ARFID
+      - Provide information on signs of eating disorders
+      - Describe common signs of eating disorders
+      - What behaviors indicate an eating disorder?
+      - How to recognize disordered eating?
+      - Explain purging behavior
+      - Describe signs of night eating syndrome
+      - What are the symptoms of pica?
+      - Provide insights on recognizing eating disorders
+      - What are the behavioral signs of an eating disorder?
+      - Explain the physical signs of eating disorders
+      - Describe the emotional signs of eating disorders
+      - What should I watch for in an eating disorder?
+      - Give me an overview of signs of eating disorders
+      - Break down eating disorder behaviors
+      - List signs of eating disorders
+
+  - intent: causes_of_eating_disorder
+    examples: |
+      - Causes of eating disorders
+      - What leads to an eating disorder?
+      - Factors behind eating disorders
+      - Why do people develop eating disorders?
+      - Is there a genetic component to eating disorders?
+      - Explain the causes of an eating disorder
+      - Tell me about risk factors for eating disorders
+      - Provide insights on eating disorder causes
+      - What contributes to eating disorder development?
+      - Elaborate on eating disorder origins
+      - Break down the factors of eating disorders
+      - I'd like to know about eating disorder causes
+      - What influences eating disorder development?
+      - Give me information on eating disorder causes
+      - Describe the roots of eating disorders
+      - Explain genetic factors in eating disorders
+      - Tell me about eating disorder predisposition
+      - Provide info on eating disorder etiology
+      - What factors play a role in eating disorders?
+      - Help me understand eating disorder causes
+      - What leads to eating disorders?
+      - Give me an overview of eating disorder origins
+      - Explain environmental factors in eating disorders
+      - Tell me about eating disorder susceptibility
+      - Provide insights on eating disorder development
+      - What are the contributing factors to eating disorders?
+      - Describe the genetics of eating disorders
+      - Elaborate on eating disorder risk elements
+      - What are the potential causes of eating disorders?
+      - I'm curious about eating disorder origins
+
+  - intent: managing_eating_disorder
+    examples: |
+      - Managing an eating disorder
+      - Coping with an eating disorder
+      - Strategies for eating disorder recovery
+      - Eating disorder self-help
+      - Eating disorder treatment
+      - Living with an eating disorder
+      - How to handle an eating disorder
+      - Eating disorder support
+      - Techniques for eating disorder recovery
+      - Eating disorder management
+      - Coping strategies for eating disorders
+      - Living a healthy life with an eating disorder
+      - How to live with an eating disorder
+      - Help for managing an eating disorder
+      - Eating disorder self-care
+      - Strategies to deal with an eating disorder
+      - How to navigate life with an eating disorder
+      - Eating disorder coping mechanisms
+      - Tips for eating disorder management
+      - Techniques for living with an eating disorder
+      - How to thrive with an eating disorder
+      - Eating disorder support and strategies
+      - Ways to cope with an eating disorder
+      - Eating disorder living tips
+      - Self-help for eating disorders
+      - Managing an eating disorder effectively
+      - Strategies for living with an eating disorder
+      - Eating disorder wellness techniques
+      - How to succeed with an eating disorder
+      - Coping mechanisms for eating disorders
+
+  - intent: eating_disorder_diagnosis
+    examples: |
+      - Getting an eating disorder diagnosis
+      - How is an eating disorder diagnosed?
+      - Eating disorder evaluation process
+      - Do I have an eating disorder?
+      - Diagnosing an eating disorder in adults
+      - Eating disorder assessment
+      - How to determine if I have an eating disorder
+      - Eating disorder diagnostic process
+      - What's involved in an eating disorder diagnosis?
+      - Can you tell me about eating disorder assessment?
+      - How do professionals diagnose an eating disorder?
+      - I think I might have an eating disorder
+      - What's the process for an eating disorder diagnosis?
+      - Can you explain how an eating disorder is diagnosed?
+      - How do I get an eating disorder assessment?
+      - Do adults get diagnosed with eating disorders?
+      - Can you tell me about diagnosing eating disorders in adults?
+      - I'm wondering if I have an eating disorder
+      - What's the evaluation process for an eating disorder?
+      - How do professionals determine if someone has an eating disorder?
+      - Can you explain the eating disorder assessment process?
+      - I suspect I might have an eating disorder
+      - How is an eating disorder diagnosed in adults?
+      - What steps are involved in getting an eating disorder diagnosis?
+      - Can you guide me through the eating disorder diagnostic process?
+      - I'm curious about the process of diagnosing an eating disorder
+      - How can I find out if I have an eating disorder?
+      - What's the procedure for an eating disorder assessment?
+      - Can you tell me how professionals diagnose an eating disorder in adults?
+      - I think I might need an eating disorder assessment
+
+  - intent: eating_disorder_therapy
+    examples: |
+      - Eating disorder therapy
+      - Therapy for eating disorders
+      - Behavioral therapy for eating disorders
+      - Counseling for eating disorders
+      - Eating disorder coaching
+      - Talk therapy for eating disorders
+      - Information on eating disorder therapy
+      - What's involved in therapy for eating disorders?
+      - Explain behavioral therapy for eating disorders
+      - Tell me about counseling for eating disorders
+      - Provide insights on eating disorder coaching
+      - How does talk therapy help with eating disorders?
+      - Describe therapy options for eating disorders
+      - What's the role of counseling in eating disorder treatment?
+      - Explain eating disorder coaching techniques
+      - Provide info on talk therapy for eating disorders
+      - How does therapy support eating disorder treatment?
+      - Tell me about behavioral therapy techniques for eating disorders
+      - What are the benefits of eating disorder therapy?
+      - Explain the different types of eating disorder therapy
+      - Provide information on counseling for eating disorders
+      - How can eating disorder coaching help?
+      - Tell me about therapy options for eating disorders
+      - What's the impact of therapy on eating disorders?
+      - Describe talk therapy for eating disorders
+      - Provide insights on behavioral therapy for eating disorders
+      - What should I know about eating disorder counseling?
+      - Explain the role of therapy in eating disorder treatment
+      - Tell me about eating disorder coaching techniques
+      - Provide info on talk therapy for eating disorders
+      - How does counseling support eating disorder treatment?
+
+  - intent: eating_disorder_support_groups
+    examples: |
+      - Eating disorder support groups
+      - Support for eating disorders
+      - Eating disorder community
+      - Joining an eating disorder support group
+      - Local eating disorder support
+      - Online eating disorder support
+      - Finding eating disorder support
+      - Tell me about eating disorder communities
+      - How can I join an eating disorder support group?
+      - Provide info on local eating disorder support
+      - Explain online eating disorder support options
+      - Where can I find support for eating disorders?
+      - Tell me about joining an eating disorder community
+      - How do eating disorder support groups work?
+      - Provide insights on eating disorder group support
+      - What's the role of local eating disorder support?
+      - Explain online communities for eating disorders
+      - Tell me about eating disorder support resources
+      - How can I connect with others with eating disorders?
+      - Provide information on eating disorder support groups
+      - What are the benefits of eating disorder communities?
+      - Tell me about local support for eating disorders
+      - How do I access online eating disorder support?
+      - Provide info on joining eating disorder support groups
+      - What are the options for eating disorder group support?
+      - Tell me about eating disorder community resources
+      - How can I find local eating disorder support?
+      - Explain online resources for eating disorder support
+      - Tell me about the advantages of eating disorder support groups
+      - Provide insights on local support for eating disorders
+
+  - intent: experiencing_eating_disorder
+    examples: |
+      - I think I have an eating disorder
+      - I'm struggling with an eating disorder
+      - I need help with my eating disorder
+      - I'm feeling overwhelmed by my eating habits
+      - Can you assist me with my eating disorder?
+      - I'm dealing with disordered eating
+      - I'm worried about my relationship with food
+      - I suspect I have an eating disorder
+      - Can you provide support for my eating disorder?
+      - I'm having difficulties with my eating habits
+      - I need advice about my relationship with food
+      - I'm concerned about my eating patterns
+      - Can you offer guidance for my eating disorder?
+      - I'm experiencing problems with my eating
+      - I'd like to talk about my eating disorder
+      - I'm feeling lost with my relationship to food
+      - Can you help me understand my eating habits?
+      - I'm struggling with body image and food
+      - I'm looking for assistance with my eating disorder
+      - I'm feeling trapped by my eating habits
+      - Can you provide resources for my eating disorder?
+      - I'm in need of support for my eating disorder
+      - I'm feeling isolated due to my eating habits
+      - Can you offer advice for my relationship with food?
+      - I'm seeking help for my eating disorder
+      - I'm experiencing distress related to my eating habits
+      - Can you guide me through my eating disorder?
+      - I'm feeling overwhelmed by my body image and food
+      - I'm looking for information on eating disorders
+      - I'm concerned about my emotional relationship with food
+      - Can you assist me in dealing with my eating disorder?
+      - I'm feeling hopeless about my eating habits
+      - I'm worried about my physical health due to my eating disorder
+      - Can you provide resources for overcoming my eating disorder?
+
+  - intent: seeking_support_for_eating_disorder
+    examples: |
+      - I need support for my eating disorder
+      - Can you help me find resources for my eating disorder?
+      - I'm looking for assistance with my struggles with food
+      - Can you connect me with others who understand eating disorders?
+      - I'm seeking help for my disordered eating habits
+      - Can you provide information on support groups for eating disorders?
+      - I'm in need of guidance for overcoming my eating disorder
+      - Can you recommend professional help for eating disorders?
+      - I'm feeling isolated due to my struggles with food
+      - Can you point me to online communities for eating disorder support?
+      - I'm looking for resources to help with my relationship with food
+      - Can you suggest ways to cope with my eating disorder?
+
+  - intent: feeling_isolated_due_to_eating_disorder
+    examples: |
+      - I feel alone in dealing with my eating disorder
+      - I'm isolated because of my struggles with food
+      - I feel like nobody understands my relationship with food
+      - I'm feeling disconnected due to my eating habits
+      - I feel like I'm the only one dealing with this
+      - I'm struggling with feelings of isolation because of my eating disorder
+      - I feel isolated because of my disordered eating habits
+      - I'm having a hard time connecting with others due to my eating disorder
+      - I feel like there's no one I can talk to about my struggles with food
+      - I'm experiencing a sense of isolation because of my relationship with food
+      - I feel like I'm on my own in dealing with my eating habits
+      - I'm finding it hard to connect with others because of my eating disorder
+      - I feel like nobody understands the challenges I face with food
+      - I'm feeling isolated because of my concerns about my eating patterns
+      - I feel like I'm the only one going through this with food
+      - I'm struggling with feelings of loneliness due to my eating disorder
+
+  - intent: seeking_professional_help_for_eating_disorder
+    examples: |
+      - I need to talk to a professional about my eating disorder
+      - Can you help me find a therapist for my eating disorder?
+      - I'm looking for a counselor to help with my relationship with food
+      - Can you recommend a dietitian who specializes in eating disorders?
+      - I'm seeking medical help for my struggles with food
+      - Can you provide information on treatment options for eating disorders?
+      - I'm in need of professional guidance for overcoming my eating disorder
+      - Can you suggest a support group for eating disorder recovery?
+      - I'm feeling overwhelmed and need to speak with a professional about my eating habits
+      - Can you connect me with a therapist who has experience with eating disorders?
+
+  - intent: seeking_resources_for_eating_disorder
+    examples: |
+      - I'm looking for resources to help with my eating disorder
+      - Can you provide information on books about eating disorders?
+      - I need online resources for understanding eating disorders
+      - Can you recommend articles about overcoming disordered eating?
+      - I'm seeking resources to educate myself about eating disorders
+      - Can you suggest websites with reliable information on eating disorders?
+      - I'm in need of materials to support my journey to recovery from an eating disorder
+      - Can you point me to podcasts about coping with eating disorders?
+      - I'm feeling lost and need resources to help with my relationship with food
+      - Can you provide suggestions for self-help tools for overcoming an eating disorder?
+
+responses:
+  utter_bulimia_nervosa:
+    - text: "Bulimia nervosa is a serious eating disorder characterized by recurrent episodes of overeating (binge-eating), followed by compensatory behaviors such as vomiting, excessive exercise, or the use of laxatives or diuretics (purging). It often involves a cycle of bingeing and purging. People with bulimia may have a distorted body image and may be intensely preoccupied with their weight and shape."
+    - text: "Individuals with bulimia nervosa often engage in episodes of overeating, which are followed by behaviors aimed at compensating for the excessive calorie intake. This can include forced vomiting, excessive exercise, or the misuse of laxatives or diuretics. It's important to seek professional help for effective treatment and support."
+    
+  utter_anorexia_nervosa:
+    - text: "Anorexia nervosa is a serious eating disorder characterized by extreme food restriction, leading to significantly low body weight. Individuals with anorexia often have a distorted body image and an intense fear of gaining weight. They may engage in restrictive behaviors, avoid certain foods, and may exercise excessively. Anorexia can have severe physical and psychological consequences and requires professional treatment."
+    - text: "People with anorexia nervosa often have an intense fear of gaining weight and may go to great lengths to restrict their food intake, leading to dangerously low body weight. This can have serious health consequences. Seeking professional help is crucial for diagnosis and treatment."
+
+  utter_what_is_eating_disorder:
+    - text: "An eating disorder is a serious mental health condition characterized by abnormal eating habits that negatively impact a person's physical and mental well-being. It often involves extreme preoccupation with food, body weight, and shape. Common types include Anorexia Nervosa, Bulimia Nervosa, and Binge Eating Disorder. Seeking professional help is crucial for diagnosis and treatment."
+    - text: "These disorders can lead to severe health complications and can be life-threatening if left untreated. They require specialized care, which may involve therapy, nutritional counseling, and sometimes medication. If you or someone you know is struggling with an eating disorder, it's important to reach out to a healthcare professional for support."
+
+  utter_eating_disorder_types:
+    - text: "There are several types of eating disorders, each with distinct characteristics. Anorexia Nervosa involves severe food restriction, leading to dangerously low body weight. Bulimia Nervosa involves cycles of binge eating followed by purging behaviors. Binge Eating Disorder is characterized by recurrent episodes of excessive eating without compensatory behaviors."
+    - text: "Other eating disorders include Orthorexia, which involves an unhealthy obsession with 'healthy' eating, and Avoidant/Restrictive Food Intake Disorder (ARFID), which is characterized by limited food preferences. It's important to understand these disorders to recognize them and seek appropriate help if needed."
+
+  utter_signs_of_eating_disorder:
+    - text: "Recognizing signs of an eating disorder is crucial for early intervention. Common signs include drastic weight changes, obsession with food or body image, excessive exercise, and changes in social behavior. It's important to seek professional help if you or someone you know is exhibiting these signs."
+    - text: "Signs of an eating disorder can manifest both physically and emotionally. These may include significant weight loss or gain, preoccupation with food, avoiding social situations involving food, and changes in mood or behavior. If you suspect someone is struggling, encourage them to seek help from a healthcare professional."
+
+  utter_causes_of_eating_disorder:
+    - text: "The causes of eating disorders are complex and can involve a combination of genetic, environmental, and psychological factors. These may include genetics, societal pressure, body image issues, trauma, and mental health conditions. It's important to understand that eating disorders are not a choice, but a serious mental health condition that requires professional treatment."
+    - text: "Eating disorders can develop due to a variety of factors. Genetic predispositions, societal ideals of beauty, traumatic experiences, and mental health conditions can all contribute. It's important to approach eating disorders with empathy and seek professional help for effective treatment."
+
+  utter_managing_eating_disorder:
+    - text: "Managing an eating disorder requires a comprehensive approach. This may include therapy, nutritional counseling, and, in some cases, medication. Building a strong support system and practicing self-care are also essential. It's important to remember that recovery is possible with the right treatment and support."
+    - text: "Coping with an eating disorder involves seeking professional help, building a support network, and practicing self-care. Therapy, nutritional guidance, and sometimes medication can be part of the treatment plan. Remember, you're not alone, and there is help available."
+
+  utter_eating_disorder_diagnosis:
+    - text: "Diagnosing an eating disorder involves a comprehensive evaluation by a healthcare professional. This may include a physical examination, psychological assessments, and discussions about eating habits and behaviors. It's important to be honest and open during this process to receive the appropriate care and support."
+    - text: "Getting a diagnosis for an eating disorder typically involves a thorough assessment by a healthcare professional. This may include discussions about eating behaviors, physical examinations, and psychological evaluations. It's important to seek professional help for an accurate diagnosis and effective treatment."
+
+  utter_eating_disorder_therapy:
+    - text: "Therapy is a crucial component of eating disorder treatment. It may involve various approaches, such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), or family-based therapy. The goal is to address the underlying emotional and psychological factors contributing to the disorder."
+    - text: "Therapy plays a vital role in eating disorder recovery. Different approaches like cognitive-behavioral therapy (CBT) or dialectical behavior therapy (DBT) may be used. These aim to address the psychological aspects of the disorder and develop healthier coping mechanisms."
+
+  utter_eating_disorder_support_groups:
+    - text: "Joining an eating disorder support group can provide valuable peer support and a sense of community. These groups offer a safe space to share experiences and coping strategies. Whether in person or online, connecting with others who understand can be incredibly beneficial for recovery."
+    - text: "Being part of an eating disorder support group can offer valuable support and understanding. Whether in a local group or an online community, connecting with others who have similar experiences can be an important part of your recovery journey."
+
+  utter_experiencing_eating_disorder:
+    - text: "I'm really sorry to hear that you're going through this. It's important to remember that you're not alone. Reach out to a healthcare professional or a trusted person in your life who can provide support and guidance. There are resources available to help you through this."
+    - text: "I'm here to listen and support you. It's essential to reach out to a healthcare professional or someone you trust about your struggles. You don't have to go through this alone, and there are people who want to help."
+
+  utter_seeking_support_for_eating_disorder:
+    - text: "It's great that you're seeking support. Reach out to a healthcare professional who can provide you with the appropriate resources and guidance. You're taking an important step towards your well-being, and there are people who want to help you."
+    - text: "Reaching out for support is a brave and important step. Connect with a healthcare professional or someone you trust who can offer guidance and resources. You're not alone in this, and there are people who genuinely care about your well-being."
+
+  utter_feeling_isolated_due_to_eating_disorder:
+    - text: "Feeling isolated due to an eating disorder is a common experience, but please know that you're not alone. There are people who understand and want to support you. Reach out to a healthcare professional, or consider joining a support group where you can connect with others who have similar experiences."
+    - text: "I'm really sorry to hear that you're feeling this way. It's important to remember that you're not alone. Consider reaching out to a healthcare professional or finding a support group where you can connect with others who have gone through similar experiences. There are people who care about your well-being."
+
+  utter_seeking_professional_help_for_eating_disorder:
+    - text: "Seeking professional help is a positive step toward your well-being. Connect with a healthcare professional who specializes in eating disorders. They can provide you with the support and resources you need to navigate this journey towards recovery."
+    - text: "Reaching out for professional help is a courageous step. Connect with a healthcare professional who has experience with eating disorders. They can offer you the guidance and support you need on your path to recovery."
+
+  utter_seeking_resources_for_eating_disorder:
+    - text: "It's great that you're seeking resources to support yourself. Consider looking for books, articles, and online communities that focus on eating disorder recovery. These resources can provide valuable insights and tools to help you on your journey to wellness."
+    - text: "Seeking resources is a positive step towards your well-being. You can explore books, articles, and online communities that offer support and guidance for overcoming eating disorders. Remember, you're not alone, and there are resources available to help you."
+
+  utter_mental_health_institute_contact:
+    - text: "If you're in need of immediate assistance or would like to speak with a mental health professional in the Philippines, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They offer confidential and compassionate support. Remember, you're not alone, and help is available."
+    - text: "In case you require urgent help or wish to talk to a mental health expert in the Philippines, please reach out to the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They provide confidential and empathetic assistance. Always remember, there are people who care and are ready to help you."
+    - text: "If you're facing a crisis or simply need to talk to someone about your mental health, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. Your conversations are kept private, and their team is here to support you."
+    - text: "For immediate help or to talk with a mental health professional in the Philippines, please call the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). Your discussions will be kept confidential, and their team is ready to offer you assistance."
+    - text: "If you're experiencing a crisis or need someone to talk to about your mental health, please don't hesitate to contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. They provide confidential and caring support."
+
+stories:
+- story: Understanding Eating Disorders
+  steps:
+  - intent: what_is_eating_disorder
+  - action: utter_what_is_eating_disorder
+
+- story: Exploring Types of Eating Disorders
+  steps:
+  - intent: eating_disorder_types
+  - action: utter_eating_disorder_types
+
+- story: Recognizing Signs of Eating Disorders
+  steps:
+  - intent: signs_of_eating_disorder
+  - action: utter_signs_of_eating_disorder
+
+- story: Understanding Causes of Eating Disorders
+  steps:
+  - intent: causes_of_eating_disorder
+  - action: utter_causes_of_eating_disorder
+
+- story: Coping with an Eating Disorder
+  steps:
+  - intent: managing_eating_disorder
+  - action: utter_managing_eating_disorder
+
+- story: Seeking a Diagnosis for an Eating Disorder
+  steps:
+  - intent: eating_disorder_diagnosis
+  - action: utter_eating_disorder_diagnosis
+
+- story: Therapy for Eating Disorders
+  steps:
+  - intent: eating_disorder_therapy
+  - action: utter_eating_disorder_therapy
+
+- story: Joining Support Groups for Eating Disorders
+  steps:
+  - intent: eating_disorder_support_groups
+  - action: utter_eating_disorder_support_groups
+  - action: utter_mental_health_institute_contact
+
+- story: Personal Struggles with an Eating Disorder
+  steps:
+  - intent: experiencing_eating_disorder
+  - action: utter_experiencing_eating_disorder
+
+- story: Seeking Support for an Eating Disorder
+  steps:
+  - intent: seeking_support_for_eating_disorder
+  - action: utter_seeking_support_for_eating_disorder
+
+- story: Feeling Isolated Due to an Eating Disorder
+  steps:
+  - intent: feeling_isolated_due_to_eating_disorder
+  - action: utter_feeling_isolated_due_to_eating_disorder
+
+- story: Seeking Professional Help for an Eating Disorder
+  steps:
+  - intent: seeking_professional_help_for_eating_disorder
+  - action: utter_seeking_professional_help_for_eating_disorder
+  - action: utter_mental_health_institute_contact
+
+- story: Finding Resources for an Eating Disorder
+  steps:
+  - intent: seeking_resources_for_eating_disorder
+  - action: utter_seeking_resources_for_eating_disorder
+
+- story: Comprehensive Eating Disorder Journey
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+    - intent: what_is_eating_disorder
+    - action: utter_what_is_eating_disorder
+
+    - intent: eating_disorder_types
+    - action: utter_eating_disorder_types
+
+    - intent: signs_of_eating_disorder
+    - action: utter_signs_of_eating_disorder
+
+    - intent: causes_of_eating_disorder
+    - action: utter_causes_of_eating_disorder
+
+    - intent: managing_eating_disorder
+    - action: utter_managing_eating_disorder
+
+    - intent: eating_disorder_diagnosis
+    - action: utter_eating_disorder_diagnosis
+
+    - intent: eating_disorder_therapy
+    - action: utter_eating_disorder_therapy
+
+    - intent: eating_disorder_support_groups
+    - action: utter_eating_disorder_support_groups
+
+    - intent: experiencing_eating_disorder
+    - action: utter_experiencing_eating_disorder
+
+    - intent: seeking_support_for_eating_disorder
+    - action: utter_seeking_support_for_eating_disorder
+    - action: utter_mental_health_institute_contact
+
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Understanding Bulimia Nervosa
+  steps:
+    - intent: bulimia_nervosa
+    - action: utter_bulimia_nervosa
+
+    - intent: signs_of_eating_disorder
+    - action: utter_signs_of_eating_disorder
+
+    - intent: causes_of_eating_disorder
+    - action: utter_causes_of_eating_disorder
+
+    - intent: managing_eating_disorder
+    - action: utter_managing_eating_disorder
+
+    - intent: eating_disorder_diagnosis
+    - action: utter_eating_disorder_diagnosis
+
+    - intent: eating_disorder_therapy
+    - action: utter_eating_disorder_therapy
+
+    - intent: eating_disorder_support_groups
+    - action: utter_eating_disorder_support_groups
+    - action: utter_mental_health_institute_contact
+
+    - intent: experiencing_eating_disorder
+    - action: utter_experiencing_eating_disorder
+
+    - intent: seeking_support_for_eating_disorder
+    - action: utter_seeking_support_for_eating_disorder
+
+    - intent: feeling_isolated_due_to_eating_disorder
+    - action: utter_feeling_isolated_due_to_eating_disorder
+
+    - intent: seeking_professional_help_for_eating_disorder
+    - action: utter_seeking_professional_help_for_eating_disorder
+    - action: utter_mental_health_institute_contact
+
+    - intent: seeking_resources_for_eating_disorder
+    - action: utter_seeking_resources_for_eating_disorder
+
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: Understanding Anorexia Nervosa
+  steps:
+    - intent: anorexia_nervosa
+    - action: utter_anorexia_nervosa
+
+    - intent: signs_of_eating_disorder
+    - action: utter_signs_of_eating_disorder
+
+    - intent: causes_of_eating_disorder
+    - action: utter_causes_of_eating_disorder
+
+    - intent: managing_eating_disorder
+    - action: utter_managing_eating_disorder
+
+    - intent: eating_disorder_diagnosis
+    - action: utter_eating_disorder_diagnosis
+
+    - intent: eating_disorder_therapy
+    - action: utter_eating_disorder_therapy
+
+    - intent: eating_disorder_support_groups
+    - action: utter_eating_disorder_support_groups
+    - action: utter_mental_health_institute_contact
+
+    - intent: experiencing_eating_disorder
+    - action: utter_experiencing_eating_disorder
+
+    - intent: seeking_support_for_eating_disorder
+    - action: utter_seeking_support_for_eating_disorder
+
+    - intent: feeling_isolated_due_to_eating_disorder
+    - action: utter_feeling_isolated_due_to_eating_disorder
+
+    - intent: seeking_professional_help_for_eating_disorder
+    - action: utter_seeking_professional_help_for_eating_disorder
+    - action: utter_mental_health_institute_contact
+
+    - intent: seeking_resources_for_eating_disorder
+    - action: utter_seeking_resources_for_eating_disorder
+
+    - intent: goodbye
+    - action: utter_goodbye

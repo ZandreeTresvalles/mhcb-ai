@@ -1,0 +1,492 @@
+nlu:
+  - intent: what_is_adhd
+    examples: |
+      - What is ADHD?
+      - Explain ADHD to me
+      - Tell me about ADHD
+      - Describe ADHD
+      - What does ADHD mean?
+      - Can you give me an overview of ADHD?
+      - I'd like to learn about ADHD
+      - Could you define ADHD for me?
+      - What's the meaning of ADHD?
+      - Explain Attention-Deficit/Hyperactivity Disorder
+      - Help me understand ADHD
+      - Provide information on ADHD
+      - What are the basics of ADHD?
+      - Define Attention-Deficit/Hyperactivity Disorder
+      - Give me a rundown on ADHD
+      - Could you explain ADHD in simple terms?
+      - What should I know about ADHD?
+      - Provide an overview of ADHD
+      - I'm curious about ADHD
+      - What's the background of ADHD?
+      - Give me some insights on ADHD
+      - Break down ADHD for me
+      - Help me grasp the concept of ADHD
+      - Tell me the fundamentals of ADHD
+      - I'd like an introduction to ADHD
+      - What's ADHD all about?
+      - Brief me on ADHD
+      - Explain ADHD briefly
+      - Can you give me a quick overview of ADHD?
+      - I want to know more about ADHD
+
+  - intent: adhd_symptoms
+    examples: |
+      - ADHD symptoms
+      - Signs of ADHD
+      - Recognizing ADHD
+      - What are the signs of ADHD?
+      - How does ADHD affect behavior?
+      - Hyperactivity symptoms
+      - List ADHD symptoms
+      - What are the common signs of ADHD?
+      - Explain ADHD behaviors
+      - Tell me about hyperactivity in ADHD
+      - Provide info on ADHD symptoms
+      - Describe signs of ADHD
+      - I'd like to learn about ADHD symptoms
+      - What should I watch for in ADHD?
+      - Give me an overview of ADHD signs
+      - Break down ADHD behaviors
+      - List hyperactivity symptoms
+      - What are the behavioral signs of ADHD?
+      - Explain inattention in ADHD
+      - Tell me about ADHD traits
+      - Provide information on ADHD behaviors
+      - Describe hyperactivity in ADHD
+      - What behaviors indicate ADHD?
+      - How does ADHD manifest?
+      - Explain impulsivity in ADHD
+      - Tell me about ADHD signs
+      - Provide a list of ADHD symptoms
+      - Describe ADHD characteristics
+      - What are the typical ADHD behaviors?
+      - Explain ADHD manifestations
+
+  - intent: adhd_causes
+    examples: |
+      - Causes of ADHD
+      - What leads to ADHD?
+      - Factors behind ADHD
+      - Why do people get ADHD?
+      - Is ADHD genetic?
+      - Explain the causes of ADHD
+      - Tell me about ADHD risk factors
+      - Provide insights on ADHD causes
+      - What contributes to ADHD?
+      - Elaborate on ADHD origins
+      - Break down the factors of ADHD
+      - I'd like to know about ADHD causes
+      - What influences ADHD development?
+      - Give me information on ADHD causes
+      - Describe the roots of ADHD
+      - Explain genetic factors in ADHD
+      - Tell me about ADHD predisposition
+      - Provide info on ADHD etiology
+      - What factors play a role in ADHD?
+      - Help me understand ADHD causes
+      - What leads to Attention-Deficit/Hyperactivity Disorder?
+      - Give me an overview of ADHD origins
+      - Explain environmental factors in ADHD
+      - Tell me about ADHD susceptibility
+      - Provide insights on ADHD development
+      - What are the contributing factors to ADHD?
+      - Describe the genetics of ADHD
+      - Elaborate on ADHD risk elements
+      - What are the potential causes of ADHD?
+      - I'm curious about ADHD origins
+
+  - intent: managing_adhd
+    examples: |
+      - Managing ADHD
+      - Coping with ADHD
+      - Strategies for ADHD
+      - ADHD self-help
+      - ADHD treatment
+      - Living with ADHD
+      - How to handle ADHD
+      - ADHD support
+      - Techniques for ADHD
+      - ADHD management
+      - Coping strategies for ADHD
+      - Living a good life with ADHD
+      - How to live with ADHD
+      - Help for managing ADHD
+      - ADHD self-care
+      - Strategies to deal with ADHD
+      - How to navigate life with ADHD
+      - ADHD coping mechanisms
+      - Tips for ADHD management
+      - Techniques for living with ADHD
+      - How to thrive with ADHD
+      - ADHD support and strategies
+      - Ways to cope with ADHD
+      - ADHD living tips
+      - Self-help for ADHD
+      - Managing ADHD effectively
+      - Strategies for living with ADHD
+      - ADHD wellness techniques
+      - How to succeed with ADHD
+      - Coping mechanisms for ADHD
+
+  - intent: adhd_diagnosis
+    examples: |
+      - Getting an ADHD diagnosis
+      - How is ADHD diagnosed?
+      - ADHD evaluation process
+      - Do I have ADHD?
+      - Diagnosing ADHD in adults
+      - ADHD assessment
+      - How to determine if I have ADHD
+      - ADHD diagnostic process
+      - What's involved in an ADHD diagnosis?
+      - Can you tell me about ADHD assessment?
+      - How do professionals diagnose ADHD?
+      - I think I might have ADHD
+      - What's the process for ADHD diagnosis?
+      - Can you explain how ADHD is diagnosed?
+      - How do I get an ADHD assessment?
+      - Do adults get diagnosed with ADHD?
+      - Can you tell me about diagnosing ADHD in adults?
+      - I'm wondering if I have ADHD
+      - What's the evaluation process for ADHD?
+      - How do professionals determine if someone has ADHD?
+      - Can you explain the ADHD assessment process?
+      - I suspect I might have ADHD
+      - How is ADHD diagnosed in adults?
+      - What steps are involved in getting an ADHD diagnosis?
+      - Can you guide me through the ADHD diagnostic process?
+      - I'm curious about the process of diagnosing ADHD
+      - How can I find out if I have ADHD?
+      - What's the procedure for ADHD assessment?
+      - Can you tell me how professionals diagnose ADHD in adults?
+      - I think I might need an ADHD assessment
+
+  - intent: adhd_medication
+    examples: |
+      - ADHD medication
+      - Medications for ADHD
+      - Treating ADHD with medication
+      - ADHD drugs
+      - Are there ADHD pills?
+      - ADHD medication side effects
+      - Information on ADHD drugs
+      - What are the medications for ADHD?
+      - Explain treating ADHD with medication
+      - Tell me about ADHD medication options
+      - Are there pills for ADHD?
+      - Describe ADHD medication
+      - Provide info on ADHD drugs
+      - What's the role of medication in ADHD treatment?
+      - Tell me about ADHD medication side effects
+      - Are there specific drugs for ADHD?
+      - Explain the use of medication in ADHD
+      - Describe ADHD medication options
+      - Provide insights on ADHD pills
+      - What are the common ADHD drugs?
+      - Tell me about side effects of ADHD medication
+      - How do medications treat ADHD?
+      - Explain the different types of ADHD medication
+      - Provide information on treating ADHD with medication
+      - What should I know about ADHD pills?
+      - Describe the effects of ADHD medication
+      - Tell me about medication for ADHD
+      - Provide info on ADHD medication side effects
+      - What are the options for ADHD medication?
+      - Explain the benefits of ADHD drugs
+
+  - intent: adhd_therapy
+    examples: |
+      - ADHD therapy
+      - Therapy for ADHD
+      - Behavioral therapy for ADHD
+      - Counseling for ADHD
+      - ADHD coaching
+      - Talk therapy for ADHD
+      - Information on ADHD therapy
+      - What's involved in therapy for ADHD?
+      - Explain behavioral therapy for ADHD
+      - Tell me about counseling for ADHD
+      - Provide insights on ADHD coaching
+      - How does talk therapy help with ADHD?
+      - Describe therapy options for ADHD
+      - What's the role of counseling in ADHD treatment?
+      - Explain ADHD coaching techniques
+      - Provide info on talk therapy for ADHD
+      - How does therapy support ADHD treatment?
+      - Tell me about behavioral therapy techniques for ADHD
+      - What are the benefits of ADHD therapy?
+      - Explain the different types of ADHD therapy
+      - Provide information on counseling for ADHD
+      - How can ADHD coaching help?
+      - Tell me about therapy options for ADHD
+      - What's the impact of therapy on ADHD?
+      - Describe talk therapy for ADHD
+      - Provide insights on behavioral therapy for ADHD
+      - What should I know about ADHD counseling?
+      - Explain the role of therapy in ADHD treatment
+      - Tell me about ADHD coaching techniques
+      - Provide info on talk therapy for ADHD
+      - How does counseling support ADHD treatment?
+
+  - intent: adhd_support_groups
+    examples: |
+      - ADHD support groups
+      - Support for ADHD
+      - ADHD community
+      - Joining ADHD support group
+      - Local ADHD support
+      - Online ADHD support
+      - Finding ADHD support
+      - Tell me about ADHD communities
+      - How can I join an ADHD support group?
+      - Provide info on local ADHD support
+      - Explain online ADHD support options
+      - Where can I find support for ADHD?
+      - Tell me about joining an ADHD community
+      - How do ADHD support groups work?
+      - Provide insights on ADHD group support
+      - What's the role of local ADHD support?
+      - Explain online communities for ADHD
+      - Tell me about ADHD support resources
+      - How can I connect with others with ADHD?
+      - Provide information on ADHD support groups
+      - What are the benefits of ADHD communities?
+      - Tell me about local support for ADHD
+      - How do I access online ADHD support?
+      - Provide info on joining ADHD support groups
+      - What are the options for ADHD group support?
+      - Tell me about ADHD community resources
+      - How can I find local ADHD support?
+      - Explain online resources for ADHD support
+      - Tell me about the advantages of ADHD support groups
+      - Provide insights on local support for ADHD
+
+  - intent: adhd_in_children
+    examples: |
+      - ADHD in children
+      - Kids with ADHD
+      - Children's ADHD symptoms
+      - Managing ADHD in kids
+      - ADHD treatment for children
+      - Parenting a child with ADHD
+      - Information on ADHD in children
+      - What should I know about kids with ADHD?
+      - Explain ADHD symptoms in children
+      - Provide insights on managing ADHD in kids
+      - How is ADHD treated in children?
+      - Tell me about parenting a child with ADHD
+      - What are the signs of ADHD in children?
+      - Explain ADHD management for kids
+      - Provide info on children's ADHD symptoms
+      - How does ADHD manifest in children?
+      - Tell me about treatment for ADHD in children
+      - What strategies help children with ADHD?
+      - Explain parenting a child with ADHD
+      - Provide information on ADHD interventions for children
+      - What's involved in managing ADHD in kids?
+      - Tell me about kids diagnosed with ADHD
+      - How can I support a child with ADHD?
+      - Provide insights on children's ADHD treatment
+      - What are the challenges of ADHD in children?
+      - Tell me about parenting techniques for ADHD
+      - Explain interventions for children with ADHD
+      - Provide info on strategies for managing ADHD in kids
+      - How does ADHD affect kids' behavior?
+      - Tell me about the impact of ADHD on children
+
+  - intent: adhd_in_adults
+    examples: |
+      - ADHD in adults
+      - Adults with ADHD
+      - ADHD symptoms in adults
+      - Coping with adult ADHD
+      - ADHD diagnosis in adults
+      - Living with adult ADHD
+      - Information on adult ADHD
+      - What's it like to have ADHD as an adult?
+      - Explain ADHD symptoms in adults
+      - Provide insights on coping with adult ADHD
+      - How is ADHD diagnosed in adults?
+      - Tell me about living with adult ADHD
+      - What are the signs of adult ADHD?
+      - Explain managing ADHD as an adult
+      - Provide info on ADHD diagnosis for adults
+      - How does ADHD affect adults?
+      - Tell me about strategies for adult ADHD
+      - What's the impact of ADHD on adult life?
+      - Explain adult ADHD treatment options
+      - Provide information on ADHD support for adults
+      - How can adults with ADHD thrive?
+      - Tell me about the challenges of adult ADHD
+      - What are the strengths of adults with ADHD?
+      - Explain the experience of living with adult ADHD
+      - Provide insights on ADHD coping mechanisms for adults
+      - What's involved in an ADHD diagnosis for adults?
+      - Tell me about the strategies that work for adults with ADHD
+      - How can adult ADHD be managed effectively?
+      - Provide info on support for adults with ADHD
+      - What's it like to navigate daily life with adult ADHD?
+
+
+
+responses:
+  utter_what_is_adhd:
+    - text: "ADHD, which stands for Attention-Deficit/Hyperactivity Disorder, is a neurodevelopmental disorder that affects both children and adults. It's characterized by persistent patterns of inattention, hyperactivity, and impulsivity that can interfere with daily functioning and quality of life. ADHD is a treatable condition, and various strategies, including therapy and medication, can help manage its symptoms."
+    - text: "ADHD, or Attention-Deficit/Hyperactivity Disorder, is a neurodevelopmental disorder that impacts a person's ability to focus, control impulses, and manage hyperactivity. It often begins in childhood but can continue into adulthood. Effective treatments, including therapy and medication, can help individuals with ADHD lead productive lives."
+    - text: "ADHD, or Attention-Deficit/Hyperactivity Disorder, is a condition that affects a person's ability to pay attention, control impulses, and manage hyperactivity. It's a neurodevelopmental disorder that typically starts in childhood but can persist into adulthood. Fortunately, there are effective treatments and strategies to help individuals with ADHD."
+
+  utter_adhd_symptoms:
+    - text: "ADHD symptoms can vary, but common signs include difficulty paying attention, impulsivity, and hyperactivity. Inattention may manifest as trouble focusing, being forgetful, or making careless mistakes. Hyperactivity can lead to restlessness and fidgeting, while impulsivity may result in impulsive decision-making. It's essential to consult a healthcare professional for a proper diagnosis if you suspect ADHD."
+    - text: "Recognizing ADHD involves identifying symptoms such as inattention, hyperactivity, and impulsivity. Inattention can manifest as difficulty staying on task, frequent careless errors, and forgetfulness. Hyperactivity may lead to restlessness, fidgeting, and excessive talking. Impulsivity can result in hasty decision-making without considering the consequences."
+    - text: "ADHD symptoms often include inattention, hyperactivity, and impulsivity. Inattentive symptoms may involve difficulty sustaining attention, forgetfulness, and trouble following instructions. Hyperactive symptoms may manifest as restlessness and an inability to sit still. Impulsivity can lead to impulsive decision-making. It's important to seek professional evaluation for a comprehensive assessment."
+
+  utter_adhd_causes:
+    - text: "The exact causes of ADHD are not fully understood, but it's believed to be influenced by a combination of genetic, environmental, and neurobiological factors. Family history of ADHD, exposure to certain toxins during pregnancy, premature birth, and low birth weight are some potential risk factors. Research is ongoing to better understand the root causes of ADHD."
+    - text: "ADHD is a complex condition with multiple contributing factors. While genetics play a role, environmental factors also contribute. Prenatal exposure to tobacco smoke, alcohol, or certain toxins may increase the risk of ADHD. Additionally, premature birth and low birth weight have been associated with a higher likelihood of developing ADHD."
+    - text: "The causes of ADHD are thought to involve genetic, environmental, and neurological factors. Family history of ADHD is a significant risk factor, but prenatal exposure to substances like tobacco and alcohol can also contribute. Low birth weight and premature birth have been associated with an increased likelihood of developing ADHD."
+
+  utter_managing_adhd:
+    - text: "Managing ADHD involves a combination of strategies tailored to individual needs. These strategies may include behavioral therapy, medication, lifestyle adjustments, and developing effective organizational skills. It's important to work closely with a healthcare professional to create a personalized management plan."
+    - text: "Coping with ADHD often involves a multifaceted approach. Behavioral therapy, medication, and lifestyle modifications can be beneficial. Behavioral therapy can help individuals develop skills to manage symptoms, while medication may be prescribed to address specific symptoms. Lifestyle adjustments, such as creating structured routines, can also aid in managing ADHD."
+    - text: "Living with ADHD requires a comprehensive approach. Behavioral therapy, medication, and lifestyle changes can all play a role in managing symptoms. Working with a healthcare provider is essential to create an effective ADHD management plan tailored to your unique needs."
+
+  utter_adhd_diagnosis:
+    - text: "Getting an ADHD diagnosis typically involves a thorough assessment by a healthcare professional. This assessment may include interviews, behavior rating scales, and a review of medical history. It's important to consult with a healthcare provider experienced in ADHD diagnosis to ensure an accurate evaluation."
+    - text: "ADHD diagnosis is usually made through a comprehensive evaluation conducted by a healthcare provider. This evaluation may involve interviews, behavior rating scales, and a review of your medical history. It's crucial to seek an evaluation from a qualified healthcare professional with expertise in ADHD."
+    - text: "Diagnosing ADHD is a process that involves a detailed assessment by a healthcare professional. This assessment may include interviews, behavior rating scales, and a review of your medical history. It's important to seek an evaluation from a qualified healthcare provider experienced in ADHD diagnosis."
+
+  utter_adhd_medication:
+    - text: "Medication can be a valuable part of ADHD treatment. Stimulant medications, such as methylphenidate and amphetamine-based drugs, are commonly prescribed. Non-stimulant medications like atomoxetine may also be used. The choice of medication depends on individual factors, and it's important to work with a healthcare provider to find the most suitable option."
+    - text: "ADHD medication can be an effective part of treatment. Stimulant medications like methylphenidate and amphetamines are often prescribed. Non-stimulant options like atomoxetine are also available. The choice of medication depends on individual needs and considerations. It's important to discuss with a healthcare provider to determine the best option."
+    - text: "Medication can play a crucial role in managing ADHD. Stimulant medications, such as methylphenidate and amphetamine-based drugs, are commonly used. Non-stimulant medications like atomoxetine are also available. The choice of medication should be based on a thorough evaluation and discussion with a healthcare provider."
+
+  utter_adhd_therapy:
+    - text: "Therapy can be a valuable component of ADHD treatment. Behavioral therapy, in particular, can help individuals develop practical skills to manage symptoms. It focuses on strategies to improve organization, time management, and impulse control. It's important to work with a qualified therapist experienced in ADHD."
+    - text: "Therapy is an important part of ADHD treatment. Behavioral therapy, in particular, can provide practical strategies for managing symptoms. It focuses on skills like organization, time management, and impulse control. It's crucial to work with a therapist who has expertise in ADHD."
+    - text: "Behavioral therapy is a valuable aspect of ADHD treatment. It provides practical skills to help manage symptoms, focusing on areas like organization, time management, and impulse control. It's important to work with a therapist who is experienced in ADHD."
+
+  utter_adhd_support_groups:
+    - text: "Joining an ADHD support group can provide valuable emotional support and practical advice for managing ADHD. These groups offer a space to connect with others who understand your experiences. You can find local or online support groups through organizations like CHADD (Children and Adults with Attention-Deficit/Hyperactivity Disorder)."
+    - text: "ADHD support groups offer a supportive environment where individuals can share experiences and coping strategies. Connecting with others who have similar experiences can be incredibly valuable. You can find local or online support groups through organizations like CHADD (Children and Adults with Attention-Deficit/Hyperactivity Disorder)."
+    - text: "Being part of an ADHD support group can offer a sense of community and a space to exchange advice on managing ADHD. It's a way to connect with others who share similar experiences. Look for local or online support groups through organizations like CHADD (Children and Adults with Attention-Deficit/Hyperactivity Disorder)."
+
+  utter_adhd_in_children:
+    - text: "ADHD in children is characterized by persistent patterns of inattention, hyperactivity, and impulsivity. These symptoms can impact academic performance and social interactions. Early intervention and a combination of strategies, including therapy and, in some cases, medication, can help children manage ADHD effectively."
+    - text: "ADHD in children involves ongoing patterns of inattention, hyperactivity, and impulsivity. These symptoms can affect school performance and relationships with peers. Early intervention, which may include therapy and sometimes medication, can significantly improve a child's ability to manage ADHD."
+    - text: "Children with ADHD exhibit consistent patterns of inattention, hyperactivity, and impulsivity. These symptoms can influence academic success and social interactions. Early intervention, often involving a combination of therapy and, in certain cases, medication, can be highly effective in managing ADHD in children."
+
+  utter_adhd_in_adults:
+    - text: "ADHD can persist into adulthood, although it may manifest differently than in children. In adults, symptoms may include difficulty with time management, organization, and sustaining attention. It can also impact relationships and work performance. Effective strategies for managing adult ADHD may include therapy, medication, and practical organizational techniques."
+    - text: "ADHD can continue into adulthood, presenting unique challenges. In adults, symptoms may involve difficulties with organization, time management, and maintaining focus. It can affect various aspects of life, including work and relationships. Managing adult ADHD may involve a combination of therapy, medication, and practical strategies for organization."
+    - text: "While ADHD is often associated with children, it can persist into adulthood. In adults, symptoms may include problems with time management, organization, and concentration. These challenges can impact work, relationships, and daily life. Effective management of adult ADHD may involve therapy, medication, and developing practical organizational skills."
+
+utter_mental_health_institute_contact:
+    - text: "If you're in need of immediate assistance or would like to speak with a mental health professional in the Philippines, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They offer confidential and compassionate support. Remember, you're not alone, and help is available."
+    - text: "In case you require urgent help or wish to talk to a mental health expert in the Philippines, please reach out to the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They provide confidential and empathetic assistance. Always remember, there are people who care and are ready to help you."
+    - text: "If you're facing a crisis or simply need to talk to someone about your mental health, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. Your conversations are kept private, and their team is here to support you."
+    - text: "For immediate help or to talk with a mental health professional in the Philippines, please call the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). Your discussions will be kept confidential, and their team is ready to offer you assistance."
+    - text: "If you're experiencing a crisis or need someone to talk to about your mental health, please don't hesitate to contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. They provide confidential and caring support."
+
+stories:
+- story: User Asks About ADHD Symptoms
+  steps:
+  - intent: what_is_adhd
+  - action: utter_what_is_adhd
+  - intent: adhd_symptoms
+  - action: utter_adhd_symptoms
+
+- story: User Seeks Coping Strategies for ADHD
+  steps:
+  - intent: what_is_adhd
+  - action: utter_what_is_adhd
+  - intent: managing_adhd
+  - action: utter_managing_adhd
+
+- story: User Asks About ADHD Diagnosis and Treatment Options
+  steps:
+  - intent: what_is_adhd
+  - action: utter_what_is_adhd
+  - intent: adhd_diagnosis
+  - action: utter_adhd_diagnosis
+  - intent: adhd_medication
+  - action: utter_adhd_medication
+
+- story: User Inquires About ADHD Therapy and Support Groups
+  steps:
+  - intent: what_is_adhd
+  - action: utter_what_is_adhd
+  - intent: adhd_therapy
+  - action: utter_adhd_therapy
+  - intent: adhd_support_groups
+  - action: utter_adhd_support_groups
+  - action: utter_mental_health_institute_contact
+
+- story: User Asks About ADHD in Children
+  steps:
+  - intent: adhd_in_children
+  - action: utter_adhd_in_children
+
+- story: User Asks About ADHD in Adults
+  steps:
+  - intent: adhd_in_adults
+  - action: utter_adhd_in_adults
+
+- story: User Asks About ADHD, Causes, and Symptoms
+  steps:
+  - intent: what_is_adhd
+  - action: utter_what_is_adhd
+  - intent: adhd_causes
+  - action: utter_adhd_causes
+  - intent: adhd_symptoms
+  - action: utter_adhd_symptoms
+
+- story: User Asks About ADHD Status and Symptoms
+  steps:
+  - intent: adhd_status
+  - action: utter_adhd_status
+  - intent: adhd_symptoms
+  - action: utter_adhd_symptoms
+
+- story: User Asks About ADHD Symptoms and Diagnosis
+  steps:
+  - intent: adhd_symptoms
+  - action: utter_adhd_symptoms
+  - intent: adhd_diagnosis
+  - action: utter_adhd_diagnosis
+
+- story: User Asks About ADHD Status and Coping
+  steps:
+  - intent: adhd_status
+  - action: utter_adhd_status
+  - intent: managing_adhd
+  - action: utter_managing_adhd
+
+- story: User Seeks Support for ADHD
+  steps:
+  - intent: adhd_support_groups
+  - action: utter_adhd_support_groups
+  - action: utter_mental_health_institute_contact
+
+- story: Comprehensive ADHD Information
+  steps:
+  - intent: what_is_adhd
+  - action: utter_what_is_adhd
+  - intent: adhd_symptoms
+  - action: utter_adhd_symptoms
+  - intent: managing_adhd
+  - action: utter_managing_adhd
+  - intent: adhd_diagnosis
+  - action: utter_adhd_diagnosis
+  - intent: adhd_medication
+  - action: utter_adhd_medication
+  - intent: adhd_therapy
+  - action: utter_adhd_therapy
+  - intent: adhd_support_groups
+  - action: utter_adhd_support_groups
+  - intent: adhd_in_children
+  - action: utter_adhd_in_children
+  - intent: adhd_in_adults
+  - action: utter_adhd_in_adults

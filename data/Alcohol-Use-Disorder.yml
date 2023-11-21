@@ -1,0 +1,64 @@
+nlu:
+  - intent: learn_about_alcohol_use_disorders
+    examples: |
+      - what alchohol
+      - alcohol
+      - alcohol?
+      - What are alcohol use disorders?
+      - Explain alcohol addiction.
+      - Tell me about the symptoms of alcoholism.
+      - What causes alcohol use disorders?
+      - How can I help someone with alcohol addiction?
+
+  - intent: identify_alcohol_use_symptoms
+    examples: |
+      - What are the signs of alcoholism?
+      - How can I recognize alcohol use symptoms?
+      - Tell me about the physical effects of alcohol abuse.
+      - What are the behavioral indicators of alcohol use disorders?
+      - How does alcohol use affect relationships?
+
+  - intent: coping_strategies_alcohol_use_disorders
+    examples: |
+      - How can I cope with alcohol addiction?
+      - What are some strategies for managing alcohol cravings?
+      - Tell me about self-help techniques for alcohol recovery.
+      - How can I handle triggers and temptations to drink?
+      - What are some activities that can support alcohol recovery?
+
+  - intent: treatment_options_alcohol_use_disorders
+    examples: |
+      - What are the treatment options for alcohol use disorders?
+      - Tell me about therapy for alcohol addiction.
+      - How can I find a counselor for alcohol recovery?
+      - Are there any support groups for alcoholics?
+      - Can you recommend any medications for alcohol addiction?
+
+  - intent: support_network_alcohol_use_disorders
+    examples: |
+      - Are there support groups for alcohol recovery?
+      - How can I find a therapist for alcohol addiction?
+      - Tell me about the role of family support in alcohol recovery.
+      - Can you recommend any resources for alcohol self-help?
+      - Where can I find information about alcohol use disorders?
+
+responses:
+  utter_learn_about_alcohol_use_disorders:
+    - text: "Alcohol use disorders, also known as alcoholism or alcohol addiction, are chronic conditions characterized by a compulsive pattern of alcohol consumption, loss of control over drinking, and negative consequences. They can include physical and psychological dependence on alcohol. Would you like more information about alcohol use disorders or their causes?"
+    - text: "Alcohol use disorders involve the inability to control or stop drinking despite harmful effects on physical health, mental well-being, and interpersonal relationships. They can lead to tolerance, withdrawal symptoms, and a loss of control over alcohol consumption. Seeking professional help is crucial for accurate diagnosis and effective treatment."
+
+  utter_identify_alcohol_use_symptoms:
+    - text: "Recognizing alcohol use symptoms can include increased tolerance to alcohol, withdrawal symptoms when not drinking, unsuccessful attempts to cut down or stop drinking, neglecting responsibilities due to alcohol use, continuing to drink despite negative consequences, and prioritizing drinking over other activities. It's important to consult a healthcare professional for a comprehensive evaluation."
+    - text: "Common symptoms of alcohol use disorders may manifest as a strong desire to drink, difficulty controlling alcohol consumption, withdrawal symptoms like tremors or sweating, neglecting personal or professional responsibilities, continued alcohol use despite negative consequences, and an increasing amount of time spent drinking or recovering from its effects. Identifying these symptoms is an essential step in seeking help and support."
+
+  utter_coping_strategies_alcohol_use_disorders:
+    - text: "Coping with alcohol addiction involves developing healthy strategies such as attending support group meetings, engaging in therapy or counseling, practicing stress-reduction techniques, maintaining a supportive social network, and setting achievable goals for recovery. It's important to find coping mechanisms that work best for you and to remember that recovery is a lifelongjourney."
+
+  utter_treatment_options_alcohol_use_disorders:
+    - text: "Treatment options for alcohol use disorders can include therapy, medication, or a combination of both. Therapy, such as cognitive-behavioral therapy (CBT) or motivational interviewing, can help individuals address underlying issues, develop coping skills, and change addictive behaviors. Medications, such as naltrexone or acamprosate, may be prescribed to reduce cravings or discourage alcohol consumption. It's crucial to consult with a healthcare professional to determine the best treatment approach."
+    - text: "There are various treatment options available for alcohol use disorders, including individual counseling, group therapy, and residential or outpatient programs. Medications such as disulfiram, naltrexone, or acamprosate can be prescribed to support sobriety. It's important to work with a healthcare professional to develop a personalized treatment plan."
+
+  utter_support_network_alcohol_use_disorders:
+    - text: "Having a support network is essential for individuals in alcohol recovery. It can include support groups like Alcoholics Anonymous (AA), therapists specializing in addiction, family and friends who provide understanding and encouragement, and other individuals in recovery. Connecting with others who have similar experiences can provide comfort, accountability, and valuable resources for managing alcohol addiction."
+  utter_seek_professional_help_alcohol_use_disorders:
+    - text: "Support networks play a vital role in alcohol recovery. They can provide emotional support, practical guidance, and a sense of belonging. Support groups like Alcoholics Anonymous (AA) offer a structured environment where individuals can share their experiences, gain insights, and receive support from others who understand the challenges of alcohol addiction. Remember, you don't have to face alcoholism alone."

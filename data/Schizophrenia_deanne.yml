@@ -1,0 +1,772 @@
+nlu:
+  - intent: what_is_schizophrenia
+    examples: |
+      - What is schizophrenia?
+      - Explain the symptoms of schizophrenia.
+      - Tell me about the different types of schizophrenia.
+      - Describe the diagnostic criteria for schizophrenia.
+      - How is schizophrenia diagnosed?
+      - Can you define paranoid schizophrenia?
+      - Explain disorganized schizophrenia.
+      - Tell me about catatonic schizophrenia.
+      - Describe residual schizophrenia.
+      - What are the causes of schizophrenia?
+      - How can I get help for schizophrenia?
+      - Can you differentiate between schizophrenia and schizoaffective disorder?
+      - What are the risk factors for developing schizophrenia?
+      - How can one recognize the symptoms of schizophrenia?
+      - Explain the role of genetics in schizophrenia.
+      - Discuss the impact of schizophrenia on individuals and their families.
+
+  - intent: what_is_psychosis
+    examples: |
+      - What is psychosis?
+      - Can you explain psychosis to me?
+      - Define psychosis.
+      - Tell me about psychotic disorders.
+      - What does the term 'psychosis' mean?
+      - Explain the concept of psychosis.
+      - What are the characteristics of psychosis?
+      - Describe the symptoms of psychosis.
+      - I'm not sure what psychosis is, can you help?
+      - Can you provide an overview of psychotic disorders?
+      - What is the meaning of the word 'psychosis'?
+
+  - intent: types_of_schizophrenia
+    examples: |
+      - What are the different types of schizophrenia?
+      - Types of schizophrenia spectrum disorders
+      - Types of psychotic disorders
+      - Describe the various subtypes of schizophrenia.
+      - Explain the categorization of schizophrenia.
+      - What are the main types of schizophrenia?
+      - Explain the subcategories of schizophrenia spectrum disorders.
+      - What are the specific forms of schizophrenia?
+      - Describe the classifications within psychotic disorders.
+      - Explain the variations of schizophrenia spectrum conditions.
+      - Can you differentiate between the types of schizophrenia?
+      - What are the sub-classifications of schizophrenia spectrum disorders?
+      - Describe the varieties of psychotic disturbances.
+      - Explain the different divisions within schizophrenia.
+      - Tell me about schizophrenia-related disorders.
+      - Discuss the categories of psychotic conditions.
+      - Differentiate between types of schizophrenia spectrum disorders.
+
+  - intent: paranoid_schizophrenia
+    examples: |
+      - What is Paranoid Schizophrenia?
+      - Explain paranoid-type schizophrenia.
+      - Tell me about paranoid delusions.
+      - Symptoms of paranoid schizophrenia.
+      - Causes of Paranoid Schizophrenia.
+      - How to treat paranoid-type schizophrenia?
+      - Diagnosis of paranoid schizophrenia.
+      - Difference between paranoid schizophrenia and other subtypes?
+      - Is paranoid schizophrenia common?
+      - Treatments for Paranoid Schizophrenia.
+      - How does Paranoid Schizophrenia affect family dynamics?
+      - Does paranoid schizophrenia persist?
+      - Living with a person diagnosed with paranoid schizophrenia.
+      - Can paranoid schizophrenia lead to other mental health issues?
+
+  - intent: disorganized_schizophrenia
+    examples: |
+      - What is Disorganized Schizophrenia?
+      - Explain disorganized-type schizophrenia.
+      - Tell me about disorganized thought patterns.
+      - Symptoms of disorganized schizophrenia.
+      - Causes of Disorganized Schizophrenia.
+      - How to treat disorganized-type schizophrenia?
+      - Diagnosis of disorganized schizophrenia.
+      - Difference between disorganized schizophrenia and other subtypes?
+      - Is disorganized schizophrenia hereditary?
+      - Treatments for Disorganized Schizophrenia.
+      - How does disorganized schizophrenia affect daily life?
+      - Living with a person diagnosed with disorganized schizophrenia.
+      - Can disorganized schizophrenia lead to other mental health issues?
+
+  - intent: catatonic_schizophrenia
+    examples: |
+      - What is Catatonic Schizophrenia?
+      - Explain catatonic-type schizophrenia.
+      - Tell me about catatonic behavior.
+      - Symptoms of catatonic schizophrenia.
+      - Causes of Catatonic Schizophrenia.
+      - How to treat catatonic-type schizophrenia?
+      - Diagnosis of catatonic schizophrenia.
+      - Difference between catatonic schizophrenia and other subtypes?
+      - Is catatonic schizophrenia common?
+      - Treatments for Catatonic Schizophrenia.
+      - How does catatonic schizophrenia affect daily life?
+      - Living with a person diagnosed with catatonic schizophrenia.
+      - Can catatonic schizophrenia lead to other mental health issues?
+
+  - intent: residual_schizophrenia
+    examples: |
+      - What is Residual Schizophrenia?
+      - Explain residual-type schizophrenia.
+      - Tell me about the long-term effects of schizophrenia.
+      - Symptoms of residual schizophrenia.
+      - Causes of Residual Schizophrenia.
+      - How to manage residual-type schizophrenia?
+      - Diagnosis of residual schizophrenia.
+      - Difference between residual schizophrenia and other subtypes?
+      - Is residual schizophrenia hereditary?
+      - Coping with residual schizophrenia.
+      - Living with a person diagnosed with residual schizophrenia.
+      - Can residual schizophrenia lead to other mental health issues?
+
+  - intent: schizoaffective_disorder
+    examples: |
+      - What is Schizoaffective Disorder?
+      - Explain schizoaffective disorder.
+      - Tell me about the symptoms of schizoaffective disorder.
+      - Causes of schizoaffective disorder.
+      - How to treat schizoaffective disorder?
+      - Diagnosis of schizoaffective disorder.
+      - Difference between schizoaffective disorder and other conditions.
+      - Is schizoaffective disorder common?
+      - Treatments for Schizoaffective Disorder.
+      - How does schizoaffective disorder affect daily life?
+      - Living with a person diagnosed with schizoaffective disorder.
+      - Can schizoaffective disorder lead to other mental health issues?
+
+  - intent: causes_of_schizophrenia
+    examples: | 
+      - What are the causes of schizophrenia?
+      - Tell me about the factors that lead to psychotic disorders.
+      - Explain why people develop schizophrenia.
+      - What contributes to the onset of schizophrenia?
+      - Are there specific reasons for psychotic disorders?
+      - Describe the factors that can cause schizophrenia.
+      - How do genetics play a role in schizophrenia?
+      - Tell me about the environmental causes of schizophrenia.
+      - What role does stress play in psychotic disorders?
+      - Discuss the psychological factors behind schizophrenia.
+      - Are there lifestyle factors that lead to psychotic disorders?
+      - Explain how trauma can contribute to schizophrenia.
+      - Tell me about the link between brain chemistry and schizophrenia.
+      - Are there hormonal factors associated with psychotic disorders?
+      - Why do people get schizophrenia?
+      - What causes schizophrenia in individuals?
+      - Tell me about schizophrenia triggers.
+      - Explain the science behind schizophrenia.
+      - How can I understand the causes of psychotic disorders?
+      - Why do some people develop psychotic disorders?
+      - Are there specific factors behind schizophrenia?
+      - Tell me more about schizophrenia origins.
+      - Explain the root causes of psychotic disorders.
+      - What triggers psychotic episodes?
+      - How does genetics influence schizophrenia?
+      - Can you elaborate on the causes of schizophrenia?
+      - Are there external factors that lead to psychotic disorders?
+      - Tell me about the biology of schizophrenia.
+
+  - intent: helping_people_with_schizophrenia
+    examples: |
+      - How to help someone with schizophrenia?
+      - Supporting a person with schizophrenia
+      - Ways to assist someone with schizophrenia
+      - What can I do for a loved one with schizophrenia?
+      - Family member with schizophrenia
+      - Friend has schizophrenia
+      - Offering help to a colleague with schizophrenia
+      - Tips for aiding someone with symptoms of schizophrenia
+      - Supporting a family member who has schizophrenia
+      - How to be there for a spouse with schizophrenia
+      - Helping a teenager dealing with schizophrenia
+      - Providing emotional support to someone with schizophrenia
+      - Coping strategies for friends with schizophrenia
+      - Understanding the needs of a partner with schizophrenia
+      - What should I say to a person with schizophrenia?
+      - Actions to take when someone has schizophrenia
+      - Helping a child who may be experiencing symptoms of schizophrenia
+      - How to talk to someone about their schizophrenia
+      - Supporting a sibling with schizophrenia
+      - Encouraging a loved one to seek therapy for schizophrenia
+
+  - intent: identify_schizophrenia_symptoms
+    examples: |
+      - Symptoms of schizophrenia?
+      - Detecting signs of schizophrenia
+      - How does schizophrenia manifest?
+      - Emotional impact of schizophrenia
+      - Physical symptoms of schizophrenia
+      - Daily life with schizophrenia
+      - Recognizing schizophrenia in adolescents
+      - Identifying early signs of schizophrenia
+      - Recognizing schizophrenia in children
+      - Physical effects of schizophrenia
+      - Emotional symptoms of schizophrenia
+      - Detecting schizophrenia in a family member
+      - Common signs of schizophrenia
+      - Spotting schizophrenia in older adults
+      - Identifying schizophrenia at the workplace
+      - Coping with schizophrenia-related challenges
+      - Recognizing schizophrenia in men
+      - Emotional changes associated with schizophrenia
+      - Detecting signs of schizophrenia in women
+      - Physical manifestations of schizophrenia symptoms
+      - Recognizing schizophrenia in loved ones
+      - Understanding the behavioral indicators of schizophrenia
+      - Detecting signs of schizophrenia in a spouse
+
+  - intent: user_express_schizophrenia_concerns
+    examples: |
+      - Feeling paranoid and delusional
+      - Think I might have schizophrenia
+      - Hallucinating and disorganized thoughts
+      - Losing touch with reality
+      - Feeling like someone is controlling my mind
+      - Isolation and fear
+      - Unmotivated and disconnected
+      - Hearing voices and feeling watched
+      - I am struggling with psychosis
+      - Fearing persecution and conspiracies
+      - Disorganized thinking and confusion
+      - Want to talk about my schizophrenia concerns
+      - Feeling like I'm not in control of my thoughts
+      - Seeing and hearing things that others don't
+      - Believing in bizarre and false ideas
+      - Isolating myself due to paranoia
+      - Need someone to talk to about my schizophrenia
+
+  - intent: ask_advice_schizophrenia
+    examples: |
+      - Need advice for dealing with schizophrenia
+      - What to do if I think I have schizophrenia?
+      - Coping with psychotic episodes
+      - Managing delusions and hallucinations
+      - Seeking advice on schizophrenia management
+      - How to manage schizophrenia symptoms
+      - Strategies for living with schizophrenia
+      - Coping with the impact of schizophrenia on daily life
+      - Advice for talking to a therapist about schizophrenia
+      - How to open up about schizophrenia with friends
+      - Seeking guidance for managing paranoid thoughts
+      - Strategies for regaining control over my thoughts
+      - Help for managing the effects of schizophrenia
+      - Advice on finding the right treatment for schizophrenia
+      - Ways to alleviate the emotional toll of schizophrenia
+      - Coping with the fear and anxiety of schizophrenia
+      - Advice for staying motivated despite schizophrenia
+
+  - intent: ask_coping_strategies_schizophrenia
+    examples: |
+      - Coping with schizophrenia symptoms
+      - Managing delusions and hallucinations
+      - Strategies for living with schizophrenia
+      - Self-help for paranoid thoughts
+      - Managing disorganized thinking
+      - How to regain control over my thoughts
+      - Manage the effects of schizophrenia
+      - Coping with the emotional toll of schizophrenia
+      - Strategies for alleviating the fear and anxiety of schizophrenia
+      - Self-care for individuals with schizophrenia
+      - Dealing with paranoia and hallucinations
+      - Activities to improve life with schizophrenia
+      - Coping with the impact of schizophrenia on daily life
+      - How to find support for schizophrenia
+      - Finding hope and stability with schizophrenia
+      - Coping with the stigma of schizophrenia
+
+  - intent: treatment_options_schizophrenia
+    examples: |
+      - Schizophrenia treatment options
+      - Therapy for schizophrenia
+      - Medications for treating schizophrenia
+      - Coping strategies for managing schizophrenia
+      - Seeking professional help for schizophrenia
+      - Types of therapy for psychotic disorders
+      - Medication for managing schizophrenia symptoms
+      - How to get help for schizophrenia
+      - Treatment options for managing psychotic episodes
+      - Therapy and counseling for individuals with schizophrenia
+      - Medication options for schizophrenia treatment
+      - Seeking treatment for the effects of schizophrenia
+      - Coping with schizophrenia through therapy
+      - Exploring the benefits of antipsychotic medications
+      - Treatment approaches for paranoia and delusions
+      - Medication options for managing hallucinations
+
+  - intent: ask_support_resources_schizophrenia
+    examples: |
+      - Recommend schizophrenia support resources
+      - Find help for managing schizophrenia
+      - Online communities for schizophrenia
+      - Helplines for individuals with schizophrenia
+      - Support groups for people with schizophrenia
+      - Where to seek support for schizophrenia
+      - Schizophrenia support near me
+      - Connect with others facing schizophrenia
+      - Coping with schizophrenia: Support options
+      - Helplines for emotional well-being
+      - Supportive communities for individuals with psychotic disorders
+      - Online resources for managing schizophrenia
+      - Finding a therapist for schizophrenia
+      - Joining a schizophrenia support group
+      - Local resources for managing psychosis
+      - Where to find emotional support for schizophrenia
+      - Supportive networks for dealing with paranoia and delusions
+      - Accessing online forums for schizophrenia help
+
+  - intent: recognizing_schizophrenia_on_self
+    examples: |
+      - Am I experiencing symptoms of schizophrenia?
+      - Do I have schizophrenia?
+      - Is this indicative of schizophrenia?
+      - Could I be suffering from schizophrenia?
+      - I want to know if I have schizophrenia.
+      - How do I recognize if I have symptoms of schizophrenia?
+      - How to know if I am exhibiting signs of schizophrenia?
+      - Recognizing schizophrenia symptoms in myself
+      - Self-assessment for schizophrenia
+      - Identifying schizophrenia in me
+      - Am I experiencing symptoms of a psychotic disorder?
+      - Recognizing psychotic symptoms in my own experiences
+      - Assessing my mental state for schizophrenia
+      - Checking if I exhibit signs of schizophrenia
+      - Self-awareness of psychotic episodes
+      - Determining if I need help for psychotic symptoms
+      - Understanding my mental health related to schizophrenia
+      - Self-reflection on experiences related to schizophrenia
+      - Questioning if I have symptoms of a psychotic disorder
+      - How do I know if I have schizophrenia?
+
+  - intent: experiencing_schizophrenia_long_time
+    examples: |
+      - I've been experiencing these symptoms for over a month.
+      - My symptoms have persisted for more than a month.
+      - It's been longer than a month, and I still feel this way.
+      - Experiencing symptoms of schizophrenia for several months.
+      - My psychotic symptoms have lasted for about a year.
+      - I've been dealing with schizophrenia-like symptoms for more than a year.
+      - Living with these experiences for several months now.
+      - My struggle with psychotic symptoms has been ongoing for over a year.
+      - I've had these experiences for quite a few months.
+      - Suffering from symptoms of schizophrenia for an extended period.
+      - Experiencing these symptoms for an extended timeframe.
+      - I've had these experiences for a prolonged duration.
+      - It has been a few years.
+      - I think I have had it since I was a teenager.
+      - I think I have been experiencing it since I was a teenager.
+
+  - intent: experiencing_schizophrenia_short_time
+    examples: |
+      - I've been experiencing these symptoms for less than two weeks.
+      - My symptoms started recently, just within the past week.
+      - It's been less than two weeks, and I'm already experiencing these symptoms.
+      - Experiencing these symptoms for a few days now.
+      - I've been noticing these symptoms for about a week.
+      - It's only been a few days, but I've been feeling this way.
+      - Recently, I've been experiencing these symptoms.
+      - I started feeling like this just a few days ago.
+      - These experiences are relatively new, less than two weeks.
+      - I've noticed these symptoms for only a short time.
+      - I haven't felt like myself for about a week.
+      - My mental state has been affected for just a few days.
+      - It's only been a short while, but I'm concerned.
+
+
+  - intent: ask_what_is_cbt
+    examples: |
+      - What is CBT?
+      - Can you explain CBT?
+      - Tell me about Cognitive Behavioral Therapy.
+      - I've heard about CBT, but what is it?
+      - Define CBT.
+      - Explain the concept of Cognitive Behavioral Therapy.
+      - Describe CBT in detail.
+      - Could you give me an overview of CBT?
+      - How does Cognitive Behavioral Therapy work?
+      - Tell me the principles behind CBT.
+      - I'm curious about CBT; can you provide more information?
+
+  - intent: affirm_symptoms_delusions
+    examples: |
+      - Yes, I've experienced delusions.
+      - Yeah, I've experienced that.
+      - I have had delusions.
+      - I believe I've been controlled.
+      - I've felt exceptionally powerful.
+      - I think I'm being persecuted.
+      - I've had those delusions.
+      - I've experienced believing I'm being controlled.
+      - Yes, delusions have been a part of my experience.
+      - I have experienced delusions related to control.
+      - I believe I'm exceptionally powerful.
+      - Yes, I've felt persecuted.
+      - I've had persecutory delusions.
+      - I affirm that I've experienced delusions of persecution.
+
+  - intent: deny_symptoms_delusions
+    examples: |
+      - No, I haven't experienced delusions.
+      - I haven't had delusions.
+      - I don't believe I'm being controlled.
+      - I haven't felt exceptionally powerful.
+      - I don't think I'm being persecuted.
+      - I haven't had those delusions.
+      - I haven't experienced believing I'm being controlled.
+      - No, delusions haven't been a part of my experience.
+      - I haven't experienced delusions related to control.
+      - I don't believe I'm exceptionally powerful.
+      - No, I haven't felt persecuted.
+      - I haven't had persecutory delusions.
+      - I deny that I've experienced delusions of persecution.
+
+  - intent: affirm_symptoms_hallucinations
+    examples: |
+      - Yes, I've had hallucinations.
+      - I've experienced hallucinations.
+      - Yeah, I think so.
+      - I've seen and heard things that weren't there.
+      - I've had those experiences.
+      - I affirm that I've had hallucinations.
+      - Yes, I've had auditory hallucinations.
+      - I've experienced visual hallucinations.
+      - I've had tactile hallucinations.
+      - I've had gustatory hallucinations.
+      - I've experienced olfactory hallucinations.
+      - I've had hallucinations related to taste, touch, or smell.
+
+  - intent: deny_symptoms_hallucinations
+    examples: |
+      - No, I haven't had hallucinations.
+      - I haven't experienced hallucinations.
+      - No, not really.
+      - I haven't seen or heard things that weren't there.
+      - I haven't had those experiences.
+      - I deny that I've had hallucinations.
+      - No, I haven't had auditory hallucinations.
+      - I haven't experienced visual hallucinations.
+      - I haven't had tactile hallucinations.
+      - I haven't had gustatory hallucinations.
+      - I haven't experienced olfactory hallucinations.
+      - I deny that I've had hallucinations related to taste, touch, or smell.
+
+  - intent: affirm_symptoms_disorganized_speech
+    examples: |
+      - Yes, my speech is often incoherent.
+      - I have disorganized speech.
+      - Yeah, it can be hard to follow.
+      - I move quickly between subjects without clear transitions.
+      - I affirm that I have disorganized speech.
+      - Yes, I've noticed speech issues.
+      - I have difficulty making coherent conversations.
+
+  - intent: deny_symptoms_disorganized_speech
+    examples: |
+      - No, my speech is usually coherent.
+      - I don't have disorganized speech.
+      - No, it's generally easy to follow.
+      - I don't move quickly between subjects without clear transitions.
+      - I deny having disorganized speech.
+      - No, I haven't experienced speech issues.
+      - My conversations are coherent and clear.
+
+  - intent: affirm_symptoms_disorganized_behavior
+    examples: |
+      - Yes, I've noticed issues with my motor function.
+      - I experience increased agitation.
+      - I have difficulties moving normally.
+      - Yeah, I think so.
+      - I affirm that I have disorganized behavior.
+      - Yes, I exhibit increased agitation.
+      - I have trouble with motor function.
+
+  - intent: deny_symptoms_disorganized_behavior
+    examples: |
+      - No, I haven't noticed issues with my motor function.
+      - I don't experience increased agitation.
+      - No, my movement is normal.
+      - No, not really.
+      - I deny having disorganized behavior.
+      - No, I don't exhibit increased agitation.
+      - My motor function is fine.
+
+  - intent: affirm_symptoms_negative_symptoms
+    examples: |
+      - Yes, I exhibit some 'A's' of schizophrenia.
+      - I have affective flattening.
+      - I lack speech (alogia).
+      - I can't feel pleasure (anhedonia).
+      - I lack engagement with others (asociality).
+      - I lack motivation (avolition).
+      - Yeah, I think so.
+      - I affirm that I exhibit some negative symptoms.
+      - I have affective flattening and anhedonia.
+      - I experience avolition.
+      - I lack engagement with others.
+      - I experience some of that.
+
+  - intent: deny_symptoms_negative_symptoms
+    examples: |
+      - No, I don't exhibit the 'A's' of schizophrenia.
+      - I don't have affective flattening.
+      - I have speech.
+      - I can feel pleasure.
+      - I engage with others.
+      - I'm motivated.
+      - No, not really.
+      - I deny having negative symptoms.
+      - No, I don't exhibit affective flattening or avolition.
+      - I'm able to feel pleasure and engage with others.
+      - I have motivation.
+      - I don't experience any of that.
+
+  - intent: user_share_schizophrenia_experience
+    examples: |
+      - I've been experiencing vivid hallucinations lately. It's really unsettling.
+      - My thoughts are often disorganized, and it's hard to make sense of them.
+      - I sometimes feel like I'm being watched, which makes me very paranoid.
+      - Delusions have been a part of my life, and it's been tough to cope with them.
+      - I've noticed significant changes in my behavior and social interactions.
+      - Coping with schizophrenia has been challenging, especially the isolation it brings.
+      - My experiences with schizophrenia have had a significant impact on my daily life.
+      - I've been hearing voices that others can't, and it's been affecting my well-being.
+      - It's hard to focus on anything due to the disorganized thinking that comes with schizophrenia.
+      - I've been struggling with motivation and lack of interest in life.
+      - Sometimes, I'm afraid to leave my house because of my paranoid thoughts.
+      - Schizophrenia has made it difficult to maintain relationships.
+      - My self-esteem has taken a hit because of my experiences with schizophrenia.
+      - I'm constantly battling with the fear of being controlled by external forces.
+
+responses:
+  utter_what_is_schizophrenia:
+    - text: "Schizophrenia is a complex mental disorder that affects a person's thinking, emotions, and behavior. It often leads to a distorted view of reality, and individuals with schizophrenia may have difficulty distinguishing between what is real and what is not. Common symptoms of schizophrenia include hallucinations, delusions, disorganized thinking, and social withdrawal. One notable aspect of schizophrenia is that it has different subtypes, each with unique features. These subtypes include paranoid schizophrenia, disorganized schizophrenia, catatonic schizophrenia, and more. Proper diagnosis and treatment are essential to address the specific symptoms experienced by an individual."
+
+  utter_what_is_psychosis:
+    - text: "Psychosis is a term used to describe a mental state where an individual experiences a disconnection from reality. It often involves symptoms like hallucinations, delusions, disorganized thinking, and a loss of insight into one's condition. Psychosis can be a feature of various mental health conditions, including schizophrenia. When it comes to schizophrenia, one significant distinction is between paranoid schizophrenia and disorganized schizophrenia. Paranoid schizophrenia is characterized by prominent paranoid delusions, while disorganized schizophrenia is marked by disorganized thinking and speech. Understanding these differences is crucial for proper diagnosis and effective treatment."
+
+  utter_types_of_schizophrenia:
+    - text: "Schizophrenia is a complex disorder with several subtypes, each characterized by distinct features. One of the subtypes, paranoid schizophrenia, is known for the presence of prominent paranoid delusions, often involving beliefs of persecution or conspiracies. In contrast, disorganized schizophrenia stands out for disorganized thinking and speech patterns, making it challenging for individuals to convey their thoughts clearly. Another subtype, catatonic schizophrenia, is marked by unusual motor behaviors and physical rigidity. These subtypes showcase the diversity of symptoms within schizophrenia, highlighting the importance of accurate diagnosis and tailored treatment."
+
+  utter_paranoid_schizophrenia:
+    - text: "Paranoid schizophrenia is a subtype of schizophrenia that is distinguished by the prominence of paranoid delusions. Individuals with paranoid schizophrenia often experience intense beliefs that others are plotting against or persecuting them. These delusions can significantly impact their thoughts and behaviors. In contrast to other subtypes, paranoid schizophrenia primarily revolves around these specific delusions, setting it apart within the spectrum of schizophrenia. It's crucial for individuals with paranoid schizophrenia to receive appropriate treatment and support."
+
+  utter_disorganized_schizophrenia:
+    - text: "Disorganized schizophrenia is a subtype of schizophrenia that is known for disorganized thinking and speech patterns. Unlike other subtypes where specific delusions or hallucinations might dominate, disorganized schizophrenia primarily involves cognitive difficulties. Individuals with this subtype may struggle to organize their thoughts, leading to incoherent speech and behavior. This sets disorganized schizophrenia apart, emphasizing the need for interventions to address these cognitive challenges and improve the individual's overall functioning."
+
+  utter_catatonic_schizophrenia:
+    - text: "Catatonic schizophrenia is a distinct subtype characterized by unusual motor behaviors and physical rigidity. Individuals with catatonic schizophrenia may experience periods of immobility or excessive movement. These motor symptoms set it apart from other subtypes, highlighting the diversity of presentations within schizophrenia. Proper treatment for catatonic schizophrenia aims to address these motor symptoms and help individuals regain control of their movements and overall functioning."
+
+  utter_residual_schizophrenia:
+    - text: "Residual schizophrenia is a subtype characterized by a chronic and relatively stable course of the disorder. Unlike other subtypes, individuals with residual schizophrenia may not experience the acute psychotic symptoms like delusions or hallucinations. Instead, they might exhibit milder symptoms, such as disorganized thinking, social withdrawal, or a lack of motivation. This distinction is crucial because it reflects the long-term effects and manifestations of the disorder. Managing residual schizophrenia involves addressing these residual symptoms and providing support to improve the individual's quality of life."
+
+  utter_schizoaffective_disorder:
+    - text: "Schizoaffective disorder is another mental health condition that shares features with both schizophrenia and mood disorders. While schizophrenia primarily revolves around psychosis, schizoaffective disorder combines psychotic symptoms with mood disturbances like depression or mania. This distinction sets schizoaffective disorder apart from other conditions and underscores the importance of addressing both psychotic and mood-related symptoms. Effective treatment often involves a combination of antipsychotic and mood-stabilizing medications, as well as psychotherapy to manage the full spectrum of symptoms."
+
+  utter_causes_of_schizophrenia:
+    - text: "The causes of schizophrenia are multifactorial and complex. Genetics play a significant role, as individuals with a family history of schizophrenia are at a higher risk. Environmental factors, such as exposure to infections during prenatal development, childhood trauma, or living in urban settings, can also contribute. The interplay between genetic and environmental factors is a key focus in understanding the causes of schizophrenia. These factors set the stage for the development of psychotic disorders. The distinction between genetic and environmental influences is important in the study of schizophrenia's origins."
+
+  utter_helping_people_with_schizophrenia:
+    - text: "Supporting someone with schizophrenia involves several strategies. Understanding their unique needs, encouraging treatment compliance, and offering emotional support are essential. The role of family, friends, and colleagues in providing a support system can make a significant difference in the individual's life. However, it's important to distinguish between various types of support tailored to the individual's specific challenges. Whether it's a family member, friend, or colleague, offering assistance while respecting their autonomy is vital."
+
+  utter_identify_schizophrenia_symptoms:
+    - text: "Identifying schizophrenia symptoms involves recognizing both emotional and physical indicators. Emotional symptoms include hallucinations, delusions, and disorganized thinking, while physical symptoms may manifest as unusual motor behaviors. The ability to differentiate between these symptoms is crucial for early detection and intervention. Additionally, the age, gender, and life stage of the affected individual can impact the presentation of symptoms. These distinctions help healthcare professionals and loved ones recognize signs of schizophrenia and provide the appropriate support."
+
+  utter_express_schizophrenia_concerns:
+    - text: "Thank you for sharing your concerns about schizophrenia. It's a brave step to open up about what you're going through. Experiencing symptoms like hallucinations, delusions, and disorganized thinking can be distressing, and it's entirely natural to feel this way. Recognizing and distinguishing between these various symptoms, whether it's paranoia, disorganized thoughts, or feeling controlled by external forces, is a crucial part of understanding your experiences."
+    - text: "Please remember, you're not alone on this journey. Seeking help and support is a positive and essential step. It's highly recommended to reach out to a mental health professional who can provide a proper diagnosis and personalized guidance based on the specific symptoms you're experiencing. They are here to support you through this process, and there is hope for managing these challenges."
+  utter_ask_user_experiences:
+    - text: "I'm sorry to hear that. Can you tell me more about your experiences? Sharing can help us better understand what you're going through and find the right support for you."
+
+  utter_ask_advice_schizophrenia:
+    - text: "Seeking advice for dealing with schizophrenia involves understanding the management of both psychotic and emotional symptoms. Distinguishing between various symptoms, such as delusions, hallucinations, paranoia, and emotional distress, is key to developing effective coping strategies. These strategies should be tailored to the individual's unique experiences and may include medication, therapy, and lifestyle adjustments. Differentiating between strategies for managing the fear and anxiety associated with schizophrenia and maintaining motivation despite the disorder's challenges is crucial for improving one's quality of life."
+
+  utter_ask_coping_strategies_schizophrenia:
+    - text: "Coping with schizophrenia can be challenging, but there are strategies that can help you manage your condition and improve your quality of life. Some key coping strategies include:\n\n1. Building a strong support system with friends, family, and loved ones can help you manage symptoms. Consider joining support groups for schizophrenia to connect with others who share similar experiences. \n2. Therapy, such as Cognitive Behavioral Therapy (CBT), can assist you in processing your emotions and addressing negative thinking. Self-care activities, such as engaging in hobbies or spending time outdoors, can also help regulate your emotions. \n3. Identifying the most challenging daily tasks and seeking help from your support system can make daily living more manageable. \n4. If you experience psychosis, maintaining sleep hygiene, regular exercise, spending time outdoors, externalizing your experiences through writing or drawing, and correctly adhering to prescribed medications can be effective coping strategies."
+
+  utter_treatment_options_schizophrenia:
+    - text: "Schizophrenia treatment options include therapy and medication. Therapy helps individuals learn coping strategies for managing symptoms like delusions and hallucinations. Medications, such as antipsychotics, play a vital role in stabilizing mental health. Seeking professional help is essential for effective treatment. Different types of therapy are available for psychotic disorders, and medication options are designed to manage specific symptoms. Exploring these options, consulting with a mental health professional, and developing a treatment plan is essential for managing schizophrenia."
+
+  utter_ask_support_resources_schizophrenia:
+    - text: "Finding support resources for schizophrenia is crucial, especially in the Philippines. Here are some valuable options for free mental health services and support:"
+    - text: "\n Philippine General Hospital (PGH) offers free psychiatric consultation and counseling. You can contact them at (02) 554-8400 loc 2436 or 2440, (02) 554-88470, (02) 526-0150, or (02) 554-8469. Their address is Taft Avenue Ermita, Brgy. 670 Zone 72, Manila, 1000 Metro Manila. Book an appointment [here](https://pghopd.up.edu.ph/)."
+    - text: "\n National Center for Mental Health (NCMH) provides 24/7 free basic counseling, psychological first aid, and suicide prevention. They also offer free online psychiatric sessions and psychosocial support. You can reach their crisis hotline at (02) 79898727 or 09178998727. For nationwide toll-free access, dial 1553 from a landline. Smart/SUN/TNT subscribers can call 0908-639-2672, and Globe/TM subscribers can contact 0966-351-4518. Additionally, you can get in touch with NCMH through the following online contacts:"
+    - text: "\n Email: [crisishotline@ncmh.gov.ph](mailto:crisishotline@ncmh.gov.ph)"
+    - text: "\n Facebook page: [NCMH Crisis Hotline](https://www.facebook.com/ncmhcrisishotline)"
+    - text: "\n Book an appointment or access their e-konsultasyon program on their [website](https://ncmh.gov.ph/#e-konsultasyon) or directly through this [link](bit.ly/ncmhkonsulta)."
+
+  utter_recognizing_schizophrenia_on_self:
+    - text: "Recognizing schizophrenia symptoms in yourself is an important step in seeking help. You may experience hallucinations, delusions, disorganized thinking, and other symptoms. Distinguishing these signs from normal experiences is essential. Early recognition can lead to timely intervention and better outcomes. If you're concerned about having symptoms of schizophrenia, it's crucial to consult a mental health professional who can provide a proper diagnosis and guidance."
+
+  utter_experiencing_schizophrenia_long_time:
+    - text: "Experiencing schizophrenia-like symptoms for an extended period can be challenging. If you've been living with these symptoms for months or even years, it's important to seek professional help. Long-term experiences might require ongoing treatment and support. Managing psychotic symptoms over time may involve therapy, medication, and coping strategies tailored to your unique situation. Consultation with a mental health professional is vital for addressing long-standing symptoms."
+
+  utter_experiencing_schizophrenia_short_time:
+    - text: "If you've been experiencing these symptoms for a relatively short time, it's still important to seek help. Early intervention can lead to better outcomes. Whether it's been a few days, a week, or just a couple of weeks, recognizing and addressing these symptoms promptly is crucial. Consulting with a mental health professional can help you understand and manage your experiences effectively."
+
+  utter_what_is_cbt:
+    - text: "Cognitive Behavioral Therapy, often abbreviated as CBT, is a widely used and effective form of psychotherapy. It's a goal-oriented approach that helps individuals identify and change negative thought patterns and behaviors. CBT is based on the idea that our thoughts, feelings, and behaviors are interconnected. By working with a trained therapist, you can learn how to recognize and challenge unhelpful thought patterns and develop healthier, more constructive ways of thinking and behaving. It's commonly used to address a wide range of mental health issues, such as anxiety, depression, phobias, and even some aspects of schizophrenia. CBT can provide you with practical strategies to manage your emotions and improve your mental well-being."
+
+  utter_ask_symptoms_delusions:
+    - text: "Have you experienced any delusions, such as believing that you are being controlled, are exceptionally powerful, or are being persecuted?"
+
+  utter_ask_symptoms_hallucinations:
+    - text: "Have you ever had hallucinations, which might involve hearing or seeing things that aren't there, or even more rare experiences related to taste, touch, or smell?"
+
+  utter_ask_symptoms_disorganized_speech:
+    - text: "Do you find that your speech is often incoherent or difficult for others to follow, with a tendency to move quickly between different subjects without clear transitions?"
+
+  utter_ask_symptoms_disorganized_behavior:
+    - text: "Have you noticed any issues with your motor function, increased agitation, or difficulties in moving normally?"
+
+  utter_ask_symptoms_negative_symptoms:
+    - text: "Do you exhibit any of the following 'A's' of schizophrenia, which include a lack of emotional display or responses (affective flattening), lack of speech (alogia), the inability to feel pleasure (anhedonia), lack of engagement with others (asociality), or a lack of motivation (avolition)?"
+
+  utter_ask_duration_delusions_hallucinations_speech:
+    - text: "How long have you been experiencing symptoms related to delusions, hallucinations, or disorganized speech?"
+
+  utter_positive_likelihood_schizophrenia:
+    - text: "Based on the symptoms you've described, there is a possibility of schizophrenia. It's essential to consult with a mental health professional for a comprehensive evaluation and appropriate guidance on managing the condition."
+
+  utter_negative_likelihood_schizophrenia:
+    - text: "From the information provided, it's less likely that schizophrenia is the cause of your symptoms. However, if you continue to experience distressing symptoms, it's advisable to seek the opinion of a mental health expert for a thorough assessment and guidance."
+
+
+stories:
+- story: What Is Schizophrenia
+  steps:
+  - intent: what_is_schizophrenia
+  - action: utter_what_is_schizophrenia
+
+- story: What Is Psychosis
+  steps:
+  - intent: what_is_psychosis
+  - action: utter_what_is_psychosis
+
+- story: Types of Schizophrenia
+  steps:
+  - intent: types_of_schizophrenia
+  - action: utter_types_of_schizophrenia
+
+- story: Paranoid Schizophrenia
+  steps:
+  - intent: paranoid_schizophrenia
+  - action: utter_paranoid_schizophrenia
+
+- story: Disorganized Schizophrenia
+  steps:
+  - intent: disorganized_schizophrenia
+  - action: utter_disorganized_schizophrenia
+
+- story: Catatonic Schizophrenia
+  steps:
+  - intent: catatonic_schizophrenia
+  - action: utter_catatonic_schizophrenia
+
+- story: Residual Schizophrenia
+  steps:
+  - intent: residual_schizophrenia
+  - action: utter_residual_schizophrenia
+
+- story: Schizoaffective Disorder
+  steps:
+  - intent: schizoaffective_disorder
+  - action: utter_schizoaffective_disorder
+
+- story: Causes of Schizophrenia
+  steps:
+  - intent: causes_of_schizophrenia
+  - action: utter_causes_of_schizophrenia
+
+- story: Helping People with Schizophrenia
+  steps:
+  - intent: helping_people_with_schizophrenia
+  - action: utter_helping_people_with_schizophrenia
+
+- story: Identify Schizophrenia Symptoms
+  steps:
+  - intent: identify_schizophrenia_symptoms
+  - action: utter_identify_schizophrenia_symptoms
+
+- story: Express Schizophrenia Concerns
+  steps:
+  - intent: user_express_schizophrenia_concerns
+  - action: utter_ask_user_experiences
+  - intent: user_share_schizophrenia_experience
+  - action: utter_express_schizophrenia_concerns
+
+- story: Ask for Advice on Schizophrenia
+  steps:
+  - intent: ask_advice_schizophrenia
+  - action: utter_ask_advice_schizophrenia
+
+- story: Ask for Coping Strategies for Schizophrenia
+  steps:
+  - intent: ask_coping_strategies_schizophrenia
+  - action: utter_ask_coping_strategies_schizophrenia
+
+- story: Schizophrenia Treatment Options
+  steps:
+  - intent: treatment_options_schizophrenia
+  - action: utter_treatment_options_schizophrenia
+
+- story: Ask for Support Resources for Schizophrenia
+  steps:
+  - intent: ask_support_resources_schizophrenia
+  - action: utter_ask_support_resources_schizophrenia
+
+- story: Ask About CBT
+  steps:
+  - intent: ask_what_is_cbt
+  - action: utter_what_is_cbt
+
+# - story: Screening Questions for Schizophrenia Symptoms
+#   steps:
+#     - intent: recognizing_schizophrenia_on_self
+#       action: utter_ask_symptoms_delusions
+    
+#     - intent: affirm_symptoms_delusions
+#       action:
+#         - slot: {"symptoms_delusions": "yes"}
+#         - action: utter_ask_symptoms_hallucinations
+    
+#     - intent: affirm_symptoms_hallucinations
+#       action:
+#         - slot: {"symptoms_hallucinations": "yes"}
+#         - action: utter_ask_symptoms_disorganized_speech
+    
+#     - intent: affirm_symptoms_disorganized_speech
+#       action:
+#         - slot: {"symptoms_disorganized_speech": "yes"}
+#         - action: utter_ask_symptoms_disorganized_behavior
+    
+#     - intent: affirm_symptoms_disorganized_behavior
+#       action:
+#         - slot: {"symptoms_disorganized_behavior": "yes"}
+#         - action: utter_ask_duration_delusions_hallucinations_speech
+
+#     - intent: experiencing_schizophrenia_long_time
+#       action:
+#         - slot: {"symptoms_duration": "yes"}
+#         - action: utter_positive_likelihood_schizophrenia
+    
+#     - intent: deny_symptoms_delusions
+#       action:
+#         - slot: {"symptoms_delusions": "no"}
+#         - action: utter_negative_likelihood_schizophrenia
+    
+#     - intent: deny_symptoms_hallucinations
+#       action:
+#         - slot: {"symptoms_hallucinations": "no"}
+#         - action: utter_ask_symptoms_disorganized_speech
+    
+#     - intent: deny_symptoms_disorganized_speech
+#       action:
+#         - slot: {"symptoms_disorganized_speech": "no"}
+#         - action: utter_ask_symptoms_disorganized_behavior
+    
+#     - intent: deny_symptoms_disorganized_behavior
+#       action:
+#         - slot: {"symptoms_disorganized_behavior": "no"}
+#         - action: utter_ask_duration_delusions_hallucinations_speech
+
+#     - intent: experiencing_schizophrenia_short_time
+#       action:
+#         - slot: {"symptoms_duration": "no"}
+#         - action: utter_negative_likelihood_schizophrenia
+
+

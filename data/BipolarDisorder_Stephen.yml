@@ -1,0 +1,218 @@
+nlu:
+  - intent: bipolar_disorder_struggles
+    examples: |
+      - Dealing with such extreme mood shifts is really challenging.
+      - Coping with the intense highs and lows has become overwhelming.
+      - I find it hard to handle the constant shifts in my mood.
+      - Lately, I've been suspecting that I might have bipolar disorder.
+      - I'm struggling with intense mood swings, and it's affecting my daily life.
+      - The extreme highs and lows are taking a toll on my emotional well-being.
+      - Managing my emotions has become increasingly difficult.
+      - I'm experiencing intense mood shifts that are hard to cope with.
+      - The constant fluctuations in my mood are becoming too much to handle.
+      - I suspect my mood swings might be related to bipolar disorder.
+      - Dealing with such intense shifts in mood has been really tough for me.
+      - It's becoming increasingly challenging to manage my emotional state.
+      - The extreme highs and lows are making it hard to go about my day.
+      - I've been feeling really up and down, and it's difficult to handle.
+      - I've noticed drastic changes in my mood, and it's concerning.
+      - I'm finding it hard to stabilize my emotions lately.
+      - Coping with these intense mood swings is proving to be quite a challenge.
+      - I'm struggling to handle the constant shifts in my emotional state.
+      - The extreme fluctuations in my mood are becoming overwhelming.
+      - I suspect that bipolar disorder might be the cause of my mood swings.
+      - Dealing with such intense mood shifts has been really tough for me.
+      - It's becoming increasingly difficult to manage my emotional well-being.
+      - The extreme highs and lows are significantly impacting my daily life.
+      - I've been feeling really up and down, and it's becoming hard to cope.
+      - I've noticed significant changes in my mood, and it's worrisome.
+      - I'm finding it challenging to stabilize my emotions lately.
+      - Coping with these intense shifts in mood is proving to be quite demanding.
+      - I'm struggling to handle the constant fluctuations in my emotional state.
+      - The extreme changes in my mood are becoming too much to bear.
+
+  - intent: ask_guidance_for_bipolar
+    examples: |
+      - What can I do to manage bipolar disorder?
+      - Are there any strategies for dealing with extreme mood swings?
+      - How can I handle bipolar disorder when I don't have immediate access to clinics or someone to talk to?
+      - Can you provide guidance on managing bipolar disorder?
+      - What advice do you have for handling extreme mood shifts?
+      - Are there any techniques for stabilizing my moods?
+      - How can I cope with bipolar disorder when professional help isn't readily available?
+      - Do you have any suggestions for managing bipolar disorder?
+
+  - intent: bipolar_coping_activities
+    examples: |
+      - What kind of activities can help with bipolar disorder?
+      - Are there any hobbies that might stabilize my moods?
+      - Can you suggest things I can do to manage my condition?
+      - What activities or practices can assist with bipolar disorder?
+      - Are there specific hobbies that could help stabilize my mood?
+      - Can you recommend ways to manage my condition effectively?
+      - How can I engage in activities that aid in stabilizing my moods?
+      - What hobbies or practices are beneficial for managing bipolar disorder?
+      - What can I do to stabilize my moods and manage bipolar disorder?
+
+  - intent: bipolar_disorder_challenges
+    examples: |
+      - I've been experiencing intense mood swings.
+      - Dealing with extreme highs and lows has been really difficult.
+      - I'm feeling really up and down, and it's hard to handle.
+      - I think I might have bipolar disorder.
+      - Coping with such drastic shifts in mood has been challenging.
+      - The extreme highs and lows are proving to be quite a challenge.
+      - I'm experiencing significant fluctuations in my emotional state.
+      - Handling these intense mood swings is becoming increasingly difficult.
+      - I suspect that bipolar disorder might be the cause of my mood shifts.
+      - Dealing with such intense mood changes has been really tough for me.
+      - It's becoming harder to manage my emotional well-being.
+      - The extreme fluctuations in my mood are becoming overwhelming.
+      - I've noticed significant changes in my mood, and it's worrisome.
+      - I'm finding it challenging to stabilize my emotions lately.
+      - Coping with these intense shifts in mood is proving to be quite demanding.
+      - I'm struggling to handle the constant fluctuations in my emotional state.
+      - The extreme changes in my mood are becoming too much to bear.
+      - I suspect that I might be dealing with bipolar disorder.
+      - Coping with such intense mood shifts has been really tough for me.
+      - It's becoming increasingly difficult to manage my emotional state.
+      - The extreme highs and lows are significantly impacting my daily life.
+      - I've been feeling really up and down, and it's becoming hard to cope.
+      - I've noticed significant changes in my mood, and it's worrisome.
+      - I'm finding it challenging to stabilize my emotions lately.
+      - Coping with these intense shifts in mood is proving to be quite demanding.
+      - I'm struggling to handle the constant fluctuations in my emotional state.
+      - The extreme changes in my mood are becoming too much to bear.
+
+  - intent: bipolar_management_strategies
+    examples: |
+      - What strategies can I use to manage bipolar disorder?
+      - Are there specific techniques for stabilizing my moods?
+      - Can you suggest activities or practices for managing this condition?
+      - How can I effectively manage bipolar disorder?
+      - Do you have any techniques for stabilizing my moods?
+      - Can you recommend activities to help manage my condition?
+      - What practices are beneficial for managing bipolar disorder?
+      - Are there specific strategies for stabilizing my moods?
+      - How can I effectively manage bipolar disorder?
+
+  - intent: bipolar_duration
+    examples: |
+      - Yes, it's been more than a week.
+      - No, it's been less than a week.
+      - I'm not sure about the duration.
+      - It has been going on for quite some time.
+      - The duration has been more than a week.
+      - It's been less than a week since it started.
+      - I'm uncertain about how long it's been going on.
+
+  - intent: user_provides_duration
+    examples: |
+      - I've been experiencing mood swings for about two weeks now.
+      - It's been going on for a few days.
+      - I can't really pinpoint when it started.
+      - The mood swings have been ongoing for a couple of weeks.
+      - It started just a few days ago.
+      - I've been experiencing mood shifts, but I'm not sure for how long.
+      - I can't accurately determine when it began.
+
+  - intent: seek_professional_help
+    examples: |
+      - Should I see a doctor about this?
+      - Is it advisable to consult a medical professional?
+      - Do you think I need to seek help from a doctor?
+      - What's your opinion on seeing a healthcare professional?
+      - Would it be wise to consult a doctor about this?
+      - Do you recommend seeking help from a medical professional?
+      - Is professional advice necessary for this situation?
+      - Should I consider seeing a healthcare professional?
+      - Do you suggest consulting a doctor about this?  
+
+
+responses:
+  utter_bipolar_disorder_struggles:
+    - text: "I'm really sorry to hear that you're going through this. Dealing with intense mood shifts can be incredibly challenging. Can you tell me more about what you've been experiencing?"
+    - text: "Thank you for sharing. Coping with extreme highs and lows is not easy. Can you tell me more about how it's affecting you?"
+
+  utter_ask_guidance_for_bipolar:
+    - text: "Managing bipolar disorder is important. You might try activities that help stabilize your moods. Additionally, seeking professional help is crucial. What feels like it might work for you?"
+    - text: "Dealing with bipolar disorder can be complex. Trying activities that help regulate your moods can be beneficial. Finding professional support is also essential. How does that sound?"
+
+  utter_bipolar_coping_activities:
+    - text: "There are activities that can help stabilize your moods. Exploring creative outlets or engaging in physical activities can be really beneficial for bipolar disorder. Would any of these resonate with you?"
+    - text: "Exploring activities that help stabilize your moods is crucial. Engaging in creative or physical pursuits might make a difference. What are you open to trying?"
+
+  utter_bipolar_disorder_challenges:
+    - text: "Experiencing intense mood swings is a common symptom of bipolar disorder. It's characterized by alternating periods of elevated mood (mania) and depressive episodes. Can you tell me how long you've been experiencing these mood swings?"
+
+  utter_ask_bipolar_duration:
+    - text: "Have you been experiencing these mood swings for more than a week?"
+
+  utter_ask_support_for_bipolar:
+    - text: "Professional support is crucial for managing bipolar disorder. It's advised to consult a mental health professional for an accurate assessment. In the meantime, you can explore resources and engage in self-care. Have you reached out to a mental health professional recently?"
+
+  utter_bipolar_management_strategies:
+    - text: "Managing bipolar disorder involves a comprehensive approach. It's important to consult a mental health professional for personalized guidance. In the meantime, maintaining a regular routine, practicing mindfulness, and avoiding triggers can be helpful. Have you noticed any specific triggers for your mood swings?"
+
+  utter_seek_professional_help:
+    - text: "I'm glad you're considering this. I'm here to provide support, but it's important to remember that I'm not a substitute for professional medical advice. I highly recommend consulting a healthcare professional who can offer a thorough evaluation and personalized guidance."
+
+  utter_recommend_professional_help_bipolar:
+    - text: "While I'm here to provide information and support, it's crucial to emphasize that I'm not a replacement for professional medical advice. I strongly recommend consulting a mental health professional who can offer a thorough evaluation and personalized guidance for managing bipolar disorder."
+
+  utter_mental_health_institute_contact:
+    - text: "If you're in need of immediate assistance or would like to speak with a mental health professional in the Philippines, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They offer confidential and compassionate support. Remember, you're not alone, and help is available."
+    - text: "In case you require urgent help or wish to talk to a mental health expert in the Philippines, please reach out to the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). They provide confidential and empathetic assistance. Always remember, there are people who care and are ready to help you."
+    - text: "If you're facing a crisis or simply need to talk to someone about your mental health, please contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. Your conversations are kept private, and their team is here to support you."
+    - text: "For immediate help or to talk with a mental health professional in the Philippines, please call the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553). Your discussions will be kept confidential, and their team is ready to offer you assistance."
+    - text: "If you're experiencing a crisis or need someone to talk to about your mental health, please don't hesitate to contact the National Center for Mental Health (NCMH) Crisis Hotline at 0917-899-USAP (8727) or 1558 (1800-1888-1553) in the Philippines. They provide confidential and caring support."
+
+stories:
+  - story: Bipolar Disorder Coping
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: bipolar_disorder_struggles
+      - action: utter_bipolar_disorder_struggles
+      - intent: ask_guidance_for_bipolar
+      - action: utter_ask_guidance_for_bipolar
+      - intent: bipolar_coping_activities
+      - action: utter_bipolar_coping_activities
+      - action: utter_mental_health_institute_contact
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Bipolar Disorder Support
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: bipolar_disorder_challenges
+      - action: utter_bipolar_disorder_challenges
+      - intent: bipolar_duration
+      - action: utter_ask_bipolar_duration
+      - intent: user_provides_duration
+      - action: action_to_handle_bipolar_duration
+      - intent: ask_support_for_bipolar
+      - action: utter_ask_support_for_bipolar
+      - intent: bipolar_management_strategies
+      - action: utter_bipolar_management_strategies
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Emphasizing Professional Help for Bipolar Disorder
+    steps:
+      - intent: bipolar_disorder_challenges
+      - action: utter_bipolar_disorder_challenges
+      - intent: bipolar_duration
+      - action: utter_ask_bipolar_duration
+      - intent: user_provides_duration
+      - action: action_to_handle_bipolar_duration
+      - intent: ask_support_for_bipolar
+      - action: utter_ask_support_for_bipolar
+      - intent: bipolar_management_strategies
+      - action: utter_bipolar_management_strategies
+      - intent: seek_professional_help
+      - action: utter_recommend_professional_help_bipolar
+      - action: utter_mental_health_institute_contact
+      - intent: goodbye
+      - action: utter_goodbye

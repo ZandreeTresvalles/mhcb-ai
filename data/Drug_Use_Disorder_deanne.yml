@@ -1,0 +1,1217 @@
+nlu:
+  - intent: what_is_drug_use_disorder
+    examples: | 
+      - What are drug use disorders?
+      - Tell me about substance abuse.
+      - Explain drug addiction.
+      - What are the different types of drug use disorders?
+      - What causes drug use disorders?
+      - How can I get help for drug addiction?
+      - Can you define drug dependency?
+      - Describe substance use disorders.
+      - Elaborate on drug misuse.
+      - Explain the concept of drug abuse.
+      - Provide information on chemical dependency.
+      - Tell me about the definition of addiction.
+      - What is the meaning of substance dependence?
+      - Describe drug-related disorders.
+      - Explain the term 'substance use disorder.'
+      - How is drug addiction characterized?
+      - Can you provide an overview of drug misuse?
+      - Tell me about the concept of drug dependence.
+      - Define substance addiction.
+      - What are the behavioral aspects of drug use disorders?
+      - Discuss the psychological aspects of drug addiction.
+      - Tell me about the impact of drug abuse on individuals.
+      - Explain the health consequences of drug addiction.
+      - How does substance misuse affect people?
+      - Describe the signs of substance use disorders.
+      - What are the risk factors for drug addiction?
+      - How can one recognize drug dependency?
+      - Explain the cycle of addiction.
+      - What is the role of genetics in drug use disorders?
+      - Tell me about the social implications of drug abuse.
+      - Discuss the impact of drug addiction on families.
+
+
+  - intent: types_of_drug_use_disorder
+    examples: | 
+      - What are the different types of drug use disorders?
+      - Types of drug use disorders
+      - Types of substance abuse
+      - Tell me about substance use types
+      - Explain the categories of drug addiction.
+      - Can you list the various forms of substance misuse?
+      - Describe the classification of drug use disorders.
+      - What are the main types of substance abuse?
+      - Explain the subtypes of drug addiction.
+      - Tell me about the different classifications of drug dependency.
+      - List the categories of substance use disorders.
+      - Describe the classes of drug misuse.
+      - Explain the various types of substance addiction.
+      - What are the specific forms of drug abuse?
+      - Describe the divisions within drug use disorders.
+      - Explain the categorization of substance dependence.
+      - Tell me about the subgroups of drug addiction.
+      - Discuss the varieties of substance use disorders.
+      - What are the distinct types of substance misuse?
+      - Describe the classifications within drug dependency.
+      - Explain the subgenres of drug abuse.
+      - Can you differentiate between the types of substance addiction?
+      - Tell me about the subcategories of drug use disorders.
+      - Discuss the kinds of substance use types.
+      - What are the sub-classifications of drug addiction?
+      - Describe the varieties of substance abuse.
+      - Explain the different divisions within substance dependence.
+      - Tell me about the types of drug-related disorders.
+      - Discuss the categories of substance use disorders.
+
+
+  - intent: causes_of_drug_use_disorder
+    examples: | 
+      - What causes drug use disorders?
+      - What are the causes drug use disorders?
+      - Explain the factors contributing to drug addiction.
+      - Tell me about the reasons behind substance abuse.
+      - Describe the etiology of drug dependence.
+      - Discuss the origins of drug misuse.
+      - What leads to substance use disorders?
+      - Explain the influences that lead to drug addiction.
+      - Tell me about the risk factors for substance abuse.
+      - Describe the environmental causes of drug dependence.
+      - Discuss the genetic factors in substance misuse.
+      - What are the social determinants of substance use disorders?
+      - Explain the role of trauma in drug addiction.
+      - Tell me about the psychological contributors to substance abuse.
+      - Describe the neurological factors in drug dependence.
+      - Discuss the impact of peer pressure on drug misuse.
+      - What are the cultural influences on substance use disorders?
+      - Explain the connection between mental health and drug addiction.
+      - Tell me about the developmental causes of substance abuse.
+      - Describe the family dynamics related to drug dependence.
+      - Discuss the societal factors contributing to drug misuse.
+      - What role does genetics play in drug use disorders?
+      - Explain how childhood experiences can lead to substance abuse.
+      - Tell me about the influence of social circles on drug addiction.
+      - Describe the relationship between stress and drug dependence.
+      - Discuss the impact of socioeconomic factors on substance misuse.
+      - What are the environmental triggers for substance use disorders?
+      - Explain the connection between co-occurring disorders and substance abuse.
+      - Tell me about the neurological changes associated with drug addiction.
+      - Describe the role of early exposure in drug dependence.
+      - Discuss the influence of media on substance misuse.
+
+
+  - intent: identify_drug_use_symptoms
+    examples: | 
+      - What are the signs of substance abuse?
+      - How can I recognize drug addiction symptoms?
+      - Tell me about the physical effects of drug use.
+      - What are the behavioral indicators of drug use disorders?
+      - How does drug use affect relationships?
+      - Can you explain the warning signs of drug abuse?
+      - Describe the behavioral changes associated with drug addiction.
+      - What are the common physical symptoms of drug misuse?
+      - Explain the psychological effects of substance abuse.
+      - Tell me about the social consequences of drug addiction.
+      - What signs should I look for in someone using drugs?
+      - Describe the emotional impacts of drug use disorders.
+      - Explain the signs of withdrawal from addictive substances.
+      - Tell me about the cognitive changes caused by drug addiction.
+      - What are the red flags for substance abuse in teenagers?
+      - Discuss the impact of drug use on family dynamics.
+      - Explain the signs of addiction-related health issues.
+      - Tell me about the impact of drug use on work or school.
+      - What are the early warning signs of substance dependence?
+      - Describe the effects of drug misuse on decision-making.
+      - Explain how substance abuse can lead to legal problems.
+      - Tell me about the signs of addiction-related financial issues.
+      - Discuss the indicators of drug use in different age groups.
+      - What are the signs of drug abuse in the elderly?
+      - Describe the effects of drug addiction on personal hygiene.
+      - Explain the signs of drug-related mood swings.
+      - Tell me about the physical changes caused by substance misuse.
+      - What are the warning signs of drug use disorders in adults?
+      - Discuss the impact of drug use on social interactions.
+      - Explain the signs of drug-induced paranoia.
+      - Tell me about the behavioral changes in individuals with substance abuse.
+
+
+  - intent: treatment_options
+    examples: | 
+      - What are the treatment options for drug use disorders?
+      - Tell me about therapy for addiction recovery.
+      - How can I find a substance abuse counselor?
+      - Are there any support groups for addiction recovery?
+      - Can you recommend any medications for drug addiction?
+      - How can I get help for drug addiction?
+      - Describe the available rehabilitation programs.
+      - Explain the role of detoxification in addiction treatment.
+      - Tell me about inpatient treatment for substance abuse.
+      - What are the benefits of outpatient addiction therapy?
+      - Discuss the effectiveness of counseling for addiction recovery.
+      - Tell me about holistic approaches to drug addiction treatment.
+      - Describe the role of family therapy in addiction recovery.
+      - Explain the process of creating an addiction treatment plan.
+      - What are the options for long-term addiction recovery?
+      - Discuss the use of medications in opioid addiction treatment.
+      - Tell me about harm reduction strategies for drug users.
+      - How does behavioral therapy help with substance abuse?
+      - Explain the role of peer support groups in recovery.
+      - Tell me about the importance of relapse prevention.
+      - What are the benefits of cognitive-behavioral therapy in addiction treatment?
+      - Describe the role of motivational interviewing in recovery.
+      - Explain the use of contingency management in addiction therapy.
+      - What are the advantages of residential treatment centers?
+      - Discuss the effectiveness of 12-step programs for addiction.
+      - Tell me about outpatient vs. inpatient addiction treatment.
+      - How can I access addiction treatment services in my area?
+      - Explain the concept of medication-assisted treatment (MAT).
+      - Tell me about aftercare and ongoing support for recovery.
+      - Describe the benefits of peer mentoring in addiction recovery.
+      - What role do support systems play in addiction treatment?
+      - Discuss the importance of individualized treatment plans.
+
+
+  - intent: relapse_prevention
+    examples: | 
+      - How can I prevent relapse?
+      - Tell me about coping strategies for addiction recovery.
+      - What are some triggers for drug use?
+      - How can I develop a support system for relapse prevention?
+      - Can you provide tips for maintaining sobriety?
+      - Explain the role of stress management in relapse prevention.
+      - Tell me about recognizing high-risk situations for relapse.
+      - How can I build resilience against relapse?
+      - Discuss the importance of setting realistic recovery goals.
+      - Tell me about creating a relapse prevention plan.
+      - What are the strategies for avoiding places associated with drug use?
+      - Describe the role of mindfulness in staying sober.
+      - Explain the importance of self-care in relapse prevention.
+      - Tell me about the impact of a healthy lifestyle on sobriety.
+      - What are some coping techniques for handling cravings?
+      - Discuss the benefits of maintaining a strong support network.
+      - Tell me about avoiding situations that may trigger relapse.
+      - Explain the role of therapy in preventing relapse.
+      - How can I manage negative emotions during recovery?
+      - Tell me about the benefits of regular exercise in staying clean.
+      - What are the strategies for dealing with boredom in sobriety?
+      - Describe the importance of seeking professional help when needed.
+      - Explain the role of relapse prevention groups.
+      - Tell me about recognizing early signs of relapse.
+      - How can I stay motivated to avoid relapse?
+      - Discuss the benefits of keeping a relapse prevention journal.
+      - Tell me about the role of self-reflection in staying drug-free.
+      - What are some effective techniques for managing stress in recovery?
+      - Describe the importance of avoiding old routines tied to drug use.
+      - Explain the role of positive affirmations in relapse prevention.
+      - Tell me about the benefits of setting boundaries in recovery.
+      - How can I cope with peer pressure to use drugs again?
+
+
+  - intent: support_network
+    examples: | 
+      - Are there support groups for addiction recovery?
+      - Can you recommend any resources for addiction self-help?
+      - Where can I find information about drug use disorders?
+      - Tell me about online communities for addiction support.
+      - Are there local organizations that assist with addiction recovery?
+      - Explain the role of peer support in overcoming addiction.
+      - What online forums can provide information on drug use disorders?
+      - Tell me about government programs for addiction treatment.
+      - How can I access addiction helplines or hotlines?
+      - Discuss the benefits of community-based addiction services.
+      - Tell me about addiction recovery apps and tools.
+      - What are the advantages of joining addiction support groups?
+      - Describe the availability of addiction treatment centers.
+      - Explain the role of faith-based organizations in recovery.
+      - How can I connect with addiction recovery coaches?
+      - Tell me about non-profit organizations focused on addiction.
+      - Discuss the benefits of online addiction recovery communities.
+      - Tell me about addiction recovery websites and resources.
+      - What are the options for addiction recovery books and literature?
+      - Explain the role of educational resources in addiction support.
+      - How can I locate addiction treatment services in my area?
+      - Tell me about addiction recovery podcasts and videos.
+      - Discuss the benefits of addiction helplines for immediate assistance.
+      - Explain the role of support networks in long-term recovery.
+      - How can I find addiction recovery workshops or seminars?
+      - Tell me about online addiction recovery courses.
+      - What are the advantages of addiction recovery helplines?
+      - Describe the role of online therapy in addiction treatment.
+      - Explain the availability of addiction recovery scholarships.
+      - How can I access addiction recovery grant programs?
+      - Tell me about addiction recovery events and conferences.
+      - Discuss the benefits of self-help groups for substance abusers.
+
+
+  - intent: helping_someone_with_drug_use_disorder
+    examples: | 
+      - How can I help a friend who is addicted to drugs?
+      - How can I help a family member who is addicted to drugs?
+      - Tell me about the role of family support in addiction recovery.
+      - What should I do if I suspect a loved one is using drugs?
+      - How can I approach someone about their drug addiction?
+      - Explain the importance of open communication in helping addicts.
+      - What resources are available for family members of addicts?
+      - Tell me about organizing an intervention for a loved one.
+      - How can I support a friend in their journey to recovery?
+      - Discuss the benefits of involving a professional in interventions.
+      - Tell me about setting boundaries when helping an addict.
+      - How can I assist a family member in finding addiction treatment?
+      - Explain the role of empathy and understanding in support.
+      - What are the options for family counseling in addiction cases?
+      - Describe the benefits of involving a support network.
+      - How can I encourage a loved one to seek addiction treatment?
+      - Tell me about the impact of addiction on family dynamics.
+      - Discuss the importance of self-care for caregivers of addicts.
+      - Tell me about addiction support resources for parents.
+      - How can I provide emotional support to someone in recovery?
+      - Explain the role of trust-building in helping an addict.
+      - What should I do if my friend refuses help for drug addiction?
+      - Describe the benefits of involving friends in the recovery process.
+      - How can I help a family member stay motivated in recovery?
+      - Tell me about resources for families dealing with addiction.
+      - Discuss the importance of avoiding enabling behaviors.
+      - Tell me about support groups for friends and family of addicts.
+      - How can I help my loved one with relapse prevention?
+      - Explain the role of boundaries in assisting someone with addiction.
+      - What should I know about the stages of addiction recovery?
+      - Describe the benefits of offering non-judgmental support.
+
+
+  - intent: recognizing_drug_use_disorder_on_others
+    examples: | 
+      - How do I know if someone I know is using drugs?
+      - Can you tell me signs of drug use in others?
+      - I suspect a friend might be addicted to drugs.
+      - What are the indications that someone I care about is using drugs?
+      - I'm worried about someone's drug use; what should I look for?
+      - Explain the behavioral changes associated with drug addiction.
+      - What are the physical signs of substance abuse in others?
+      - Tell me about the social consequences of drug addiction in individuals.
+      - How can I approach someone I suspect is using drugs?
+      - Describe the emotional impacts of drug use disorders on others.
+      - Explain the signs of withdrawal in someone who uses drugs.
+      - What are the cognitive changes that may indicate drug misuse?
+      - Tell me about recognizing drug-related mood swings in others.
+      - Discuss the importance of offering support to those in need.
+      - How can I assist a friend or family member with addiction?
+      - Tell me about intervention strategies for loved ones.
+      - Describe the role of empathy in approaching drug use concerns.
+      - Explain the impact of substance abuse on personal relationships.
+      - What resources are available for families of drug users?
+      - Discuss the benefits of seeking professional guidance for concerns.
+      - Tell me about recognizing early signs of addiction in others.
+      - How can I provide non-judgmental support to someone I suspect is using drugs?
+      - Explain the importance of open and honest communication.
+      - What should I do if my friend shows signs of drug addiction?
+      - Describe the benefits of involving others in assisting a person with addiction.
+      - Tell me about resources for families dealing with a loved one's addiction.
+      - Discuss the role of boundaries when helping someone with substance abuse.
+      - How can I encourage someone to seek addiction treatment?
+      - Tell me about recognizing the impact of addiction on family dynamics.
+      - Explain the role of trust-building in supporting someone with drug use issues.
+
+      
+  - intent: recognizing_drug_use_disorder_on_self
+    examples: | 
+      - How can I tell if I have a drug use disorder?
+      - What are the signs of substance abuse in myself?
+      - I think I might be addicted to drugs; what do I do?
+      - How can I recognize if I'm addicted to drugs?
+      - What are the symptoms of drug addiction, and could I have them?
+      - Do I show any signs of substance abuse?
+      - Process of self-assessment for drug use disorders.
+      - What steps can I take to evaluate my relationship with drugs?
+      - How can I differentiate between recreational use and addiction?
+      - Describe common red flags indicating drug dependency in individuals.
+      - Self-reflection in recognizing addiction.
+      - Tell me about self-help resources for understanding addiction.
+      - Explain the role of denial in recognizing one's drug use disorder.
+      - What self-monitoring strategies can I use to track my drug use?
+      - Describe the emotional and behavioral signs of drug addiction.
+      - How can I assess the impact of drug use on my daily life?
+      - Tell me about identifying signs for drug use in myself.
+      - Explain the role of self-awareness in the recovery journey.
+      - What are the early warning signs of developing a drug problem?
+      - Tell me about the stages of self-acknowledgment in addiction.
+      - How can I evaluate my readiness to address my drug use issues?
+      - Tell me about self-help books and resources on addiction recovery.
+      - What are the signs of a functional drug use disorder in individuals?
+      - Tell me about self-administered addiction screening tools.
+      - Describe the role of self-disclosure in seeking support.
+
+      
+  - intent: drug_use_long_time
+    examples: | 
+      - I've been addicted to drugs for decades.
+      - My drug addiction has lasted for many years.
+      - I've struggled with drug use for a significant amount of time.
+      - I've been dependent on drugs for over a decade.
+      - Tell me about the long-term effects of drug addiction.
+      - How can I address addiction that has persisted for years?
+      - Explain the challenges of overcoming decades-long drug addiction.
+      - What are the health consequences of prolonged drug use?
+      - Discuss the benefits of seeking help for long-term drug addiction.
+      - Tell me about success stories of individuals overcoming long-term addiction.
+      - Describe the role of support networks in lengthy addiction recovery.
+      - How can I manage the emotional toll of a long-term drug problem?
+      - Explain the importance of professional guidance in extended addiction cases.
+      - What resources are available for addressing addiction that spans decades?
+      - Discuss strategies for rebuilding life after long-term drug addiction.
+      - Tell me about relapse prevention for those with prolonged addiction.
+      - Describe the physical and mental impacts of years of drug dependence.
+      - How can I find specialized treatment for long-standing addiction?
+      - Tell me about individuals who have successfully left behind decades-long addiction.
+      - Discuss the role of family and friends in supporting recovery.
+      - What lifestyle changes can help in overcoming long-term drug use?
+      - Explain the significance of addressing the root causes of long-term addiction.
+      - How can I set realistic goals for recovery after years of drug use?
+      - Tell me about the impact of long-term addiction on personal relationships.
+      - Describe the benefits of comprehensive treatment for prolonged addiction.
+      - What should I know about the risk of relapse in long-term addiction cases?
+
+      
+  - intent: drug_use_short_time
+    examples: | 
+      - How can I tell if I have a drug use disorder?
+      - What are the signs of substance abuse in myself?
+      - I think I might be addicted to drugs; what do I do?
+      - How can I recognize if I'm addicted to drugs?
+      - What are the symptoms of drug addiction, and could I have them?
+      - Do I show any signs of substance abuse?
+      - Explain the psychological signs of drug addiction in individuals.
+      - Tell me about the physical symptoms of drug use disorders.
+      - How can I self-assess my drug use for potential addiction?
+      - Describe the behavioral changes associated with drug misuse.
+      - What are the early warning signs of drug dependence?
+      - Discuss the importance of seeking professional help for self-assessment.
+      - Tell me about self-help resources for recognizing drug use disorders.
+      - Explain the role of self-awareness in identifying drug addiction.
+      - How can I evaluate my own drug use patterns objectively?
+      - Tell me about online quizzes for self-assessment of drug misuse.
+      - Describe the benefits of self-reflection in recognizing addiction.
+      - Explain how self-observation can help detect substance abuse.
+      - What are the common self-reported signs of drug addiction?
+      - Tell me about personal stories of individuals recognizing their drug use issues.
+      - Discuss the emotional toll of realizing one has a drug use disorder.
+      - How can self-help books assist in identifying drug addiction?
+      - Tell me about the role of peer support in recognizing addiction.
+      - Explain the importance of seeking guidance from healthcare professionals.
+      - What online tools are available for self-assessment of drug misuse?
+      - Describe the role of self-assessment in initiating addiction recovery.
+      - How can I monitor my own drug use for potential problems?
+      - Tell me about the benefits of early detection and intervention.
+      - Discuss the impact of addiction on personal relationships and self-awareness.
+
+      
+  - intent: coping_strategies_for_withdrawal
+    examples: | 
+      - I'm experiencing withdrawal symptoms from drugs.
+      - Coping with withdrawal from drugs is challenging.
+      - Withdrawal effects are making it difficult for me.
+      - Dealing with drug withdrawal is tough.
+      - I need help managing withdrawal symptoms.
+      - Tell me about effective strategies for dealing with drug withdrawal.
+      - Explain how to alleviate withdrawal symptoms.
+      - What are some natural remedies for drug withdrawal discomfort?
+      - Discuss the importance of seeking professional help during withdrawal.
+      - How can I create a supportive environment for withdrawal recovery?
+      - Tell me about self-help techniques for managing withdrawal.
+      - Describe the emotional aspects of coping with withdrawal.
+      - Explain the role of nutrition in easing withdrawal symptoms.
+      - What can I expect during the withdrawal phase of addiction recovery?
+      - Tell me about coping mechanisms for both physical and mental withdrawal.
+      - Discuss the benefits of gradual tapering during withdrawal.
+      - How long do withdrawal symptoms typically last?
+      - Tell me about medications that can assist with withdrawal.
+      - Describe the impact of withdrawal on sleep patterns.
+      - Explain the process of developing a personalized withdrawal plan.
+      - What coping strategies can I use to prevent relapse during withdrawal?
+      - Tell me about the role of hydration in managing withdrawal.
+      - Discuss the importance of staying connected with a support system.
+      - How can mindfulness practices help with withdrawal symptoms?
+      - Tell me about the benefits of exercise during withdrawal recovery.
+      - Describe the psychological challenges of withdrawal.
+      - What are the common triggers for relapse during withdrawal?
+      - Tell me about the phases of withdrawal and their associated symptoms.
+      - Explain the role of counseling in managing withdrawal.
+      - How can I stay motivated during the challenging withdrawal process?
+      - Tell me about peer support groups for individuals going through withdrawal.
+        
+  - intent: expressing_struggles_with_drug_use
+    examples: | 
+      - Staying clean from drugs is a constant struggle.
+      - I'm finding it hard to stay away from drugs.
+      - Overcoming my drug addiction is a daily battle.
+      - Drug use is negatively impacting my life.
+      - I'm facing difficulties due to my drug use.
+      - Tell me about the emotional toll of addiction struggles.
+      - Explain the importance of acknowledging the challenges of recovery.
+      - What can I do when I feel overwhelmed by drug cravings?
+      - Discuss the role of self-compassion in facing addiction struggles.
+      - How can I build resilience in the face of drug use difficulties?
+      - Tell me about the support available for those facing addiction challenges.
+      - Describe the impact of addiction struggles on mental well-being.
+      - What strategies can I use to stay motivated in recovery?
+      - Explain the benefits of reaching out for professional help during tough times.
+      - How can I manage stress and anxiety related to drug use issues?
+      - Tell me about the role of relapse prevention in overcoming challenges.
+      - Discuss the importance of setting realistic recovery goals.
+      - What self-care practices can help during difficult moments in recovery?
+      - Tell me about the process of repairing relationships affected by addiction.
+      - Describe the feelings of guilt and shame often associated with drug use.
+      - Explain how to address social isolation as a result of addiction struggles.
+      - How can I maintain hope and positivity on the road to recovery?
+      - Tell me about mindfulness techniques for managing addiction difficulties.
+      - Discuss the impact of addiction on daily life and responsibilities.
+      - What are some healthy coping mechanisms for addiction-related stress?
+      - Tell me about the benefits of developing a support network in recovery.
+      - Describe the challenges of facing addiction struggles in solitude.
+      - How can I overcome the stigma surrounding addiction issues?
+      - Tell me about resources for seeking guidance during difficult times in recovery.
+      - Explain the role of self-reflection in addressing addiction challenges.
+      - What are the common emotional obstacles on the path to recovery?
+
+      
+  - intent: effects_of_drugs_on_mental_health
+    examples: | 
+      - How can drugs affect my mental health?
+      - What are the mental health effects of drug use?
+      - Can you explain the impact of drugs on mental well-being?
+      - How do drugs influence mental health?
+      - I'm concerned about how drugs might affect my mental state.
+      - Tell me about the link between drug use and mental health disorders.
+      - Explain the role of addiction in worsening mental health.
+      - What strategies can I use to protect my mental well-being in recovery?
+      - Describe the connection between substance abuse and anxiety disorders.
+      - Discuss the impact of drug-induced psychosis on mental health.
+      - How can I address depression related to drug use?
+      - Tell me about the benefits of dual diagnosis treatment for mental health and addiction.
+      - Explain the emotional challenges of overcoming addiction-related trauma.
+      - What resources are available for those struggling with addiction-related mental health issues?
+      - Tell me about the role of counseling in addressing drug-related mental health concerns.
+      - Describe the effects of drug use on cognitive function and memory.
+      - How can I recognize the signs of a co-occurring mental health disorder?
+      - Tell me about self-help strategies for improving mental health in recovery.
+      - Discuss the importance of holistic approaches to mental health and addiction.
+      - What are the common mental health disorders associated with drug addiction?
+      - Tell me about the impact of withdrawal on mental well-being.
+      - Explain the role of substance-induced anxiety and mood disorders.
+      - How can I access mental health services while in addiction recovery?
+      - Tell me about peer support groups for individuals with addiction-related mental health challenges.
+      - Discuss the stigma surrounding mental health and addiction.
+      - What can I do to maintain emotional stability during addiction recovery?
+      - Tell me about the process of healing from past traumas related to drug use.
+      - Describe the benefits of medication-assisted treatment for mental health and addiction.
+      - How can I build resilience against mental health setbacks in recovery?
+
+      
+  - intent: effects_of_drugs_on_physical_health
+    examples: | 
+      - How can drug use affect physical health?
+      - Tell me about the physical health consequences of drug addiction.
+      - What happens to my body when I use drugs?
+      - How do drugs impact physical well-being?
+      - Explain the risks of drug-related health problems.
+      - Describe the cardiovascular effects of drug use.
+      - What are the respiratory consequences of smoking drugs?
+      - Tell me about the impact of drug use on liver and kidney function.
+      - Discuss the importance of early detection of drug-related health issues.
+      - How can I address weight and nutrition concerns related to drug use?
+      - Tell me about the connection between drug use and infectious diseases.
+      - Explain the risk of overdose and its impact on physical health.
+      - What are the long-term effects of drug use on the brain?
+      - Tell me about the role of drug-related accidents and injuries.
+      - Discuss the impact of drug-induced seizures on physical health.
+      - How can I recognize signs of drug-related skin problems?
+      - Tell me about the gastrointestinal effects of drug abuse.
+      - Describe the role of drug use in dental and oral health issues.
+      - What are the consequences of intravenous drug use on veins and arteries?
+      - Explain the importance of safe injection practices to prevent harm.
+      - How can I assess and manage the physical consequences of drug addiction?
+      - Tell me about the role of regular health check-ups in addiction recovery.
+      - Discuss the benefits of a healthy lifestyle in restoring physical well-being.
+      - What resources are available for addressing drug-related physical health concerns?
+      - Tell me about medical professionals who specialize in addiction-related health problems.
+      - Describe the impact of drug use on the immune system and vulnerability to illness.
+      - How can I maintain a balanced approach to physical health during recovery?
+      - Tell me about harm reduction strategies for minimizing physical health risks.
+      - Discuss the importance of seeking medical advice for drug-related health conditions.
+
+        
+  - intent: effects_of_drugs_on_social_life
+    examples: | 
+      - How do drugs affect social relationships?
+      - Tell me about the impact of drug use on social life.
+      - Can you explain how drugs influence one's social connections?
+      - I'm worried that drugs are harming my social interactions.
+      - Discuss the role of addiction in strained friendships and family relationships.
+      - Explain the impact of drug use on trust within social networks.
+      - What strategies can I use to repair damaged social connections due to drug use?
+      - Tell me about the consequences of isolation and withdrawal from social activities.
+      - Describe the role of peer pressure in drug-related social interactions.
+      - How can I rebuild a social support system in addiction recovery?
+      - Discuss the importance of communication in addressing drug-related social issues.
+      - What resources are available for individuals facing social consequences of drug use?
+      - Tell me about support groups for rebuilding social connections in recovery.
+      - Explain the challenges of rebuilding trust with loved ones affected by addiction.
+      - How can I maintain sobriety in social situations where drugs are present?
+      - Tell me about the impact of addiction on parenting and family dynamics.
+      - Describe the benefits of involving family in addiction recovery efforts.
+      - What are the common warning signs of drug-related social problems?
+      - Explain the role of stigma in isolating individuals with drug use disorders.
+      - How can I address feelings of guilt and shame related to drug-induced social harm?
+      - Tell me about the role of counseling in improving social interactions in recovery.
+      - Discuss the consequences of legal issues resulting from drug-related behavior.
+      - What can I do to rebuild a sense of belonging and community after addiction?
+      - Explain the process of making amends to those affected by drug use.
+      - How can I navigate social situations that trigger drug cravings?
+      - Tell me about the benefits of finding positive, drug-free social activities.
+      - Describe the emotional toll of losing social connections due to addiction.
+      - What role do social support networks play in addiction recovery?
+      - Discuss the importance of setting boundaries in social relationships during recovery.
+      - How can I address conflicts and misunderstandings caused by drug use?
+      - Tell me about the long-term impact of drug-related social problems on mental health.
+
+      
+  - intent: effects_of_drugs_on_behavior
+    examples: | 
+      - How can drugs change behavior?
+      - Tell me about the behavioral effects of drug use.
+      - What behaviors are associated with drug addiction?
+      - How does drug use influence behavior?
+      - I've noticed changes in my behavior due to drug use.
+      - Discuss the role of altered decision-making in drug-related behavior.
+      - Explain the impact of impaired judgment and impulse control on behavior.
+      - What strategies can I use to regain control over my behavior in recovery?
+      - Tell me about the link between substance abuse and criminal behavior.
+      - Describe the role of dishonesty and deceit in drug addiction.
+      - How can I address aggressive or violent behavior associated with drug use?
+      - Discuss the importance of seeking professional help for behavioral issues.
+      - What resources are available for individuals facing legal consequences of drug-related behavior?
+      - Tell me about cognitive-behavioral therapy and its role in behavior modification.
+      - Explain the challenges of rebuilding a positive self-image after addiction.
+      - How can I manage impulsive behaviors that lead to drug use?
+      - Tell me about the connection between substance abuse and risky sexual behavior.
+      - Describe the consequences of financial problems caused by drug-related behavior.
+      - What are the common warning signs of behavioral issues related to drug addiction?
+      - Explain the role of cravings in driving drug-seeking behavior.
+      - How can I address the feelings of guilt and remorse associated with drug-related actions?
+      - Tell me about the role of support groups in behavior change and recovery.
+      - Discuss the benefits of developing healthy coping mechanisms for behavior modification.
+      - What can I do to prevent relapse when faced with triggers for drug-related behavior?
+      - Explain the impact of addiction on personal and professional relationships.
+      - How can I rebuild trust with loved ones affected by my past behavior?
+      - Tell me about the role of self-awareness in addressing behavioral issues in recovery.
+      - Describe the emotional toll of behavior-related regrets in addiction.
+      - What role does stress management play in behavior change during recovery?
+      - Discuss the importance of addressing underlying psychological issues in behavior modification.
+      - How can I maintain motivation to change problematic behaviors in recovery?
+
+
+  - intent: affirm_drug_problem_need_on_self
+    examples: | 
+      - Yes, I've continued taking a drug even when it's no longer needed.
+      - I think so, but I'm not sure.
+      - Sometimes I have.
+      - I believe I may have a problem with this.
+      - It's hard for me to stop taking the drug even when I know I should.
+      - I've noticed that I keep using the drug despite not needing it for my condition.
+      - I've struggled to cut down on using the drug.
+      - I've taken the drug when I knew I shouldn't.
+      - I've experienced cravings for the drug.
+      - I've used the drug to cope with stress or emotions.
+      - I've tried to stop using the drug but couldn't.
+      
+  - intent: deny_drug_problem_need_on_self
+    examples: | 
+      - No, I haven't continued taking a drug unnecessarily.
+      - I've always followed my doctor's instructions regarding medications.
+      - I only take medications as prescribed by my healthcare provider.
+      - I don't think this applies to me.
+      - I've never experienced this issue.
+      - I'm confident that I don't have a problem with this.
+      - I've never felt the need to continue using a drug.
+      - I've never had cravings for the drug.
+      - I can easily stop using the drug when necessary.
+      - I'm not using the drug to cope with emotions or stress.
+      - I've never had trouble cutting down on the drug.
+
+  - intent: affirm_drug_problem_tolerance_on_self
+    examples: | 
+      - Yes, I need more of a substance to feel the same effects.
+      - It varies, but sometimes I do.
+      - I think my tolerance has increased.
+      - I've noticed that I require higher doses for the same effect.
+      - My body has become accustomed to the drug, and I need more.
+      - I've had to increase the dosage to get the desired result.
+      - I've developed a tolerance to the drug.
+      - I find that the drug is less effective unless I take more.
+      
+  - intent: deny_drug_problem_tolerance_on_self
+    examples: | 
+      - No, I don't need more to feel the same effects.
+      - I've never experienced an increase in tolerance.
+      - I don't think I have this issue.
+      - I haven't needed to take larger doses.
+      - I'm confident that my tolerance is stable.
+      - I'm not sure what you mean by tolerance.
+      - I've never had to up the dosage for the same effect.
+      - My drug use hasn't led to tolerance.
+      - I don't have this problem.
+      
+  - intent: affirm_drug_problem_withdrawal_on_self
+    examples: | 
+      - Yes, I feel strange when a drug wears off.
+      - Sometimes I do, sometimes I don't.
+      - I've experienced withdrawal symptoms.
+      - I've noticed withdrawal effects when the drug wears off.
+      - My body reacts negatively when I stop taking the drug.
+      - I've had discomfort when the drug's effects wear off.
+      - I'm familiar with withdrawal symptoms.
+      - I can tell when the drug is wearing off due to withdrawal.
+      
+  - intent: deny_drug_problem_withdrawal_on_self
+    examples: | 
+      - No, I don't feel strange when a drug wears off.
+      - I haven't experienced withdrawal symptoms.
+      - I don't think this applies to me.
+      - I've never felt strange when the drug wears off.
+      - I'm confident that I don't have withdrawal issues.
+      - I'm not sure what you mean by withdrawal.
+      - My drug use doesn't lead to withdrawal symptoms.
+      - I've never had discomfort when the drug's effects wear off.
+      - I don't have this problem.
+        
+  - intent: affirm_drug_problem_cannot_stop_on_self
+    examples: | 
+      - Yes, I can't stop myself from using a drug.
+      - It's difficult, but I'm trying to stop.
+      - I want to stop, but I can't.
+      - I've struggled to quit using the drug.
+      - I've made attempts to stop, but I relapse.
+      - I'm finding it challenging to break free from the drug.
+      - The drug has a strong hold on me.
+      - I've lost control over my drug use.
+      
+  - intent: deny_drug_problem_cannot_stop_on_self
+    examples: | 
+      - No, I can stop myself from using a drug.
+      - I'm confident that I can control my drug use.
+      - I don't think I have this problem.
+      - I've managed to quit using the drug.
+      - I'm not addicted; I can stop when I want.
+      - I've been successful in cutting back on drug use.
+      - I have control over my substance use.
+      - I don't feel powerless against the drug.
+      - I don't have this issue.
+      
+  - intent: affirm_drug_problem_preoccupied_on_self
+    examples: | 
+      - Yes, I spend a lot of time thinking about a drug.
+      - I do think about it quite often.
+      - My thoughts are consumed by it.
+      - The drug is always on my mind.
+      - It's hard to focus on anything else due to the drug.
+      - I'm preoccupied with thoughts of using the drug.
+      - My mental space is occupied by thoughts of the drug.
+      - The drug dominates my thoughts.
+      
+  - intent: deny_drug_problem_preoccupied_on_self
+    examples: | 
+      - No, I don't spend much time thinking about a drug.
+      - I'm able to redirect my thoughts away from the drug.
+      - I'm not constantly thinking about it.
+      - I can manage my thoughts and focus on other things.
+      - The drug doesn't consume my mind.
+      - I have control over my thoughts regarding the drug.
+      - I don't feel preoccupied with it.
+      - It's not a constant presence in my thoughts.
+      - I don't have this issue.
+
+  - intent: affirm_drug_problem_no_limits_on_self
+    examples: | 
+      - Yes, I have a hard time setting limits for myself.
+      - It's challenging, but I'm working on it.
+      - I struggle with setting limits.
+      - I find it difficult to control my drug use.
+      - I can't seem to set boundaries with the drug.
+      - My ability to set limits is compromised.
+      - I've exceeded my intended limits with the drug.
+      
+  - intent: deny_drug_problem_no_limits_on_self
+    examples: | 
+      - No, I can set limits for myself.
+      - I'm confident in my ability to control my drug use.
+      - I don't have trouble setting boundaries with the drug.
+      - I've successfully set limits on my drug use.
+      - I can manage my drug consumption responsibly.
+      - I'm not exceeding my intended limits with the drug.
+      - I have control over my drug use.
+      - I don't feel powerless in this regard.
+      - Setting limits is not a problem for me.
+      
+  - intent: affirm_drug_problem_lost_interest_on_self
+    examples: | 
+      - Yes, I've lost interest in things I used to enjoy.
+      - I've noticed a decline in my interests.
+      - Some things don't interest me anymore.
+      - The drug has taken away my enthusiasm.
+      - I've experienced a loss of pleasure in activities.
+      - It's hard to find joy in things I used to love.
+      - My interests have waned due to drug use.
+      
+  - intent: deny_drug_problem_lost_interest_on_self
+    examples: | 
+      - No, I still enjoy the things I used to.
+      - I haven't experienced a decline in my interests.
+      - My enthusiasm for activities remains intact.
+      - The drug hasn't affected my enjoyment of hobbies.
+      - I find pleasure in the same activities as before.
+      - My interests haven't changed due to drug use.
+      - I continue to engage in activities I love.
+      - The drug hasn't impacted my enjoyment of life.
+      
+  - intent: affirm_drug_problem_daily_functioning_on_self
+    examples: | 
+      - Yes, I've had trouble performing daily tasks.
+      - My daily functioning has declined.
+      - It's become difficult to manage daily activities.
+      - Drug use has hindered my daily life.
+      - I struggle to maintain my routine due to drugs.
+      - Managing daily tasks has become a challenge.
+      - I can't perform daily functions as I used to.
+      
+  - intent: deny_drug_problem_daily_functioning_on_self
+    examples: | 
+      - No, I can still manage daily tasks.
+      - I'm able to maintain my daily routine.
+      - My daily functioning hasn't declined.
+      - Drug use hasn't affected my daily life.
+      - I can perform daily tasks without issues.
+      - Managing daily activities is not a problem for me.
+      - I haven't experienced difficulties in this area.
+      - I'm capable of handling my daily responsibilities.
+      - Daily functioning is not impacted by drugs.
+
+  - intent: affirm_drug_problem_dangerous_behavior_on_self
+    examples: | 
+      - Yes, I engage in dangerous activities when on a drug.
+      - I've done risky things while using drugs.
+      - It's happened a few times.
+      - I've taken dangerous risks while under the influence.
+      - My behavior becomes reckless on drugs.
+      - I've engaged in unsafe activities due to drug use.
+      - Drug use has led to risky behavior.
+      
+  - intent: deny_drug_problem_dangerous_behavior_on_self
+    examples: | 
+      - No, I don't engage in dangerous activities on drugs.
+      - I'm confident in my ability to avoid risky behavior on drugs.
+      - I prioritize safety while using drugs.
+      - Drug use hasn't led to dangerous activities for me.
+      - I'm cautious about my behavior when on drugs.
+      - I've managed to stay safe while using drugs.
+      - Dangerous behavior is not a result of my drug use.
+      
+  - intent: affirm_drug_problem_financial_issues_on_self
+    examples: | 
+      - Yes, I've borrowed or stolen money for drugs.
+      - I've borrowed money for drugs.
+      - I've considered it.
+      - My finances have been impacted by drug use.
+      - I've struggled with money due to drug addiction.
+      - I've resorted to financial measures to support my drug use.
+      - Money has been a problem in relation to drugs.
+      
+  - intent: deny_drug_problem_financial_issues_on_self
+    examples: | 
+      - No, I haven't borrowed or stolen money for drugs.
+      - I'm responsible with my finances when it comes to drugs.
+      - My financial situation is not affected by drug use.
+      - I haven't faced financial difficulties due to drugs.
+      - I can manage my finances despite drug use.
+      - Money is not a concern in relation to my drug use.
+      - I haven't resorted to financial measures for drugs.
+
+
+responses:
+  utter_what_is_drug_use_disorder:
+    - text: "Drug use disorders, often referred to as substance abuse or drug addiction, are conditions characterized by the chronic use of substances like drugs or alcohol, leading to physical and psychological harm. These disorders can negatively impact a person's health, relationships, and overall well-being. If you or someone you know is struggling with drug use, it's essential to seek help from a healthcare professional."
+
+  utter_types_of_drug_use_disorder:
+    - text: "There are various types of drug use disorders, each associated with specific substances. These include disorders related to alcohol, opioids, stimulants, cannabis, and more. The specific type of drug use disorder depends on the substance being abused and the associated symptoms. It's important to understand that seeking help and treatment is available regardless of the type of drug use disorder."
+
+  utter_causes_of_drug_use_disorder:
+    - text: "The causes of drug use disorders are multifaceted and can vary from person to person. They often involve a combination of genetic, environmental, and psychological factors. Some common contributors include genetic predisposition, exposure to trauma, peer pressure, mental health issues, and easy access to drugs. Identifying the underlying causes can be complex, but it's crucial for effective treatment."
+
+  utter_identify_drug_use_symptoms:
+    - text: "Recognizing drug use disorder symptoms can be vital for early intervention. Signs may include changes in behavior, such as a lack of motivation, irritability, and agitation. Physical symptoms like bloodshot eyes, shakes, tremors, or slurred speech may also be present. Additionally, shifts in daily routines, neglect of personal hygiene, and financial problems can be indicators. If you suspect someone is struggling with drug use, it's essential to offer support and encourage them to seek help."
+
+  utter_treatment_options:
+    - text: "Treatment options for drug use disorders typically include a combination of therapies, counseling, and, in some cases, medications. Therapies like cognitive-behavioral therapy (CBT) and support groups are effective in addressing addiction. Additionally, medications may be prescribed to manage cravings or withdrawal symptoms. Seeking help from a qualified healthcare professional is essential for developing a personalized treatment plan."
+
+  utter_relapse_prevention:
+    - text: "Preventing relapse is a crucial part of addiction recovery. Coping strategies, recognizing triggers, and building a strong support system are essential. Coping strategies can include stress management, engaging in healthy activities, and practicing mindfulness. Identifying triggers and avoiding high-risk situations is vital to maintain sobriety. Building a support system with friends, family, or support groups can provide valuable assistance in relapse prevention."
+
+  utter_ask_drug_problem_need_on_self:
+    - text: "Have you found yourself continuing to take a drug even when it's no longer needed for a health problem?"
+    - text: "Do you keep using a drug after it's no longer required for a medical issue?"
+    - text: "Have you taken a medication even when your health problem was resolved?"
+
+  utter_ask_drug_problem_tolerance_on_self:
+    - text: "Do you find that you need more and more of a substance to get the same effects, and you can take more before you feel an effect (called 'tolerance')?"
+    - text: "Have you noticed that you require increasing amounts of a substance to achieve the same effects (referred to as 'tolerance')?"
+    - text: "Are you experiencing a higher tolerance, needing larger amounts of a drug to achieve the same results?"
+
+  utter_ask_drug_problem_withdrawal_on_self:
+    - text: "Do you feel strange when a drug wears off? For example, do you experience shakiness, depression, nausea, sweating, headaches, or tiredness?"
+    - text: "When the effects of a drug wear off, do you experience unusual sensations like shakiness, depression, nausea, sweating, headaches, or fatigue?"
+    - text: "Have you noticed that when a drug wears off, you experience symptoms such as shakiness, depression, nausea, sweating, or headaches?"
+
+  utter_ask_drug_problem_cannot_stop_on_self:
+    - text: "Are you unable to stop yourself from using a drug, even if you want to, and it's causing problems in your life?"
+    - text: "Do you find it difficult to quit using a drug, even though it's causing negative consequences in your life?"
+    - text: "Are you continuing to use a drug even though it's leading to problems in your life, and you want to stop?"
+
+  utter_ask_drug_problem_preoccupied_on_self:
+    - text: "Do you spend a lot of your time thinking about a drug, including how to get more, when you'll take it, or how it makes you feel?"
+    - text: "Are you preoccupied with thoughts about a drug, such as how to obtain more, when to use it, or its effects on you?"
+    - text: "Do you often think about a drug, including how to acquire it and when to use it?"
+
+  utter_ask_drug_problem_no_limits_on_self:
+    - text: "Do you have a hard time setting limits for yourself regarding drug use? For example, saying you'll only use 'so much' but then using more?"
+    - text: "Is it challenging for you to establish limits for your drug use, such as intending to use only a specific amount but ending up using more?"
+    - text: "Do you struggle to control your drug use, often using more than you initially intended?"
+
+  utter_ask_drug_problem_lost_interest_on_self:
+    - text: "Have you lost interest in things you once enjoyed doing?"
+    - text: "Do you find that you've lost interest in activities you used to find enjoyable?"
+    - text: "Have you stopped enjoying activities you once liked?"
+
+  utter_ask_drug_problem_daily_functioning_on_self:
+    - text: "Have you experienced difficulty in performing normal daily activities like cooking or working?"
+    - text: "Are you finding it challenging to carry out everyday tasks, such as cooking or working?"
+    - text: "Do you have trouble with regular daily activities, like cooking or maintaining employment?"
+
+  utter_ask_drug_problem_dangerous_behavior_on_self:
+    - text: "Do you engage in dangerous activities, such as driving or operating heavy machinery, when you are on a drug?"
+    - text: "Have you taken part in risky behaviors, like driving or using heavy machinery, while under the influence of a drug?"
+    - text: "Do you involve yourself in dangerous activities when you're using a drug, such as driving or operating machinery?"
+
+  utter_ask_drug_problem_financial_issues_on_self:
+    - text: "Have you borrowed or stolen money to pay for drugs?"
+    - text: "Do you find yourself borrowing or stealing money to finance your drug use?"
+    - text: "Have you resorted to borrowing or stealing money to support your drug habit?"
+
+  utter_ask_drug_problem_hide_use_on_self:
+    - text: "Do you hide your drug use or the impact it's having on you from others?"
+    - text: "Are you concealing your drug use or the consequences it has on your life from people around you?"
+    - text: "Do you keep your drug use and its effects hidden from others?"
+
+  utter_ask_drug_problem_relationship_issues_on_self:
+    - text: "Are you experiencing difficulties in getting along with co-workers, teachers, friends, or family members due to your behavior changes?"
+    - text: "Do you find it challenging to maintain positive relationships with others like co-workers, teachers, friends, or family due to your behavior changes?"
+    - text: "Have your interactions with co-workers, teachers, friends, or family members become strained due to your behavior changes?"
+
+  utter_ask_drug_problem_sleep_eating_changes_on_self:
+    - text: "Have your sleep patterns or eating habits changed significantly, such as sleeping too much or too little or eating a lot more or a lot less?"
+    - text: "Do you experience significant changes in your sleep or eating patterns, like excessive sleep, insomnia, increased appetite, or reduced appetite?"
+    - text: "Have you noticed drastic alterations in your sleep and eating habits, like excessive sleep or changes in appetite?"
+    
+  utter_ask_drug_problem_physical_appearance_on_self:
+    - text: "Have you noticed physical changes in your appearance, such as bloodshot eyes, bad breath, shakes, tremors, frequent bloody noses, or unexplained weight changes?"
+    - text: "Do you observe physical changes in your appearance, like bloodshot eyes, bad breath, shakes, tremors, frequent nosebleeds, or significant weight fluctuations?"
+    - text: "Have there been noticeable physical changes in your appearance, such as bloodshot eyes or unexplained weight gain or loss?"
+
+  utter_ask_drug_problem_new_friends_on_self:
+    - text: "Do you have a new set of friends with whom you use drugs, and do you frequent different places to use the drugs?"
+    - text: "Have you formed new friendships centered around drug use, and do you find yourself in different locations to use the drugs?"
+    - text: "Have you established new friendships with people who use drugs, and do you go to different places to partake in drug use?"
+
+  utter_ask_drug_problem_doctor_shopping_on_self:
+    - text: "Do you visit more than one doctor to obtain prescriptions for the same drug or problem?"
+    - text: "Have you sought prescriptions from multiple doctors for the same drug or medical issue?"
+    - text: "Do you see multiple doctors to acquire prescriptions for the same medication or health concern?"
+
+  utter_ask_drug_problem_medicine_cabinets_on_self:
+    - text: "Do you look in other people's medicine cabinets for drugs to take?"
+    - text: "Have you ever searched through other people's medicine cabinets in search of drugs?"
+    - text: "Do you have a habit of checking other people's medicine cabinets for medications to use?"
+
+  utter_ask_drug_problem_mixing_substances_on_self:
+    - text: "Do you take prescribed medications with alcohol or other drugs?"
+    - text: "Have you combined prescribed medications with alcohol or other substances?"
+    - text: "Are you using prescribed medications alongside alcohol or other drugs?"
+
+  utter_drug_problem_warning_user:
+    - text: "If you find that most of these symptoms apply to you or someone you know, it's a strong indicator that there may be a drug problem. It's important to seek professional help and support as soon as possible to address this issue and work towards recovery."
+
+  utter_low_severity_response:
+    - text: "Thank you for answering those questions. Based on your responses, it doesn't seem like you have a severe drug problem. However, it's essential to monitor your drug use and seek help if you have any concerns. Here are some coping strategies that may help you maintain a healthy relationship with drugs"
+    - text: "Set clear boundaries for drug use and stick to them."
+    - text: "Develop healthy routines and engage in fulfilling activities to reduce the desire for drugs."
+    - text: "Reach out to friends and family for support and open conversations about your concerns."
+    - text: "Consider joining a support group or seeking counseling to address any underlying issues."
+    - text: "Keep a journal to track your drug use patterns and emotions."
+    - text: "Remember, if you ever feel that your drug use is becoming problematic, don't hesitate to reach out to a healthcare professional for guidance and support."
+
+  utter_high_severity_response:
+    - text: "Thank you for answering those questions. Based on your responses, it appears that you may have a severe drug problem that requires immediate attention. It's crucial to seek help from a healthcare professional or a support group as soon as possible. Remember, there are resources available to assist you in overcoming drug addiction and regaining control of your life."
+
+  utter_drug_use_long_time:
+  - text: "If you've been addicted to drugs for an extended period, it's essential to seek help as soon as possible. Long-term drug use can have serious health and social consequences. Reach out to a healthcare professional or addiction specialist to discuss treatment options."
+
+  utter_drug_use_short_time:
+  - text: "If you've recently started using drugs and have concerns, it's wise to address them promptly. Early intervention is crucial. Consider discussing your situation with a healthcare provider, counselor, or addiction specialist who can provide guidance and support."
+
+  utter_recognizing_drug_use_disorder_on_others:
+  - text: "Recognizing drug use disorder in others can be challenging, but there are signs to look for. These may include changes in behavior, neglecting responsibilities, withdrawal from social activities, and physical symptoms like weight loss or unusual marks. If you suspect someone is struggling, consider having a compassionate conversation with them about your concerns."
+
+  utter_helping_someone_with_drug_use_disorder:
+  - text: "If you want to help someone with a drug use disorder, it's important to approach the situation with empathy and care. Here are a few tips to consider"
+  - text: "Encourage open and non-judgmental communication. Let them know you're there to listen and support them."
+  - text: "Suggest seeking professional help, such as a counselor or therapist who specializes in addiction. They can provide expert guidance and treatment options."
+  - text: "Explore support groups for both the person with the drug use disorder and yourself. These groups offer a sense of community and shared experiences."
+  - text: "Educate yourself about drug addiction to better understand what your loved one is going through."
+  - text: "Set boundaries and prioritize your own well-being. Supporting someone with an addiction can be emotionally challenging, so self-care is crucial."
+  - text: "Be patient and understanding. Recovery is a journey with ups and downs, and relapses can occur. Your consistent support can make a positive difference."
+
+stories:
+- story: What Is Drug Use Disorder
+  steps:
+    - intent: what_is_drug_use_disorder
+    - action: utter_what_is_drug_use_disorder
+
+- story: Types of Drug Use Disorders
+  steps:
+    - intent: types_of_drug_use_disorder
+    - action: utter_types_of_drug_use_disorder
+
+- story: Causes of Drug Use Disorder
+  steps:
+    - intent: causes_of_drug_use_disorder
+    - action: utter_causes_of_drug_use_disorder
+
+- story: Identifying Drug Use Symptoms
+  steps:
+    - intent: identify_drug_use_symptoms
+    - action: utter_identify_drug_use_symptoms
+
+- story: Treatment Options for Drug Use Disorders
+  steps:
+    - intent: treatment_options
+    - action: utter_treatment_options
+
+- story: Relapse Prevention
+  steps:
+    - intent: relapse_prevention
+    - action: utter_relapse_prevention
+
+- story: Long-term Drug Use
+  steps:
+    - intent: drug_use_long_time
+    - action: utter_drug_use_long_time
+
+- story: Short-term Drug Use
+  steps:
+    - intent: drug_use_short_time
+    - action: utter_drug_use_short_time
+
+- story: Recognizing Drug Use Disorder in Others
+  steps:
+    - intent: recognizing_drug_use_disorder_on_others
+    - action: utter_recognizing_drug_use_disorder_on_others
+
+- story: Helping Someone with Drug Use Disorder
+  steps:
+    - intent: helping_someone_with_drug_use_disorder
+    - action: utter_helping_someone_with_drug_use_disorder
+
+- story: What Is Drug Use Disorder
+  steps:
+    - intent: what_is_drug_use_disorder
+    - action: action_provide_drug_use_disorder_definition
+
+- story: Understanding Drug Use Disorder
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_drug_use_disorder
+  - action: utter_what_is_drug_use_disorder
+  - intent: types_of_drug_use_disorder
+  - action: utter_types_of_drug_use_disorder
+  - intent: causes_of_drug_use_disorder
+  - action: utter_causes_of_drug_use_disorder
+  - intent: identify_drug_use_symptoms
+  - action: utter_identify_drug_use_symptoms
+  - intent: treatment_options
+  - action: utter_treatment_options
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Coping and Support for Drug Use Disorder
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: relapse_prevention
+  - action: utter_relapse_prevention
+  - intent: support_network
+  - action: utter_support_network
+  - intent: helping_someone_with_drug_use_disorder
+  - action: utter_helping_someone_with_drug_use_disorder
+  - intent: recognizing_drug_use_disorder_on_others
+  - action: utter_recognizing_drug_use_disorder_on_others
+  - intent: recognizing_drug_use_disorder_on_self
+  - action: utter_recognizing_drug_use_disorder_on_self
+  - intent: coping_strategies_for_withdrawal
+  - action: utter_coping_strategies_for_withdrawal
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Effects of Drug Use Disorder
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: effects_of_drugs_on_mental_health
+  - action: utter_effects_of_drugs_on_mental_health
+  - intent: effects_of_drugs_on_physical_health
+  - action: utter_effects_of_drugs_on_physical_health
+  - intent: effects_of_drugs_on_social_life
+  - action: utter_effects_of_drugs_on_social_life
+  - intent: effects_of_drugs_on_behavior
+  - action: utter_effects_of_drugs_on_behavior
+  - intent: drug_use_long_time
+  - action: utter_drug_use_long_time
+  - intent: drug_use_short_time
+  - action: utter_drug_use_short_time
+  - intent: goodbye
+  - action: utter_goodbye
+
+# - story: Screening Questions of Drug Use Disorder
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: answer_drug_problem_need_on_self
+#   - action: utter_ask_drug_problem_tolerance_on_self
+#   - intent: answer_drug_problem_tolerance_on_self
+#   - action: utter_ask_drug_problem_withdrawal_on_self
+#   - intent: answer_drug_problem_withdrawal_on_self
+#   - action: utter_ask_drug_problem_cannot_stop_on_self
+#   - intent: answer_drug_problem_cannot_stop_on_self
+#   - action: utter_ask_drug_problem_preoccupied_on_self
+#   - intent: answer_drug_problem_preoccupied_on_self
+#   - action: utter_ask_drug_problem_no_limits_on_self
+#   - intent: answer_drug_problem_no_limits_on_self
+#   - action: utter_ask_drug_problem_lost_interest_on_self
+#   - intent: answer_drug_problem_lost_interest_on_self
+#   - action: utter_ask_drug_problem_daily_functioning_on_self
+#   - intent: answer_drug_problem_daily_functioning_on_self
+#   - action: utter_ask_drug_problem_dangerous_behavior_on_self
+#   - intent: answer_drug_problem_dangerous_behavior_on_self
+#   - action: utter_ask_drug_problem_financial_issues_on_self
+#   - intent: answer_drug_problem_financial_issues_on_self
+#   - intent: goodbye
+#   - action: utter_goodbye
+
+# - story: Screening Questions
+#   steps:
+#     - intent: recognizing_drug_use_disorder_on_self
+#     - action: utter_ask_drug_problem_need_on_self
+
+#     - intent: affirm_drug_problem_need_on_self
+#     - slot: {"drug_problem_need_on_self": "yes"}
+#     - action: utter_ask_drug_problem_tolerance_on_self
+
+#     - intent: affirm_drug_problem_tolerance_on_self
+
+#     - slot: {"drug_problem_tolerance_on_self": "yes"}
+#     - action: utter_ask_drug_problem_withdrawal_on_self
+
+#     - intent: affirm_drug_problem_withdrawal_on_self
+
+#     - slot: {"drug_problem_withdrawal_on_self": "yes"}
+#     - action: utter_ask_drug_problem_cannot_stop_on_self
+
+#     - intent: affirm_drug_problem_cannot_stop_on_self
+
+#     - slot: {"drug_problem_cannot_stop_on_self": "yes"}
+#     - action: utter_ask_drug_problem_preoccupied_on_self
+
+#     - intent: affirm_drug_problem_preoccupied_on_self
+
+#     - slot: {"drug_problem_preoccupied_on_self": "yes"}
+#     - action: utter_ask_drug_problem_no_limits_on_self
+
+#     - intent: affirm_drug_problem_no_limits_on_self
+#     - slot: {"drug_problem_no_limits_on_self": "yes"}
+#     - action: utter_ask_drug_problem_lost_interest_on_self
+
+#     - intent: affirm_drug_problem_lost_interest_on_self
+
+#     - slot: {"drug_problem_lost_interest_on_self": "yes"}
+#     - action: utter_ask_drug_problem_daily_functioning_on_self
+
+#     - intent: affirm_drug_problem_daily_functioning_on_self
+
+#     - slot: {"drug_problem_daily_functioning_on_self": "yes"}
+#     - action: utter_ask_drug_problem_dangerous_behavior_on_self
+
+#     - intent: affirm_drug_problem_dangerous_behavior_on_self
+
+#     - slot: {"drug_problem_dangerous_behavior_on_self": "yes"}
+#     - action: utter_ask_drug_problem_financial_issues_on_self
+
+#     - intent: deny_drug_problem_need_on_self
+
+#     - slot: {"drug_problem_need_on_self": "no"}
+#     - action: utter_ask_drug_problem_tolerance_on_self
+
+#     - intent: deny_drug_problem_tolerance_on_self
+
+#     - slot: {"drug_problem_tolerance_on_self": "no"}
+#     - action: utter_ask_drug_problem_withdrawal_on_self
+
+#     - intent: deny_drug_problem_withdrawal_on_self
+
+#     - slot: {"drug_problem_withdrawal_on_self": "no"}
+#     - action: utter_ask_drug_problem_cannot_stop_on_self
+
+#     - intent: deny_drug_problem_cannot_stop_on_self
+
+#     - slot: {"drug_problem_cannot_stop_on_self": "no"}
+#     - action: utter_ask_drug_problem_preoccupied_on_self
+
+#     - intent: deny_drug_problem_preoccupied_on_self
+
+#     - slot: {"drug_problem_preoccupied_on_self": "no"}
+#     - action: utter_ask_drug_problem_no_limits_on_self
+
+#     - intent: deny_drug_problem_no_limits_on_self
+
+#     - slot: {"drug_problem_no_limits_on_self": "no"}
+#     - action: utter_ask_drug_problem_lost_interest_on_self
+
+#     - intent: deny_drug_problem_lost_interest_on_self
+
+#     - slot: {"drug_problem_lost_interest_on_self": "no"}
+#     - action: utter_ask_drug_problem_daily_functioning_on_self
+
+#     - intent: deny_drug_problem_daily_functioning_on_self
+
+#     - slot: {"drug_problem_daily_functioning_on_self": "no"}
+#     - action: utter_ask_drug_problem_dangerous_behavior_on_self
+
+#     - intent: deny_drug_problem_dangerous_behavior_on_self
+
+#     - slot: {"drug_problem_dangerous_behavior_on_self": "no"}
+#     - action: utter_ask_drug_problem_financial_issues_on_self
+
+#     - intent: deny_drug_problem_financial_issues_on_self
+
+#     - slot: {"drug_problem_financial_issues_on_self": "no"}
+#     - action: utter_low_severity_response
+#     - action: utter_goodbye
+
